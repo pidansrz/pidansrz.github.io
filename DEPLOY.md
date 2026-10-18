@@ -380,6 +380,42 @@ git push
 GitHub 仓库 → 找到要改的文件 → 右上角铅笔 **Edit** → 改完拉到最底 → **Commit changes**。
 适合改一行配置、改一处样式，手机上也能操作。
 
+### 用 GitHub Desktop 更新（图形界面，推荐不习惯命令行时用）
+
+**「Add local repository」只要做一次。** 第一次把文件夹登记进去后，
+它就常驻左侧仓库列表，以后每次直接点开那个仓库即可，不用重复添加。
+
+**第一次登记**
+
+1. `File` → `Add local repository` → `Choose...`
+2. 选中 **`personal-blog` 这一层**（里面有 `index.html`、`js/`、`drafts/` 的那层）
+   - 选错层会提示「not a git repository」——往上或往下找一层就对了
+3. 点 `Add repository`
+
+**以后每次更新**
+
+1. 左侧列表点一下你的仓库
+2. 改完文件后，左下角会列出变动；`Summary` 里写一句话（必填）
+3. 点 **`Commit to main`**
+4. 点右上角 **`Push origin`**
+
+**推送前记得拉一次**：CI 跑完会在远程多出一个自动生成提交。
+若右上角显示 `Pull 1 commit`（或 `↓1`），先点 **Pull** 再 Push，顺序是：
+
+```
+Pull  →  Commit  →  Push
+```
+
+**几个常见问题**
+
+- **看不到我刚改的文件**：`Repository` → `Refresh`（或 Ctrl+R）
+- **改完代码后 Desktop 显示一大批文件变动**：正常。那是 CI 重新生成
+  `js/data.js`、`js/posts/*.js`、`feed.xml` 等产物，照常 Commit + Push 即可
+- **千万别点 `Discard changes`**：那是丢弃改动，不是撤销提交
+- **换了文件夹位置**（比如把项目挪到「文档」）：新位置要再 Add 一次；
+  旧的那个在列表里右键 → `Remove` 掉，避免改错地方
+- **想快速打开项目文件夹**：仓库名上右键 → `Show in Explorer`
+
 ### 多久生效
 
 | 改的东西 | 生效时间 |

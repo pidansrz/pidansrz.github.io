@@ -1,0 +1,9 @@
+# 开发过程产生的临时产物（约 20M+，发布出去没用，也不必进仓库）
+tools/_*/
+tools/__pycache__/
+tools/*.log
+js/data.backup*.js
+
+# 系统垃圾
+.DS_Store
+Thumbs.db

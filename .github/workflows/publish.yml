@@ -1,0 +1,69 @@
+# 云端自动构建：把「写文章 → 上线」整条流水线搬到 GitHub 上跑。
+#
+# 效果：你在任何设备（电脑、手机、平板）往 drafts/ 里丢一篇 .md，
+#       推到 main 分支，这里自动生成站点、自检、提交，GitHub Pages 随之更新。
+#       本机不用装 Node / Python / Pillow，也不用跑任何命令。
+#
+# 注意：启用后 drafts/ 是唯一的内容源头，
+#       直接改 js/data.js 会在下次构建时被 drafts/ 覆盖。
+
+name: 重新生成并发布站点
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:      # 允许在 GitHub 网页上手动点「Run workflow」触发
+
+permissions:
+  contents: write         # 需要把生成结果提交回仓库
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 取出代码
+        uses: actions/checkout@v4
+
+      - name: 准备 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 装 Pillow（补图片尺寸要用）
+        run: pip install pillow
+
+      - name: 由 drafts 重新生成站点
+        run: |
+          node tools/import-posts.js --replace
+          python tools/add-image-sizes.py --apply
+          node tools/mark-reposts.js --apply
+          node tools/build-feed.js
+
+      - name: 自检
+        run: node tools/verify.js
+
+      # 本项目铁律：头图不能是正文某张图的裁切版。
+      # 这里先设为「只告警不阻断」，避免误报挡住发布；
+      # 等你熟悉之后，删掉下面的 continue-on-error，它就变成硬性发布闸门（发现问题直接失败）。
+      - name: 头图裁切检查（告警）
+        continue-on-error: true
+        run: python tools/guard-cover-crop.py
+
+      - name: 提交生成结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "生成结果与仓库一致，无需提交"
+          else
+            # [skip ci] 很关键：否则这次提交会再次触发本工作流，形成死循环
+            git commit -m "chore: 重新生成站点 [skip ci]"
+            git push
+          fi

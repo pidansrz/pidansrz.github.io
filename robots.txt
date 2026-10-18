@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pidan-shourouzhou.app.workbuddy.host/sitemap.xml

@@ -1,0 +1,215 @@
+{
+ "threshold": 26.0,
+ "exact": [],
+ "near": [
+  {
+   "id": "2026-05-15-wu-da-kai-men-bing-bu-yi-wei-zhe-shen-me-xin-hao",
+   "n": 8,
+   "cover": "images/2026-05-15-wu-da-kai-men-bing-bu-yi-wei-zhe-shen-me-xin-hao/cover.jpg",
+   "dup": "images/2026-05-15-wu-da-kai-men-bing-bu-yi-wei-zhe-shen-me-xin-hao/img_02.jpg",
+   "mae": 25.71,
+   "hist": 0.004,
+   "coverSize": [
+    1280,
+    544
+   ],
+   "dupSize": [
+    602,
+    66
+   ]
+  },
+  {
+   "id": "2024-12-30-yi-nian-kan-bu-fang-shen-chuan-hou-zhong-chen-mo",
+   "n": 36,
+   "cover": "images/2024-12-30-yi-nian-kan-bu-fang-shen-chuan-hou-zhong-chen-mo/cover.jpg",
+   "dup": "images/2024-12-30-yi-nian-kan-bu-fang-shen-chuan-hou-zhong-chen-mo/img_02.jpg",
+   "mae": 25.76,
+   "hist": 0.743,
+   "coverSize": [
+    600,
+    255
+   ],
+   "dupSize": [
+    1017,
+    1429
+   ]
+  },
+  {
+   "id": "2023-03-20-zhou-du-li-shi-cong-lai-bu-shi-xian-xing-fa-zhan-de",
+   "n": 67,
+   "cover": "images/2023-03-20-zhou-du-li-shi-cong-lai-bu-shi-xian-xing-fa-zhan-de/cover.jpg",
+   "dup": "images/2023-03-20-zhou-du-li-shi-cong-lai-bu-shi-xian-xing-fa-zhan-de/img_02.jpg",
+   "mae": 6.12,
+   "hist": 0.973,
+   "coverSize": [
+    600,
+    255
+   ],
+   "dupSize": [
+    602,
+    66
+   ]
+  },
+  {
+   "id": "2022-11-22-zhou-du-mei-yi-tiao-he-liu-dou-you-gu-shi-zai-liu-tang",
+   "n": 73,
+   "cover": "images/2022-11-22-zhou-du-mei-yi-tiao-he-liu-dou-you-gu-shi-zai-liu-tang/cover.jpg",
+   "dup": "images/2022-11-22-zhou-du-mei-yi-tiao-he-liu-dou-you-gu-shi-zai-liu-tang/img_01.jpg",
+   "mae": 24.96,
+   "hist": 0.025,
+   "coverSize": [
+    1280,
+    544
+   ],
+   "dupSize": [
+    1080,
+    1080
+   ]
+  },
+  {
+   "id": "2022-11-22-zhou-du-mei-yi-tiao-he-liu-dou-you-gu-shi-zai-liu-tang",
+   "n": 73,
+   "cover": "images/2022-11-22-zhou-du-mei-yi-tiao-he-liu-dou-you-gu-shi-zai-liu-tang/cover.jpg",
+   "dup": "images/2022-11-22-zhou-du-mei-yi-tiao-he-liu-dou-you-gu-shi-zai-liu-tang/img_03.jpg",
+   "mae": 25.03,
+   "hist": 0.002,
+   "coverSize": [
+    1280,
+    544
+   ],
+   "dupSize": [
+    602,
+    66
+   ]
+  },
+  {
+   "id": "2022-06-28-ren-de-yi-sheng-neng-you-ji-ge-wu-nian",
+   "n": 84,
+   "cover": "images/2022-06-28-ren-de-yi-sheng-neng-you-ji-ge-wu-nian/img_01.jpg",
+   "dup": "images/2022-06-28-ren-de-yi-sheng-neng-you-ji-ge-wu-nian/img_02.jpg",
+   "mae": 15.12,
+   "hist": 0.05,
+   "coverSize": [
+    1080,
+    720
+   ],
+   "dupSize": [
+    602,
+    66
+   ]
+  },
+  {
+   "id": "2022-03-18-ta-de-bei-wei-yu-zheng-yi",
+   "n": 89,
+   "cover": "images/2022-03-18-ta-de-bei-wei-yu-zheng-yi/img_02.jpg",
+   "dup": "images/2022-03-18-ta-de-bei-wei-yu-zheng-yi/img_03.jpg",
+   "mae": 23.11,
+   "hist": 0.001,
+   "coverSize": [
+    434,
+    566
+   ],
+   "dupSize": [
+    602,
+    66
+   ]
+  },
+  {
+   "id": "2020-02-28-jian-zha-de-qing-nian-da-yuan-mi-meng-dou-yao-ba-ni-zhu-chu-shi-men-le",
+   "n": 151,
+   "cover": "images/2020-02-28-jian-zha-de-qing-nian-da-yuan-mi-meng-dou-yao-ba-ni-zhu-chu-shi-men-le/img_01.jpg",
+   "dup": "images/2020-02-28-jian-zha-de-qing-nian-da-yuan-mi-meng-dou-yao-ba-ni-zhu-chu-shi-men-le/img_02.jpg",
+   "mae": 5.6,
+   "hist": 0.927,
+   "coverSize": [
+    911,
+    1600
+   ],
+   "dupSize": [
+    554,
+    32
+   ]
+  },
+  {
+   "id": "2019-11-20-zhe-cai-shi-shi-xian-xue-shu-zi-you-de-kang-zhuang-da-dao",
+   "n": 164,
+   "cover": "images/2019-11-20-zhe-cai-shi-shi-xian-xue-shu-zi-you-de-kang-zhuang-da-dao/img_02.jpg",
+   "dup": "images/2019-11-20-zhe-cai-shi-shi-xian-xue-shu-zi-you-de-kang-zhuang-da-dao/img_04.jpg",
+   "mae": 23.35,
+   "hist": 0.015,
+   "coverSize": [
+    554,
+    32
+   ],
+   "dupSize": [
+    720,
+    1008
+   ]
+  },
+  {
+   "id": "2019-11-17-lu-ke-wen-jie-le-mi-meng-de-yi-bo",
+   "n": 165,
+   "cover": "images/2019-11-17-lu-ke-wen-jie-le-mi-meng-de-yi-bo/img_01.jpg",
+   "dup": "images/2019-11-17-lu-ke-wen-jie-le-mi-meng-de-yi-bo/img_02.jpg",
+   "mae": 16.97,
+   "hist": 0.947,
+   "coverSize": [
+    960,
+    380
+   ],
+   "dupSize": [
+    828,
+    1077
+   ]
+  },
+  {
+   "id": "2019-05-20-bie-wang-le-zhang-chun-zhang-sheng-bei-qian-ze-de-yi-miao-zhi-wang",
+   "n": 171,
+   "cover": "images/2019-05-20-bie-wang-le-zhang-chun-zhang-sheng-bei-qian-ze-de-yi-miao-zhi-wang/img_01.jpg",
+   "dup": "images/2019-05-20-bie-wang-le-zhang-chun-zhang-sheng-bei-qian-ze-de-yi-miao-zhi-wang/img_02.jpg",
+   "mae": 15.8,
+   "hist": 0.993,
+   "coverSize": [
+    1080,
+    838
+   ],
+   "dupSize": [
+    627,
+    131
+   ]
+  },
+  {
+   "id": "2019-05-20-bie-wang-le-zhang-chun-zhang-sheng-bei-qian-ze-de-yi-miao-zhi-wang",
+   "n": 171,
+   "cover": "images/2019-05-20-bie-wang-le-zhang-chun-zhang-sheng-bei-qian-ze-de-yi-miao-zhi-wang/img_01.jpg",
+   "dup": "images/2019-05-20-bie-wang-le-zhang-chun-zhang-sheng-bei-qian-ze-de-yi-miao-zhi-wang/img_03.jpg",
+   "mae": 6.79,
+   "hist": 0.935,
+   "coverSize": [
+    1080,
+    838
+   ],
+   "dupSize": [
+    554,
+    32
+   ]
+  },
+  {
+   "id": "2019-05-17-xiao-ba-wang-de-na-xie-gu-ren-wang-shi",
+   "n": 173,
+   "cover": "images/2019-05-17-xiao-ba-wang-de-na-xie-gu-ren-wang-shi/img_01.jpg",
+   "dup": "images/2019-05-17-xiao-ba-wang-de-na-xie-gu-ren-wang-shi/img_11.jpg",
+   "mae": 22.8,
+   "hist": 0.743,
+   "coverSize": [
+    1080,
+    1080
+   ],
+   "dupSize": [
+    554,
+    32
+   ]
+  }
+ ],
+ "intra": []
+}

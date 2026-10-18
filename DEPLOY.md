@@ -345,6 +345,74 @@ node tools/verify.js                    # 自检
 
 ---
 
+## 上线后如何更新：三种改动，三条路
+
+先记住一条：**`drafts/` 是内容源头，其余目录是产物**。CI 每次推送都会重新生成产物。
+
+| 你想改什么 | 改哪个文件 | 会被 CI 覆盖吗 |
+|---|---|---|
+| 发布 / 修改文章 | `drafts/*.md` | 不会 —— 它就是源头 |
+| 站名、副标题、简介、邮箱 | `js/data.js` 顶部 `SITE` 块 | 不会 —— SITE 块原样保留 |
+| 站点地址 `url`、赞赏码 `donate`、公众号 `wechat` | 同上（SITE 块内） | 不会 |
+| 样式、布局、交互 | `css/style.css`、`js/app.js`、`index.html`、`post.html`、`404.html` | 不会 |
+| 构建工具本身 | `tools/*.js`、`tools/*.py`、`.github/workflows/publish.yml` | 不会 |
+| ⚠️ **`js/data.js` 里的 `POSTS` 数组** | —— | **会** —— 下次构建被 drafts 重建 |
+| ⚠️ `js/index-data.js`、`js/posts/*.js`、`js/search-text.js` | —— | **会** —— 由 `build-split.js` 生成 |
+| ⚠️ `feed.xml`、`sitemap.xml`、`robots.txt` | —— | **会** —— 由 `build-feed.js` 生成 |
+
+> 想改文章正文，请改 `drafts/` 里对应的 `.md`，**不要**直接改 `js/posts/*.js`，
+> 否则下次推送就被冲掉了。
+
+### 本机更新（命令行）
+
+```bash
+git add -A
+git commit -m "一句话说明改了什么"
+git pull --rebase     # 拉回 GitHub 自动生成过的提交，避免冲突
+git push
+```
+
+`git pull --rebase` 建议每次都带上：CI 跑完有可能在远程多出一个
+`chore: 重新生成站点 [skip ci]` 的提交。
+
+### 网页端更新（不用命令行）
+
+GitHub 仓库 → 找到要改的文件 → 右上角铅笔 **Edit** → 改完拉到最底 → **Commit changes**。
+适合改一行配置、改一处样式，手机上也能操作。
+
+### 多久生效
+
+| 改的东西 | 生效时间 |
+|---|---|
+| HTML / CSS / JS | push 后**立刻**（Pages 直接读 main 分支根目录） |
+| `drafts/*.md` 文章 | 等 Actions 跑完，**约 1–2 分钟** |
+
+两个同时改的话，中间有一两分钟「新代码 + 旧数据」的过渡窗口，属正常。
+
+### 看不到变化？
+
+先 **Ctrl + F5** 硬刷新——浏览器会缓存 CSS/JS，普通刷新看不到改动。
+
+### 改坏了怎么回滚
+
+GitHub 仓库 → 文件右上 **History** 或仓库首页的提交记录 → 找到出事那次提交 → **Revert**。
+站点是纯静态文件，回滚即恢复，不会留后遗症。
+
+### 流水线是怎么串起来的（排查用）
+
+```
+import-posts.js --replace   ← 读 drafts/，重写 data.js 的 POSTS（保留 SITE）
+   └─ 自动调用 build-all.js
+        ├─ build-split.js → js/index-data.js、js/posts/*.js、js/search-text.js
+        └─ build-feed.js  → feed.xml、sitemap.xml、robots.txt
+add-image-sizes.py --apply   ← 补图片宽高
+mark-reposts.js --apply      ← 标转发
+verify.js                    ← 51 项自检
+guard-cover-crop.py          ← 头图裁切检查（当前只告警）
+```
+
+---
+
 ## 常见问题
 
 **Q：需要备案吗？**

@@ -27,7 +27,7 @@ const SITE = {
   email: "",
   // 站点根地址，末尾不要带斜杠。RSS / sitemap 用它拼绝对链接。
   // 换成自己的域名后，记得重跑一次 node tools/build-feed.js
-  url: "https://pidan-shourouzhou.app.workbuddy.host",
+  url: "https://pidansrz.github.io",
 
   // —— 捐赠 / 赞赏 ——
   //   image: 赞赏码 / 收款码图片。把图片放进 images/ 后填路径，

@@ -1191,7 +1191,7 @@ body.reveal-instant .reveal {
   /* 触摸目标：图标按钮放大到 40px（原来 30px 太难点） */
   .icon-btn { width: 40px; height: 40px; font-size: 1.08rem; }
 
-  #navToggle { display: grid; }
+  /* 汉堡按钮已废弃：导航交给手机底部栏，顶栏手机端只留品牌 + 主题切换 */
   .nav-links {
     position: absolute;
     top: 62px; left: 0; right: 0;

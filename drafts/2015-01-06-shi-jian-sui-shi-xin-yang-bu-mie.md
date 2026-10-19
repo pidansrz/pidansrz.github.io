@@ -139,5 +139,3 @@ id: 2015-01-06-shi-jian-sui-shi-xin-yang-bu-mie
 为何记不得上一次是谁给的拥抱
 
 在什么时候
-
-![](images/2015-01-06-shi-jian-sui-shi-xin-yang-bu-mie/img_01.jpg)

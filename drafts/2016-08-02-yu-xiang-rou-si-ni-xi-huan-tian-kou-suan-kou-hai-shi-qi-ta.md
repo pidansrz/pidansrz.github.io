@@ -6,7 +6,6 @@ cover: images/2016-08-02-yu-xiang-rou-si-ni-xi-huan-tian-kou-suan-kou-hai-shi-qi
 coverAlt: 鱼香肉丝，你喜欢甜口、酸口还是其他？
 id: 2016-08-02-yu-xiang-rou-si-ni-xi-huan-tian-kou-suan-kou-hai-shi-qi-ta
 ---
-
 “最近比较烦。”整个六月，同事老L每天午饭前，都会在下楼吃午饭的时候和我抱怨。我知道他抱怨什么，公司写字楼下的快餐店从过去的三家变成了一家，那家名叫柳亭的餐厅肥腻的盖浇饭，让体检总是三高的的老L苦不堪言，虽然它窗明几净，软装硬装还有点小清新，广播里还一直放着舒缓的舒伯特。
 
 “就这一家，你爱吃不吃，不吃拉倒，单位发的餐券又没法折现。赶紧的，别磨叽。”看见老刘祥林嫂般开始唠叨，我的心烦不打一处来。
@@ -60,5 +59,3 @@ id: 2016-08-02-yu-xiang-rou-si-ni-xi-huan-tian-kou-suan-kou-hai-shi-qi-ta
 “随便，要不你叫个滴滴？反正它俩是一家人了。”老L说。
 
 本故事纯属虚构，如有雷同，纯属巧合
-
-![](images/2016-08-02-yu-xiang-rou-si-ni-xi-huan-tian-kou-suan-kou-hai-shi-qi-ta/img_01.jpg)

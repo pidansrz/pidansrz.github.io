@@ -35,5 +35,3 @@ id: 2016-05-19-zhe-shi-zui-huai-de-shi-dai-que-bu-shi-zui-hao-de
 惟愿，那些已经离开或者即将离开新闻业的CEO们，只是换一个地方，继续写着那些真实发生着的故事。别忘了， 大家入行的时候，都在心里发过誓，要当一个好记者。
 
 谨以此文，祝邱CEO未来顺利。但愿他别忘了曾经和翠花说过的话：“无望之时，可以卖笑，绝不卖身。”
-
-![](images/2016-05-19-zhe-shi-zui-huai-de-shi-dai-que-bu-shi-zui-hao-de/img_01.jpg)

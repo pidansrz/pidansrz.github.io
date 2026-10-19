@@ -89,5 +89,3 @@ id: 2015-01-11-lu-wei-hui-yi-xin-hua-she-gong-zuo-sui-yue-wen-zhang-xiang-yu-zai
 我们不是懒惰的，已经做了很多事；我们是不能懈怠的，正在做着很多事；我们是不能自满的，还有很多事没做。我们做着前人未竟的事，我们也做着前人没有做过的事。新华社信息事业的发展要靠几代人的努力，一步一步地走下去，走出大院，走入市场，走向世界。
 
 我们相遇在此时，共同做此事。（完）
-
-![](images/2015-01-11-lu-wei-hui-yi-xin-hua-she-gong-zuo-sui-yue-wen-zhang-xiang-yu-zai-ci-s/img_02.jpg)

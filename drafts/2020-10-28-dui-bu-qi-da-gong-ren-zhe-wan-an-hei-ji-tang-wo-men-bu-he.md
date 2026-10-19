@@ -1,13 +1,10 @@
 ---
 title: 对不起，「打工人」这碗暗黑鸡汤，我们不喝
 date: 2020-10-28
-excerpt: 世界只有不到 0.00001% 的人
 cover: images/2020-10-28-dui-bu-qi-da-gong-ren-zhe-wan-an-hei-ji-tang-wo-men-bu-he/cover.jpg
 coverAlt: 对不起，「打工人」这碗暗黑鸡汤，我们不喝
 id: 2020-10-28-dui-bu-qi-da-gong-ren-zhe-wan-an-hei-ji-tang-wo-men-bu-he
 ---
-世界只有不到 0.00001% 的人
-
 仿佛就在一瞬间，「打工人」成为了全网最热门的词汇。
 
 做不完的工作、完不成的KPI、起不来的床、睡不着的觉……人间一切的现实和无奈，都能透过这三个字窥得一二。

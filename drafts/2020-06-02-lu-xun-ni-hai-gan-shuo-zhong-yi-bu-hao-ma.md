@@ -1,13 +1,10 @@
 ---
 title: 鲁迅，你还敢说中医不好吗？
 date: 2020-06-02
-excerpt: 不到0.00001 % 的人
 cover: images/2020-06-02-lu-xun-ni-hai-gan-shuo-zhong-yi-bu-hao-ma/cover.jpg
 coverAlt: 鲁迅，你还敢说中医不好吗？
 id: 2020-06-02-lu-xun-ni-hai-gan-shuo-zhong-yi-bu-hao-ma
 ---
-不到0.00001 % 的人
-
 有些话，在过去只是观点之争，可以百花齐放，公开讨论。但也许很快，一方的观点就可能成为一种犯罪，接受必要的制裁。
 
 比如，随便在任何一个微信群就能引起争论的中医话题。

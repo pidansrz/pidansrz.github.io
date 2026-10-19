@@ -1,13 +1,10 @@
 ---
 title: 关税、大萧条和魏玛崩溃
 date: 2025-04-14
-excerpt: 世界只有不到0.00001 % 的人
 cover: images/2025-04-14-guan-shui-da-xiao-tiao-he-wei-ma-beng-kui/cover.jpg
 coverAlt: 关税、大萧条和魏玛崩溃
 id: 2025-04-14-guan-shui-da-xiao-tiao-he-wei-ma-beng-kui
 ---
-世界只有不到0.00001 % 的人
-
 ![](images/2025-04-14-guan-shui-da-xiao-tiao-he-wei-ma-beng-kui/img_01.jpg)
 
 美国银行外的人群 纽约世界电讯报 摄于1931年

@@ -1,13 +1,10 @@
 ---
 title: 从男女对立看言论的边界
 date: 2024-10-22
-excerpt: 不到0.00001 % 的人
 cover: images/2024-10-22-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie/cover.jpg
 coverAlt: 从男女对立看言论的边界
 id: 2024-10-22-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie
 ---
-不到0.00001 % 的人
-
 ![](images/2024-10-22-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie/img_01.jpg)
 
 原文写于2023年8月17日，略做修订

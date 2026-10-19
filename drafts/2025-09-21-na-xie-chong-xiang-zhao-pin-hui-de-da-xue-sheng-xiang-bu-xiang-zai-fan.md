@@ -1,13 +1,10 @@
 ---
 title: 那些冲向招聘会的大学生，像不像在凡尔登冲锋的士兵？
 date: 2025-09-21
-excerpt: 世界只有不到0.00001 % 的人
 cover: images/2025-09-21-na-xie-chong-xiang-zhao-pin-hui-de-da-xue-sheng-xiang-bu-xiang-zai-fan/cover.jpg
 coverAlt: 那些冲向招聘会的大学生，像不像在凡尔登冲锋的士兵？
 id: 2025-09-21-na-xie-chong-xiang-zhao-pin-hui-de-da-xue-sheng-xiang-bu-xiang-zai-fan
 ---
-世界只有不到0.00001 % 的人
-
 ![](images/2025-09-21-na-xie-chong-xiang-zhao-pin-hui-de-da-xue-sheng-xiang-bu-xiang-zai-fan/img_01.jpg)
 
 这个周末，喜马拉雅山上那场由蔡国强和始祖鸟策划点燃的烟花吸引了绝大多数人的目光。这当然是一个值得关注的事件。当先锋艺术和环保发生对立的时候，人们可以很容易找到立场，据此展开讨论，唇枪舌剑之间，总能彰显自身的情怀、伟大与无私。一些人甚至还因此巩固了自己道德的优越感。毕竟，还有什么能比为无人区的环境保护呐喊更加正义更正确的事情呢？

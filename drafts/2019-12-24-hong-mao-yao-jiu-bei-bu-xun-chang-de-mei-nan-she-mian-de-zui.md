@@ -1,13 +1,10 @@
 ---
 title: 鸿茅药酒杯，不寻常的美，难赦免的zui
 date: 2019-12-24
-excerpt: 世界只有不到0.00001 % 的人
 cover: images/2019-12-24-hong-mao-yao-jiu-bei-bu-xun-chang-de-mei-nan-she-mian-de-zui/cover.jpg
 coverAlt: 鸿茅药酒杯，不寻常的美，难赦免的zui
 id: 2019-12-24-hong-mao-yao-jiu-bei-bu-xun-chang-de-mei-nan-she-mian-de-zui
 ---
-世界只有不到0.00001 % 的人
-
 一
 
 一个人可以做出多少个成功产品？

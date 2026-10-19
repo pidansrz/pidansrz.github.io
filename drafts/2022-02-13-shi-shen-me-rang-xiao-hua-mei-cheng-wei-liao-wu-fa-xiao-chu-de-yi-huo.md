@@ -1,13 +1,10 @@
 ---
 title: 是什么让「小花梅」成为了无法消除的疑惑
 date: 2022-02-13
-excerpt: 本全世界只有不到0.00001% 的人
 cover: images/2022-02-13-shi-shen-me-rang-xiao-hua-mei-cheng-wei-liao-wu-fa-xiao-chu-de-yi-huo/cover.jpg
 coverAlt: 是什么让「小花梅」成为了无法消除的疑惑
 id: 2022-02-13-shi-shen-me-rang-xiao-hua-mei-cheng-wei-liao-wu-fa-xiao-chu-de-yi-huo
 ---
-本全世界只有不到0.00001% 的人
-
 ![](images/2022-02-13-shi-shen-me-rang-xiao-hua-mei-cheng-wei-liao-wu-fa-xiao-chu-de-yi-huo/img_01.jpg)
 
 昨夜今晨，一篇名为「寻找小花梅」的文章在朋友圈刷屏，显示出这场始于2022年初的舆论风波，并没有因为第四份通报的出炉而得以平息。而通报提供了更多的细节供人们验证和质疑。这样的结果，恐怕也远远超出了有司的预计，使整个事件在舆论场未来的走向，陷入一片混沌。

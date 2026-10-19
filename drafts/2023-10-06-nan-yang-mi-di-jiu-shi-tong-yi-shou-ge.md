@@ -1,13 +1,10 @@
 ---
 title: 南阳迷笛就是「同一首歌」
 date: 2023-10-06
-excerpt: 不到0.00001 % 的人
 cover: images/2023-10-06-nan-yang-mi-di-jiu-shi-tong-yi-shou-ge/cover.jpg
 coverAlt: 南阳迷笛就是「同一首歌」
 id: 2023-10-06-nan-yang-mi-di-jiu-shi-tong-yi-shou-ge
 ---
-不到0.00001 % 的人
-
 ![](images/2023-10-06-nan-yang-mi-di-jiu-shi-tong-yi-shou-ge/img_01.jpg)
 
 17年前，那时候五一假期还是七天。我和好朋友去过一次迷笛，地址是北京的海淀公园，是我的第一次，也是唯一的一次。

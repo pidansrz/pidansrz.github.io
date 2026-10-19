@@ -1,13 +1,10 @@
 ---
 title: 这是我的哈贝马斯时刻
 date: 2021-02-18
-excerpt: 世界只有不到 0.00001% 的人
 cover: images/2021-02-18-zhe-shi-wo-de-ha-bei-ma-si-shi-ke/cover.jpg
 coverAlt: 这是我的哈贝马斯时刻
 id: 2021-02-18-zhe-shi-wo-de-ha-bei-ma-si-shi-ke
 ---
-世界只有不到 0.00001% 的人
-
 ![](images/2021-02-18-zhe-shi-wo-de-ha-bei-ma-si-shi-ke/img_01.jpg)
 
 年前，朋友给了我一个邀请码，邀请我使用CH。拿到邀请码的第一时间，我是有些不屑的。因为内地的互联网在技术和资本上都冠绝于世界，还有什么软件我们没有见过呢？

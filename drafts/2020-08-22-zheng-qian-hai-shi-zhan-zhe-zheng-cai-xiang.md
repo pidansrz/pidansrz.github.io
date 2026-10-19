@@ -1,13 +1,10 @@
 ---
 title: 挣钱，还是站着挣才香
 date: 2020-08-22
-excerpt: 只有不到0.00001 % 的人
 cover: images/2020-08-22-zheng-qian-hai-shi-zhan-zhe-zheng-cai-xiang/cover.jpg
 coverAlt: 挣钱，还是站着挣才香
 id: 2020-08-22-zheng-qian-hai-shi-zhan-zhe-zheng-cai-xiang
 ---
-只有不到0.00001 % 的人
-
 周末的朋友圈，因为保利地产文灵总的一句「没转发的移出本群」显得颇为热闹。
 
 无论是不是地产圈，无论是自媒体还是传统媒体，一时间，一众「媒体人」史无前例地统一了态度和行动，纷纷主动退群，让文灵总和保利上了热搜之余，更搞出了一个新的微信群，名为：

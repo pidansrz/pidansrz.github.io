@@ -1,13 +1,10 @@
 ---
 title: 她的卑微与「正义」
 date: 2022-03-18
-excerpt: 本全世界只有不到0.00001% 的人
 cover: images/2022-03-18-ta-de-bei-wei-yu-zheng-yi/cover.jpg
 coverAlt: 她的卑微与「正义」
 id: 2022-03-18-ta-de-bei-wei-yu-zheng-yi
 ---
-本全世界只有不到0.00001% 的人
-
 ![](images/2022-03-18-ta-de-bei-wei-yu-zheng-yi/img_01.jpg)
 
 3月16日晚上，一个住在燕郊，工作在北京的少女，微博名为能量少女YMC，因为骤然变化的防疫政策，手足无措站在两地交界的桥上，进退不得。被逼无奈之下，她选择了发微博这个唯一的自救措施。

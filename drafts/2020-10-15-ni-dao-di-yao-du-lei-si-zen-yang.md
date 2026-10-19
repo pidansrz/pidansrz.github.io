@@ -1,13 +1,10 @@
 ---
 title: 你到底要杜蕾斯怎样？
 date: 2020-10-15
-excerpt: 世界只有不到 0.00001% 的人
 cover: images/2020-10-15-ni-dao-di-yao-du-lei-si-zen-yang/cover.jpg
 coverAlt: 你到底要杜蕾斯怎样？
 id: 2020-10-15-ni-dao-di-yao-du-lei-si-zen-yang
 ---
-世界只有不到 0.00001% 的人
-
 今天的文，粥爷我要聊的是杜蕾斯。
 
 昨天，上海市市场监督部门给杜蕾斯开出了81万的广告罚单，其中一项理由是：

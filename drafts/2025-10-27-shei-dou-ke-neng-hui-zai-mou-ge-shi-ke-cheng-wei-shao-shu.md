@@ -1,13 +1,10 @@
 ---
 title: 谁都可能会在某个时刻成为少数
 date: 2025-10-27
-excerpt: 世界只有不到0.00001 % 的人
 cover: images/2025-10-27-shei-dou-ke-neng-hui-zai-mou-ge-shi-ke-cheng-wei-shao-shu/cover.jpg
 coverAlt: 谁都可能会在某个时刻成为少数
 id: 2025-10-27-shei-dou-ke-neng-hui-zai-mou-ge-shi-ke-cheng-wei-shao-shu
 ---
-世界只有不到0.00001 % 的人
-
 ![](images/2025-10-27-shei-dou-ke-neng-hui-zai-mou-ge-shi-ke-cheng-wei-shao-shu/img_01.jpg)
 
 一个不知道算不算是结论的观察：当下的戾气已经到了一个叹为观止的地步。如果说过去的社会主要是仇富仇官，但至少这里面有一丝慕强的意味，预示着人们还想通过自身的努力向仇恨的对象努力靠拢。但现在，人们嘲笑和仇视的对象，不是传统意义的强者，反倒对比比皆是的弱者倾泻起了无穷的恶意与情绪。今天，歌手郑智化因形容自己登机过程如「连滚带爬」而遭到网友甚至机构媒体的联合抨击，便是一例。

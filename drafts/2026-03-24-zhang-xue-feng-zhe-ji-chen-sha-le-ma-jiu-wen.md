@@ -1,13 +1,10 @@
 ---
 title: 张雪峰折戟沉沙了吗？| 旧文
 date: 2026-03-24
-excerpt: 世界只有不到0.00001 % 的人
 cover: images/2026-03-24-zhang-xue-feng-zhe-ji-chen-sha-le-ma-jiu-wen/cover.jpg
 coverAlt: 张雪峰折戟沉沙了吗？| 旧文
 id: 2026-03-24-zhang-xue-feng-zhe-ji-chen-sha-le-ma-jiu-wen
 ---
-世界只有不到0.00001 % 的人
-
 ![](images/2026-03-24-zhang-xue-feng-zhe-ji-chen-sha-le-ma-jiu-wen/img_01.jpg)
 
 原文发表于2025年9月，略有修改

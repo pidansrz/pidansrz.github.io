@@ -50,4 +50,4 @@ _**是百度。**_ _****__****_
 魏则西在知乎的回答，会不会只剩了一句很有特色的话： _****__****抱歉，根据相关法律法规和政策，本答案暂不予显示。********_ _****
 ****_我觉得这事不远了，迟早要发生。
 关于这件事，我只想对知乎说一句：
- _**MMP**_![恭喜知乎成为最大的百度贴吧](images/2019-08-12-gong-xi-zhi-hu-cheng-wei-zui-da-de-bai-du-tie-ba/img_01.jpg)![恭喜知乎成为最大的百度贴吧](images/2019-08-12-gong-xi-zhi-hu-cheng-wei-zui-da-de-bai-du-tie-ba/img_02.jpg)
+ _**MMP**_![恭喜知乎成为最大的百度贴吧](images/2019-08-12-gong-xi-zhi-hu-cheng-wei-zui-da-de-bai-du-tie-ba/img_02.jpg)

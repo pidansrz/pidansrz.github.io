@@ -32,8 +32,6 @@ id: 2020-01-01-2020-lai-le-wo-que-tu-ran-hen-huai-nian-2010
 
 2010年，有这么几家公司悄悄成立，小米、爱奇艺、美团。
 
-![](images/2020-01-01-2020-lai-le-wo-que-tu-ran-hen-huai-nian-2010/cover.jpg)
-
 2010年，11月的一个深夜，张小龙给马化腾写了一封信，想做一款即时通讯软件，PONY的回复是：马上就做。第二年，微信问世。
 
 ![](images/2020-01-01-2020-lai-le-wo-que-tu-ran-hen-huai-nian-2010/img_01.jpg)

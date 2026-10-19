@@ -6,7 +6,6 @@ cover: images/2023-05-06-chong-xin-jiang-yao-yuan-sheng-huo-de-sui-pian-pin-jie-
 coverAlt: 重新将遥远生活的碎片拼接起来 | 评「漫长的季节」
 id: 2023-05-06-chong-xin-jiang-yao-yuan-sheng-huo-de-sui-pian-pin-jie-qi-lai-ping-man
 ---
-![](images/2023-05-06-chong-xin-jiang-yao-yuan-sheng-huo-de-sui-pian-pin-jie-qi-lai-ping-man/img_01.jpg)
 
 本文有少量剧透，请谨慎阅读
 

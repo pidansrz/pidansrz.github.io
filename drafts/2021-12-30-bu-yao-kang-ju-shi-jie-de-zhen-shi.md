@@ -6,7 +6,6 @@ cover: images/2021-12-30-bu-yao-kang-ju-shi-jie-de-zhen-shi/cover.jpg
 coverAlt: 不要抗拒世界的真实
 id: 2021-12-30-bu-yao-kang-ju-shi-jie-de-zhen-shi
 ---
-![](images/2021-12-30-bu-yao-kang-ju-shi-jie-de-zhen-shi/img_01.jpg)
 
 旧年将逝，一年一度的「壹年侃」的时间又到了。面对这个依旧混乱的世界，我想到了一个主题，那就是：
 

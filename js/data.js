@@ -2242,7 +2242,6 @@ const POSTS = [
     cover: "images/2023-05-06-chong-xin-jiang-yao-yuan-sheng-huo-de-sui-pian-pin-jie-qi-lai-ping-man/cover.jpg",
     coverAlt: "重新将遥远生活的碎片拼接起来 | 评「漫长的季节」",
     content: `
-      <img src="images/2023-05-06-chong-xin-jiang-yao-yuan-sheng-huo-de-sui-pian-pin-jie-qi-lai-ping-man/img_01.jpg" alt="" width="1080" height="453">
       <p>本文有少量剧透，请谨慎阅读</p>
       <p>我已经不知道有多少年没有完整看过一部国产电视剧了。因为凡目之所及的，往往都是粗制滥造的作品，观赏性几乎为零，投入时间等同于浪费生命。但是，这几天，「漫长的季节」这部上乘之作让我感受到了久违的惊喜。它在叙事节奏、人物刻画的饱满程度、年代的代入感以及对时下热门议题的把握等方面，称得上是近十年来的佳作。</p>
       <p>「漫长的季节」将故事发生的时间和地点，置于上个世纪90年代的一座虚构的东北城市和它的钢铁厂中。不得不说，这与我的生活经历极为类似。17岁以前，我生活在与剧中的桦钢极为类似的钢铁厂中，剧中闪现的一切场景——蒸汽火车头、铁道、高炉、过磅房、集中宿舍区——都是我极为熟悉的日常。大概也是这个原因，使得我能够以极投入的状态沉浸到电视剧所构建的世界中去。</p>
@@ -3590,7 +3589,6 @@ const POSTS = [
     cover: "images/2021-12-30-bu-yao-kang-ju-shi-jie-de-zhen-shi/cover.jpg",
     coverAlt: "不要抗拒世界的真实",
     content: `
-      <img src="images/2021-12-30-bu-yao-kang-ju-shi-jie-de-zhen-shi/img_01.jpg" alt="" width="739" height="324">
       <p>旧年将逝，一年一度的「壹年侃」的时间又到了。面对这个依旧混乱的世界，我想到了一个主题，那就是：</p>
       <p>真实。</p>
       <p>真实究竟是什么？这是一个始终困扰着人们的终极命题。</p>
@@ -10498,7 +10496,6 @@ const POSTS = [
       <p>2010年，国务院新闻办公室首次发表《中国互联网状况》，其中阐释了官方对于互联网的基本态度：“积极利用、科学发展、依法管理、确保安全”。这才是真正意义上的中国互联网元年。</p>
       <p>2010年，中国人民银行公布《非金融机构支付服务管理办法》将网络支付纳入监管，同年，支付宝首席技术架构师倪行军，带领三个工程师，研发出了二维码支付的技术。</p>
       <p>2010年，有这么几家公司悄悄成立，小米、爱奇艺、美团。</p>
-      <img src="images/2020-01-01-2020-lai-le-wo-que-tu-ran-hen-huai-nian-2010/cover.jpg" alt="" width="1080" height="654">
       <p>2010年，11月的一个深夜，张小龙给马化腾写了一封信，想做一款即时通讯软件，PONY的回复是：马上就做。第二年，微信问世。</p>
       <img src="images/2020-01-01-2020-lai-le-wo-que-tu-ran-hen-huai-nian-2010/img_01.jpg" alt="" width="640" height="360">
       <p>2010年，开展了第六次人口普查，全国人口达到1,332,810,869人；60岁以上人口比例上升。</p>
@@ -12061,7 +12058,6 @@ const POSTS = [
       <p>如果沿着「互联网的记忆」这条逻辑往下走，你会发现其对主播的威胁，要远比对于我们这些普通人要大得多。</p>
       <p>在陈一发儿被封之后，整个直播圈已开始有些人人自危的氛围。</p>
       <p>一天直播中，斗鱼炉石游戏主播狗贼的歌单里突然放出了一首国歌，而耐人寻味的则是他的反应：马上起立立正、行注目礼，如同一个周一晨会时的高中国旗手一般。</p>
-      <img src="images/2019-09-26-kan-bu-dao-chen-yi-fa-de-zhe-yi-nian/img_10.jpg" alt="" width="652" height="396">
       <p>或许正常的反应，应该是马上将国歌切掉，但谁又知道这会不会成为他的黑料呢？</p>
       <p>就如前文所言，在这个时代，娱乐再也不仅仅是娱乐。</p>
       <p>当娱乐遇上政治高度的「升维打击」，一切正常人都无法做出正常的反应。</p>
@@ -12417,7 +12413,7 @@ const POSTS = [
       <p>魏则西在知乎的回答，会不会只剩了一句很有特色的话： _**<strong>__</strong><strong>抱歉，根据相关法律法规和政策，本答案暂不予显示。</strong>****<strong>_ _</strong>**</p>
       <p>****_我觉得这事不远了，迟早要发生。</p>
       <p>关于这件事，我只想对知乎说一句：</p>
-      <p>_<strong>MMP</strong>_<img src="images/2019-08-12-gong-xi-zhi-hu-cheng-wei-zui-da-de-bai-du-tie-ba/img_01.jpg" alt="恭喜知乎成为最大的百度贴吧" width="554" height="32"><img src="images/2019-08-12-gong-xi-zhi-hu-cheng-wei-zui-da-de-bai-du-tie-ba/img_02.jpg" alt="恭喜知乎成为最大的百度贴吧" width="900" height="500"></p>
+      <p>_<strong>MMP</strong>_<img src="images/2019-08-12-gong-xi-zhi-hu-cheng-wei-zui-da-de-bai-du-tie-ba/img_02.jpg" alt="恭喜知乎成为最大的百度贴吧" width="900" height="500"></p>
     `
   },
   {

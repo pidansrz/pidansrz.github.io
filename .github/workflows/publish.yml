@@ -51,9 +51,17 @@ jobs:
       # 本项目铁律：头图不能是正文某张图的裁切版。
       # 这里先设为「只告警不阻断」，避免误报挡住发布；
       # 等你熟悉之后，删掉下面的 continue-on-error，它就变成硬性发布闸门（发现问题直接失败）。
+      # 头图重复有两类：裁切版（残缺）和 同图重现（同一张出现两次）。
+      # 两者都只告警不阻断，避免误报挡住发布；熟悉之后删掉 continue-on-error 即变硬闸门。
       - name: 头图裁切检查（告警）
         continue-on-error: true
         run: python tools/guard-cover-crop.py
+
+      - name: 头图与正文重复检查（告警）
+        continue-on-error: true
+        run: |
+          python tools/scan-cover-identical.py
+          python tools/scan-cover-neardup.py
 
       - name: 提交生成结果
         run: |

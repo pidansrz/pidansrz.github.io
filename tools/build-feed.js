@@ -53,7 +53,7 @@ const sorted = POSTS.slice().sort(function (a, b) {
    文章多的时候（比如上百篇），全文订阅源会到 1MB 级别，
    阅读器每次拉取都很慢。业界惯例也是只给最近几十篇。
    站点地图仍然收录全部文章，不影响搜索引擎收录。想改就改这个数字。 */
-const FEED_LIMIT = 50;
+const FEED_LIMIT = Infinity;          // 全量输出：所有文章都进 feed（不止最近 50 篇）
 const feedPosts = sorted.slice(0, FEED_LIMIT);
 
 /* ---------- 工具 ---------- */
@@ -103,6 +103,7 @@ const items = feedPosts.map(function (p) {
 
 const feed = [
   '<?xml version="1.0" encoding="UTF-8"?>',
+  '<?xml-stylesheet type="text/xsl" href="feed.xsl"?>',
   '<rss version="2.0"',
   '     xmlns:atom="http://www.w3.org/2005/Atom"',
   '     xmlns:content="http://purl.org/rss/1.0/modules/content/">',

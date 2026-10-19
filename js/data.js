@@ -31,12 +31,12 @@ const SITE = {
 
   // —— 捐赠 / 赞赏 ——
   //   image: 赞赏码 / 收款码图片。把图片放进 images/ 后填路径，
-  //          例如 "images/donate-qr.jpg"（微信「赞赏码」或支付宝「收款码」都行）
+  //          例如 "images/donate-qr.jpg"（这里用微信「赞赏码」）
   //   url:   外部赞助链接（爱发电 afdian.net、PayPal.Me 等），填了会多出一个按钮
   //   想整个隐藏这个区块：把 donate: { ... } 这一整段删掉即可
   donate: {
     url: "",
-    image: "",
+    image: "images/donate-qr.jpg",
     note: "如果这里的内容对你有过帮助，可以请我喝一杯咖啡。"
   },
 

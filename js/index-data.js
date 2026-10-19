@@ -9,7 +9,7 @@ var SITE = {
   "url": "https://pidansrz.github.io",
   "donate": {
     "url": "",
-    "image": "",
+    "image": "images/donate-qr.jpg",
     "note": "如果这里的内容对你有过帮助，可以请我喝一杯咖啡。"
   },
   "wechat": {

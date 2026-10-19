@@ -105,7 +105,7 @@ function supportSectionHTML(headingId) {
     cells +=
       '<div class="support-item">' +
         qrBox(d.image, "赞赏码", "赞赏码<br>待上传") +
-        '<span class="qr-label">微信 / 支付宝　扫码赞赏</span>' +
+        '<span class="qr-label">微信　扫码赞赏</span>' +
       "</div>";
   }
   if (w) {

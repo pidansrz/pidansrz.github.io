@@ -338,6 +338,92 @@ function openWechatModal(url) {
   });
 }
 
+/* 复用分享弹层的暗色遮罩，展示一张现成的二维码图片（公众号 / 赞赏码） */
+function openQrModal(title, src, caption) {
+  closeShareModal();
+  var wrap = document.createElement("div");
+  wrap.className = "share-modal";
+  wrap.innerHTML =
+    '<div class="sm-card qr-modal" role="dialog" aria-modal="true" aria-label="' + esc(title) + '">' +
+      '<button class="sm-close" type="button" aria-label="关闭">×</button>' +
+      "<h3>" + esc(title) + "</h3>" +
+      '<div class="qr-modal-img"><img src="' + esc(src) + '" alt="' + esc(title) + '"></div>' +
+      '<p class="qr-modal-cap">' + esc(caption) + "</p>" +
+    "</div>";
+  document.body.appendChild(wrap);
+  shareModal = wrap;
+  wrap.addEventListener("click", function (e) {
+    if (e.target === wrap || e.target.className === "sm-close") closeShareModal();
+  });
+  document.addEventListener("keydown", onModalKey);
+}
+
+/* 底部固定导航栏（仅手机显示，桌面由顶栏导航承担） */
+var ICON_BN_HOME =
+  '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.6 12 4l9 6.6"/><path d="M5 9.4V20h14V9.4"/><path d="M10 20v-5h4v5"/></svg>';
+var ICON_BN_ARCHIVE =
+  '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h16v12.5H4z"/><path d="M3 7.5l1.6-3h14.8L21 7.5"/><path d="M9.5 11.5h5"/></svg>';
+var ICON_BN_ABOUT =
+  '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11.2v5"/><path d="M12 7.7v.1"/></svg>';
+var ICON_BN_SUPPORT =
+  '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8.1a3.9 3.9 0 0 1 7 2.7C19 15.6 12 20 12 20Z"/></svg>';
+
+function initBottomNav() {
+  if (document.getElementById("bottomNav")) return;
+  var page = document.body.dataset.page || "home";
+  function cls(href) {
+    if (href === "index.html" && page === "home") return ' class="bn-item active"';
+    if (href === "archive.html" && page === "archive") return ' class="bn-item active"';
+    if (href === "about.html" && page === "about") return ' class="bn-item active"';
+    return ' class="bn-item"';
+  }
+  var nav = document.createElement("nav");
+  nav.id = "bottomNav";
+  nav.className = "bottom-nav";
+  nav.setAttribute("aria-label", "底部导航");
+  nav.innerHTML =
+    '<a' + cls("index.html") + ' href="index.html">' + ICON_BN_HOME + "<span>首页</span></a>" +
+    '<a' + cls("archive.html") + ' href="archive.html">' + ICON_BN_ARCHIVE + "<span>归档</span></a>" +
+    '<a' + cls("about.html") + ' href="about.html">' + ICON_BN_ABOUT + "<span>关于</span></a>" +
+    '<button class="bn-item bn-support" type="button" aria-haspopup="true" aria-expanded="false">' +
+      ICON_BN_SUPPORT + "<span>支持</span></button>" +
+    '<div class="bn-pop" hidden>' +
+      (SITE.wechat ? '<button class="bn-pop-item" type="button" data-qr="wechat">关注公众号</button>' : "") +
+      (SITE.donate ? '<button class="bn-pop-item" type="button" data-qr="donate">赞赏</button>' : "") +
+    "</div>";
+  document.body.appendChild(nav);
+
+  var supportBtn = nav.querySelector(".bn-support");
+  var pop = nav.querySelector(".bn-pop");
+
+  function closePop() {
+    pop.hidden = true;
+    supportBtn.setAttribute("aria-expanded", "false");
+  }
+  supportBtn.addEventListener("click", function (e) {
+    e.stopPropagation();
+    var open = pop.hidden;
+    pop.hidden = !open;
+    supportBtn.setAttribute("aria-expanded", String(open));
+  });
+  pop.addEventListener("click", function (e) {
+    var btn = e.target.closest(".bn-pop-item");
+    if (!btn) return;
+    closePop();
+    if (btn.dataset.qr === "wechat" && SITE.wechat) {
+      openQrModal("扫码关注公众号", SITE.wechat.qr,
+        SITE.wechat.name ? "微信扫一扫，关注「" + SITE.wechat.name + "」" : "微信扫一扫，关注微信公众号");
+    } else if (btn.dataset.qr === "donate" && SITE.donate) {
+      openQrModal("微信扫码赞赏", SITE.donate.image,
+        SITE.donate.note || "如果这里的内容对你有过帮助，请我喝一杯咖啡");
+    }
+  });
+  document.addEventListener("click", function (e) {
+    if (!nav.contains(e.target)) closePop();
+  });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closePop(); });
+}
+
 /* 给文章页的分享条绑事件 */
 function bindShareBar(host, url) {
   if (!host) return;
@@ -792,7 +878,7 @@ function renderShell(active) {
       '<div class="wrap nav">' +
         '<a class="brand" href="index.html">' + esc(SITE.title) + "</a>" +
         '<nav class="nav-links" id="navLinks">' + links +
-          '<button class="icon-btn" id="themeToggle" type="button" aria-label="切换主题">☾</button>' +
+          '<button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-label="切换主题"></button>' +
         "</nav>" +
         '<button class="icon-btn" id="navToggle" type="button" aria-label="菜单">☰</button>' +
       "</div>";
@@ -818,7 +904,7 @@ function renderShell(active) {
 
   var t = document.documentElement.getAttribute("data-theme");
   var btn = document.getElementById("themeToggle");
-  if (btn) btn.textContent = t === "dark" ? "☀" : "☾";
+  if (btn && window.syncThemeIcon) window.syncThemeIcon(t);
 }
 
 /* ---------- 列表条目模板 ---------- */
@@ -1294,4 +1380,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // 右下角浮动工具条：所有页面都常驻。
   // 以前只有首页和归档页有，文章页读完想回去只能一路滚到最上面。
   initFloatTools();
+
+  // 手机底部固定导航栏（桌面隐藏，由顶栏导航承担）
+  initBottomNav();
 });

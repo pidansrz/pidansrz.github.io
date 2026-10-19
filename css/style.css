@@ -1583,6 +1583,105 @@ body.reveal-instant .reveal {
   .ft-btn:active { transform: none; }
 }
 
+/* ---------- 主题切换：更醒目的圆形按钮 ---------- */
+.theme-toggle {
+  width: 40px; height: 40px;
+  display: grid; place-items: center;
+  padding: 0;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .10);
+  cursor: pointer;
+  transition: color .2s, border-color .2s, box-shadow .2s;
+}
+.theme-toggle:hover { color: var(--accent); border-color: var(--accent); box-shadow: 0 2px 8px rgba(0, 0, 0, .14); }
+.theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.theme-toggle .tt-icon { width: 20px; height: 20px; }
+
+/* ---------- 手机底部固定导航栏（桌面隐藏，由顶栏导航承担） ---------- */
+.bottom-nav {
+  display: none;
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 70;
+  height: 56px;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  -webkit-backdrop-filter: saturate(140%) blur(12px);
+  backdrop-filter: saturate(140%) blur(12px);
+  border-top: 1px solid var(--rule);
+}
+.bottom-nav a.bn-item,
+.bottom-nav button.bn-item {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  border: 0;
+  background: none;
+  color: var(--text-3);
+  font-size: .68rem;
+  letter-spacing: .06em;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.bottom-nav .bn-item svg {
+  width: 22px; height: 22px;
+  fill: none; stroke: currentColor; stroke-width: 1.8;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+.bottom-nav .bn-item.active { color: var(--accent); }
+.bottom-nav .bn-support { position: relative; }
+
+/* 支持弹层：从「支持」按钮上方弹出，关注 / 赞赏 分开 */
+.bn-pop {
+  position: absolute;
+  right: 10px;
+  bottom: calc(100% + 8px);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .18);
+  padding: 6px;
+  min-width: 136px;
+}
+.bn-pop[hidden] { display: none; }
+.bn-pop-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 12px 14px;
+  border: 0;
+  background: none;
+  color: var(--text);
+  font-size: .92rem;
+  letter-spacing: .04em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.bn-pop-item:hover { background: var(--bg); color: var(--accent); }
+
+/* 二维码弹窗内的图（复用 share-modal 暗色遮罩） */
+.qr-modal-img { margin: 4px auto 14px; width: min(220px, 60vw); }
+.qr-modal-img img {
+  width: 100%; height: auto; display: block;
+  border-radius: 8px; background: #fff; padding: 8px; box-sizing: border-box;
+}
+.qr-modal-cap { margin: 0; color: var(--text-2); font-size: .86rem; line-height: 1.6; }
+
+/* 手机（≤960px）：顶栏只留品牌 + 主题切换，导航交给底部栏 */
+@media (max-width: 960px) {
+  .nav-links, #navToggle { display: none !important; }
+  .home-aside { display: none; }              /* 支持移到底部栏，不重复也不压底 */
+  .bottom-nav { display: flex; }
+  body { padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+  .float-tools { bottom: calc(70px + env(safe-area-inset-bottom, 0px)); }
+}
+
 /* ---------- 打印 / 导出 PDF ---------- */
 @media print {
   /* 屏幕上的导航与功能区块，打印时全部去掉，只留正文 */

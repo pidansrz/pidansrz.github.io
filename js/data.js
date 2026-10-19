@@ -11280,7 +11280,7 @@ const POSTS = [
     id: "2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-ji-ka",
     title: "（看完头条再来看）周晓东：非洲六国汉籍考察报告",
     date: "2019-11-20",
-    excerpt: "为了推送成功附上的文字",
+    excerpt: "",
     cover: "images/2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-ji-ka/cover.jpg",
     coverAlt: "（看完头条再来看）周晓东：非洲六国汉籍考察报告",
     content: `
@@ -11291,7 +11291,6 @@ const POSTS = [
       <img src="images/2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-ji-ka/img_06.jpg" alt="" width="857" height="1163">
       <img src="images/2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-ji-ka/img_07.jpg" alt="" width="857" height="1163">
       <img src="images/2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-ji-ka/img_08.jpg" alt="" width="857" height="1163">
-      <p>为了推送成功附上的文字</p>
     `
   },
   {

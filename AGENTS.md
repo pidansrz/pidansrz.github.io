@@ -60,6 +60,13 @@ drafts/*.md  ──(import-posts --replace)──►  js/data.js  ──►  ind
   子目录也按站点根解析；并注入 `window.__POST_ID__`，`app.js` 的 `query("id")` 优先用它（不依赖 `?id=`）。
 - 站内文章链接统一是 `post/<id>.html`（`app.js` 的 `articleHref()`）；`feed.xml`/`sitemap.xml` 也指向它。
 - 旧的 `post.html?id=<id>` 仍可打开（向后兼容，只是分享图用默认图）；`post/<id>.html` 是规范地址。
+- **旧链接自动规范化**：`post.html` 顶部有一段「OLD_LINK_REDIRECT」脚本，带 `?id=` 就
+  `location.replace` 跳到 `post/<id>.html`（真人点击生效，让地址栏变成规范地址、以后分享即正确）。
+  这段脚本在 `build-posts.js` 生成规范页时按标记剔除，不会进 `post/*.html`。
+- **微信分享缓存**：微信按「完整 URL」缓存分享卡。① 老 `post.html?id=` 的卡片微信已缓存、
+  且其 OG 是默认图，无法靠改代码刷新（微信爬虫不跑 JS、GitHub Pages 也无法按 query 做服务端跳转），
+  只能引导分享新的 `post/<id>.html`；② 同一规范链接若被微信缓存了旧内容，在 URL 后加 `?v=2`
+  （或任意新参数）即可强制重新抓取。
 - 默认分享图 `images/og-default.jpg` 由 `python tools/gen-og-default.py` 生成（1200×630，
   需 Pillow + Windows 微软雅黑 `msyh.ttc`；已提交，CI 不重生成）。
 

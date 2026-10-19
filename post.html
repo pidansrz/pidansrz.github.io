@@ -2,6 +2,25 @@
 <html lang="zh-CN" data-theme="light">
 <head>
 <meta charset="UTF-8">
+<!-- OLD_LINK_REDIRECT_START -->
+<!-- 旧链接规范化：post.html?id=xxx 自动跳到规范的 post/<id>.html。
+     书签/旧消息/搜索引擎/已分享卡片里的老地址点开都落在正确页面，
+     地址栏也变成规范地址，以后微信/社交分享就用新地址（每篇自己的头图）。
+     注意：微信等爬虫不执行 JS，所以老 URL 在微信里的卡片仍是旧默认图，
+     根治只能分享新规范地址；本脚本只对人类点击生效。 -->
+<script>
+(function () {
+  try {
+    var m = /[?&]id=([^&]+)/.exec(location.search);
+    if (!m) return;
+    var id = decodeURIComponent(m[1]);
+    var target = "/post/" + encodeURIComponent(id) + ".html";
+    var here = location.pathname.replace(/^\//, "");
+    if (here !== target.replace(/^\//, "")) location.replace(target);
+  } catch (e) {}
+})();
+</script>
+<!-- OLD_LINK_REDIRECT_END -->
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>文章 · 皮蛋瘦肉舟</title>
 <meta name="description" content="阅读一篇公共写作。">

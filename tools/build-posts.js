@@ -61,6 +61,13 @@ try {
   process.exit(1);
 }
 
+/* 生成的规范页已是 post/<id>.html，不需要 post.html 里的「旧链接重定向」死代码，
+   在模板阶段就剔除（靠 OLD_LINK_REDIRECT_START/END 标记定位）。 */
+tpl = tpl.replace(
+  /<!-- OLD_LINK_REDIRECT_START -->[\s\S]*?<!-- OLD_LINK_REDIRECT_END -->\n?/,
+  ""
+);
+
 const outDir = path.join(ROOT, "post");
 fs.mkdirSync(outDir, { recursive: true });
 

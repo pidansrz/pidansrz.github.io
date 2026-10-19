@@ -6,7 +6,6 @@ cover: images/2021-07-28-yi-miao-jie-zhong-zi-yuan-de-kun-jing/cover.jpg
 coverAlt: 疫苗接种：“自愿”的困境
 id: 2021-07-28-yi-miao-jie-zhong-zi-yuan-de-kun-jing
 ---
-![](images/2021-07-28-yi-miao-jie-zhong-zi-yuan-de-kun-jing/img_01.jpg)
 
 近日来，国内多地发布文件，宣告未接种新冠疫苗者将被限制进入各类重点公共场所，包括超市、酒店、医院、学校、车站等等，其范围之广，几乎意味着再不接种就只能呆在家里。
 

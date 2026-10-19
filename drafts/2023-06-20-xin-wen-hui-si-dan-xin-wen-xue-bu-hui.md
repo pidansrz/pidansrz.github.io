@@ -6,7 +6,6 @@ cover: images/2023-06-20-xin-wen-hui-si-dan-xin-wen-xue-bu-hui/cover.jpg
 coverAlt: 新闻会死，但新闻学不会
 id: 2023-06-20-xin-wen-hui-si-dan-xin-wen-xue-bu-hui
 ---
-![](images/2023-06-20-xin-wen-hui-si-dan-xin-wen-xue-bu-hui/img_01.jpg)
 
 知名考研咨询名师张雪峰与重庆大学新闻学教授张小强的争执，到今天应该已经告一段落。当重庆大学的教授说出自己的学生更多是去考公之后，人们才惊觉，早已式微的新闻业，已经对新闻学产生了不可忽视的影响。新闻学专业的学生，不再将新闻业视为就业的第一选择。当然，新闻业是个大杂烩，只要能够妙笔生花，能编能写，它对从业人员的专业从来没有明确的要求与限制。
 

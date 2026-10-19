@@ -6,7 +6,6 @@ cover: images/2023-03-31-zhou-du-xiu-shou-pang-guan-de-dai-jia/cover.jpg
 coverAlt: 粥读 | 袖手旁观的代价
 id: 2023-03-31-zhou-du-xiu-shou-pang-guan-de-dai-jia
 ---
-![](images/2023-03-31-zhou-du-xiu-shou-pang-guan-de-dai-jia/img_01.jpg)
 
 一般来说，人们认为第三帝国肇始于1933年。那一年的1月30日，魏玛共和国第二任总统保罗·冯·兴登堡任命希特勒为德国总理，这不仅预示着德国第一次民主实践的彻底失败，也宣告纳粹党，这一迄今为止人类文明史上最臭名昭著的极端政治组织登上了德国政治舞台的中心，并很快成为了这个舞台上的唯一主角。
 

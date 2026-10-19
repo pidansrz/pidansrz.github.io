@@ -6,7 +6,6 @@ cover: images/2021-07-29-zhe-zhu-ding-shi-yi-chang-jian-nan-de-chi-jiu-zhan/cove
 coverAlt: 这注定是一场艰难的持久战
 id: 2021-07-29-zhe-zhu-ding-shi-yi-chang-jian-nan-de-chi-jiu-zhan
 ---
-![](images/2021-07-29-zhe-zhu-ding-shi-yi-chang-jian-nan-de-chi-jiu-zhan/img_01.jpg)
 
 时至今日，恐怕有越来越多的人意识到，SARS-CoV-2——也就是我们俗称的新冠病毒——将成为与人类长期共存的病毒，而随之而来的新冠肺炎，也有极大的概率成为我们日常生活中不得不面对的疾病。
 

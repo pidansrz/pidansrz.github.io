@@ -6,7 +6,6 @@ cover: images/2021-07-13-guo-fen-ren-zhen-jiu-shi-tong-wang-zai-nan-zhi-lu/cover
 coverAlt: 过分认真就是通往灾难之路
 id: 2021-07-13-guo-fen-ren-zhen-jiu-shi-tong-wang-zai-nan-zhi-lu
 ---
-![](images/2021-07-13-guo-fen-ren-zhen-jiu-shi-tong-wang-zai-nan-zhi-lu/img_01.jpg)
 
 不知道从什么时候开始，上图这句「认真你就输了」成为了我身边很多人的口头禅。一旦遇到糟心事，人们往往用这句话安慰自己，试图以一种超然的心态，让自己能够置身于烦扰之外。而就我个人的观察而言，这句话对于调节人们的情绪，有着出乎意料的作用，因为，
 

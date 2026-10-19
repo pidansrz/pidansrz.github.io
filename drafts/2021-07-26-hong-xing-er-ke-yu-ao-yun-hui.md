@@ -6,7 +6,6 @@ cover: images/2021-07-26-hong-xing-er-ke-yu-ao-yun-hui/cover.jpg
 coverAlt: 鸿星尔克与奥运会
 id: 2021-07-26-hong-xing-er-ke-yu-ao-yun-hui
 ---
-![](images/2021-07-26-hong-xing-er-ke-yu-ao-yun-hui/img_01.jpg)
 
 刚刚过去的周末，有两件事为国人所关注和讨论：
 

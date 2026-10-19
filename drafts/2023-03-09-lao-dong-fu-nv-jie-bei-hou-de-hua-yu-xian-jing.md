@@ -6,7 +6,6 @@ cover: images/2023-03-09-lao-dong-fu-nv-jie-bei-hou-de-hua-yu-xian-jing/cover.jp
 coverAlt: “劳动妇女节”背后的话语陷阱
 id: 2023-03-09-lao-dong-fu-nv-jie-bei-hou-de-hua-yu-xian-jing
 ---
-![](images/2023-03-09-lao-dong-fu-nv-jie-bei-hou-de-hua-yu-xian-jing/img_01.jpg)
 
 今年的三八“妇女节”，有一点和往年不同：很多人开始反感所谓“女神节”、“女生节”、“女王节”的说法，甚至对“妇女节”也有异议。
 

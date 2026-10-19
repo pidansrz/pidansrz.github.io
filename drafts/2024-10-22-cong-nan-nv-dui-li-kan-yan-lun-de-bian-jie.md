@@ -5,7 +5,6 @@ cover: images/2024-10-22-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie/cover.jpg
 coverAlt: 从男女对立看言论的边界
 id: 2024-10-22-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie
 ---
-![](images/2024-10-22-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie/img_01.jpg)
 
 原文写于2023年8月17日，略做修订
 

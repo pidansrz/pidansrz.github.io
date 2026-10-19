@@ -6,7 +6,6 @@ cover: images/2024-07-31-zhe-cai-shi-wo-xiang-kan-dao-de-ao-yun/cover.jpg
 coverAlt: 这才是我想看到的奥运
 id: 2024-07-31-zhe-cai-shi-wo-xiang-kan-dao-de-ao-yun
 ---
-![](images/2024-07-31-zhe-cai-shi-wo-xiang-kan-dao-de-ao-yun/img_01.jpg)
 
 三年前的东京奥运会，是一届极为特殊的奥运会，因为疫情的原因推迟了一年，也是第一届没有观众的奥运会。三年过去了，巴黎奥运会准时来了。推一篇旧文，权当一次暑期的更新。
 

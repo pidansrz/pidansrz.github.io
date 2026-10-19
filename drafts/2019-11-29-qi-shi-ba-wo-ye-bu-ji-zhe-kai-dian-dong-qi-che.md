@@ -6,7 +6,6 @@ cover: images/2019-11-29-qi-shi-ba-wo-ye-bu-ji-zhe-kai-dian-dong-qi-che/cover.jp
 coverAlt: 其实吧，我也不急着开电动汽车
 id: 2019-11-29-qi-shi-ba-wo-ye-bu-ji-zhe-kai-dian-dong-qi-che
 ---
-![](images/2019-11-29-qi-shi-ba-wo-ye-bu-ji-zhe-kai-dian-dong-qi-che/img_01.jpg)
 
 作者 / 皮蛋瘦肉舟
 

@@ -5,7 +5,6 @@ cover: images/2026-03-24-zhang-xue-feng-zhe-ji-chen-sha-le-ma-jiu-wen/cover.jpg
 coverAlt: 张雪峰折戟沉沙了吗？| 旧文
 id: 2026-03-24-zhang-xue-feng-zhe-ji-chen-sha-le-ma-jiu-wen
 ---
-![](images/2026-03-24-zhang-xue-feng-zhe-ji-chen-sha-le-ma-jiu-wen/img_01.jpg)
 
 原文发表于2025年9月，略有修改
 

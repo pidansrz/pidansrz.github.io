@@ -6,7 +6,6 @@ cover: images/2024-08-04-qing-fen-rong-yi-song-fen-nan/cover.jpg
 coverAlt: 请粉容易，送粉难
 id: 2024-08-04-qing-fen-rong-yi-song-fen-nan
 ---
-![](images/2024-08-04-qing-fen-rong-yi-song-fen-nan/img_01.jpg)
 
 或许是因为这个世界变化得太快了，我们用了几十年的时间，走完了世界其他地方几百年走的路。经验还没来得及验证就成为了过时的废物，以致于每一天早上醒来的时候，我们都要重新面对一个过往的经验和阅历无法解释的世界。
 

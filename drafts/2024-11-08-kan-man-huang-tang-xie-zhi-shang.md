@@ -6,7 +6,6 @@ cover: images/2024-11-08-kan-man-huang-tang-xie-zhi-shang/cover.jpg
 coverAlt: 看满荒唐写纸上
 id: 2024-11-08-kan-man-huang-tang-xie-zhi-shang
 ---
-![](images/2024-11-08-kan-man-huang-tang-xie-zhi-shang/img_01.jpg)
 
 每年这个时候，重提新闻真实、公正、客观的文字就会集中印入新闻人自己的眼帘。就像是一个吉祥物，一年到头就出来这一次。这当然是一件极为荒唐的事情。现在的新闻，早就被强大的力量拉扯得东倒西歪，真实、公正和客观属于华丽的外衣，其实上面爬满了虱子。所以，新闻人就像是无间道里的陈永仁，在做梦的时候告诉自己：「我是警察，放下枪」，很可笑，也很可怜。
 

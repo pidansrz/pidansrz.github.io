@@ -6,7 +6,6 @@ cover: images/2020-12-08-sui-chu-ke-jian-de-ping-yong-zhi-e/cover.jpg
 coverAlt: 随处可见的平庸之恶
 id: 2020-12-08-sui-chu-ke-jian-de-ping-yong-zhi-e
 ---
-![](images/2020-12-08-sui-chu-ke-jian-de-ping-yong-zhi-e/img_01.jpg)
 
 不知道诸位，对于恶的定义到底是什么？
 

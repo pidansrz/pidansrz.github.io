@@ -6,7 +6,6 @@ cover: images/2021-08-24-dui-zhang-wen-hong-ke-ke-jiu-shi-dui-huai-ren-kuan-rong
 coverAlt: 对张文宏苛刻，就是对坏人宽容
 id: 2021-08-24-dui-zhang-wen-hong-ke-ke-jiu-shi-dui-huai-ren-kuan-rong
 ---
-![](images/2021-08-24-dui-zhang-wen-hong-ke-ke-jiu-shi-dui-huai-ren-kuan-rong/img_01.jpg)
 
 昨天，复旦大学公布了关于张文宏博士学位论文的调查结果，认定张文宏博士学位论文符合当年博士学位论文的要求，附录综述部分存在写作不规范，不影响博士学位论文的科研成果和学术水平，不构成学术不端或学术不当行为。
 

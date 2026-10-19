@@ -6,7 +6,6 @@ cover: images/2025-02-07-guo-yun-zhi-chun-ne-zha-yu-deepseek/cover.jpg
 coverAlt: 国运之春：哪吒与DeepSeek
 id: 2025-02-07-guo-yun-zhi-chun-ne-zha-yu-deepseek
 ---
-![](images/2025-02-07-guo-yun-zhi-chun-ne-zha-yu-deepseek/img_01.jpg)
 
 刚刚过去的春节，在一部分人眼中，绝对算得上是一个国运爆发的关键节点。人工智能DeepSeek和电影哪吒，在凋敝间制造出了一种强大的幻觉——科技和文化，是实力的一体两面，在艰难与困顿之下，极有竞争力的产品仍能被生产制造出来，并以此睥睨敌人与对手，证明时势在我。
 

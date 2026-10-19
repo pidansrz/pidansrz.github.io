@@ -6,7 +6,6 @@ cover: images/2021-08-06-zhe-cai-shi-wo-xiang-kan-dao-de-ao-yun/cover.jpg
 coverAlt: 这才是我想看到的奥运
 id: 2021-08-06-zhe-cai-shi-wo-xiang-kan-dao-de-ao-yun
 ---
-![](images/2021-08-06-zhe-cai-shi-wo-xiang-kan-dao-de-ao-yun/img_01.jpg)
 
 还有两天，东京奥运会就要结束了。
 

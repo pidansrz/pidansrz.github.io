@@ -156,8 +156,6 @@ id: 2020-03-12-34-ge-ban-ben-de-chui-shao-ren
 
 34、纪念碑版
 
-![](images/2020-03-12-34-ge-ban-ben-de-chui-shao-ren/img_38.jpg)
-
 注：转载整理自网络
 
 ![](images/2020-03-12-34-ge-ban-ben-de-chui-shao-ren/img_39.jpg)

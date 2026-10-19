@@ -6,7 +6,6 @@ cover: images/2020-12-29-wo-zhu-ju-bao-yang-li-de-nan-ren-zhong-shen-bu-ju/cover
 coverAlt: 我祝举报杨笠的男人，终身不举
 id: 2020-12-29-wo-zhu-ju-bao-yang-li-de-nan-ren-zhong-shen-bu-ju
 ---
-![](images/2020-12-29-wo-zhu-ju-bao-yang-li-de-nan-ren-zhong-shen-bu-ju/img_01.jpg)
 
 讲脱口秀的杨笠，这几天因为在节目上调侃了一下男女差异而被举报的事，上了热搜。
 

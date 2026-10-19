@@ -6,7 +6,6 @@ cover: images/2026-04-08-qing-fen-rong-yi-song-fen-nan-jiu-wen/cover.jpg
 coverAlt: 请粉容易，送粉难 | 旧文
 id: 2026-04-08-qing-fen-rong-yi-song-fen-nan-jiu-wen
 ---
-![](images/2026-04-08-qing-fen-rong-yi-song-fen-nan-jiu-wen/img_01.jpg)
 
 全红婵被网暴，粉圈功不可没，推送一篇旧文，原文发表于2024年8月4日
 

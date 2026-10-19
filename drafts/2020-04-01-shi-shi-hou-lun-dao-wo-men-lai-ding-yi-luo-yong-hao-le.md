@@ -18,8 +18,6 @@ id: 2020-04-01-shi-shi-hou-lun-dao-wo-men-lai-ding-yi-luo-yong-hao-le
 
 “放在我的地位去见老俞，不紧张的人是无知、愚钝、盲目的人。”
 
-![](images/2020-04-01-shi-shi-hou-lun-dao-wo-men-lai-ding-yi-luo-yong-hao-le/img_01.jpg)
-
 凭借新东方的平台，罗永浩收获了他人生中的第一批粉丝，但是他可能没有意识到的是，互联网给他创造的发展空间，比新东方给予他的大无数倍。
 
 进入新东方后，罗永浩曾对徐小平表示，

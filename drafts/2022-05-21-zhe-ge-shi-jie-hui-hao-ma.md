@@ -6,7 +6,6 @@ cover: images/2022-05-21-zhe-ge-shi-jie-hui-hao-ma/cover.jpg
 coverAlt: 这个世界会好吗？
 id: 2022-05-21-zhe-ge-shi-jie-hui-hao-ma
 ---
-![](images/2022-05-21-zhe-ge-shi-jie-hui-hao-ma/img_01.jpg)
 
 如你所见，懒惰如我，这么长的时间，居然什么也没有写，什么也没有说。可是，这写不出东西的理由，就我而言，也无比的充分。两个月的时间，目之所及满满都是荒唐荒谬之事，这些事一而再，再而三的重复发生，见多了，就麻木了，表达的欲望也就此消沉下去。
 

@@ -6,7 +6,6 @@ cover: images/2023-04-04-wei-yi-yao-tui-dao-de-shi-ren-xin-de-ge-he/cover.jpg
 coverAlt: 唯一要推倒的，是人心的隔阂
 id: 2023-04-04-wei-yi-yao-tui-dao-de-shi-ren-xin-de-ge-he
 ---
-![](images/2023-04-04-wei-yi-yao-tui-dao-de-shi-ren-xin-de-ge-he/img_01.jpg)
 
 刚刚过去的周末，成都发生了一件不大不小，但却颇为值得讨论的事情。「信和·御龙山」一、二期的业主和「华侨城·滨江壹号」的业主，爆发了一场规模不小的冲突。冲突的原因，虽不复杂，但也有必要再次叙述，以便展开讨论。
 

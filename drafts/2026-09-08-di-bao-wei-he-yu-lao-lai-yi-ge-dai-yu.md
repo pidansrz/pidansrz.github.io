@@ -6,7 +6,6 @@ cover: images/2026-09-08-di-bao-wei-he-yu-lao-lai-yi-ge-dai-yu/cover.jpg
 coverAlt: 低保为何与老赖一个待遇？
 id: 2026-09-08-di-bao-wei-he-yu-lao-lai-yi-ge-dai-yu
 ---
-![](images/2026-09-08-di-bao-wei-he-yu-lao-lai-yi-ge-dai-yu/img_01.jpg)
 
 看了宋师傅「为低保女孩说句话」一文，所以也想说几句，或许说的不对，不喜欢的话，不看便是。
 

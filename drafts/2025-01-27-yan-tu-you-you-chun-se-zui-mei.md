@@ -6,7 +6,6 @@ cover: images/2025-01-27-yan-tu-you-you-chun-se-zui-mei/cover.jpg
 coverAlt: 沿途悠悠春色最美
 id: 2025-01-27-yan-tu-you-you-chun-se-zui-mei
 ---
-![](images/2025-01-27-yan-tu-you-you-chun-se-zui-mei/img_01.jpg)
 
 屈指一算，从读书离家，辗转大江南北已经二十余年了，在外生活的时间，远远超过了在家乡生活的日子，就连落脚现在的城市，也已经超过十年之久。
 

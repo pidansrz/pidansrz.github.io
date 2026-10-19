@@ -6,7 +6,6 @@ cover: images/2024-03-14-shui-ren-bu-shi-xin-wen-kui-jun/cover.jpg
 coverAlt: 谁人不是新闻溃军？
 id: 2024-03-14-shui-ren-bu-shi-xin-wen-kui-jun
 ---
-![](images/2024-03-14-shui-ren-bu-shi-xin-wen-kui-jun/img_01.jpg)
 
 现如今，如果有人还想要讨论新闻学和新闻业的存在价值，往往会得到一个否定的答案。在经历了长达十余年的下行后，新闻学和新闻业早就在市场和体制的双重夹击下丢盔卸甲。过去，溃败的主体，主要集中在市场化媒体以及行政级别不高的官媒。但是，3月13日央视在燕郊采访遇阻一事，却以一种荒诞不经的形式，暴露了溃军之中，亦不乏最高级媒体的身影。
 

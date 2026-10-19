@@ -6,7 +6,6 @@ cover: images/2021-03-31-gang-shui-qian-du-ye-di-bu-guo-ren-xin-de-leng-mo/cover
 coverAlt: 钢水千度也抵不过人心的冷漠
 id: 2021-03-31-gang-shui-qian-du-ye-di-bu-guo-ren-xin-de-leng-mo
 ---
-![](images/2021-03-31-gang-shui-qian-du-ye-di-bu-guo-ren-xin-de-leng-mo/img_01.jpg)
 
 加缪曾经说：「真正严肃的哲学问题只有一个，那便是自杀」。
 

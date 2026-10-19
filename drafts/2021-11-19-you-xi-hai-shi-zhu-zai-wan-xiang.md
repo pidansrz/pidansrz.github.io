@@ -12,4 +12,3 @@ id: 2021-11-19-you-xi-hai-shi-zhu-zai-wan-xiang
 
 ——歌德
 
-![](images/2021-11-19-you-xi-hai-shi-zhu-zai-wan-xiang/img_01.jpg)

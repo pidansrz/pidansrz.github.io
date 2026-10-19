@@ -1,1 +1,1 @@
-window.__POST_HTML__=window.__POST_HTML__||{};window.__POST_HTML__[144]="\n      <p>谁若游戏人生，他就一事无成；</p>\n      <p>谁不主宰自己，永远是一个奴隶。</p>\n      <p>——歌德</p>\n      <img src=\"images/2021-11-19-you-xi-hai-shi-zhu-zai-wan-xiang/img_01.jpg\" alt=\"\" width=\"1080\" height=\"810\">\n    ";
+window.__POST_HTML__=window.__POST_HTML__||{};window.__POST_HTML__[144]="\n      <p>谁若游戏人生，他就一事无成；</p>\n      <p>谁不主宰自己，永远是一个奴隶。</p>\n      <p>——歌德</p>\n    ";

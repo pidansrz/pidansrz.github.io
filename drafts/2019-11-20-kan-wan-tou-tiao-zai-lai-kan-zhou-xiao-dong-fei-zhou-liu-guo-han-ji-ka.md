@@ -9,8 +9,6 @@ id: 2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-
 
 ![](images/2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-ji-ka/img_02.jpg)
 
-![](images/2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-ji-ka/img_03.jpg)
-
 ![](images/2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-ji-ka/img_04.jpg)
 
 ![](images/2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-ji-ka/img_05.jpg)

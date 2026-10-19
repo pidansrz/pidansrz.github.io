@@ -254,8 +254,6 @@ id: 2020-12-06-zhong-nian-fu-qi-chu-gui-bu-li-hun-ye-bu-yuan-liang
 
 （只有200个名额，报满即止！）
 
-![](images/2020-12-06-zhong-nian-fu-qi-chu-gui-bu-li-hun-ye-bu-yuan-liang/img_15.jpg)
-
 ▲加入“尚德小白理财营”
 
 ![](images/2020-12-06-zhong-nian-fu-qi-chu-gui-bu-li-hun-ye-bu-yuan-liang/img_16.jpg)
@@ -292,8 +290,6 @@ id: 2020-12-06-zhong-nian-fu-qi-chu-gui-bu-li-hun-ye-bu-yuan-liang
 
 （只有200个名额，报满即止！）
 
-![](images/2020-12-06-zhong-nian-fu-qi-chu-gui-bu-li-hun-ye-bu-yuan-liang/img_19.jpg)
-
 ▲加入“尚德小白理财营”
 
 尚德小白理财训练营
@@ -329,8 +325,6 @@ id: 2020-12-06-zhong-nian-fu-qi-chu-gui-bu-li-hun-ye-bu-yuan-liang
 金牌讲师在线授课，班主任一对一答疑！
 
 （只有200个名额，报满即止！）
-
-![](images/2020-12-06-zhong-nian-fu-qi-chu-gui-bu-li-hun-ye-bu-yuan-liang/img_21.jpg)
 
 ▲长按识别上方二维码
 

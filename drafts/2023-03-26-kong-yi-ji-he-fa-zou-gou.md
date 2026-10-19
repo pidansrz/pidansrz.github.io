@@ -6,7 +6,6 @@ cover: images/2023-03-26-kong-yi-ji-he-fa-zou-gou/cover.jpg
 coverAlt: 孔乙己和乏走狗
 id: 2023-03-26-kong-yi-ji-he-fa-zou-gou
 ---
-![](images/2023-03-26-kong-yi-ji-he-fa-zou-gou/img_01.jpg)
 
 这个三月，有一个极度值得警惕的现象，认为当下大学生就业的困境来源于他们「脱不下的孔乙己长衫」。一篇流传颇广的评论文章就认为，只有脱掉了思想上的「长衫」，才能打拼出更加美好的生活。一时间，引来无数争议，其中最为不忿的，当属年轻人们。
 

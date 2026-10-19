@@ -6,7 +6,6 @@ cover: images/2026-08-28-liu-xiang-cong-lai-dou-bu-shi-zi-you-ren/cover.jpg
 coverAlt: 刘翔从来都不是自由人
 id: 2026-08-28-liu-xiang-cong-lai-dou-bu-shi-zi-you-ren
 ---
-![](images/2026-08-28-liu-xiang-cong-lai-dou-bu-shi-zi-you-ren/img_01.jpg)
 
 两条微博，让很少出现在公众面前的刘翔重新回归了人们的视野。上海市体育局突然给这位奥运冠军出了一个二选一的选择题，要么买断工龄，要么做教练上班，培养下一代的刘翔。
 

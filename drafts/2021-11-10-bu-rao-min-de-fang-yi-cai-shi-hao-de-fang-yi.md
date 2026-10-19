@@ -6,7 +6,6 @@ cover: images/2021-11-10-bu-rao-min-de-fang-yi-cai-shi-hao-de-fang-yi/cover.jpg
 coverAlt: 不扰民的防疫才是好的防疫
 id: 2021-11-10-bu-rao-min-de-fang-yi-cai-shi-hao-de-fang-yi
 ---
-![](images/2021-11-10-bu-rao-min-de-fang-yi-cai-shi-hao-de-fang-yi/img_01.jpg)
 
 10月31日晚间的上海迪士尼
 

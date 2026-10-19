@@ -6,7 +6,6 @@ cover: images/2022-01-03-xi-an-qing-xu-wen-ding/cover.jpg
 coverAlt: 西安情绪稳定
 id: 2022-01-03-xi-an-qing-xu-wen-ding
 ---
-![](images/2022-01-03-xi-an-qing-xu-wen-ding/img_01.jpg)
 
 12月31日，即将在封城中度过元旦的西安，有一个小区想出一个“别样的跨年活动”：到晚上8点整，所有楼栋在倒计时中齐声为西安加油并唱《歌唱祖国》，完毕后再一起呐喊：“西安加油，战胜疫情，西安挺住！”
 

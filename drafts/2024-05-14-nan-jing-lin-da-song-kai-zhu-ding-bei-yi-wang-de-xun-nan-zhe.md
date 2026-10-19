@@ -6,7 +6,6 @@ cover: images/2024-05-14-nan-jing-lin-da-song-kai-zhu-ding-bei-yi-wang-de-xun-na
 coverAlt: 南京林大宋凯：注定被遗忘的殉难者
 id: 2024-05-14-nan-jing-lin-da-song-kai-zhu-ding-bei-yi-wang-de-xun-nan-zhe
 ---
-![](images/2024-05-14-nan-jing-lin-da-song-kai-zhu-ding-bei-yi-wang-de-xun-nan-zhe/img_01.jpg)
 
 作为高层次人才被引进到南京林业大学生态与环境学院，副教授宋凯在学校第一个聘期的考核未通过后，于今年4月2日被发现在家中自杀。5月，事件进入了公众视野，高校「非升即走」的政策又一次被讨论。
 

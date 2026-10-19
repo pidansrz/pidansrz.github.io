@@ -6,7 +6,6 @@ cover: images/2024-05-22-he-ze-wu-cai-bian-shi-de/cover.jpg
 coverAlt: 菏泽「无才」便是德？
 id: 2024-05-22-he-ze-wu-cai-bian-shi-de
 ---
-![](images/2024-05-22-he-ze-wu-cai-bian-shi-de/img_01.jpg)
 
 这个五月，菏泽成为了始乱终弃的流量最新选中的目标。因为烧烤摊主郭有才的直播，菏泽南站突然成为了网红聚集之地。循着其他城市的成功经验，菏泽意识到自己站在了流量池的中央，如何抓住这预示着泼天富贵的流量，成为了城市职能部门必须立刻研究的重要事项。
 

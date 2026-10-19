@@ -6,7 +6,6 @@ cover: images/2022-11-08-xin-wen-ren-zhi-neng-zi-du/cover.jpg
 coverAlt: 新闻人只能自渡
 id: 2022-11-08-xin-wen-ren-zhi-neng-zi-du
 ---
-![](images/2022-11-08-xin-wen-ren-zhi-neng-zi-du/img_01.jpg)
 
 原文写于2020年11月6日，今略有修改
 

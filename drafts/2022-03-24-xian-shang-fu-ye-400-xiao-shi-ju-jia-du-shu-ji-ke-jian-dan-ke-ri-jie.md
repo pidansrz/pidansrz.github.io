@@ -38,8 +38,6 @@ id: 2022-03-24-xian-shang-fu-ye-400-xiao-shi-ju-jia-du-shu-ji-ke-jian-dan-ke-ri-
 
 2.如何通过试音，拿到自己第一本有声书？-资源在哪里？
 
-![](images/2022-03-24-xian-shang-fu-ye-400-xiao-shi-ju-jia-du-shu-ji-ke-jian-dan-ke-ri-jie/img_02.jpg)
-
 怎么开始有声演播的副业之旅
 
 《中国传媒出版商报》报道：中国2022年将成为有声书第一大国。
@@ -65,8 +63,6 @@ id: 2022-03-24-xian-shang-fu-ye-400-xiao-shi-ju-jia-du-shu-ji-ke-jian-dan-ke-ri-
 从前接单派活几乎被专业的声音工作者垄断了，普通人根本无法实现声音变现，但现在接私单的机会变多了。喜马拉雅、懒人听书等平台都有各种风格的有声文章，接单录制后上传平台就好，签约后新手也能获得不错的收入。随便打开一个音频平台都可以找到工作机会，坐在家里就能赚钱。
 
 建议你添加助教老师微信，他会帮助你了解自己是否适合有声演播兼职工作，并为你提供接单资源、练习方法的帮助。
-
-![](images/2022-03-24-xian-shang-fu-ye-400-xiao-shi-ju-jia-du-shu-ji-ke-jian-dan-ke-ri-jie/img_04.jpg)
 
 课程内容：
 
@@ -99,7 +95,5 @@ id: 2022-03-24-xian-shang-fu-ye-400-xiao-shi-ju-jia-du-shu-ji-ke-jian-dan-ke-ri-
 【福利有限，限前100名】
 
 有声演播课程
-
-![](images/2022-03-24-xian-shang-fu-ye-400-xiao-shi-ju-jia-du-shu-ji-ke-jian-dan-ke-ri-jie/img_05.jpg)
 
 【福利有限，限前100名】

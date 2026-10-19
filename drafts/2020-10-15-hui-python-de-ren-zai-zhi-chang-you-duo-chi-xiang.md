@@ -210,8 +210,6 @@ Python小课把知识点都包裹在轻松有趣的电影情节和日常场景�
 
 而风变编程Python小课只需要用浏览器打开，10秒进入编程页面~无需任何下载安装步骤。
 
-![](images/2020-10-15-hui-python-de-ren-zai-zhi-chang-you-duo-chi-xiang/img_19.jpg)
-
 △10秒进入编程页面
 
 ▋不懂就问助教，教到会为止

@@ -6,7 +6,6 @@ cover: images/2020-11-06-xin-wen-ren-zhi-neng-zi-du/cover.jpg
 coverAlt: 新闻人只能自渡
 id: 2020-11-06-xin-wen-ren-zhi-neng-zi-du
 ---
-![](images/2020-11-06-xin-wen-ren-zhi-neng-zi-du/img_01.jpg)
 
 偶然下楼拿快递，突然发现，办公室楼下立起了一块巨大的展板，以庆祝即将到来的节日，几个大字颇是引人瞩目：
 

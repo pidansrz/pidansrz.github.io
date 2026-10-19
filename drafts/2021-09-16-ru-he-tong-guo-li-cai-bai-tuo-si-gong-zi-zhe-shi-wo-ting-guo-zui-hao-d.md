@@ -36,8 +36,6 @@ id: 2021-09-16-ru-he-tong-guo-li-cai-bai-tuo-si-gong-zi-zhe-shi-wo-ting-guo-zui-
 
 她的人生非但没有因为辞职而陷入困境，反而投资置业，拥有了独属于自己的房产，每个月给孩子存下的教育基金比工资都高！下面的内容我建议你一口气读完！
 
-![](images/2021-09-16-ru-he-tong-guo-li-cai-bai-tuo-si-gong-zi-zhe-shi-wo-ting-guo-zui-hao-d/img_03.jpg)
-
 01
 
 从欠款20万到月入两三万
@@ -253,8 +251,6 @@ id: 2021-09-16-ru-he-tong-guo-li-cai-bai-tuo-si-gong-zi-zhe-shi-wo-ting-guo-zui-
 ![](images/2021-09-16-ru-he-tong-guo-li-cai-bai-tuo-si-gong-zi-zhe-shi-wo-ting-guo-zui-hao-d/img_24.jpg)
 
 👇👇👇
-
-![](images/2021-09-16-ru-he-tong-guo-li-cai-bai-tuo-si-gong-zi-zhe-shi-wo-ting-guo-zui-hao-d/img_25.png)
 
 常见问题&你的疑惑
 

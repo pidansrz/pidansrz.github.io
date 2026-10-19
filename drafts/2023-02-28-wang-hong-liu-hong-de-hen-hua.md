@@ -6,7 +6,6 @@ cover: images/2023-02-28-wang-hong-liu-hong-de-hen-hua/cover.jpg
 coverAlt: 网红刘洪的狠话
 id: 2023-02-28-wang-hong-liu-hong-de-hen-hua
 ---
-![](images/2023-02-28-wang-hong-liu-hong-de-hen-hua/img_01.jpg)
 
 2021年，在出席了一场文旅宣传活动后，甘孜文旅局长刘洪俨然成为了当地继丁真之外的第二网红。对一个欠发达的少数民族地区来说，在短短的时间内打造出两名网红，当属幸运。
 

@@ -6,7 +6,6 @@ cover: images/2021-02-04-dao-huo-de-ren-ren-ying-shi/cover.jpg
 coverAlt: 「盗火」的人人影视
 id: 2021-02-04-dao-huo-de-ren-ren-ying-shi
 ---
-![](images/2021-02-04-dao-huo-de-ren-ren-ying-shi/img_01.jpg)
 
 一
 

@@ -6,7 +6,6 @@ cover: images/2022-07-26-nan-jing-cheng-xia-de-pai-wei/cover.jpg
 coverAlt: 南京城下的牌位
 id: 2022-07-26-nan-jing-cheng-xia-de-pai-wei
 ---
-![](images/2022-07-26-nan-jing-cheng-xia-de-pai-wei/img_01.jpg)
 
 在历史上，南京这座城市有着极为独特的角色。它既是最后一个汉族王朝的龙兴之地，但同时也是击碎天朝上国美梦的条约签订之地。在此后的一百年间，南京在每一个重大的历史时间节点均未缺席，以致于它在近现代史上的地位举足轻重，没有谁能够轻易漠视它的存在。
 

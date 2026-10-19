@@ -6,7 +6,6 @@ cover: images/2015-12-31-zong-you-yi-han-ling-ren-huai-nian/cover.jpg
 coverAlt: 总有遗憾令人怀念
 id: 2015-12-31-zong-you-yi-han-ling-ren-huai-nian
 ---
-文 / 船主
 
 根据若干年前的回忆，整理而成。献给我过去的朋友和记忆，Happy New Year。
 

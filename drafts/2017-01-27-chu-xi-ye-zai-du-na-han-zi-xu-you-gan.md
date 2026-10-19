@@ -6,7 +6,6 @@ cover: images/2017-01-27-chu-xi-ye-zai-du-na-han-zi-xu-you-gan/cover.jpg
 coverAlt: 除夕夜再读《呐喊》自序有感
 id: 2017-01-27-chu-xi-ye-zai-du-na-han-zi-xu-you-gan
 ---
-文/船主
 
 ![](images/2017-01-27-chu-xi-ye-zai-du-na-han-zi-xu-you-gan/img_01.jpg)
 

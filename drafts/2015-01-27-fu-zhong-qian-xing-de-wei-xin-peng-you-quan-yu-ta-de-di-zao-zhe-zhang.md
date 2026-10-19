@@ -32,6 +32,5 @@ Foxmail4.0
 
 只不过，昨日的此时此刻，当张小龙自己使用微信浏览朋友圈时，看到夹杂在朋友圈中的广告时，不知道会不会再一次有当年放弃Foxmail时，那样强烈的反悔冲动呢？毕竟，这已经不是他最想要的微信了呢？
 
-文/船主
 
 ![](images/2015-01-27-fu-zhong-qian-xing-de-wei-xin-peng-you-quan-yu-ta-de-di-zao-zhe-zhang/img_04.jpg)

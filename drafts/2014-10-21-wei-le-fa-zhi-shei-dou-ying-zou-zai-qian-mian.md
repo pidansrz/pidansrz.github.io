@@ -36,6 +36,5 @@ id: 2014-10-21-wei-le-fa-zhi-shei-dou-ying-zou-zai-qian-mian
 
 注：此图截自新浪十八届四中全会专题策划
 
-文/船主
 
 ![](images/2014-10-21-wei-le-fa-zhi-shei-dou-ying-zou-zai-qian-mian/img_06.jpg)

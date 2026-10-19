@@ -61,5 +61,3 @@ id: 2015-12-12-huai-nian-jiu-yuan-de-wei-guang-zhi-wo-yan-zhong-de-xi-xi-fu-shu-
 当这样的画面再现我眼前时，我突然意识到，西西弗仍然是那个那个位于贵阳中山路上昏暗的地下室书店。就在这一瞬间，我仿佛又看见了那句若干年前贴于店内标语：“为什么我们总是在选择地下？黑暗中的光线总是让人怀念久远”
 
 ![](images/2015-12-12-huai-nian-jiu-yuan-de-wei-guang-zhi-wo-yan-zhong-de-xi-xi-fu-shu-dian/img_02.jpg)
-
-文/船主

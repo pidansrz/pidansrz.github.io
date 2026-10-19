@@ -6,7 +6,6 @@ cover: images/2017-01-26-nong-yan-dong-ye-de-chu-yi/cover.jpg
 coverAlt: 浓烟冬夜的刍议
 id: 2017-01-26-nong-yan-dong-ye-de-chu-yi
 ---
-文/船主
 
 ![](images/2017-01-26-nong-yan-dong-ye-de-chu-yi/img_01.jpg)
 

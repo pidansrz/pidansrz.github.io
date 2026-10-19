@@ -6,7 +6,6 @@ cover: images/2016-07-15-ban-nian-kan-wo-xiang-he-zhe-ge-shi-jie-lao-lao/cover.j
 coverAlt: 【半年侃】我想和这个世界唠唠
 id: 2016-07-15-ban-nian-kan-wo-xiang-he-zhe-ge-shi-jie-lao-lao
 ---
-文/船主
 
 一
 

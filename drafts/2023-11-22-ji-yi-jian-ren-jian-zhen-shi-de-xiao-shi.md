@@ -6,7 +6,6 @@ cover: images/2023-11-22-ji-yi-jian-ren-jian-zhen-shi-de-xiao-shi/cover.jpg
 coverAlt: 记一件人间真实的小事
 id: 2023-11-22-ji-yi-jian-ren-jian-zhen-shi-de-xiao-shi
 ---
-![](images/2023-11-22-ji-yi-jian-ren-jian-zhen-shi-de-xiao-shi/img_01.jpg)
 
 买到烂尾楼的郑州小夫妻，终于决定离开郑州回老家，说要过一些平静的生活。悲观点想，现实可能未必会如他们所愿。其实，买到烂尾楼的人比比皆是，生活因此过的艰难也是常事。只是，这些代价本来不该由买房的人来承担。今天推一篇旧文，写于2022年7月10日。
 

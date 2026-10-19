@@ -70,4 +70,3 @@ id: 2023-04-11-huang-ren-yu-yu-shi-bai-tong-hang-de-li-shi-xue-jia
 
 你看过黄仁宇的书吗，最喜欢的是哪一本？
 
-![](images/2023-04-11-huang-ren-yu-yu-shi-bai-tong-hang-de-li-shi-xue-jia/img_04.jpg)

@@ -6,7 +6,6 @@ cover: images/2022-07-10-ji-yi-jian-ren-jian-zhen-shi-de-xiao-shi/cover.jpg
 coverAlt: 记一件人间真实的小事
 id: 2022-07-10-ji-yi-jian-ren-jian-zhen-shi-de-xiao-shi
 ---
-![](images/2022-07-10-ji-yi-jian-ren-jian-zhen-shi-de-xiao-shi/img_01.jpg)
 
 今天，气温依旧居高不下，酷暑难当。中午时分，实在不想做饭炒菜出一身汗，便去了离家不远的米线店，想着随便对付两口。这家店不大，大概也就只能容纳十来人，但今天生意不错，没有空余的桌子，我和一个小学生搭桌，刚坐下来没几分钟。这个小学生就主动帮我拿了小碗，说米线太烫，可以先放到小碗里，会方便很多。
 

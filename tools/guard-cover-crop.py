@@ -216,15 +216,19 @@ def scan_article(art):
         bw, bh = dim(bv)
         if bw is None:
             continue
-        # 几何约束：真裁切必须严格小于源图（宽高都更小），否则不是裁切
-        if not (cw < bw and ch < bh):
-            continue
         c, f, _ = score_template(cover, bv)   # cover 是否 body 的裁切
-        if c >= THRESH:
-            hits.append({"id": art["id"], "file": art["file"],
-                         "cover": cover, "keep": bv,
-                         "corr": round(c, 4), "scale": f})
-            break   # 一篇文章只需对第一张匹配的正文图修复
+        if c < THRESH:
+            continue
+        # 判据是「封面只覆盖了正文图的一部分」，而不是像素尺寸谁大谁小。
+        # 裁切后若被放大，封面像素反而可能和源图同宽（甚至更大），
+        # 用「必须严格更小」会漏掉这类（2026-08-11 就栽在这）。
+        # f 是封面在正文图宽度上的占比：≈1 说明整幅画面都在，属于同图缩放，不是裁切。
+        if f >= 0.98:
+            continue
+        hits.append({"id": art["id"], "file": art["file"],
+                     "cover": cover, "keep": bv,
+                     "corr": round(c, 4), "scale": f})
+        break   # 一篇文章只需对第一张匹配的正文图修复
     return hits
 
 

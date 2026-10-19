@@ -44,6 +44,7 @@ jobs:
           python tools/add-image-sizes.py --apply
           node tools/mark-reposts.js --apply
           node tools/build-feed.js
+          node tools/build-posts.js
 
       - name: 自检
         run: node tools/verify.js

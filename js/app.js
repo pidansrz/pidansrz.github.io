@@ -42,8 +42,19 @@ function esc(s) {
   });
 }
 function query(name) {
+  // 静态文章页 post/<id>.html 没有 ?id=，由构建时注入的 window.__POST_ID__ 提供
+  if (name === "id" && window.__POST_ID__ && !/[?&]id=/.test(location.search)) {
+    return window.__POST_ID__;
+  }
   var m = new RegExp("[?&]" + name + "=([^&]*)").exec(location.search);
   return m ? decodeURIComponent(m[1]) : "";
+}
+
+/* 文章页静态化后，站内文章链接统一指向 post/<id>.html（规范地址），
+   这样分享出去微信/社交平台才能读到该篇自己的头图。
+   带 <base> 的静态页即使位于子目录也能正确解析这个相对地址。 */
+function articleHref(id) {
+  return "post/" + encodeURIComponent(id) + ".html";
 }
 function dot() { return '<span class="dot">·</span>'; }
 
@@ -694,7 +705,7 @@ function relatedSectionHTML(p) {
         list.map(function (q) {
           return (
             '<li>' +
-              '<a href="post.html?id=' + encodeURIComponent(q.id) + '">' +
+              '<a href="' + articleHref(q.id) + '">' +
                 '<span class="rel-date">' + fmtShort(q.date) + "</span>" +
                 '<span class="rel-title">' + esc(q.title) + "</span>" +
               "</a>" +
@@ -846,7 +857,7 @@ function searchItemHTML(p, terms) {
   return (
     '<article class="post-item no-thumb reveal">' +
       '<div class="item-main">' +
-        '<h2 class="item-title"><a href="post.html?id=' + encodeURIComponent(p.id) + '">' +
+        '<h2 class="item-title"><a href="' + articleHref(p.id) + '">' +
           highlight(p.title, terms) + "</a></h2>" +
         '<div class="item-meta">' +
           "<span>" + fmtDate(p.date) + "</span>" + dot() +
@@ -910,14 +921,14 @@ function renderShell(active) {
 /* ---------- 列表条目模板 ---------- */
 function postItemHTML(p, i) {
   var thumb =
-    '<a class="item-thumb ' + tone(p) + '" href="post.html?id=' + encodeURIComponent(p.id) + '" tabindex="-1" aria-hidden="true">' +
+    '<a class="item-thumb ' + tone(p) + '" href="' + articleHref(p.id) + '" tabindex="-1" aria-hidden="true">' +
       coverInner(p, "thumb-char", null) +
     "</a>";
   return (
     '<article class="post-item reveal" id="post-' + p.id + '" style="animation-delay:' + (i * 45) + 'ms">' +
       thumb +
       '<div class="item-main">' +
-        '<h2 class="item-title"><a href="post.html?id=' + encodeURIComponent(p.id) + '">' + esc(p.title) + "</a></h2>" +
+        '<h2 class="item-title"><a href="' + articleHref(p.id) + '">' + esc(p.title) + "</a></h2>" +
         '<div class="item-meta">' +
           "<span>" + fmtMonthDay(p.date) + "</span>" + dot() +
           "<span>" + postMinutes(p) + "</span>" +
@@ -1144,10 +1155,10 @@ function initPost() {
     pn =
       '<div class="prevnext">' +
         (prev
-          ? '<a class="pn prev" href="post.html?id=' + encodeURIComponent(prev.id) + '"><small>← 更新的一篇</small><span>' + esc(prev.title) + "</span></a>"
+          ? '<a class="pn prev" href="' + articleHref(prev.id) + '"><small>← 更新的一篇</small><span>' + esc(prev.title) + "</span></a>"
           : "<span></span>") +
         (next
-          ? '<a class="pn next" href="post.html?id=' + encodeURIComponent(next.id) + '"><small>更早的一篇 →</small><span>' + esc(next.title) + "</span></a>"
+          ? '<a class="pn next" href="' + articleHref(next.id) + '"><small>更早的一篇 →</small><span>' + esc(next.title) + "</span></a>"
           : "<span></span>") +
       "</div>";
   }
@@ -1215,7 +1226,7 @@ function initArchive() {
   host.innerHTML = groups.map(function (g) {
     var items = g.posts.map(function (p) {
       return (
-        '<a class="arc-item" href="post.html?id=' + encodeURIComponent(p.id) + '">' +
+        '<a class="arc-item" href="' + articleHref(p.id) + '">' +
           '<span class="arc-date">' + fmtShort(p.date) + "</span>" +
           '<span class="arc-title">' + esc(p.title) + "</span>" +
         "</a>"

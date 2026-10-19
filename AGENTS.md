@@ -53,6 +53,16 @@ drafts/*.md  ──(import-posts --replace)──►  js/data.js  ──►  ind
 - `mark-reposts.js` 会给「存在更早同标题文章」的新文自动加「| 旧文」后缀。
 - 补正文就**直接填进原来那篇 `drafts/*.md`**。
 
+### 7. 文章详情页有「静态规范页」，分享卡靠它
+- 构建会为每篇生成 `post/<id>.html`（`tools/build-posts.js`），把该篇标题/描述/**绝对路径头图**
+  直接写进 `<meta>`。微信/社交平台的爬虫不执行 JS，只有这种静态页才能读到每篇自己的头图。
+- 静态页里注入 `<base href="/">`：模板里所有相对路径（css/js/images）照常写，位于 `post/`
+  子目录也按站点根解析；并注入 `window.__POST_ID__`，`app.js` 的 `query("id")` 优先用它（不依赖 `?id=`）。
+- 站内文章链接统一是 `post/<id>.html`（`app.js` 的 `articleHref()`）；`feed.xml`/`sitemap.xml` 也指向它。
+- 旧的 `post.html?id=<id>` 仍可打开（向后兼容，只是分享图用默认图）；`post/<id>.html` 是规范地址。
+- 默认分享图 `images/og-default.jpg` 由 `python tools/gen-og-default.py` 生成（1200×630，
+  需 Pillow + Windows 微软雅黑 `msyh.ttc`；已提交，CI 不重生成）。
+
 ## 三、改完必跑的四步（一条都不能少）
 
 ```bash
@@ -76,6 +86,8 @@ python tools/scan-body-inner-dup.py       # 同一篇正文内部引用了同一
 
 改了 `SITE`（站名 / url / 赞赏码 / 公众号二维码）后，**必须跑 `node tools/build-all.js`**，
 只跑 `build-feed.js` 首页不会变——`js/index-data.js` 里还有一份 SITE 副本。
+`build-all.js` 现在依次跑 `build-split → build-feed → build-posts`，会一并重新生成 `post/<id>.html`
+（其中的 `og:image`/canonical 是绝对地址，依赖 `SITE.url`，改域名后必须重跑）。
 
 ## 四、草稿写法要点
 

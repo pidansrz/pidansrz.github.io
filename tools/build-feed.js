@@ -73,7 +73,8 @@ function rfc822(iso) {
   return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], 0, 0, 0)).toUTCString();
 }
 function postUrl(p) {
-  return BASE + "/post.html?id=" + encodeURIComponent(p.id);
+  // 指向构建生成的规范静态页 post/<id>.html（带正确的绝对头图，供爬虫/分享读取）
+  return BASE + "/post/" + encodeURIComponent(p.id) + ".html";
 }
 
 const newest = sorted.length ? sorted[0].date : new Date().toISOString().slice(0, 10);

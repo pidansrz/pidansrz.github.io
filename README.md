@@ -44,7 +44,7 @@ personal-blog/
 
 ```js
 {
-  id: "my-new-post",                 // 唯一标识，会变成 post.html?id=my-new-post
+  id: "my-new-post",                 // 唯一标识，会变成 post/my-new-post.html（旧链接 post.html?id=my-new-post 仍可用）
   title: "文章标题",
   date: "2026-10-07",                // 用于排序与「按年份归类」
   excerpt: "列表页展示的一句话摘要。",

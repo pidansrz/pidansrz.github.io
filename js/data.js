@@ -46,7 +46,7 @@ const SITE = {
   //   想隐藏这个区块：把 wechat: { ... } 这一整段删掉即可
   wechat: {
     name: "",   // 公众号名称，如「皮蛋瘦肉舟」
-    qr: ""
+    qr: "images/qrcode-wechat.jpg"
   },
 
   startYear: 2015        // 最早一篇是 2015-12-11，页脚版权与「写了多少年」按这个算

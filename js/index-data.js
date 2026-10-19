@@ -14,7 +14,7 @@ var SITE = {
   },
   "wechat": {
     "name": "",
-    "qr": ""
+    "qr": "images/qrcode-wechat.jpg"
   },
   "startYear": 2015
 };

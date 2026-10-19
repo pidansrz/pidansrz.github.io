@@ -7,6 +7,8 @@
 附带 **RSS 订阅**（`feed.xml`）、站点地图（`sitemap.xml`）与 `robots.txt`。
 
 部署到自己的域名：见 [`DEPLOY.md`](./DEPLOY.md)。
+备份与换电脑：见 [`BACKUP.md`](./BACKUP.md)。
+**AI / 协作者开工前必读的项目硬约定：见 [`AGENTS.md`](./AGENTS.md)。**
 
 ## 目录结构
 

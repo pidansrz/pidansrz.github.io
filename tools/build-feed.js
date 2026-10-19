@@ -68,7 +68,8 @@ function cdata(s) {
 }
 function rfc822(iso) {
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso));
-  if (!m) return new Date().toUTCString();
+  // 日期不合法时退回一个固定值，保证输出可复现（不能用 new Date()，否则每次构建都不同）
+  if (!m) return new Date(Date.UTC(1970, 0, 1)).toUTCString();
   return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], 0, 0, 0)).toUTCString();
 }
 function postUrl(p) {
@@ -76,6 +77,12 @@ function postUrl(p) {
 }
 
 const newest = sorted.length ? sorted[0].date : new Date().toISOString().slice(0, 10);
+
+/* 构建时间与版权年份都取「最新文章日期」，而不是当前时间。
+   否则本地和 CI 各构建一次，feed.xml 的时间戳必然不同 → git 合并时天天冲突。
+   同样的内容必须产出同样的文件，这是能自动提交回仓库的前提。 */
+const buildDate = rfc822(newest);
+const copyYear = Math.max(Number(SITE.startYear) || 0, Number(String(newest).slice(0, 4)) || 0);
 
 /* ---------- feed.xml（仅最近 FEED_LIMIT 篇）---------- */
 const items = feedPosts.map(function (p) {
@@ -104,8 +111,8 @@ const feed = [
   "  <link>" + xml(BASE + "/") + "</link>",
   "  <description>" + xml(SITE.bio || SITE.subtitle || SITE.title) + "</description>",
   "  <language>zh-CN</language>",
-  "  <copyright>" + xml("© " + SITE.startYear + "–" + new Date().getFullYear() + " " + SITE.author) + "</copyright>",
-  "  <lastBuildDate>" + new Date().toUTCString() + "</lastBuildDate>",
+  "  <copyright>" + xml("© " + SITE.startYear + "–" + copyYear + " " + SITE.author) + "</copyright>",
+  "  <lastBuildDate>" + buildDate + "</lastBuildDate>",
   "  <generator>personal-blog/tools/build-feed.js</generator>",
   '  <atom:link href="' + xml(BASE + "/feed.xml") + '" rel="self" type="application/rss+xml"/>',
   items,

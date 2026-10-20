@@ -158,6 +158,11 @@ vm.createContext(ctx);
 /* 加载页面真实依赖：theme.js（<head> 同步引入）→ index-data.js（首屏索引）→ app.js */
 vm.runInContext(fs.readFileSync(path.join(ROOT, 'js', 'theme.js'), 'utf8'), ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, 'js', 'index-data.js'), 'utf8'), ctx);
+// 荐读（好文收藏）的列表数据；还没构建过时跳过，不影响其它断言
+const linksDataFile = path.join(ROOT, 'js', 'links-data.js');
+if (fs.existsSync(linksDataFile)) {
+  vm.runInContext(fs.readFileSync(linksDataFile, 'utf8'), ctx);
+}
 vm.runInContext(fs.readFileSync(path.join(ROOT, 'js', 'app.js'), 'utf8'), ctx);
 ctx.__POSTS = vm.runInContext('POSTS', ctx);
 
@@ -392,7 +397,46 @@ ok(!body.classList.contains('reveal-instant'), '正常打开首页时保留入�
 
 location.hash = '';
 
-/* ================= 7. 主题切换（回归） ================= */
+/* ================= 7. 荐读（好文收藏） ================= */
+section('荐读（好文收藏）');
+const linksDir = path.join(ROOT, 'links');
+const linkFiles = fs.existsSync(linksDir)
+  ? fs.readdirSync(linksDir).filter((f) => /\.md$/i.test(f) && !/^_/.test(f) && f !== 'README.md')
+  : [];
+ok(linkFiles.length > 0, 'links/ 下有收录条目（实际 ' + linkFiles.length + ' 条）');
+
+bootPage('links');
+const linkListHTML = ids.linkList.innerHTML;
+const linkCards = (linkListHTML.match(/class="post-item no-thumb reveal link-item"/g) || []).length;
+ok(linkCards === linkFiles.length, '荐读页列出全部 ' + linkFiles.length + ' 条（实际 ' + linkCards + '）');
+ok(/class="link-badge"/.test(linkListHTML), '条目带「荐读」标签');
+ok(ids.linkCount.textContent.indexOf('共 ' + linkFiles.length + ' 篇') === 0,
+  '显示收录数量：' + ids.linkCount.textContent);
+ok(/href="links\.html"/.test(ids['site-header'].innerHTML), '顶栏/页脚导航含「荐读」入口');
+
+// 静态详情页：全文 + 原文链接 + 绝对 og（微信分享要能读到）
+const firstLink = linkFiles[0].replace(/\.md$/i, '');
+const detailFile = path.join(linksDir, firstLink + '.html');
+ok(fs.existsSync(detailFile), '生成静态详情页 links/<id>.html');
+const detailSrc = fs.existsSync(detailFile) ? fs.readFileSync(detailFile, 'utf8') : '';
+ok(/阅读原文/.test(detailSrc), '详情页带「阅读原文」外链（指向原站）');
+ok(/og:image" content="https:\/\//.test(detailSrc), '详情页 og:image 是绝对地址');
+ok(/class="article-body"/.test(detailSrc), '全文写进静态 HTML，不依赖 JS 渲染');
+ok(!/<script>\s*window\.__POST_ID__/.test(detailSrc), '详情页不会误注入文章 id');
+
+// 荐读页自身的分享图也必须是绝对地址（相对路径微信抓不到）
+const linksPageSrc = fs.readFileSync(path.join(ROOT, 'links.html'), 'utf8');
+ok(/og:image" content="https:\/\//.test(linksPageSrc), 'links.html 的 og:image 是绝对地址');
+
+// 并入站内搜索
+bootPage('home');
+ids.searchInput.value = '示例';
+ids.searchInput.fire('input');
+ok(/class="link-badge"/.test(ids.postList.innerHTML), '站内搜索能搜到荐读条目');
+ids.searchInput.value = '';
+ids.searchInput.fire('input');
+
+/* ================= 8. 主题切换（回归） ================= */
 section('主题切换');
 // 主题按钮不在静态 HTML 里，是 app.js 的 renderShell() 动态渲染的；
 // theme.js 在 <head> 中、DOMContentLoaded 比 app.js 先触发，那时按钮还不存在，

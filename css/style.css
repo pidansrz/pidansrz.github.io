@@ -1711,6 +1711,64 @@ body.reveal-instant .reveal {
   }
 }
 
+/* ===========================================================
+   荐读（好文收藏）
+   列表卡片沿用 .post-item 的版式，只多一个「荐读」小标签；
+   详情页沿用 .article / .article-body 的正文排版，额外补来源行与评语。
+   =========================================================== */
+
+/* 列表里的「荐读」小标签 */
+.link-badge {
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 0.1em 0.45em;
+  border-radius: 3px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  vertical-align: 1px;
+}
+
+/* 详情页顶部：阅读原文 / 来源 / 作者 / 收录日期 */
+.link-origin {
+  margin-bottom: 0.9em;
+}
+.link-origin .link-origin-url {
+  font-weight: 500;
+}
+
+/* 一句话评语：左侧一道竖线，和正文区分开 */
+.link-note {
+  margin: 0 0 1.6em;
+  padding: 0.7em 0 0.7em 1em;
+  border-left: 2px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--text-2);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+/* 标签 */
+.link-tags {
+  margin: -0.6em 0 1.8em;
+}
+.link-tag {
+  display: inline-block;
+  margin: 0 0.5em 0 0;
+  padding: 0.15em 0.6em;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--text-3);
+  font-family: var(--font-sans);
+  font-size: 12px;
+}
+
+@media (max-width: 720px) {
+  .link-note { font-size: 14.5px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }

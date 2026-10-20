@@ -45,6 +45,7 @@ jobs:
           node tools/mark-reposts.js --apply
           node tools/build-feed.js
           node tools/build-posts.js
+          node tools/build-links.js
 
       - name: 自检
         run: node tools/verify.js

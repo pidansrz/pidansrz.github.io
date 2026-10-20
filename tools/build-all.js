@@ -11,7 +11,7 @@
 const path = require('path');
 const { execFileSync } = require('child_process');
 
-const steps = ['build-split.js', 'build-feed.js', 'build-posts.js'];
+const steps = ['build-split.js', 'build-feed.js', 'build-posts.js', 'build-links.js'];
 
 for (const step of steps) {
   console.log('→ ' + step);

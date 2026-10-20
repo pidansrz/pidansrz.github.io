@@ -177,6 +177,7 @@ const OG_DEFAULT_ABS = toAbs("images/og-default.jpg");
 const rootPages = [
   { file: "index.html",   url: BASE + "/" },
   { file: "archive.html", url: BASE + "/archive.html" },
+  { file: "links.html",   url: BASE + "/links.html" },
   { file: "about.html",   url: BASE + "/about.html" }
 ];
 let patched = 0;

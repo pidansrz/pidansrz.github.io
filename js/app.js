@@ -379,12 +379,16 @@ var ICON_BN_ABOUT =
 var ICON_BN_SUPPORT =
   '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.9 3.9 0 0 1 12 8.1a3.9 3.9 0 0 1 7 2.7C19 15.6 12 20 12 20Z"/></svg>';
 
+var ICON_BN_LINK =
+  '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4h11v16l-5.5-4-5.5 4V4z"/></svg>';
+
 function initBottomNav() {
   if (document.getElementById("bottomNav")) return;
   var page = document.body.dataset.page || "home";
   function cls(href) {
     if (href === "index.html" && page === "home") return ' class="bn-item active"';
     if (href === "archive.html" && page === "archive") return ' class="bn-item active"';
+    if (href === "links.html" && (page === "links" || page === "link")) return ' class="bn-item active"';
     if (href === "about.html" && page === "about") return ' class="bn-item active"';
     return ' class="bn-item"';
   }
@@ -395,6 +399,7 @@ function initBottomNav() {
   nav.innerHTML =
     '<a' + cls("index.html") + ' href="index.html">' + ICON_BN_HOME + "<span>首页</span></a>" +
     '<a' + cls("archive.html") + ' href="archive.html">' + ICON_BN_ARCHIVE + "<span>归档</span></a>" +
+    '<a' + cls("links.html") + ' href="links.html">' + ICON_BN_LINK + "<span>荐读</span></a>" +
     '<a' + cls("about.html") + ' href="about.html">' + ICON_BN_ABOUT + "<span>关于</span></a>" +
     '<button class="bn-item bn-support" type="button" aria-haspopup="true" aria-expanded="false">' +
       ICON_BN_SUPPORT + "<span>支持</span></button>" +
@@ -745,6 +750,11 @@ function plainText(html) {
 /* 检索用的正文：优先取懒加载的全文索引；
    索引还没准备好时退回「标题 + 摘要」的快速结果，索引一到就自动升级 */
 function postText(p) {
+  // 荐读条目的全文在 window.LINK_TEXT 里（文章在 SEARCH_TEXT 里）
+  if (p.kind === "link") {
+    var lt = window.LINK_TEXT;
+    return lt && typeof lt[p.id] === "string" ? lt[p.id] : "";
+  }
   var idx = window.SEARCH_TEXT;
   if (idx && typeof idx[p.id] === "string") return idx[p.id];
   return "";
@@ -772,6 +782,63 @@ function ensureSearchIndex(cb) {
     list.forEach(function (f) { if (f) f(); });
   };
   document.head.appendChild(s);
+}
+
+/* 荐读全文索引：同样只在用户真的搜索时才拉，不拖慢首屏 */
+var linkIndexState = 0;   // 0 未加载 / 1 加载中 / 2 就绪 / 3 加载失败
+
+function ensureLinkIndex(cb) {
+  if (linkIndexState === 2 || linkIndexState === 3) { if (cb) cb(); return; }
+  if (linkIndexState === 1) { if (cb) setTimeout(cb, 0); return; }
+  linkIndexState = 1;
+  function finish() {
+    linkIndexState = (typeof LINKS !== "undefined" && window.LINK_TEXT) ? 2 : 3;
+    if (cb) cb();
+  }
+  function loadText() {
+    var s2 = document.createElement("script");
+    s2.src = "js/links-text.js";
+    s2.onload = finish; s2.onerror = finish;
+    document.head.appendChild(s2);
+  }
+  if (typeof LINKS === "undefined") {
+    var s1 = document.createElement("script");
+    s1.src = "js/links-data.js";
+    s1.onload = loadText; s1.onerror = loadText;
+    document.head.appendChild(s1);
+  } else {
+    loadText();
+  }
+}
+
+/* 荐读：标题 > 评语 > 全文，同样要求所有关键词都命中 */
+function searchLinks(terms) {
+  var out = [];
+  if (typeof LINKS === "undefined" || !LINKS) return out;
+  var texts = window.LINK_TEXT || {};
+  LINKS.forEach(function (l) {
+    var title = String(l.title || "").toLowerCase();
+    var note = String(l.note || "").toLowerCase();
+    var body = String(texts[l.id] || "").toLowerCase();
+    var score = 0;
+    for (var i = 0; i < terms.length; i++) {
+      var t = terms[i], s = 0;
+      if (title.indexOf(t) !== -1) s += 10;
+      if (note.indexOf(t) !== -1) s += 4;
+      if (body.indexOf(t) !== -1) s += 1;
+      if (!s) return; // 有一个词没命中，这条不算
+      score += s;
+    }
+    out.push({
+      post: {
+        id: l.id, title: l.title, date: l.date, excerpt: l.note || "",
+        minutes: l.minutes || 1, source: l.source,
+        href: linkHref(l.id), kind: "link"
+      },
+      score: score
+    });
+  });
+  return out;
 }
 
 function containsAny(text, terms) {
@@ -857,9 +924,11 @@ function searchItemHTML(p, terms) {
   return (
     '<article class="post-item no-thumb reveal">' +
       '<div class="item-main">' +
-        '<h2 class="item-title"><a href="' + articleHref(p.id) + '">' +
+        '<h2 class="item-title"><a href="' + (p.href || articleHref(p.id)) + '">' +
           highlight(p.title, terms) + "</a></h2>" +
         '<div class="item-meta">' +
+          (p.kind === "link" ? '<span class="link-badge">荐读</span>' : "") +
+          (p.kind === "link" && p.source ? "<span>" + esc(p.source) + "</span>" + dot() : "") +
           "<span>" + fmtDate(p.date) + "</span>" + dot() +
           "<span>" + postMinutes(p) + "</span>" +
         "</div>" +
@@ -873,6 +942,7 @@ function searchItemHTML(p, terms) {
 var NAV = [
   { href: "index.html", text: "首页" },
   { href: "archive.html", text: "归档" },
+  { href: "links.html", text: "荐读" },
   { href: "about.html", text: "关于" }
 ];
 var FEED = "feed.xml";
@@ -1020,8 +1090,15 @@ function initHome() {
       if (searchIndexState === 0) {
         ensureSearchIndex(function () { paint(input ? input.value : q); });
       }
-      var found = searchPosts(terms);
-      var preparing = searchIndexState === 1;
+      // 荐读索引同样按需加载，拿到后自动重搜一遍
+      if (linkIndexState === 0) {
+        ensureLinkIndex(function () { paint(input ? input.value : q); });
+      }
+      // 文章与荐读的结果合并后统一按相关度排序
+      var found = searchPosts(terms).concat(searchLinks(terms)).sort(function (a, b) {
+        return b.score - a.score || byDateDesc(a.post, b.post);
+      });
+      var preparing = searchIndexState === 1 || linkIndexState === 1;
       if (statusEl) {
         statusEl.hidden = false;
         statusEl.textContent = found.length
@@ -1368,11 +1445,59 @@ function initFloatTools() {
 }
 
 /* ---------- 启动 ---------- */
+/* ---------- 荐读（好文收藏）----------
+   数据源是 links/*.md，由 tools/build-links.js 生成 js/links-data.js 与静态详情页。
+   和主博客文章完全独立：不进首页列表、不算进文章数、不进归档，
+   只在「荐读」页和站内搜索里出现。 */
+function linkHref(id) {
+  return "links/" + encodeURIComponent(id) + ".html";
+}
+
+function linkItemHTML(l, i) {
+  var meta = [];
+  if (l.source) meta.push("<span>" + esc(l.source) + "</span>");
+  if (l.date) meta.push("<span>" + fmtDate(l.date) + "</span>");
+  meta.push("<span>" + (l.minutes || 1) + " 分钟</span>");
+  return (
+    '<article class="post-item no-thumb reveal link-item" id="link-' + l.id + '" style="animation-delay:' + (i * 45) + 'ms">' +
+      '<div class="item-main">' +
+        '<h2 class="item-title"><a href="' + linkHref(l.id) + '">' + esc(l.title) + "</a></h2>" +
+        '<div class="item-meta">' +
+          '<span class="link-badge">荐读</span>' + meta.join(dot()) +
+        "</div>" +
+        (l.note ? '<p class="item-excerpt">' + esc(l.note) + "</p>" : "") +
+      "</div>" +
+    "</article>"
+  );
+}
+
+function initLinks() {
+  renderShell("links.html");
+  var listEl = document.getElementById("linkList");
+  var countEl = document.getElementById("linkCount");
+  var all = (typeof LINKS !== "undefined" && LINKS)
+    ? LINKS.slice().sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; })
+    : [];
+  if (countEl) countEl.textContent = "共 " + all.length + " 篇";
+  if (!listEl) return;
+  listEl.innerHTML = all.length
+    ? all.map(linkItemHTML).join("")
+    : '<div class="empty">还没有收录。在 links/ 下新建一个 .md 就能加一条。</div>';
+}
+
+/* 荐读详情页：正文由构建时写死在 HTML 里（便于微信/搜索直接读到），
+   这里只补顶栏、页脚等外壳，不做二次渲染 */
+function initLinkPage() {
+  renderShell("links.html");
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   var page = document.body.dataset.page;
   if (page === "home") initHome();
   else if (page === "post") initPost();
   else if (page === "archive") initArchive();
+  else if (page === "links") initLinks();
+  else if (page === "link") initLinkPage();
   else if (page === "about") initAbout();
 
   // 文章页的元信息由 initPost 按文章改写；其余页面补上站点级分享信息

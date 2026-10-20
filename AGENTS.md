@@ -116,6 +116,21 @@ python tools/scan-body-inner-dup.py       # 同一篇正文内部引用了同一
 - ⚠ 在 Pages 填了 Custom domain 后，GitHub 会在仓库根生成 `CNAME`。
   **下次本地 push 前必须先 `git pull`**，覆盖掉会导致域名绑定失效。
 - CI 的自检是硬的（`verify.js` 失败 = 不提交），头图检查目前是告警（`continue-on-error`）。
+
+## 六、荐读模块（好文收藏，独立于文章）
+
+- 数据源：`links/*.md`，每篇一个文件。front-matter：`title` / `source` / `author` / `url` /
+  `date` / `tags` / `note`（一句话评语），正文是**全文 Markdown 存档**。
+  ⚠ 以 `_` 开头的文件和 `README.md` 不收录（可放模板）。字段说明见 `links/README.md`。
+- 构建：`node tools/build-links.js`（已并入 `build-all.js`），产出
+  `js/links-data.js`（列表元信息）、`js/links-text.js`（全文纯文本，搜索懒加载）、
+  `links/<id>.html`（静态详情页：全文 + 原文链接 + 来源署名 + 绝对 og）。
+- 页面：列表 `links.html`（`initLinks`），详情页 `data-page="link"`（`initLinkPage`，正文是
+  静态 HTML 不靠 JS 渲染）。顶栏 NAV 与手机底部导航都有「荐读」入口。
+- 搜索：站内搜索会一并检索荐读全文（懒加载 `js/links-text.js`），结果带「荐读」标签。
+- ⚠ **与主博客完全解耦**：不进首页列表、不算文章数、不进归档、不影响 `js/data.js` 和 407 篇静态页。
+- ⚠ **仓库是 public**：写进 `links/` 的全文任何人在 GitHub 上都看得到。
+  只收录已获授权或明确可转载的文章；拿不准的只写链接 + 评语，别放全文。
 - 沙箱/受限环境常常连不上 GitHub（代理 502 / SSL 失败），此时**提交照做，push 交给用户在本机执行**。
 
 ## 六、动文件前的通用习惯

@@ -430,7 +430,9 @@ ok(/og:image" content="https:\/\//.test(linksPageSrc), 'links.html 的 og:image 
 
 // 并入站内搜索
 bootPage('home');
-ids.searchInput.value = '示例';
+// 用条目标题的前几个字当关键词（不写死具体词，免得换了收录内容就误报）
+const linkTerm = ((ctx.LINKS && ctx.LINKS[0] && ctx.LINKS[0].title) || '').slice(0, 4);
+ids.searchInput.value = linkTerm;
 ids.searchInput.fire('input');
 ok(/class="link-badge"/.test(ids.postList.innerHTML), '站内搜索能搜到荐读条目');
 ids.searchInput.value = '';

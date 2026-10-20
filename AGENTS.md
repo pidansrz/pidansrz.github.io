@@ -58,6 +58,11 @@ drafts/*.md  ──(import-posts --replace)──►  js/data.js  ──►  ind
   直接写进 `<meta>`。微信/社交平台的爬虫不执行 JS，只有这种静态页才能读到每篇自己的头图。
 - 静态页里注入 `<base href="/">`：模板里所有相对路径（css/js/images）照常写，位于 `post/`
   子目录也按站点根解析；并注入 `window.__POST_ID__`，`app.js` 的 `query("id")` 优先用它（不依赖 `?id=`）。
+- **首页 / 归档 / 关于的分享图同样由构建同步**：`build-posts.js` 会把 `index.html`、`archive.html`、
+  `about.html` 里的 `og:image` / `twitter:image` / `og:url` / canonical 按 `SITE.url` 改写成绝对地址
+  （幂等，重复跑不会重复插入）。
+  ⚠ **分享图的 URL 必须是绝对地址**：微信爬虫不会把 `images/og-default.jpg` 这类相对路径拼成
+  绝对地址，留相对路径 = 分享站点根/归档/关于时**没有缩略图**（2026-10-20 修过一次）。
 - 站内文章链接统一是 `post/<id>.html`（`app.js` 的 `articleHref()`）；`feed.xml`/`sitemap.xml` 也指向它。
 - 旧的 `post.html?id=<id>` 仍可打开（向后兼容，只是分享图用默认图）；`post/<id>.html` 是规范地址。
 - **旧链接自动规范化**：`post.html` 顶部有一段「OLD_LINK_REDIRECT」脚本，带 `?id=` 就
@@ -93,8 +98,9 @@ python tools/scan-body-inner-dup.py       # 同一篇正文内部引用了同一
 
 改了 `SITE`（站名 / url / 赞赏码 / 公众号二维码）后，**必须跑 `node tools/build-all.js`**，
 只跑 `build-feed.js` 首页不会变——`js/index-data.js` 里还有一份 SITE 副本。
-`build-all.js` 现在依次跑 `build-split → build-feed → build-posts`，会一并重新生成 `post/<id>.html`
-（其中的 `og:image`/canonical 是绝对地址，依赖 `SITE.url`，改域名后必须重跑）。
+`build-all.js` 现在依次跑 `build-split → build-feed → build-posts`，会一并重新生成 `post/<id>.html`，
+并同步 `index/about/archive` 的分享 meta——这些绝对地址都依赖 `SITE.url`，**改域名后必须重跑**
+（跑完即可，不必手改任何 html）。
 
 ## 四、草稿写法要点
 

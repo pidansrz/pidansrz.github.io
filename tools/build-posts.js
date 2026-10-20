@@ -153,4 +153,64 @@ for (const p of sorted) {
 }
 
 console.log("✓ 生成 " + count + " 个文章静态页到 post/（跳过 " + skipped + " 篇无 id）");
+
+/* ---------- 首页 / 归档 / 关于：分享图同样必须绝对地址 ----------
+ * 这三个是手写静态页，微信分享站点根、归档页、关于页时读的就是它们。
+ * 之前 og:image 是相对路径（images/og-default.jpg），微信不拼基准地址 → 分享图缺失。
+ * 这里统一按 SITE.url 改写，换域名时重跑一次构建即可全部同步，不用手改 html。 */
+function toAbs(v) {
+  const s = String(v == null ? "" : v);
+  if (!s) return "";
+  if (/^https?:/i.test(s)) {
+    // 已是绝对地址：换域名时按「路径部分」重新拼，保证跟着 SITE.url 变
+    try { return BASE + new URL(s).pathname; } catch (e) { return s; }
+  }
+  return BASE + "/" + s.replace(/^\.?\//, "");
+}
+
+const OG_DEFAULT_ABS = toAbs("images/og-default.jpg");
+const rootPages = [
+  { file: "index.html",   url: BASE + "/" },
+  { file: "archive.html", url: BASE + "/archive.html" },
+  { file: "about.html",   url: BASE + "/about.html" }
+];
+let patched = 0;
+for (const pg of rootPages) {
+  const fp = path.join(ROOT, pg.file);
+  if (!fs.existsSync(fp)) continue;
+  let h = fs.readFileSync(fp, "utf8");
+
+  // og:image（必改）+ twitter:image（没有就补）
+  h = h.replace(/(<meta property="og:image" content=")[^"]*(">)/, "$1" + OG_DEFAULT_ABS + "$2");
+  if (/<meta name="twitter:image"/.test(h)) {
+    h = h.replace(/(<meta name="twitter:image" content=")[^"]*(">)/, "$1" + OG_DEFAULT_ABS + "$2");
+  } else {
+    h = h.replace(
+      /(<meta property="og:image" content="[^"]*">)/,
+      '$1\n<meta name="twitter:image" content="' + OG_DEFAULT_ABS + '">'
+    );
+  }
+  // og:url（没有就补在 og:image 后面）
+  if (/<meta property="og:url"/.test(h)) {
+    h = h.replace(/(<meta property="og:url" content=")[^"]*(">)/, "$1" + pg.url + "$2");
+  } else {
+    h = h.replace(
+      /(<meta property="og:image" content="[^"]*">)/,
+      '$1\n<meta property="og:url" content="' + pg.url + '">'
+    );
+  }
+  // canonical（没有就补在 charset 后面）
+  if (/<link rel="canonical"/.test(h)) {
+    h = h.replace(/(<link rel="canonical" href=")[^"]*(">)/, "$1" + pg.url + "$2");
+  } else {
+    h = h.replace(
+      /(<meta charset="UTF-8">)/,
+      '$1\n<link rel="canonical" href="' + pg.url + '">'
+    );
+  }
+
+  fs.writeFileSync(fp, h, "utf8");
+  patched++;
+}
+console.log("✓ 站点级分享 meta 已同步为绝对地址：" + patched + " 个页面（index/archive/about）");
 console.log("  站点根地址：" + BASE);

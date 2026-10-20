@@ -61,6 +61,11 @@ try {
   process.exit(1);
 }
 
+/* 统一换行符为 LF：Windows 上 git checkout 会把 post.html 变成 CRLF，
+   下面的正则（以及生成的空行）会因 \r 跟 CI（Linux/LF）产出不一致，
+   导致每次本地构建都「全量改写」post/*.html。先归一，保证生成结果可复现。 */
+tpl = tpl.replace(/\r\n/g, "\n");
+
 /* 生成的规范页已是 post/<id>.html，不需要 post.html 里的「旧链接重定向」死代码，
    在模板阶段就剔除（靠 OLD_LINK_REDIRECT_START/END 标记定位）。 */
 tpl = tpl.replace(
@@ -178,7 +183,7 @@ let patched = 0;
 for (const pg of rootPages) {
   const fp = path.join(ROOT, pg.file);
   if (!fs.existsSync(fp)) continue;
-  let h = fs.readFileSync(fp, "utf8");
+  let h = fs.readFileSync(fp, "utf8").replace(/\r\n/g, "\n"); // 同上，归一为 LF
 
   // og:image（必改）+ twitter:image（没有就补）
   h = h.replace(/(<meta property="og:image" content=")[^"]*(">)/, "$1" + OG_DEFAULT_ABS + "$2");

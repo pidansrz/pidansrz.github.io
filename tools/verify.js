@@ -77,6 +77,7 @@ function makeEl(tag, id) {
 
 const ctx = {};
 const docReady = [];
+const docEvents = {};   // document 上的事件监听（主题切换用的是事件委托）
 const ids = {};
 // 'toTop' / 'toHome' 是 app.js 在 initFloatTools() 里动态生成的，
 // 靠上面 appendChild 注册进来，这里不要预先占位，否则断言拿到的是空壳。
@@ -125,7 +126,11 @@ const document = {
   querySelector: (sel) => metas[sel] || null,
   querySelectorAll: () => [],
   createElement: (t) => makeEl(t),
-  addEventListener: (t, f) => { if (t === 'DOMContentLoaded') docReady.push(f); },
+  addEventListener: (t, f) => {
+    if (t === 'DOMContentLoaded') docReady.push(f);
+    (docEvents[t] = docEvents[t] || []).push(f);
+  },
+  fire: (t, e) => (docEvents[t] || []).forEach((f) => f(e || {})),
 };
 body.dataset = {};
 
@@ -150,7 +155,8 @@ ctx.history = { replaceState() {} };
 ctx.globalThis = ctx;
 vm.createContext(ctx);
 
-/* 加载页面真实依赖：index-data.js（首屏索引）+ app.js */
+/* 加载页面真实依赖：theme.js（<head> 同步引入）→ index-data.js（首屏索引）→ app.js */
+vm.runInContext(fs.readFileSync(path.join(ROOT, 'js', 'theme.js'), 'utf8'), ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, 'js', 'index-data.js'), 'utf8'), ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, 'js', 'app.js'), 'utf8'), ctx);
 ctx.__POSTS = vm.runInContext('POSTS', ctx);
@@ -385,6 +391,26 @@ ok(!win._scrolled, '不带 hash 时不做定位滚动（正常停在页首）',
 ok(!body.classList.contains('reveal-instant'), '正常打开首页时保留入场动画');
 
 location.hash = '';
+
+/* ================= 7. 主题切换（回归） ================= */
+section('主题切换');
+// 主题按钮不在静态 HTML 里，是 app.js 的 renderShell() 动态渲染的；
+// theme.js 在 <head> 中、DOMContentLoaded 比 app.js 先触发，那时按钮还不存在，
+// 直接 getElementById().addEventListener 根本绑不上（点了没反应）——
+// 必须用 document 上的事件委托。这里模拟真实点击来验证。
+docEvents.click = [];                 // 清掉前面多次 bootPage 累积的同名监听
+bootPage('home');
+const themeBtn = ids.themeToggle || makeEl('button', 'themeToggle');
+ids.themeToggle = themeBtn;
+themeBtn.closest = (sel) => (sel === '#themeToggle' ? themeBtn : null);
+
+ok(documentElement.attrs['data-theme'] === 'light', '初始为浅色主题');
+document.fire('click', { target: themeBtn });
+ok(documentElement.attrs['data-theme'] === 'dark', '点击主题按钮切到深色');
+document.fire('click', { target: themeBtn });
+ok(documentElement.attrs['data-theme'] === 'light', '再点一次切回浅色');
+document.fire('click', { target: { closest: () => null } });
+ok(documentElement.attrs['data-theme'] === 'light', '点击页面其它地方不会切换主题');
 
 /* ================= 汇总 ================= */
 console.log('\n────────────────────────');

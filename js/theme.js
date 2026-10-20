@@ -45,12 +45,16 @@
   document.addEventListener("DOMContentLoaded", function () {
     syncIcon(root.getAttribute("data-theme"));
 
-    var toggle = document.getElementById("themeToggle");
-    if (toggle) {
-      toggle.addEventListener("click", function () {
-        apply(root.getAttribute("data-theme") === "dark" ? "light" : "dark");
-      });
-    }
+    /* 顶栏是 app.js 的 renderShell() 动态渲染的，而本脚本在 <head> 里、
+       DOMContentLoaded 先于 app.js 触发 —— 那时 #themeToggle 还没生成，
+       直接 getElementById 绑不到事件（点了没反应）。改用事件委托：
+       不管按钮什么时候被插进 DOM、点在按钮还是里面的 SVG 上都生效。 */
+    document.addEventListener("click", function (e) {
+      var el = e.target;
+      if (!el || !el.closest) return;
+      if (!el.closest("#themeToggle")) return;
+      apply(root.getAttribute("data-theme") === "dark" ? "light" : "dark");
+    });
 
     var navToggle = document.getElementById("navToggle");
     var links = document.getElementById("navLinks");

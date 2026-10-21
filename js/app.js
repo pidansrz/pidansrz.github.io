@@ -1251,6 +1251,17 @@ function initPost() {
     type: "article"
   });
 
+  // 静态正文 hydrate：post/<id>.html 在构建时已经把正文写进了页面
+  // （见 tools/build-posts.js 的 staticArticleHTML）。这里先把已有的正文
+  // 取出来，等会儿直接用它，省掉一次 js/posts/<n>.js 请求，
+  // 也避免「正在载入正文…」闪一下。
+  // 老入口 post.html?id= 没有静态正文，getElementById 返回 null，走原分支。
+  var staticBody = "";
+  if (window.__POST_ID__ && window.__POST_ID__ === id) {
+    var pre = document.getElementById("articleBody");
+    if (pre && pre.innerHTML) staticBody = pre.innerHTML;
+  }
+
   host.innerHTML =
     '<article class="article">' +
       // 带上本篇 id：点回去时首页会定位到这篇文章，而不是跳到列表最前面
@@ -1264,7 +1275,7 @@ function initPost() {
       '<figure class="article-cover ' + tone(p) + '">' + coverInner(p, "cover-char", p.coverAlt || p.title) + "</figure>" +
       coverCaptionHTML(p) +
       '<div class="article-body" id="articleBody">' +
-        '<p class="body-loading">正在载入正文…</p>' +
+        (staticBody || '<p class="body-loading">正在载入正文…</p>') +
       "</div>" +
       shareBarHTML(p, shareUrl, shareTitle) +
       relatedSectionHTML(p) +
@@ -1275,15 +1286,23 @@ function initPost() {
   bindShareBar(host, shareUrl);
   initReadProgress();
 
-  // 正文按需加载：打开哪篇才下载哪篇（js/posts/<n>.js）
-  loadPostHTML(p, function (html) {
-    var body = document.getElementById("articleBody");
-    if (!body) return;
-    body.innerHTML = html || ("<p>" + esc(p.excerpt) + "</p>");
-    bindImgFallback(body);
-    initTOC(host);       // 目录依赖正文里的 h2/h3，所以放在正文到位之后
+  if (staticBody) {
+    // 正文已在页面里：直接绑定图片兜底 / 目录 / 灯箱，不再发请求
+    var b0 = document.getElementById("articleBody");
+    if (b0) bindImgFallback(b0);
+    initTOC(host);       // 目录依赖正文里的 h2/h3
     initLightbox(host);  // 图片同理
-  });
+  } else {
+    // 正文按需加载：打开哪篇才下载哪篇（js/posts/<n>.js）
+    loadPostHTML(p, function (html) {
+      var body = document.getElementById("articleBody");
+      if (!body) return;
+      body.innerHTML = html || ("<p>" + esc(p.excerpt) + "</p>");
+      bindImgFallback(body);
+      initTOC(host);       // 目录依赖正文里的 h2/h3，所以放在正文到位之后
+      initLightbox(host);  // 图片同理
+    });
+  }
 }
 
 /* ---------- 归档：按年份归类（仅标题，便于速览） ---------- */

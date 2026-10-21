@@ -265,6 +265,47 @@ ok(bodyHTML === truth, '正文与源数据完全一致（' + truth.length + ' �
     '缺尺寸 ' + imgBad.length + ' 张：' + imgBad.slice(0, 3).join(' | '));
 }
 
+/* ================= 3b. 文章静态页：正文静态化 + JSON-LD =================
+ * 只读 <meta> 的爬虫（百度 / 微信内搜索 / 多数 AI 抓取）不执行 JS，
+ * 所以正文必须直接写在 post/<id>.html 里，不能只靠 app.js 渲染。 */
+section('文章静态页');
+const staticFile = path.join(ROOT, 'post', target.id + '.html');
+ok(fs.existsSync(staticFile), '生成文章静态页 post/<id>.html');
+const staticSrc = fs.existsSync(staticFile) ? fs.readFileSync(staticFile, 'utf8') : '';
+ok(/class="article-body"/.test(staticSrc), '正文写进静态 HTML，爬虫不跑 JS 也能读到');
+ok(staticSrc.indexOf(truth) !== -1,
+  '静态正文与 js/data.js 源数据逐字一致（' + truth.length + ' 字符）');
+ok(!/正在载入正文/.test(staticSrc), '静态页不含「正在载入正文」占位');
+ok(/application\/ld\+json/.test(staticSrc), '带 JSON-LD 结构化数据');
+ok(/"@type"\s*:\s*"BlogPosting"/.test(staticSrc), 'JSON-LD 类型为 BlogPosting');
+ok(new RegExp('"datePublished"\\s*:\\s*"' + target.date + '"').test(staticSrc),
+  'JSON-LD 含发布日期 ' + target.date);
+ok(/"headline"\s*:\s*"/.test(staticSrc), 'JSON-LD 含标题 headline');
+// 静态正文里的图片也走站点根路径（<base href="/">），不能写成 ../ 或绝对域名
+ok(!/src="\.\.\//.test(staticSrc), '静态页资源不含 ../ 相对路径');
+
+/* hydrate：真实浏览器打开 post/<id>.html 时，页面里已经有静态正文，
+ * app.js 应该直接取用（不闪烁、不再请求 js/posts/<n>.js）。 */
+{
+  win.__POST_ID__ = target.id;                 // 模拟 build-posts.js 注入的 id
+  ids.articleBody = makeEl('div', 'articleBody');
+  ids.articleBody.innerHTML = '<p>静态正文水合标记</p>';
+  const postsBefore = loadedScripts.filter((s) => /js\/posts\//.test(s)).length;
+  bootPage('post', '');                        // 无 ?id=，id 来自 __POST_ID__
+  const hydroHTML = ids.postHost.innerHTML;
+  ok(hydroHTML.indexOf('静态正文水合标记') !== -1,
+    'hydrate：直接取用页面里已有的静态正文');
+  ok(!/正在载入正文/.test(hydroHTML), 'hydrate：不出现「正在载入正文」占位');
+  ok(loadedScripts.filter((s) => /js\/posts\//.test(s)).length === postsBefore,
+    'hydrate：不再额外请求 js/posts/<n>.js');
+  // 还原现场，避免影响后面的用例
+  delete win.__POST_ID__;
+  delete ids.articleBody;
+  // OG 段落读的是「最后一次 applyShareMeta 写进去的 meta」，而 hydrate 这次
+  // 走的是无 ?id= 的静态页地址；按老入口再开一次，把 og:url 等恢复原状。
+  bootPage('post', '?id=' + target.id);
+}
+
 // 回归：头图与正文配图重复的问题已清除。
 // 依据 tools/_dup-confirmed.json（扫描 + 人工目视确认的清单），
 // 这些正文图应当已经从对应的 js/posts/<n>.js 里消失。

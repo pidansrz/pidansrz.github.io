@@ -75,6 +75,21 @@ drafts/*.md  ──(import-posts --replace)──►  js/data.js  ──►  ind
 - 默认分享图 `images/og-default.jpg` 由 `python tools/gen-og-default.py` 生成（1200×630，
   需 Pillow + Windows 微软雅黑 `msyh.ttc`；已提交，CI 不重生成）。
 
+### 7b. 文章正文也是静态的（2026-10-21）
+- 只写 `<meta>` 的话，百度 / 微信内搜索 / 多数 AI 抓取这些**不执行 JS** 的爬虫只能看到
+  标题和摘要，看不到正文。因此 `build-posts.js` 现在把**完整正文 HTML** 也写进
+  `post/<id>.html` 的 `#postHost` 里（结构、class 与 `app.js` 的 `initPost` 渲染逐字一致）。
+- `app.js` 会 **hydrate**：`initPost` 里若 `window.__POST_ID__` 与当前文章一致、
+  且页面已有 `#articleBody`，就直接取其 `innerHTML` 当正文——**不再请求 `js/posts/<n>.js`**，
+  也没有「正在载入正文…」的闪烁。老入口 `post.html?id=` 没有静态正文，仍走按需加载分支。
+  ⚠ 改这段时注意：`initPost` 必须在覆盖 `#postHost.innerHTML` **之前**取静态正文。
+- 同时每篇注入一段 **JSON-LD（`BlogPosting`）**：headline / datePublished / author / image。
+  生成时把 `<` 转义成 `\u003c`，防止标题里的尖括号提前闭合 `<script>`。
+- ⚠ 构建时所有 `String.prototype.replace` 的替换串**一律用函数式返回**：正文/标题里
+  出现 `$` 会被当成 replace 的特殊 pattern（`$&`、`$1`…）导致内容错乱（本次已全部改掉）。
+- 代价与收益：`post/*.html` 从约 3KB 涨到约 10KB/篇（可接受），换来的是百度/微信/AI 能索引全文。
+- `tools/verify.js` 有 12 条相关断言（静态正文与源数据逐字一致、JSON-LD 字段、hydrate 不重复请求等）。
+
 ## 三、改完必跑的四步（一条都不能少）
 
 ```bash

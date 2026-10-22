@@ -27,6 +27,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { injectStats } = require("./stats.js");
 
 const ROOT = path.join(__dirname, "..");
 
@@ -240,6 +241,9 @@ for (const p of sorted) {
     return '<script type="application/ld+json">' + jsonld + "</script>\n</head>";
   });
 
+  // 8) 访问统计脚本（SITE.stats 配置了才注入；没配则页面零改动）
+  html = injectStats(html, SITE);
+
   fs.writeFileSync(path.join(outDir, encodeURIComponent(id) + ".html"), html, "utf8");
   count++;
 }
@@ -302,8 +306,23 @@ for (const pg of rootPages) {
     );
   }
 
+  // 访问统计（幂等，与 og 同步互不影响；SITE.stats 没配就不动页面）
+  h = injectStats(h, SITE);
+
   fs.writeFileSync(fp, h, "utf8");
   patched++;
 }
-console.log("✓ 站点级分享 meta 已同步为绝对地址：" + patched + " 个页面（index/archive/about）");
+console.log("✓ 站点级分享 meta 已同步为绝对地址：" + patched + " 个页面（index/archive/links/about）");
 console.log("  站点根地址：" + BASE);
+
+/* ---------- post.html 老入口（?id= 动态页）只注入统计 ----------
+ * 它的 og 保持站点默认图（动态页，分享图由 JS 兜底），不参与上面的 og 同步，
+ * 但统计脚本要和其他页面一致。 */
+{
+  const fp = path.join(ROOT, "post.html");
+  if (fs.existsSync(fp)) {
+    const raw = fs.readFileSync(fp, "utf8");
+    const out = injectStats(raw, SITE);
+    if (out !== raw) fs.writeFileSync(fp, out, "utf8");
+  }
+}

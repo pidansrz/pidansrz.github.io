@@ -499,6 +499,67 @@ ok(documentElement.attrs['data-theme'] === 'light', '再点一次切回浅色');
 document.fire('click', { target: { closest: () => null } });
 ok(documentElement.attrs['data-theme'] === 'light', '点击页面其它地方不会切换主题');
 
+/* ================= 9. 访问统计 + 相关阅读精排 ================= */
+section('访问统计');
+// stats.js 是纯函数模块，直接 require 测三种 provider 的输出、幂等性与 $ 安全
+const stats = require('./stats.js');
+ok(stats.statsScriptHTML({ stats: { provider: '', code: '' } }) === '',
+  'SITE.stats 未配置时不注入任何脚本（站点零影响）');
+ok(stats.statsScriptHTML({ stats: { provider: 'goatcounter', code: 'pidanz' } }).indexOf('gc.zgo.at/count.js') !== -1,
+  'goatcounter：注入 count.js');
+ok(stats.statsScriptHTML({ stats: { provider: 'goatcounter', code: 'pidanz' } }).indexOf('pidanz.goatcounter.com') !== -1,
+  'goatcounter：data-goatcounter 指向自己的站点');
+ok(stats.statsScriptHTML({ stats: { provider: 'plausible', code: 'pidanz.org' } }).indexOf('plausible.io/js/script.js') !== -1,
+  'plausible：注入 script.js');
+ok(stats.statsScriptHTML({ stats: { provider: 'umami', code: 'abc' } }).indexOf('cloud.umami.is/script.js') !== -1,
+  'umami：注入 script.js');
+ok(stats.statsScriptHTML({ stats: { provider: 'unknown', code: 'x' } }) === '',
+  '未知 provider 按未配置处理（不乱注入）');
+{
+  const raw = '<html><head><script src="js/theme.js"></script>\n</head></html>';
+  const cfg = { stats: { provider: 'goatcounter', code: 'a$&b' } };
+  const once = stats.injectStats(raw, cfg);
+  ok(once === stats.injectStats(once, cfg), '注入幂等：重复构建不叠加');
+  ok(once.indexOf('a$&b.goatcounter.com') !== -1, 'code 含 $ 时按字面处理（函数式 replace）');
+  ok(once.indexOf('<!-- stats:start -->') !== -1, '注入带起止标记，可被干净摘除');
+  ok(stats.injectStats(raw, { stats: { provider: '', code: '' } }) === raw.replace(/\r\n/g, '\n'),
+    '未配置时原样返回（不动页面）');
+}
+const VM_SITE = vm.runInContext('SITE', ctx) || {};
+ok(VM_SITE.stats && typeof VM_SITE.stats === 'object', 'SITE.stats 配置块存在');
+ok(!VM_SITE.stats.provider && !VM_SITE.stats.code,
+  'SITE.stats 当前为空（注册统计服务后再填 code）');
+ok(/injectStats/.test(fs.readFileSync(path.join(ROOT, 'tools', 'build-posts.js'), 'utf8')),
+  'build-posts.js 已接入统计注入（文章页 + 站点级页面 + post.html）');
+ok(/statsScriptHTML/.test(fs.readFileSync(path.join(ROOT, 'tools', 'build-links.js'), 'utf8')),
+  'build-links.js 已接入统计注入（荐读详情页）');
+
+section('相关阅读（正文纳入相似度）');
+{
+  const rp = vm.runInContext('relatedPosts', ctx);
+  const list = rp(target, 3);
+  ok(list.length === 3, '返回 3 篇相关文章');
+  ok(list.every(function (q) { return q.id !== target.id; }), '相关阅读不含自己');
+  // 缓存（bodyGramCache）不能破坏确定性：同一 target 跑两次结果必须一致
+  const list2 = rp(target, 3);
+  ok(JSON.stringify(list.map(function (q) { return q.id; })) ===
+     JSON.stringify(list2.map(function (q) { return q.id; })),
+    '结果确定（正文 gram 缓存不影响排序稳定性）');
+  // 精排生效的硬证据：注入一对「标题/摘要完全不同、正文完全相同」的假文章。
+  // 只有正文信号（精排）能把对方捞进 top3；若精排没生效，粗排分只有时间邻近
+  // 一项（≈1.7），进不了前三。
+  const FAKE_BODY = '<p>这是一段用于测试的正文，甲乙丙丁戊己庚辛，完全相同的两篇文章。</p>';
+  vm.runInContext(
+    'POSTS.push(' +
+      JSON.stringify({ id: '__t_a', title: '甲乙丙丁', date: '2026-01-01', excerpt: '摘要甲', content: FAKE_BODY }) + ',' +
+      JSON.stringify({ id: '__t_b', title: '戊己庚辛', date: '2026-01-02', excerpt: '摘要乙', content: FAKE_BODY }) +
+    ')', ctx);
+  const rpA = rp({ id: '__t_a', title: '甲乙丙丁', date: '2026-01-01', excerpt: '摘要甲', content: FAKE_BODY }, 3);
+  ok(rpA.some(function (q) { return q.id === '__t_b'; }),
+    '正文相似但标题摘要不同的文章，能被精排捞进相关阅读');
+  vm.runInContext('POSTS.splice(POSTS.length - 2, 2)', ctx);  // 清理，不污染后续
+}
+
 /* ================= 汇总 ================= */
 console.log('\n────────────────────────');
 console.log((fail === 0 ? '✓ 全部通过' : '✗ 有失败项') + '：' + pass + ' 通过 / ' + fail + ' 失败');

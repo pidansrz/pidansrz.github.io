@@ -90,6 +90,18 @@ drafts/*.md  ──(import-posts --replace)──►  js/data.js  ──►  ind
 - 代价与收益：`post/*.html` 从约 3KB 涨到约 10KB/篇（可接受），换来的是百度/微信/AI 能索引全文。
 - `tools/verify.js` 有 12 条相关断言（静态正文与源数据逐字一致、JSON-LD 字段、hydrate 不重复请求等）。
 
+### 7c. 访问统计接入位（2026-10-23）
+- 统计配置在 `js/data.js` 的 `SITE.stats`：`{ provider: "goatcounter", code: "" }`，
+  provider 支持 goatcounter / plausible / umami，**code 留空 = 全站不注入任何脚本**（默认状态）。
+- 注入逻辑集中在共享模块 **`tools/stats.js`**（`statsScriptHTML` / `injectStats`）：
+  - `build-posts.js` 负责 `post/<id>.html`（407 篇）+ index/archive/links/about + `post.html` 老入口；
+  - `build-links.js` 负责 `links/<id>.html`（荐读详情页）。
+  - 注入位置统一在 `<script src="js/theme.js">` 之后，包裹 `<!-- stats:start/end -->` 标记，
+    **幂等**（先摘旧再插新）保证构建可复现；`replace` 一律函数式（code 含 `$` 不出错）。
+- ⚠ 用户注册统计服务后只需把 code 填进 `SITE.stats` 再跑 `build-all.js`，不用改任何代码。
+- `tools/verify.js` 有 14 条断言：三种 provider 输出特征、未知 provider 按未配置处理、
+  幂等性、`$` 字面处理、SITE.stats 结构、两个构建脚本已接入。
+
 ## 三、改完必跑的四步（一条都不能少）
 
 ```bash

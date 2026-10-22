@@ -21,6 +21,7 @@
 const fs = require("fs");
 const path = require("path");
 const { splitFrontMatter, mdToHtml, plainText } = require("./md.js");
+const { statsScriptHTML } = require("./stats.js");
 
 const ROOT = path.join(__dirname, "..");
 const LINKS_DIR = path.join(ROOT, "links");
@@ -38,6 +39,11 @@ try {
   console.warn("⚠ 读取 js/data.js 的 SITE 失败，分享图将用相对路径：" + err.message);
 }
 const BASE = String(SITE.url || "").replace(/\/+$/, "");
+
+/* 访问统计脚本：SITE.stats 配了 provider + code 才注入（与主站文章页一致，
+   没配则为空串，页面零改动） */
+const statsScript = statsScriptHTML(SITE);
+const statsLine = statsScript ? statsScript + "\n" : "";
 
 function escMeta(s) {
   return String(s == null ? "" : s)
@@ -154,6 +160,7 @@ for (const l of links) {
     '<link rel="stylesheet" href="css/style.css">\n' +
     "<link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>舟</text></svg>\">\n" +
     '<script src="js/theme.js"></script>\n' +
+    statsLine +
     "</head>\n<body data-page=\"link\">\n\n" +
     '<header id="site-header"></header>\n\n' +
     '<main class="post-page">\n  <div class="wrap">\n' +

@@ -7,6 +7,10 @@ var SITE = {
   "bio": "不沉醉宏大的叙事，不歌颂虚无的美德，面向公共写作，关怀真正善良的个体。",
   "email": "",
   "url": "https://pidanz.org",
+  "stats": {
+    "provider": "",
+    "code": ""
+  },
   "donate": {
     "url": "",
     "image": "images/donate-qr.jpg",

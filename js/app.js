@@ -670,12 +670,15 @@ function bigrams(s) {
   for (var i = 0; i < t.length - 1; i++) set[t.substr(i, 2)] = 1;
   return set;
 }
-function simScore(a, b) {
-  var A = bigrams(a), B = bigrams(b);
+/* 两个 bigram 集合的 Dice 系数（simScore 的集合版，供正文精排复用） */
+function simScoreSet(A, B) {
   var inter = 0, total = 0, k;
   for (k in A) { total++; if (B[k]) inter++; }
   for (k in B) { total++; if (A[k]) inter++; }
   return total ? (2 * inter) / total : 0;
+}
+function simScore(a, b) {
+  return simScoreSet(bigrams(a), bigrams(b));
 }
 function daysBetween(a, b) {
   var t1 = Date.parse(a), t2 = Date.parse(b);
@@ -683,9 +686,18 @@ function daysBetween(a, b) {
   return Math.abs(Math.round((t1 - t2) / 86400000));
 }
 
+/* 正文 bigram 集合缓存：精排阶段每篇只算一次。
+   不缓存的话 407 篇两两算正文相似度是亿级操作，文章页必卡。 */
+var bodyGramCache = {};
+function bodyGrams(id, content) {
+  if (!bodyGramCache[id]) bodyGramCache[id] = bigrams(plainText(content));
+  return bodyGramCache[id];
+}
+
 function relatedPosts(p, n) {
   var year = String(p.date).slice(0, 4);
-  return POSTS
+  // 粗排：标题 + 摘要 + 时间邻近（原算法），取候选池
+  var coarse = POSTS
     .filter(function (q) { return q.id !== p.id; })
     .map(function (q) {
       var days = daysBetween(q.date, p.date);
@@ -696,8 +708,16 @@ function relatedPosts(p, n) {
       return { post: q, score: score };
     })
     .sort(function (a, b) { return b.score - a.score; })
-    .slice(0, n || 3)
-    .map(function (r) { return r.post; });
+    .slice(0, 15);                                              // 候选池
+
+  // 精排：只对候选算正文相似度（2026-10-23 新增）。
+  // 粗排只看标题/摘要，会漏掉「同一话题不同说法」的文章；正文 bigram 能捞回来。
+  var selfBody = bodyGrams(p.id, p.content);
+  coarse.forEach(function (r) {
+    r.score += simScoreSet(selfBody, bodyGrams(r.post.id, r.post.content)) * 1.0;
+  });
+  coarse.sort(function (a, b) { return b.score - a.score; });
+  return coarse.slice(0, n || 3).map(function (r) { return r.post; });
 }
 
 function relatedSectionHTML(p) {

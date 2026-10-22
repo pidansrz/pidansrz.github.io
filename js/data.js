@@ -29,6 +29,14 @@ const SITE = {
   // 换成自己的域名后，记得重跑一次 node tools/build-feed.js
   url: "https://pidanz.org",
 
+  // —— 访问统计（隐私友好型：无 cookie、不追踪个人、不跨站）——
+  // provider 支持 "goatcounter" | "plausible" | "umami"；code 留空则不注入任何脚本。
+  //   goatcounter → https://www.goatcounter.com 注册，填站点名（如 pidanz），个人非商业免费
+  //   plausible   → 填站点域名（云版付费，自托管免费）
+  //   umami       → 填 website-id（云版有免费额度，自托管免费）
+  // 填好后重跑 node tools/build-all.js，全站（含 407 篇静态页）自动注入。
+  stats: { provider: "", code: "" },
+
   // —— 捐赠 / 赞赏 ——
   //   image: 赞赏码 / 收款码图片。把图片放进 images/ 后填路径，
   //          例如 "images/donate-qr.jpg"（这里用微信「赞赏码」）

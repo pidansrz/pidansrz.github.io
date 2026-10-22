@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pidansrz.github.io/sitemap.xml
+Sitemap: https://pidanz.org/sitemap.xml

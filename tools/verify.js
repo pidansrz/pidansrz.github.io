@@ -464,6 +464,8 @@ ok(/alt="皮蛋瘦肉舟"/.test(headerSrc), 'logo img 带 alt（无障碍 + 图�
 ok(fs.existsSync(path.join(ROOT, 'images/logo-pidan.png')) &&
    fs.existsSync(path.join(ROOT, 'images/logo-pidan-light.png')), '两版 logo 文件都已生成');
 const cssSrc = fs.readFileSync(path.join(ROOT, 'css/style.css'), 'utf8');
+ok(/\.logo-ink, \.logo-ink-inv \{ display: none; \}/.test(cssSrc),
+  '深浅两版 logo 默认都隐藏（防浅色主题双图叠加）');
 ok(/\[data-theme="dark"\] \.logo-ink \{ display: none; \}/.test(cssSrc) &&
    /\[data-theme="dark"\] \.logo-ink-inv \{ display: block; \}/.test(cssSrc),
   'CSS 按 data-theme 切换深浅两版 logo');

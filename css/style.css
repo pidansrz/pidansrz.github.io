@@ -170,11 +170,12 @@ input:focus-visible {
 }
 .brand:hover { color: var(--accent); }
 
-/* 顶栏 / 页脚 logo 图：深浅两版按主题切换（双 img + display） */
-.brand-logo { display: none; width: auto; }
+/* 深浅两版 logo 默认都隐藏，按主题只显示一个（与尺寸类解耦） */
+.logo-ink, .logo-ink-inv { display: none; }
 .logo-ink { display: block; }
 [data-theme="dark"] .logo-ink { display: none; }
 [data-theme="dark"] .logo-ink-inv { display: block; }
+.brand-logo { width: auto; }
 .site-header .brand-logo { height: 30px; }
 .site-footer .brand-logo { height: 24px; }
 /* 首页 Masthead 大标题位：logo 作视觉主角（h1 语义保留，alt 承载文字） */
@@ -183,8 +184,6 @@ input:focus-visible {
 @media (max-width: 640px) {
   .masthead-logo { height: 60px; }
 }
-/* 深色主题兜底：万一 JS 没跑（data-theme 未设置）不显示反色版 */
-html:not([data-theme]) .logo-ink-inv { display: none; }
 
 .nav-links {
   display: flex;

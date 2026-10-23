@@ -977,7 +977,10 @@ function renderShell(active) {
     header.className = "site-header";
     header.innerHTML =
       '<div class="wrap nav">' +
-        '<a class="brand" href="index.html">' + esc(SITE.title) + "</a>" +
+        '<a class="brand" href="index.html">' +
+          '<img class="brand-logo logo-ink" src="images/logo-pidan.png" alt="' + esc(SITE.title) + '">' +
+          '<img class="brand-logo logo-ink-inv" src="images/logo-pidan-light.png" alt="' + esc(SITE.title) + '">' +
+        "</a>" +
         '<nav class="nav-links" id="navLinks">' + links +
           '<button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-label="切换主题"></button>' +
         "</nav>" +
@@ -992,7 +995,10 @@ function renderShell(active) {
     footer.className = "site-footer";
     footer.innerHTML =
       '<div class="wrap footer-inner">' +
-        '<div><div class="f-brand">' + esc(SITE.title) + "</div>" +
+        '<div><div class="f-brand">' +
+          '<img class="brand-logo logo-ink" src="images/logo-pidan.png" alt="' + esc(SITE.title) + '">' +
+          '<img class="brand-logo logo-ink-inv" src="images/logo-pidan-light.png" alt="' + esc(SITE.title) + '">' +
+        "</div>" +
         "<div>© " + SITE.startYear + "–" + y + " " + esc(SITE.author) + "　原创内容，转载请先来信</div></div>" +
         '<div class="footer-links">' +
           NAV.map(function (n) { return '<a href="' + n.href + '">' + n.text + "</a>"; }).join("") +

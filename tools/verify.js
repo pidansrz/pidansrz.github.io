@@ -455,6 +455,19 @@ ok(ids.linkCount.textContent.indexOf('共 ' + linkFiles.length + ' 篇') === 0,
   '显示收录数量：' + ids.linkCount.textContent);
 ok(/href="links\.html"/.test(ids['site-header'].innerHTML), '顶栏/页脚导航含「荐读」入口');
 
+// logo：深浅两版 PNG + 按主题切换（.brand 用 img，不用文字）
+const headerSrc = ids['site-header'].innerHTML;
+ok(/class="brand" href="index\.html"><img class="brand-logo logo-ink" src="images\/logo-pidan\.png"/.test(headerSrc),
+  '顶栏 brand 用 logo 图（深色字版）');
+ok(/src="images\/logo-pidan-light\.png"/.test(headerSrc), '顶栏同时带浅色字版（深色主题用）');
+ok(/alt="皮蛋瘦肉舟"/.test(headerSrc), 'logo img 带 alt（无障碍 + 图片挂了也有站名）');
+ok(fs.existsSync(path.join(ROOT, 'images/logo-pidan.png')) &&
+   fs.existsSync(path.join(ROOT, 'images/logo-pidan-light.png')), '两版 logo 文件都已生成');
+const cssSrc = fs.readFileSync(path.join(ROOT, 'css/style.css'), 'utf8');
+ok(/\[data-theme="dark"\] \.logo-ink \{ display: none; \}/.test(cssSrc) &&
+   /\[data-theme="dark"\] \.logo-ink-inv \{ display: block; \}/.test(cssSrc),
+  'CSS 按 data-theme 切换深浅两版 logo');
+
 // 静态详情页：全文 + 原文链接 + 绝对 og（微信分享要能读到）
 const firstLink = linkFiles[0].replace(/\.md$/i, '');
 const detailFile = path.join(linksDir, firstLink + '.html');

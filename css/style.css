@@ -177,6 +177,12 @@ input:focus-visible {
 [data-theme="dark"] .logo-ink-inv { display: block; }
 .site-header .brand-logo { height: 30px; }
 .site-footer .brand-logo { height: 24px; }
+/* 首页 Masthead 大标题位：logo 作视觉主角（h1 语义保留，alt 承载文字） */
+.masthead h1.masthead-title { margin: 0 0 14px; line-height: 1; }
+.masthead-logo { width: auto; height: 84px; }
+@media (max-width: 640px) {
+  .masthead-logo { height: 60px; }
+}
 /* 深色主题兜底：万一 JS 没跑（data-theme 未设置）不显示反色版 */
 html:not([data-theme]) .logo-ink-inv { display: none; }
 

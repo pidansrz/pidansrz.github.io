@@ -467,6 +467,11 @@ const cssSrc = fs.readFileSync(path.join(ROOT, 'css/style.css'), 'utf8');
 ok(/\[data-theme="dark"\] \.logo-ink \{ display: none; \}/.test(cssSrc) &&
    /\[data-theme="dark"\] \.logo-ink-inv \{ display: block; \}/.test(cssSrc),
   'CSS 按 data-theme 切换深浅两版 logo');
+// 首页 Masthead 大标题位也用 logo（h1 语义保留，alt 承载站名）
+const indexSrc = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+ok(/<h1 class="masthead-title">\s*<img class="masthead-logo logo-ink" src="images\/logo-pidan\.png" alt="皮蛋瘦肉舟">/.test(indexSrc),
+  '首页 Masthead 大标题位换成 logo 图');
+ok(/\.masthead-logo \{ width: auto; height: 84px; \}/.test(cssSrc), 'Masthead logo 桌面端 84px');
 
 // 静态详情页：全文 + 原文链接 + 绝对 og（微信分享要能读到）
 const firstLink = linkFiles[0].replace(/\.md$/i, '');

@@ -43,7 +43,7 @@
   --surface: #ffffff;
   --text: #1e1d1b;
   --text-2: #5e5a54;
-  --text-3: #9c968d;
+  --text-3: #767061;
   --rule: #e5e2db;
   --rule-strong: #d3cfc6;
   --accent: #8c3a3a;
@@ -74,7 +74,7 @@
   --surface: #1c1c1a;
   --text: #dedad3;
   --text-2: #a09b93;
-  --text-3: #6f6b64;
+  --text-3: #8d887f;
   --rule: #2e2e2b;
   --rule-strong: #3f3f3a;
   --accent: #cb8f8f;
@@ -83,6 +83,13 @@
   --mark: rgba(203, 143, 143, 0.22);
   --underline: rgba(203, 143, 143, 0.38);
   --cov-ink: rgba(222, 218, 211, 0.10);
+}
+
+/* 深色模式：正文与封面图片压暗一档，避免黑底上刺眼 */
+:root[data-theme="dark"] .article-body img,
+:root[data-theme="dark"] .article-cover img,
+:root[data-theme="dark"] .item-thumb img {
+  filter: brightness(0.88);
 }
 
 /* ---------- 占位封面配色（无头图时使用，按文章 id 稳定分配） ---------- */
@@ -633,20 +640,6 @@ mark {
   margin-bottom: 1.7em;
 }
 
-.article-body h2 {
-  margin: 2.8em 0 1em;
-  font-size: 1.22rem;
-  letter-spacing: 0.05em;
-}
-.article-body h2::before {
-  content: "";
-  display: block;
-  width: 32px;
-  height: 1px;
-  background: var(--accent);
-  margin-bottom: 16px;
-}
-
 /* 列表：用一条短横线做标记，比默认圆点安静 */
 .article-body ul,
 .article-body ol { margin: 0 0 1.5em; }
@@ -826,10 +819,11 @@ mark {
   font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0.18em;
-  color: var(--text-3);
-  margin: 2.6em 0 0.9em;
+  color: var(--text-2);
+  margin: 3em 0 0.9em;
 }
 .about-body p { margin: 0 0 1.4em; color: var(--text); }
+.about-body .support-panel { margin-top: 3em; }
 
 .info-list { list-style: none; padding: 0; margin: 0; }
 .info-list li {
@@ -1334,6 +1328,7 @@ body.reveal-instant .reveal {
   font-size: 1.16rem;
   font-weight: 600;
   line-height: 1.5;
+  letter-spacing: 0.05em;
 }
 .article-body h2::before {
   content: "";
@@ -1346,7 +1341,7 @@ body.reveal-instant .reveal {
 }
 .article-body h3 {
   margin: 2.1em 0 0.7em;
-  font-size: 1.04rem;
+  font-size: 1.12rem;
   font-weight: 600;
   line-height: 1.55;
 }

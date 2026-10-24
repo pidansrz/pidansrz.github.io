@@ -89,7 +89,7 @@
 :root[data-theme="dark"] .article-body img,
 :root[data-theme="dark"] .article-cover img,
 :root[data-theme="dark"] .item-thumb img {
-  filter: brightness(0.88);
+  filter: brightness(0.75);
 }
 
 /* ---------- 占位封面配色（无头图时使用，按文章 id 稳定分配） ---------- */

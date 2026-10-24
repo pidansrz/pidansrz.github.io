@@ -8,9 +8,27 @@
  *   · 无标签系统
  *
  * 主题：明亮（默认）/ 深色，通过 <html data-theme="dark"> 切换
- * 字体全部使用系统字体栈——不依赖任何外部字体服务
- * （Google Fonts 在中国大陆无法访问，会拖慢加载）
+ * 字体以系统字体栈为主；另自托管一款拉丁衬线（Source Serif 4，仅拉丁子集，
+ * 位于 fonts/），用于正文与标题里的英文、数字，使中英混排更协调且运行期零外部依赖
  * =========================================================== */
+
+/* ---------- 自托管拉丁衬线（仅覆盖拉丁字母/数字/标点，中文仍走系统字体栈） ----------
+ * 用途：替代正文与标题里英文、数字的 Georgia/Times，让中英混排更有设计感。
+ * 文件在 fonts/，构建与线上都不依赖任何外部字体服务。 */
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/source-serif-4-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/source-serif-4-latin-600-normal.woff2") format("woff2");
+}
 
 /* ---------- 主题变量 ---------- */
 :root {
@@ -31,8 +49,12 @@
   /* 占位封面上那个大字的颜色 */
   --cov-ink: rgba(30, 29, 27, 0.11);
 
-  --font-serif: "Songti SC", "Source Han Serif SC", "Noto Serif CJK SC", "STSong", "SimSun", Georgia, "Times New Roman", serif;
-  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC", system-ui, sans-serif;
+  /* 拉丁文优先用自托管的 Source Serif 4；中文依次取 Songti SC / 思源宋体。
+     末位放 "Microsoft YaHei" 作为 Windows 的优雅降级：没有思源宋体时，
+     中文回退到雅黑（干净现代）而非 SimSun（宋体，屏幕观感老气）。 */
+  --font-serif: "Source Serif 4", "Songti SC", "Source Han Serif SC", "Noto Serif CJK SC", "STSong", Georgia, "Times New Roman", "Microsoft YaHei", serif;
+  /* 现代顺序：ui-sans-serif / system-ui 优先；Windows 补 Segoe UI，中文雅黑/思源黑体 */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
 
   /* 阅读页宽度 / 首页（含右侧栏）宽度 / 右栏宽度 */
   --maxw: 760px;
@@ -85,6 +107,12 @@ body {
   font-size: 17px;
   line-height: 1.9;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* 开启连字与字距微调，拉丁字母（如 fi/fl、英文引号）更精致 */
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1;
+  /* 自动光学尺寸：小字号更紧实、大字号更舒展（Source Serif 4 支持） */
+  optical-sizing: auto;
   /* 长网址 / 无空格串不撑破窄屏 */
   overflow-wrap: break-word;
   word-break: break-word;
@@ -576,6 +604,12 @@ mark {
   line-height: 2.05;
   color: var(--text);
   letter-spacing: 0.015em;
+  /* 正文两端对齐：中文按字距、英文按词间距均匀铺满，版心更挺括 */
+  text-align: justify;
+  text-justify: inter-character;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1;
+  optical-sizing: auto;
   /* 行尾的句号、引号悬挂到版心外侧，右边缘更齐整（Safari / Chrome 支持，其余浏览器忽略） */
   hanging-punctuation: allow-end;
 }

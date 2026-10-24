@@ -9,14 +9,55 @@
   var saved = null;
   try { saved = localStorage.getItem(KEY); } catch (e) {}
 
-  var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-  var theme = saved || (prefersDark ? "dark" : "light");
+  // 按访客本地时间排程：19:00–次日 07:00 为暗色，其余为浅色
+  var DARK_START = 19;
+  var DARK_END = 7;
+  function themeByTime(h) {
+    return (h >= DARK_START || h < DARK_END) ? "dark" : "light";
+  }
+
+  // 有手动保存的偏好 → 尊重它；否则按访客本地时间定明暗（不写 localStorage）
+  var theme = (saved === "dark" || saved === "light")
+    ? saved
+    : themeByTime(new Date().getHours());
   root.setAttribute("data-theme", theme);
+
+  var flipTimer = null;
+  function clearFlip() {
+    if (flipTimer) { clearTimeout(flipTimer); flipTimer = null; }
+  }
+  // 未手动选过的人：在下一个明暗边界自动翻转（仅按本地时间，不持久化）
+  function scheduleFlip() {
+    clearFlip();
+    if (saved) return; // 手动选过 → 时间规则不再打扰
+    var now = new Date();
+    var h = now.getHours();
+    var next = new Date(now);
+    if (h < DARK_END) {            // 暗色区间尾段，下个边界变亮
+      next.setHours(DARK_END, 0, 0, 0);
+    } else if (h >= DARK_START) {  // 暗色区间首段，下个边界是次日变亮
+      next.setDate(next.getDate() + 1);
+      next.setHours(DARK_END, 0, 0, 0);
+    } else {                       // 浅色区间，下个边界变暗
+      next.setHours(DARK_START, 0, 0, 0);
+    }
+    var ms = next - now;
+    if (typeof setTimeout === "function") {
+      flipTimer = setTimeout(function () {
+        if (saved) return;
+        var t = themeByTime(new Date().getHours());
+        root.setAttribute("data-theme", t);
+        syncIcon(t);
+        scheduleFlip();
+      }, ms);
+    }
+  }
 
   function apply(next) {
     root.setAttribute("data-theme", next);
-    try { localStorage.setItem(KEY, next); } catch (e) {}
+    try { localStorage.setItem(KEY, next); saved = next; } catch (e) {}
     syncIcon(next);
+    clearFlip(); // 一旦手动选择，时间规则即失效
   }
 
   var ICON_MOON =
@@ -44,6 +85,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     syncIcon(root.getAttribute("data-theme"));
+    scheduleFlip();
 
     /* 顶栏是 app.js 的 renderShell() 动态渲染的，而本脚本在 <head> 里、
        DOMContentLoaded 先于 app.js 触发 —— 那时 #themeToggle 还没生成，

@@ -908,11 +908,11 @@ mark {
 /* 支持区块本体（首页右栏 / 关于页共用同一段 HTML） */
 .support-panel h2 {
   margin: 0 0 0.9em;
-  font-family: var(--font-sans);
-  font-size: 0.82rem;
-  font-weight: 500;
-  letter-spacing: 0.18em;
-  color: var(--text-3);
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-2);
 }
 .support-panel .support-note {
   margin: 0 0 1.5em;

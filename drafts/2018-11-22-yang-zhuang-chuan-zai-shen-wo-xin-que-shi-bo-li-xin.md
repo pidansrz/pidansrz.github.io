@@ -4,9 +4,8 @@ date: 2018-11-22
 excerpt: 你看，公共事件的舆论转变，就是这么快。前一天忙不迭到妇联道歉的俞敏洪，突然可以轻松一下了。
 cover: images/2018-11-22-yang-zhuang-chuan-zai-shen-wo-xin-que-shi-bo-li-xin/cover.jpg
 coverAlt: 洋装穿在身，我心却是玻璃心
-id: 2018-11-22-yang-zhuang-chuan-zai-shen-wo-xin-que-shi-bo-li-xin
+id: 2018-11-22-9mv
 ---
-
 你看，公共事件的舆论转变，就是这么快。前一天忙不迭到妇联道歉的俞敏洪，突然可以轻松一下了。因为，新的目标出现了。
 
 D&G，好像就是那个我无数次在路过，但完全无意识要走进去的店面。

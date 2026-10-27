@@ -4,7 +4,7 @@ date: 2020-03-17
 excerpt: 粥爷我自认是一个嘴拙的人，吵不来架，说不来话，满肚子挖苦的想法，却从来没有用语言成功表达过。
 cover: images/2020-03-17-cong-yi-ge-yu-yan-lei-zong-yi-de-wei-ji-xiang-dao-de/cover.jpg
 coverAlt: 从一个语言类综艺的危机想到的
-id: 2020-03-17-cong-yi-ge-yu-yan-lei-zong-yi-de-wei-ji-xiang-dao-de
+id: 2020-03-17-9ej
 ---
 粥爷我自认是一个嘴拙的人，吵不来架，说不来话，满肚子挖苦的想法，却从来没有用语言成功表达过。
 

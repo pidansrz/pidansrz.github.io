@@ -4,7 +4,7 @@ date: 2019-11-08
 excerpt: 又是一年记者节，千言万语却不知从何说起。告别新闻以后，我也仿佛开始失去了讲述故事的能力，
 cover: images/2019-11-08-ji-zhe-jie-jian-du-bao-wei-ni-de-zhen-xiang-zhi-dao-shi-jie-beng-ta/cover.jpg
 coverAlt: 【记者节荐读】保卫你的真相，直到世界崩塌
-id: 2019-11-08-ji-zhe-jie-jian-du-bao-wei-ni-de-zhen-xiang-zhi-dao-shi-jie-beng-ta
+id: 2019-11-08-wfm
 ---
 又是一年记者节，千言万语却不知从何说起。告别新闻以后，我也仿佛开始失去了讲述故事的能力，亦或是我本身就不是一个善于表达和讲故事的人。好在，总有人比我会说故事，总有人能够比我更会运用文字直击人们的内心。
 

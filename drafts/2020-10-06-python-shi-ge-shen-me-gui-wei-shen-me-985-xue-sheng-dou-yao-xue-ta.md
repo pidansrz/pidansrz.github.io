@@ -4,7 +4,7 @@ date: 2020-10-06
 excerpt: 昨天看到一个学妹发了一条朋友圈，有些沮丧。大抵意思是：
 cover: images/2020-10-06-python-shi-ge-shen-me-gui-wei-shen-me-985-xue-sheng-dou-yao-xue-ta/cover.jpg
 coverAlt: Python是个什么鬼？为什么985学生都要学它？！
-id: 2020-10-06-python-shi-ge-shen-me-gui-wei-shen-me-985-xue-sheng-dou-yao-xue-ta
+id: 2020-10-06-1a9
 ---
 昨天看到一个学妹发了一条朋友圈，有些沮丧。大抵意思是：
 

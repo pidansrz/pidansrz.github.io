@@ -4,7 +4,7 @@ date: 2020-07-28
 excerpt: 在你阅读这篇文章以前，我必须提醒一下：
 cover: images/2020-07-28-ren-min-ying-gai-yong-you-di-su-de-quan-li/cover.jpg
 coverAlt: 人民应该拥有低俗的权利
-id: 2020-07-28-ren-min-ying-gai-yong-you-di-su-de-quan-li
+id: 2020-07-28-wao
 ---
 在你阅读这篇文章以前，我必须提醒一下：
 

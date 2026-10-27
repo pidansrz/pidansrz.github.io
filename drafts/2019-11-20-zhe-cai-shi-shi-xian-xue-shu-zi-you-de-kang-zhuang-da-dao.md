@@ -4,7 +4,7 @@ date: 2019-11-20
 excerpt: 今天，粥爷看到了一篇别具一格的论文，之所以别具一格，是因为与其说它是一篇论文，
 cover: images/2019-11-20-zhe-cai-shi-shi-xian-xue-shu-zi-you-de-kang-zhuang-da-dao/cover.jpg
 coverAlt: 这才是实现学术自由的康庄大道
-id: 2019-11-20-zhe-cai-shi-shi-xian-xue-shu-zi-you-de-kang-zhuang-da-dao
+id: 2019-11-20-33t
 ---
 今天，粥爷看到了一篇别具一格的论文，之所以别具一格，是因为与其说它是一篇论文，
 

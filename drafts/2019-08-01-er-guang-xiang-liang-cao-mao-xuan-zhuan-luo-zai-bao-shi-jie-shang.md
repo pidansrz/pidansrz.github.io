@@ -4,7 +4,7 @@ date: 2019-08-01
 excerpt: 关于人的脾气，有首民谣唱的非常好：
 cover: images/2019-08-01-er-guang-xiang-liang-cao-mao-xuan-zhuan-luo-zai-bao-shi-jie-shang/cover.jpg
 coverAlt: 耳光响亮，草帽旋转落在保时捷上
-id: 2019-08-01-er-guang-xiang-liang-cao-mao-xuan-zhuan-luo-zai-bao-shi-jie-shang
+id: 2019-08-01-tmu
 ---
 关于人的脾气，有首民谣唱的非常好：
 

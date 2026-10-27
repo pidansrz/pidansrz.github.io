@@ -4,7 +4,7 @@ date: 2019-10-28
 excerpt: 这一周，区块链注定是最火热的词汇。特推旧文一篇，让大家看看区块链到底是个啥！
 cover: images/2019-10-28-ni-dui-qu-kuai-lian-de-li-liang-yi-wu-suo-zhi/cover.jpg
 coverAlt: 你对区块链的力量一无所知
-id: 2019-10-28-ni-dui-qu-kuai-lian-de-li-liang-yi-wu-suo-zhi
+id: 2019-10-28-vxl
 ---
 这一周，区块链注定是最火热的词汇。特推旧文一篇，让大家看看区块链到底是个啥！
 

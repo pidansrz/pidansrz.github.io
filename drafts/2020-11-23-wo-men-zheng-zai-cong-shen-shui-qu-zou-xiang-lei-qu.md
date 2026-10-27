@@ -4,9 +4,8 @@ date: 2020-11-23
 excerpt: 停了一周多没有更新，并非粥爷我懒惰，而是新闻越来越单调，种种荒唐之事，早已说过多次，
 cover: images/2020-11-23-wo-men-zheng-zai-cong-shen-shui-qu-zou-xiang-lei-qu/cover.jpg
 coverAlt: 我们正在从「深水区」走向「雷区」
-id: 2020-11-23-wo-men-zheng-zai-cong-shen-shui-qu-zou-xiang-lei-qu
+id: 2020-11-23-8s8
 ---
-
 停了一周多没有更新，并非粥爷我懒惰，而是新闻越来越单调，种种荒唐之事，早已说过多次，可偏偏一而再，再而三发生，不免让人有点绝望和悲伤。
 
 有一天，朋友突然问道，这几年怎么到处是雷？

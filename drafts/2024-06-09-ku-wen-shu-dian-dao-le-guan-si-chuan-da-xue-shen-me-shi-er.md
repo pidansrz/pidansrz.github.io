@@ -3,7 +3,7 @@ title: 库闻书店倒了，关四川大学什么事儿？
 date: 2024-06-09
 cover: images/2024-06-09-ku-wen-shu-dian-dao-le-guan-si-chuan-da-xue-shen-me-shi-er/cover.jpg
 coverAlt: 库闻书店倒了，关四川大学什么事儿？
-id: 2024-06-09-ku-wen-shu-dian-dao-le-guan-si-chuan-da-xue-shen-me-shi-er
+id: 2024-06-09-272
 ---
 前几天就在小红书上四川大学望江校区旁的库闻书店要关张的消息。说真的，现如今这个环境，商店关门是一件过于频繁的事情，原因究竟是什么，明白人其实都很清楚。但有意思的是，著名蓉吹、不太行评论员加书店老板张丰认为，书店关门源于四川大学的封闭，也因此引来一些川大人的不忿。
 

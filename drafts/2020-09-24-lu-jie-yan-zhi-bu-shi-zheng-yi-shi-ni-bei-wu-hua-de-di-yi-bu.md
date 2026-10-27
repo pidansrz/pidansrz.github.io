@@ -4,7 +4,7 @@ date: 2020-09-24
 excerpt: 从印刷时代走向影像时代，人们从钟情于文字到沉沦于画面，文字让人深邃思考，
 cover: images/2020-09-24-lu-jie-yan-zhi-bu-shi-zheng-yi-shi-ni-bei-wu-hua-de-di-yi-bu/cover.jpg
 coverAlt: 撸姐|颜值不是正义，是你被物化的第一步
-id: 2020-09-24-lu-jie-yan-zhi-bu-shi-zheng-yi-shi-ni-bei-wu-hua-de-di-yi-bu
+id: 2020-09-24-qxk
 ---
 ![](images/2020-09-24-lu-jie-yan-zhi-bu-shi-zheng-yi-shi-ni-bei-wu-hua-de-di-yi-bu/img_01.jpg)
 

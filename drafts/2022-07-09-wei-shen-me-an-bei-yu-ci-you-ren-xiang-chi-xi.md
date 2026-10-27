@@ -4,7 +4,7 @@ date: 2022-07-09
 excerpt: 「 安倍晋三遭枪击身亡 」
 cover: images/2022-07-09-wei-shen-me-an-bei-yu-ci-you-ren-xiang-chi-xi/cover.jpg
 coverAlt: 为什么安倍遇刺，有人想「吃席」？
-id: 2022-07-09-wei-shen-me-an-bei-yu-ci-you-ren-xiang-chi-xi
+id: 2022-07-09-0ds
 ---
 ![](images/2022-07-09-wei-shen-me-an-bei-yu-ci-you-ren-xiang-chi-xi/img_01.jpg)
 

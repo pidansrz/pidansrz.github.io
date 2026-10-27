@@ -4,7 +4,7 @@ date: 2020-10-06
 excerpt: 本人女，爱好男，这个国庆本来过得平静祥和，但是suddenly，我突然变成了“MC小刘”，
 cover: images/2020-10-06-wo-shi-mc-yu-shi-meng-nan-xiao-liu-gan-xie-he-zi-shi-yan-shi-dai-wo-zu/cover.jpg
 coverAlt: 我是MC浴室猛男小刘，感谢“赫兹实验室”带我做变性手术
-id: 2020-10-06-wo-shi-mc-yu-shi-meng-nan-xiao-liu-gan-xie-he-zi-shi-yan-shi-dai-wo-zu
+id: 2020-10-06-i6w
 ---
 本人女，爱好男，这个国庆本来过得平静祥和，但是suddenly，我突然变成了“MC小刘”，性别男爱好男，长期流连同志聚居地，可以十多天不出场子，玩群P，玩轮B，成为狂野的代言人。
 

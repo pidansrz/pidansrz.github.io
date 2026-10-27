@@ -4,7 +4,7 @@ date: 2021-08-03
 excerpt: 在中国，鸦片这个称呼，有着极其特殊的意义。
 cover: images/2021-08-03-teng-xun-men-fang-bu-zhu-bu-fu-ze-ren-de-jia-zhang/cover.jpg
 coverAlt: 「腾讯」们防不住不负责任的家长
-id: 2021-08-03-teng-xun-men-fang-bu-zhu-bu-fu-ze-ren-de-jia-zhang
+id: 2021-08-03-f4o
 ---
 ![](images/2021-08-03-teng-xun-men-fang-bu-zhu-bu-fu-ze-ren-de-jia-zhang/img_01.jpg)
 

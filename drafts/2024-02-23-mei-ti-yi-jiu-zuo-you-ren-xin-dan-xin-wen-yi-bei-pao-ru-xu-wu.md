@@ -4,7 +4,7 @@ date: 2024-02-23
 excerpt: 2024龙年一开场，舆论场的沉闷与无聊，就因一则「网红博主在巴黎捡到小学生寒假作业」的段子被…
 cover: images/2024-02-23-mei-ti-yi-jiu-zuo-you-ren-xin-dan-xin-wen-yi-bei-pao-ru-xu-wu/cover.jpg
 coverAlt: 媒体依旧左右人心，但新闻已被抛入虚无
-id: 2024-02-23-mei-ti-yi-jiu-zuo-you-ren-xin-dan-xin-wen-yi-bei-pao-ru-xu-wu
+id: 2024-02-23-in0
 ---
 ![](images/2024-02-23-mei-ti-yi-jiu-zuo-you-ren-xin-dan-xin-wen-yi-bei-pao-ru-xu-wu/img_01.jpg)
 

@@ -4,7 +4,7 @@ date: 2020-10-03
 excerpt: 神秘组织清虚宫的大弟子姜子牙，奉命斩杀大反派九尾狐，却因一时之善，功亏一篑，
 cover: images/2020-10-03-jiang-zi-ya-hao-de-gu-shi-bu-kao-bian-shen-kao-cang-sheng/cover.jpg
 coverAlt: 「姜子牙」：好的故事不靠变身，靠苍生
-id: 2020-10-03-jiang-zi-ya-hao-de-gu-shi-bu-kao-bian-shen-kao-cang-sheng
+id: 2020-10-03-moe
 ---
 ![](images/2020-10-03-jiang-zi-ya-hao-de-gu-shi-bu-kao-bian-shen-kao-cang-sheng/img_01.jpg)
 

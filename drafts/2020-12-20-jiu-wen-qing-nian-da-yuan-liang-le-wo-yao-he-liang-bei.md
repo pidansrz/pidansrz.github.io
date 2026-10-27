@@ -4,7 +4,7 @@ date: 2020-12-20
 excerpt: 12月18日，「青年大院」终于凉了！
 cover: images/2020-12-20-jiu-wen-qing-nian-da-yuan-liang-le-wo-yao-he-liang-bei/cover.jpg
 coverAlt: 旧文|青年大院凉了，我要喝两杯
-id: 2020-12-20-jiu-wen-qing-nian-da-yuan-liang-le-wo-yao-he-liang-bei
+id: 2020-12-20-nkf
 ---
 12月18日，「青年大院」终于凉了！
 

@@ -4,7 +4,7 @@ date: 2018-04-09
 excerpt: 你看，又有一个记者成功了，胡玮炜，身家达到了亿这个级别。
 cover: images/2018-04-09-farewellmobikeand-hu-wei-wei/cover.jpg
 coverAlt: Farewell，mobikeand胡玮炜
-id: 2018-04-09-farewellmobikeand-hu-wei-wei
+id: 2018-04-09-li2
 ---
 一
 

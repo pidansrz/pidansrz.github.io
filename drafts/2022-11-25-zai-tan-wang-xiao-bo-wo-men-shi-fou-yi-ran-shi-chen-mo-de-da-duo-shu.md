@@ -4,7 +4,7 @@ date: 2022-11-25
 excerpt: 我们是否依然是沉默的大多数？
 cover: images/2022-11-25-zai-tan-wang-xiao-bo-wo-men-shi-fou-yi-ran-shi-chen-mo-de-da-duo-shu/cover.jpg
 coverAlt: 再谈王小波：我们是否依然是沉默的大多数？
-id: 2022-11-25-zai-tan-wang-xiao-bo-wo-men-shi-fou-yi-ran-shi-chen-mo-de-da-duo-shu
+id: 2022-11-25-hmx
 ---
 我们是否依然是沉默的大多数？
 

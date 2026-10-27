@@ -4,9 +4,8 @@ date: 2021-09-25
 excerpt: 谭尚忍 鲁迅吊唁杨杏佛 1974年
 cover: images/2021-09-25-cong-lai-ru-ci-bian-dui-me/cover.jpg
 coverAlt: 从来如此，便对么？
-id: 2021-09-25-cong-lai-ru-ci-bian-dui-me
+id: 2021-09-25-2q0
 ---
-
 谭尚忍 鲁迅吊唁杨杏佛 1974年
 
 谨以此旧文，纪念先生诞辰140周年。

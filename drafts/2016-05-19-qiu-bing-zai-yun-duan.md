@@ -4,7 +4,7 @@ date: 2016-05-19
 excerpt: 回老家的飞机上旁边坐了个女的。30岁左右，长得还行，就是打扮偏俗气，跟翠花似的。
 cover: images/2016-05-19-qiu-bing-zai-yun-duan/cover.jpg
 coverAlt: 邱兵|在云端
-id: 2016-05-19-qiu-bing-zai-yun-duan
+id: 2016-05-19-04k
 ---
 邱兵丨文
 

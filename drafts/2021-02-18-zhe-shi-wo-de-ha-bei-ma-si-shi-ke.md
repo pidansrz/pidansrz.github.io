@@ -3,7 +3,7 @@ title: 这是我的哈贝马斯时刻
 date: 2021-02-18
 cover: images/2021-02-18-zhe-shi-wo-de-ha-bei-ma-si-shi-ke/cover.jpg
 coverAlt: 这是我的哈贝马斯时刻
-id: 2021-02-18-zhe-shi-wo-de-ha-bei-ma-si-shi-ke
+id: 2021-02-18-sg6
 ---
 ![](images/2021-02-18-zhe-shi-wo-de-ha-bei-ma-si-shi-ke/img_01.jpg)
 

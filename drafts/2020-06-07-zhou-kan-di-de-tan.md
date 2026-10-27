@@ -4,7 +4,7 @@ date: 2020-06-07
 excerpt: 这一周，大家津津乐道的，恐怕就是出街摆地摊这件事。
 cover: images/2020-06-07-zhou-kan-di-de-tan/cover.jpg
 coverAlt: 【舟侃】地的摊
-id: 2020-06-07-zhou-kan-di-de-tan
+id: 2020-06-07-t3i
 ---
 这一周，大家津津乐道的，恐怕就是出街摆地摊这件事。也许，对于终日出没在写字楼的Mary、Andrew们来说，地摊是那么遥远的事物，在他们的记忆中，消费就是穿梭在各种MALL中，一站式解决自己的所有需求。
 

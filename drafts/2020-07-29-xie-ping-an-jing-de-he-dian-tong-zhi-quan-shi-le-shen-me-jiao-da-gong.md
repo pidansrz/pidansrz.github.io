@@ -4,7 +4,7 @@ date: 2020-07-29
 excerpt: 自从把文字作为职业以后，粥爷我还是读了不少书，写了不少文，自认为还是有那么一点判断力，
 cover: images/2020-07-29-xie-ping-an-jing-de-he-dian-tong-zhi-quan-shi-le-shen-me-jiao-da-gong/cover.jpg
 coverAlt: 写「平安经」的贺电同志，诠释了什么叫大公无私
-id: 2020-07-29-xie-ping-an-jing-de-he-dian-tong-zhi-quan-shi-le-shen-me-jiao-da-gong
+id: 2020-07-29-d96
 ---
 自从把文字作为职业以后，粥爷我还是读了不少书，写了不少文，自认为还是有那么一点判断力，能够看得出好坏，分得出真假。
 

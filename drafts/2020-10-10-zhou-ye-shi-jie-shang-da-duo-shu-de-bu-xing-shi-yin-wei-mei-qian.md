@@ -4,7 +4,7 @@ date: 2020-10-10
 excerpt: 今晚回家的地铁上，粥爷看到了两个新闻。
 cover: images/2020-10-10-zhou-ye-shi-jie-shang-da-duo-shu-de-bu-xing-shi-yin-wei-mei-qian/cover.jpg
 coverAlt: 粥爷|世界上大多数的不幸，是因为没钱
-id: 2020-10-10-zhou-ye-shi-jie-shang-da-duo-shu-de-bu-xing-shi-yin-wei-mei-qian
+id: 2020-10-10-z87
 ---
 今晚回家的地铁上，粥爷看到了两个新闻。
 

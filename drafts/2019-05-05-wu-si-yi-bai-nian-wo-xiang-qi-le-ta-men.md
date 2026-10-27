@@ -4,7 +4,7 @@ date: 2019-05-05
 excerpt: 你看，这么多年过去了，才惊觉过去要求全文背诵的鲁迅文章，才是真的好。
 cover: images/2019-05-05-wu-si-yi-bai-nian-wo-xiang-qi-le-ta-men/cover.jpg
 coverAlt: 五四一百年，我想起了他们
-id: 2019-05-05-wu-si-yi-bai-nian-wo-xiang-qi-le-ta-men
+id: 2019-05-05-wnh
 ---
 你看，这么多年过去了，才惊觉过去要求全文背诵的鲁迅文章，才是真的好。
 

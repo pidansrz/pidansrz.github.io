@@ -4,9 +4,8 @@ date: 2020-12-06
 excerpt: 满打满算到今天，理塘的丁真，已经火了快一个月了。
 cover: images/2020-12-06-zhou-kan-ding-zhen-jiu-shi-chu-men/cover.jpg
 coverAlt: 【舟侃】丁真就是楚门
-id: 2020-12-06-zhou-kan-ding-zhen-jiu-shi-chu-men
+id: 2020-12-06-lpg
 ---
-
 满打满算到今天，理塘的丁真，已经火了快一个月了。
 
 在这个互联网和娱乐主宰大多数人生活的时代，粥爷我常常纳闷，一个人从获得流量到暴得大名，往往来得毫无征兆，让人猝不及防。

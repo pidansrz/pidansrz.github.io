@@ -4,7 +4,7 @@ date: 2022-01-03
 excerpt: 一年一度，又到了各大媒体发布元旦新年献词的时候了。
 cover: images/2022-01-03-cong-lei-liu-man-mian-dao-jue-bu-tang-ping-nan-fang-zhou-mo-de-xin-nia/cover.jpg
 coverAlt: 从\"泪流满面\"到\"绝不躺平\"，南方周末的新年献词怎么了？
-id: 2022-01-03-cong-lei-liu-man-mian-dao-jue-bu-tang-ping-nan-fang-zhou-mo-de-xin-nia
+id: 2022-01-03-w86
 ---
 一年一度，又到了各大媒体发布元旦新年献词的时候了。事实上，新年献词这样的文体，并不是当代独有；只不过它成为当代的一种流行，的确是这20余年来才有的现象。
 

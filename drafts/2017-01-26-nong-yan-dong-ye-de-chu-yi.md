@@ -4,9 +4,8 @@ date: 2017-01-26
 excerpt: 新年快乐！这大概是这几日听到的最多话语了。
 cover: images/2017-01-26-nong-yan-dong-ye-de-chu-yi/cover.jpg
 coverAlt: 浓烟冬夜的刍议
-id: 2017-01-26-nong-yan-dong-ye-de-chu-yi
+id: 2017-01-26-lft
 ---
-
 ![](images/2017-01-26-nong-yan-dong-ye-de-chu-yi/img_01.jpg)
 
 新年快乐！这大概是这几日听到的最多话语了。从车站送罢即将回家过年的人，一个人坐地铁回家，地铁上为数不多的人，三三两两坐着，带着大包小包，却又无一例外低着头，摆弄这手机，丝毫不在乎旁边的人。

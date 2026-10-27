@@ -4,7 +4,7 @@ date: 2018-03-25
 excerpt: 中国竭三十年之力，避免在发展上升的关键阶段成为美国的直接对手，2018年恐再难避免。
 cover: images/2018-03-25-shui-shi-zhong-mei-mao-yi-zhan-duan-zi-zui-qiang-di-yi-ren-fei-ju-zuo/cover.jpg
 coverAlt: 谁是中美贸易战段子最强第一人？非局座莫属
-id: 2018-03-25-shui-shi-zhong-mei-mao-yi-zhan-duan-zi-zui-qiang-di-yi-ren-fei-ju-zuo
+id: 2018-03-25-kyh
 ---
 情势正在变糟。
 

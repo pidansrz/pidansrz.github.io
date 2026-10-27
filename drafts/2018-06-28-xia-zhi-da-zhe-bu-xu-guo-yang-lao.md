@@ -4,7 +4,7 @@ date: 2018-06-28
 excerpt: “大丈夫一生当为国为民，方为真正的侠之大者。”
 cover: images/2018-06-28-xia-zhi-da-zhe-bu-xu-guo-yang-lao/cover.jpg
 coverAlt: 侠之大者，不需国养老
-id: 2018-06-28-xia-zhi-da-zhe-bu-xu-guo-yang-lao
+id: 2018-06-28-uoe
 ---
 “大丈夫一生当为国为民，方为真正的侠之大者。”
 

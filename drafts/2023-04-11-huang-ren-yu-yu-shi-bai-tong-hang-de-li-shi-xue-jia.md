@@ -4,7 +4,7 @@ date: 2023-04-11
 excerpt: 「因此我们的故事只好在这里作悲剧性的结束。万历丁亥年的年鉴，是为历史上一部失败的总记录。」
 cover: images/2023-04-11-huang-ren-yu-yu-shi-bai-tong-hang-de-li-shi-xue-jia/cover.jpg
 coverAlt: 黄仁宇：与「失败」同行的历史学家
-id: 2023-04-11-huang-ren-yu-yu-shi-bai-tong-hang-de-li-shi-xue-jia
+id: 2023-04-11-y1o
 ---
 「因此我们的故事只好在这里作悲剧性的结束。万历丁亥年的年鉴，是为历史上一部失败的总记录。」
 

@@ -4,7 +4,7 @@ date: 2015-01-28
 excerpt: 按：尽管对于一个记者而言，传递信息，消除因为信息不对称而产生的不确定性是其天职。
 cover: images/2015-01-28-ye-du-ao-si-wei-xin-mei-you-shen-me-xin-wen/cover.jpg
 coverAlt: 【夜读】奥斯维辛没有什么新闻
-id: 2015-01-28-ye-du-ao-si-wei-xin-mei-you-shen-me-xin-wen
+id: 2015-01-28-lyx
 ---
 按：尽管对于一个记者而言，传递信息，消除因为信息不对称而产生的不确定性是其天职。但是，也请记住，不是什么题材都可以做新闻。因为，文字的力量除了承载信息之外，还能够要抚慰人心。
 

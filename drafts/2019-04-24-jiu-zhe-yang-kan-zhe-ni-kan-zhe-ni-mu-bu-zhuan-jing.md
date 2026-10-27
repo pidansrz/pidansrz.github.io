@@ -4,7 +4,7 @@ date: 2019-04-24
 excerpt: 你看，互联网技术的进步让很多事情变得越来越简单了。
 cover: images/2019-04-24-jiu-zhe-yang-kan-zhe-ni-kan-zhe-ni-mu-bu-zhuan-jing/cover.jpg
 coverAlt: 就这样看着你，看着你，目不转睛
-id: 2019-04-24-jiu-zhe-yang-kan-zhe-ni-kan-zhe-ni-mu-bu-zhuan-jing
+id: 2019-04-24-7z1
 ---
 你看，互联网技术的进步让很多事情变得越来越简单了。
 

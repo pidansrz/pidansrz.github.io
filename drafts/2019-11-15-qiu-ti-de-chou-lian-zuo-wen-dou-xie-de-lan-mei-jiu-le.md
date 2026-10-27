@@ -4,7 +4,7 @@ date: 2019-11-15
 excerpt: 昨晚，中国足球实力发挥一如既往的稳定，又一次毫无悬念的输了，以前是输给日韩，后来是输给越南，
 cover: images/2019-11-15-qiu-ti-de-chou-lian-zuo-wen-dou-xie-de-lan-mei-jiu-le/cover.jpg
 coverAlt: 球踢得臭，连作文都写得烂，没救了
-id: 2019-11-15-qiu-ti-de-chou-lian-zuo-wen-dou-xie-de-lan-mei-jiu-le
+id: 2019-11-15-0zp
 ---
 昨晚，中国足球实力发挥一如既往的稳定，又一次毫无悬念的输了，以前是输给日韩，后来是输给越南，现在则是三番五次输给叙利亚，一个处于分裂和战火中的国家。
 

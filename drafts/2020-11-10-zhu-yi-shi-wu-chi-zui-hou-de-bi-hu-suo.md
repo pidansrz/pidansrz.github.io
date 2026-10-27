@@ -4,9 +4,8 @@ date: 2020-11-10
 excerpt: 对于被新冠病毒带来的恐惧笼罩将近一年的人类来说，今天的这个消息，或许是里程碑式的：
 cover: images/2020-11-10-zhu-yi-shi-wu-chi-zui-hou-de-bi-hu-suo/cover.jpg
 coverAlt: 主义是无耻最后的庇护所
-id: 2020-11-10-zhu-yi-shi-wu-chi-zui-hou-de-bi-hu-suo
+id: 2020-11-10-sxg
 ---
-
 对于被新冠病毒带来的恐惧笼罩将近一年的人类来说，今天的这个消息，或许是里程碑式的：
 
 由美国制药公司辉瑞和BioNTech开发生产的新冠疫苗经过初步实验显示，可以防止90％以上的群众感染新冠。

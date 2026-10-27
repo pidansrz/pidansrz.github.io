@@ -4,7 +4,7 @@ date: 2019-05-10
 excerpt: 一个多月以前，Jack马和强东刘都分别对996发表了看法。归结成一句话就是：
 cover: images/2019-05-10-ma-yun-de-69-lun-rang-wo-e-xin/cover.jpg
 coverAlt: 马云的“69”论让我恶心
-id: 2019-05-10-ma-yun-de-69-lun-rang-wo-e-xin
+id: 2019-05-10-lyw
 ---
 一个多月以前，Jack马和强东刘都分别对996发表了看法。归结成一句话就是：
 

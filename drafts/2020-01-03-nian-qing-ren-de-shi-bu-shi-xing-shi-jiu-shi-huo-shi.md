@@ -4,7 +4,7 @@ date: 2020-01-03
 excerpt: 其实，今天的我，是一直处于深深的危机感之中的。
 cover: images/2020-01-03-nian-qing-ren-de-shi-bu-shi-xing-shi-jiu-shi-huo-shi/cover.jpg
 coverAlt: 年轻人的事，不是幸事就是祸事
-id: 2020-01-03-nian-qing-ren-de-shi-bu-shi-xing-shi-jiu-shi-huo-shi
+id: 2020-01-03-1ck
 ---
 其实，今天的我，是一直处于深深的危机感之中的。
 

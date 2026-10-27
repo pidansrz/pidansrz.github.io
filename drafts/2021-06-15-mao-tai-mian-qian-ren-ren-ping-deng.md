@@ -4,7 +4,7 @@ date: 2021-06-15
 excerpt: 刚刚结束的2021年高考中，最有哲学味儿的作文题目，当属上海市。题目很简单，但也很深刻：
 cover: images/2021-06-15-mao-tai-mian-qian-ren-ren-ping-deng/cover.jpg
 coverAlt: 茅台面前，人人平等
-id: 2021-06-15-mao-tai-mian-qian-ren-ren-ping-deng
+id: 2021-06-15-n8h
 ---
 刚刚结束的2021年高考中，最有哲学味儿的作文题目，当属上海市。题目很简单，但也很深刻：
 

@@ -4,7 +4,7 @@ date: 2019-12-29
 excerpt: 说起来，这应该是2019年最后一篇更新，但很遗憾的是，
 cover: images/2019-12-29-yi-sheng-he-wo-men-yi-yang-shi-ren-bu-shi-shen/cover.jpg
 coverAlt: 医生和我们一样，是人不是神
-id: 2019-12-29-yi-sheng-he-wo-men-yi-yang-shi-ren-bu-shi-shen
+id: 2019-12-29-38b
 ---
 说起来，这应该是2019年最后一篇更新，但很遗憾的是，我不得不用一件令人悲伤的事情来做一个结尾。
 

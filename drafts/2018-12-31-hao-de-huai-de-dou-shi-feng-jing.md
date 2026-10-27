@@ -4,7 +4,7 @@ date: 2018-12-31
 excerpt: 岁月是一场有去无回的旅行，好的坏的全是风景。
 cover: images/2018-12-31-hao-de-huai-de-dou-shi-feng-jing/cover.jpg
 coverAlt: 好的坏的，都是风景
-id: 2018-12-31-hao-de-huai-de-dou-shi-feng-jing
+id: 2018-12-31-ztd
 ---
 你看，歌里唱的真好呀！
 

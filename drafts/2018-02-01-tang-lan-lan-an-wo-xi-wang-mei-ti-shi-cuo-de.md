@@ -4,7 +4,7 @@ date: 2018-02-01
 excerpt: 实在没有想到，邱兵当年“我心澎湃如昨”的澎湃新闻，
 cover: images/2018-02-01-tang-lan-lan-an-wo-xi-wang-mei-ti-shi-cuo-de/cover.jpg
 coverAlt: 汤兰兰案，我希望媒体是错的
-id: 2018-02-01-tang-lan-lan-an-wo-xi-wang-mei-ti-shi-cuo-de
+id: 2018-02-01-d93
 ---
 实在没有想到，邱兵当年“我心澎湃如昨”的澎湃新闻，居然发了这么一个专业操作极其低劣的新闻报道。
 

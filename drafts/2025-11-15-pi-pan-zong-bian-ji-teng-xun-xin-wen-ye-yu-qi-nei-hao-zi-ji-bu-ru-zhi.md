@@ -4,7 +4,7 @@ date: 2025-11-15
 excerpt: 一则由澎湃新闻出品，题为「旁白｜随意屏蔽新闻报道，腾讯何以成了媒体的“总编辑”」的调查报道，
 cover: images/2025-11-15-pi-pan-zong-bian-ji-teng-xun-xin-wen-ye-yu-qi-nei-hao-zi-ji-bu-ru-zhi/cover.jpg
 coverAlt: 批判「总编辑」腾讯：新闻业与其内耗自己不如指责他人？
-id: 2025-11-15-pi-pan-zong-bian-ji-teng-xun-xin-wen-ye-yu-qi-nei-hao-zi-ji-bu-ru-zhi
+id: 2025-11-15-9d7
 ---
 ![](images/2025-11-15-pi-pan-zong-bian-ji-teng-xun-xin-wen-ye-yu-qi-nei-hao-zi-ji-bu-ru-zhi/img_01.jpg)
 

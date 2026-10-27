@@ -3,7 +3,7 @@ title: 鸿茅药酒杯，不寻常的美，难赦免的zui
 date: 2019-12-24
 cover: images/2019-12-24-hong-mao-yao-jiu-bei-bu-xun-chang-de-mei-nan-she-mian-de-zui/cover.jpg
 coverAlt: 鸿茅药酒杯，不寻常的美，难赦免的zui
-id: 2019-12-24-hong-mao-yao-jiu-bei-bu-xun-chang-de-mei-nan-she-mian-de-zui
+id: 2019-12-24-2rd
 ---
 一
 

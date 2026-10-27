@@ -4,7 +4,7 @@ date: 2021-06-04
 excerpt: 这里是一个很宽容的国度，拥有一群很宽容的人民。
 cover: images/2021-06-04-yin-wei-ta-hai-shi-ge-hai-zi-suo-yi-bu-neng-tong-qing-he-zong-rong/cover.jpg
 coverAlt: 因为他还是个孩子，所以不能同情和纵容
-id: 2021-06-04-yin-wei-ta-hai-shi-ge-hai-zi-suo-yi-bu-neng-tong-qing-he-zong-rong
+id: 2021-06-04-zqx
 ---
 这里是一个很宽容的国度，拥有一群很宽容的人民。正因为如此，我们从自己的日常生活中总结出了很多宽容的形式，用以对抗生活的艰辛和层出不穷的矛盾。
 

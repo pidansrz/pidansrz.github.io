@@ -4,7 +4,7 @@ date: 2020-12-28
 excerpt: 昨天晚上，粥爷我的朋友圈突然被一张截图刷屏了。
 cover: images/2020-12-28-ni-wo-dou-zai-yong-li-di-huo-zhe-zhi-wei-sui-yin-ji-liang/cover.jpg
 coverAlt: 你我都在用力地活着，只为碎银几两
-id: 2020-12-28-ni-wo-dou-zai-yong-li-di-huo-zhe-zhi-wei-sui-yin-ji-liang
+id: 2020-12-28-bpp
 ---
 昨天晚上，粥爷我的朋友圈突然被一张截图刷屏了。
 

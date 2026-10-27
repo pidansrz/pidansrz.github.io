@@ -4,7 +4,7 @@ date: 2020-04-09
 excerpt: 果不出意料，方方将自己的封城日记结集出版，又引来无数人的谩骂与攻讦。
 cover: images/2020-04-09-zi-jia-de-shi-ji-bei-di-ren-liu-le-ge-quan-ben/cover.jpg
 coverAlt: 自家的史记被敌人留了个全本
-id: 2020-04-09-zi-jia-de-shi-ji-bei-di-ren-liu-le-ge-quan-ben
+id: 2020-04-09-qrr
 ---
 果不出意料，方方将自己的封城日记结集出版，又引来无数人的谩骂与攻讦。
 

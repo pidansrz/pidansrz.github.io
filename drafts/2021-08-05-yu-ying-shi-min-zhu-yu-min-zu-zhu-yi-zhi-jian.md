@@ -4,7 +4,7 @@ date: 2021-08-05
 excerpt: 著名历史学家余英时，于美国东部时间2021年8月1日凌晨在于睡梦中安详离世。
 cover: images/2021-08-05-yu-ying-shi-min-zhu-yu-min-zu-zhu-yi-zhi-jian/cover.jpg
 coverAlt: 余英时：民主与民族主义之间
-id: 2021-08-05-yu-ying-shi-min-zhu-yu-min-zu-zhu-yi-zhi-jian
+id: 2021-08-05-4ik
 ---
 著名历史学家余英时，于美国东部时间2021年8月1日凌晨在于睡梦中安详离世。今日特转发一篇他的旧文，纪念这位在中国历史、尤其是思想史和文化史方面有开创性研究的学者。
 

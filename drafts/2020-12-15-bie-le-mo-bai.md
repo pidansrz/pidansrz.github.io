@@ -4,7 +4,7 @@ date: 2020-12-15
 excerpt: 摩拜APP、摩拜微信小程序于昨晚(12月14日)23时59分停止服务和运营。
 cover: images/2020-12-15-bie-le-mo-bai/cover.jpg
 coverAlt: 别了，摩拜
-id: 2020-12-15-bie-le-mo-bai
+id: 2020-12-15-yyw
 ---
 摩拜APP、摩拜微信小程序于昨晚(12月14日)23时59分停止服务和运营。
 

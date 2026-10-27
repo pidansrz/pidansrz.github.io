@@ -4,7 +4,7 @@ date: 2023-12-31
 excerpt: 马上，2023年就将成为历史。纵然还没有结束，如无意外，无论从什么角度来回溯，
 cover: images/2023-12-31-lu-man-chang-zhi-jian-nan-yao-zou/cover.jpg
 coverAlt: 路漫长知艰难要走
-id: 2023-12-31-lu-man-chang-zhi-jian-nan-yao-zou
+id: 2023-12-31-c5u
 ---
 ![](images/2023-12-31-lu-man-chang-zhi-jian-nan-yao-zou/img_01.jpg)
 

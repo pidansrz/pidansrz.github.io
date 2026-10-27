@@ -4,9 +4,8 @@ date: 2026-09-06
 excerpt: 主啊，是时候了。夏日曾盛极一时。
 cover: images/2026-09-06-zhou-du-jiang-sheng-huo-jian-ji-zai-bi-qu-shi-geng-chang-jiu-de-li-lia/cover.jpg
 coverAlt: 粥读 | 将生活建基在比趋势更长久的力量上
-id: 2026-09-06-zhou-du-jiang-sheng-huo-jian-ji-zai-bi-qu-shi-geng-chang-jiu-de-li-lia
+id: 2026-09-06-jlt
 ---
-
 主啊，是时候了。夏日曾盛极一时。
 
 ——里尔克《秋日》

@@ -4,7 +4,7 @@ date: 2018-03-20
 excerpt: 你看，这个世界实在是变得太快，上一秒中，你还沉浸在知识可能带给你的欢愉之中，而下一秒，
 cover: images/2018-03-20-ni-xue-de-zhi-shi-zai-wo-yan-li-yi-wen-bu-zhi/cover.jpg
 coverAlt: 你学的知识，在我眼里一文不值
-id: 2018-03-20-ni-xue-de-zhi-shi-zai-wo-yan-li-yi-wen-bu-zhi
+id: 2018-03-20-xgp
 ---
 一
 

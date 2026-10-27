@@ -4,7 +4,7 @@ date: 2020-03-14
 excerpt: 媒体和其他行业一样，都是有鄙视链的。
 cover: images/2020-03-14-fa-tong-gao-kong-pa-bu-neng-ba-di-qiu-guan-qi-lai/cover.jpg
 coverAlt: 发通稿恐怕不能「把地球管起来」
-id: 2020-03-14-fa-tong-gao-kong-pa-bu-neng-ba-di-qiu-guan-qi-lai
+id: 2020-03-14-4c0
 ---
 媒体和其他行业一样，都是有鄙视链的。
 

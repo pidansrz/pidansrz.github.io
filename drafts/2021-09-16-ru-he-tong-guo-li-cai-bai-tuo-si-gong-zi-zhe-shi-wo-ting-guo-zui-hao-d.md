@@ -4,7 +4,7 @@ date: 2021-09-16
 excerpt: 过去的一年里，很多人明白了：谁都没办法预测，明天还会有什么“黑天鹅”事件？
 cover: images/2021-09-16-ru-he-tong-guo-li-cai-bai-tuo-si-gong-zi-zhe-shi-wo-ting-guo-zui-hao-d/cover.jpg
 coverAlt: 如何通过理财摆脱死工资？这是我听过最好的答案
-id: 2021-09-16-ru-he-tong-guo-li-cai-bai-tuo-si-gong-zi-zhe-shi-wo-ting-guo-zui-hao-d
+id: 2021-09-16-e02
 ---
 过去的一年里，很多人明白了：谁都没办法预测，明天还会有什么“黑天鹅”事件？说不定哪天上着班就突然失业了！
 

@@ -4,9 +4,8 @@ date: 2021-05-06
 excerpt: 今天的内卷是一个陀螺式的死循环……它是一个高度动态的陷阱，所以非常耗能。
 cover: images/2021-05-06-mian-dui-qing-nian-de-zheng-que-zi-shi-dao-di-shi-shen-me/cover.jpg
 coverAlt: 面对青年的正确姿势到底是什么？
-id: 2021-05-06-mian-dui-qing-nian-de-zheng-que-zi-shi-dao-di-shi-shen-me
+id: 2021-05-06-sbs
 ---
-
 今天的内卷是一个陀螺式的死循环……它是一个高度动态的陷阱，所以非常耗能。
 
 ——人类学家项飚

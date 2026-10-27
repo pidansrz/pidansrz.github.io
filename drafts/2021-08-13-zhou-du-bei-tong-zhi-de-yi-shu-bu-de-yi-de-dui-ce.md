@@ -4,7 +4,7 @@ date: 2021-08-13
 excerpt: 在古代中国，国家政策到底对于一个人、一个家庭或者一个家族有着怎样的影响？
 cover: images/2021-08-13-zhou-du-bei-tong-zhi-de-yi-shu-bu-de-yi-de-dui-ce/cover.jpg
 coverAlt: 粥读︱被统治的艺术，不得已的对策
-id: 2021-08-13-zhou-du-bei-tong-zhi-de-yi-shu-bu-de-yi-de-dui-ce
+id: 2021-08-13-a9f
 ---
 ![](images/2021-08-13-zhou-du-bei-tong-zhi-de-yi-shu-bu-de-yi-de-dui-ce/img_01.jpg)
 

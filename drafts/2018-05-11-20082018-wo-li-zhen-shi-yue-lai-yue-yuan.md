@@ -4,7 +4,7 @@ date: 2018-05-11
 excerpt: 2008年5月12日，14：28分，8.0级。这一连串的数字，代表着巨大的灾难。
 cover: images/2018-05-11-20082018-wo-li-zhen-shi-yue-lai-yue-yuan/cover.jpg
 coverAlt: 2008-2018，我离真实越来越远
-id: 2018-05-11-20082018-wo-li-zhen-shi-yue-lai-yue-yuan
+id: 2018-05-11-xtl
 ---
 2008年5月12日，14：28分，8.0级。这一连串的数字，代表着巨大的灾难。
 

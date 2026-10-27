@@ -4,9 +4,8 @@ date: 2024-05-24
 excerpt: 我们对生命不能不心存敬畏，它是那么美丽而神秘。
 cover: images/2024-05-24-xiao-yuan-qing-sheng-pin-fa-wo-men-gai-ru-he-yu-hai-zi-tan-sheng-ming/cover.jpg
 coverAlt: 校园轻生频发，我们该如何与孩子谈生命？
-id: 2024-05-24-xiao-yuan-qing-sheng-pin-fa-wo-men-gai-ru-he-yu-hai-zi-tan-sheng-ming
+id: 2024-05-24-cmz
 ---
-
 我们对生命不能不心存敬畏，它是那么美丽而神秘。我们每个人都要小心呵护它，呵护自己的孩子，让他们从小就懂得尊重生命，珍爱生命，让这个奇迹继续延伸，充分展现，开花结果。
 
 ——何怀宏

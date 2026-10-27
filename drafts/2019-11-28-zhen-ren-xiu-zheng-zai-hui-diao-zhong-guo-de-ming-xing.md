@@ -4,7 +4,7 @@ date: 2019-11-28
 excerpt: 台湾艺人高以翔在浙江卫视综艺录制时，突发心源性猝死，生命定格在35岁。
 cover: images/2019-11-28-zhen-ren-xiu-zheng-zai-hui-diao-zhong-guo-de-ming-xing/cover.jpg
 coverAlt: 真人秀正在毁掉中国的明星
-id: 2019-11-28-zhen-ren-xiu-zheng-zai-hui-diao-zhong-guo-de-ming-xing
+id: 2019-11-28-mrl
 ---
 台湾艺人高以翔在浙江卫视综艺录制时，突发心源性猝死，生命定格在35岁。
 

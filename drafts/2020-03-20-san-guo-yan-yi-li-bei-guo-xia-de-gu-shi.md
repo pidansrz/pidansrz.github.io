@@ -4,7 +4,7 @@ date: 2020-03-20
 excerpt: 「三国演义」里面，我最喜欢的角色，不是仁慈忠厚的刘备，而是被称为乱世奸雄的曹操。
 cover: images/2020-03-20-san-guo-yan-yi-li-bei-guo-xia-de-gu-shi/cover.jpg
 coverAlt: 「三国演义」里背锅侠的故事
-id: 2020-03-20-san-guo-yan-yi-li-bei-guo-xia-de-gu-shi
+id: 2020-03-20-ev3
 ---
 「三国演义」里面，我最喜欢的角色，不是仁慈忠厚的刘备，而是被称为乱世奸雄的曹操。他那句「宁可我负天下人，莫教天下人负我」，若不是当世之枭雄，怎么可能说出这般霸气侧漏的话来呢？
 

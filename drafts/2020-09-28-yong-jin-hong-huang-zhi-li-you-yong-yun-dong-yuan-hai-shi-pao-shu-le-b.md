@@ -4,7 +4,7 @@ date: 2020-09-28
 excerpt: 第一次听说洪荒之力这个词，是从傅园慧那里。
 cover: images/2020-09-28-yong-jin-hong-huang-zhi-li-you-yong-yun-dong-yuan-hai-shi-pao-shu-le-b/cover.jpg
 coverAlt: 用尽洪荒之力，游泳运动员还是跑输了比赛
-id: 2020-09-28-yong-jin-hong-huang-zhi-li-you-yong-yun-dong-yuan-hai-shi-pao-shu-le-b
+id: 2020-09-28-jw9
 ---
 第一次听说洪荒之力这个词，是从傅园慧那里。
 

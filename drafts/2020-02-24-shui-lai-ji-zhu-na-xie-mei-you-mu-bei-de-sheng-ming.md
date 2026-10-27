@@ -4,7 +4,7 @@ date: 2020-02-24
 excerpt: 从武汉封城到现在，满打满算已经二十多天了。
 cover: images/2020-02-24-shui-lai-ji-zhu-na-xie-mei-you-mu-bei-de-sheng-ming/cover.jpg
 coverAlt: 谁来记住那些没有墓碑的生命？
-id: 2020-02-24-shui-lai-ji-zhu-na-xie-mei-you-mu-bei-de-sheng-ming
+id: 2020-02-24-xs4
 ---
 从武汉封城到现在，满打满算已经二十多天了。断断续续，囫囵吞枣的，我终于把加缪的《鼠疫》读完了。
 

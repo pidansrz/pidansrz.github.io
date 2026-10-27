@@ -4,7 +4,7 @@ date: 2020-02-01
 excerpt: 现实永远是魔幻而荒谬的，无论你愿不愿意相信。这个魔幻而荒谬的一月，终结于双黄连的笑话新闻。
 cover: images/2020-02-01-mo-huan-er-huang-miu-de-yi-yue-zhong-jie-yu-shuang-huang-lian/cover.jpg
 coverAlt: 魔幻而荒谬的一月，终结于双黄连
-id: 2020-02-01-mo-huan-er-huang-miu-de-yi-yue-zhong-jie-yu-shuang-huang-lian
+id: 2020-02-01-7rw
 ---
 现实永远是魔幻而荒谬的，无论你愿不愿意相信。这个魔幻而荒谬的一月，终结于双黄连的笑话新闻。
 

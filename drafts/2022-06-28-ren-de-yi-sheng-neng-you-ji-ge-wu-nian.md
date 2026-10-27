@@ -4,7 +4,7 @@ date: 2022-06-28
 excerpt: 这是一个官媒从未曾遇见的好时刻。由于不可预测的未来带来的迷茫或者期待，
 cover: images/2022-06-28-ren-de-yi-sheng-neng-you-ji-ge-wu-nian/cover.jpg
 coverAlt: 人的一生能有几个五年？
-id: 2022-06-28-ren-de-yi-sheng-neng-you-ji-ge-wu-nian
+id: 2022-06-28-gyd
 ---
 ![](images/2022-06-28-ren-de-yi-sheng-neng-you-ji-ge-wu-nian/img_01.jpg)
 

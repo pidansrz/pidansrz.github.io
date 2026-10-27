@@ -3,7 +3,7 @@ title: 高山不需要仰望
 date: 2023-11-21
 cover: images/2023-11-21-gao-shan-bu-xu-yao-yang-wang/cover.jpg
 coverAlt: 高山不需要仰望
-id: 2023-11-21-gao-shan-bu-xu-yao-yang-wang
+id: 2023-11-21-n06
 ---
 即将上映的电影「我本是高山」遭遇了一场短促而猛烈的舆论抨击。给一个没有争议的人拍传记片都能搞出争议，大概是所有人都料想不到的情景。
 

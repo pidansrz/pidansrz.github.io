@@ -4,7 +4,7 @@ date: 2019-12-03
 excerpt: 网易暴力裁员尚未尘埃落定，国货之光就用赤裸裸的行动告诉人们：
 cover: images/2019-12-03-da-xiang-cong-bu-xiang-ma-yi-dao-qian/cover.jpg
 coverAlt: 大象从不向蚂蚁道歉
-id: 2019-12-03-da-xiang-cong-bu-xiang-ma-yi-dao-qian
+id: 2019-12-03-fcy
 ---
 现实往往就是这么残酷。
 

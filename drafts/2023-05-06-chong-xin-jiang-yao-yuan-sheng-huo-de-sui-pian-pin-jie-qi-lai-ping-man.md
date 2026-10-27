@@ -4,9 +4,8 @@ date: 2023-05-06
 excerpt: 本文有少量剧透，请谨慎阅读
 cover: images/2023-05-06-chong-xin-jiang-yao-yuan-sheng-huo-de-sui-pian-pin-jie-qi-lai-ping-man/cover.jpg
 coverAlt: 重新将遥远生活的碎片拼接起来 | 评「漫长的季节」
-id: 2023-05-06-chong-xin-jiang-yao-yuan-sheng-huo-de-sui-pian-pin-jie-qi-lai-ping-man
+id: 2023-05-06-8ht
 ---
-
 本文有少量剧透，请谨慎阅读
 
 我已经不知道有多少年没有完整看过一部国产电视剧了。因为凡目之所及的，往往都是粗制滥造的作品，观赏性几乎为零，投入时间等同于浪费生命。但是，这几天，「漫长的季节」这部上乘之作让我感受到了久违的惊喜。它在叙事节奏、人物刻画的饱满程度、年代的代入感以及对时下热门议题的把握等方面，称得上是近十年来的佳作。

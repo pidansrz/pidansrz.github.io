@@ -4,7 +4,7 @@ date: 2022-11-01
 excerpt: 经过两天的追问之后，郑州富士康事件似乎有望水落石出。
 cover: images/2022-11-01-zheng-zhou-fu-shi-kang-dai-lai-de-jue-wang/cover.jpg
 coverAlt: 郑州富士康带来的绝望
-id: 2022-11-01-zheng-zhou-fu-shi-kang-dai-lai-de-jue-wang
+id: 2022-11-01-ll1
 ---
 ![](images/2022-11-01-zheng-zhou-fu-shi-kang-dai-lai-de-jue-wang/img_01.jpg)
 

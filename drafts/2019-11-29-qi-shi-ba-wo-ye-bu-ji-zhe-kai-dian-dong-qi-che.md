@@ -4,9 +4,8 @@ date: 2019-11-29
 excerpt: 多年以后，当李斌站在马路上看着车来车往，准会想起第一万辆蔚来ES8在合肥工厂正式下线的那个遥…
 cover: images/2019-11-29-qi-shi-ba-wo-ye-bu-ji-zhe-kai-dian-dong-qi-che/cover.jpg
 coverAlt: 其实吧，我也不急着开电动汽车
-id: 2019-11-29-qi-shi-ba-wo-ye-bu-ji-zhe-kai-dian-dong-qi-che
+id: 2019-11-29-907
 ---
-
 作者 / 皮蛋瘦肉舟
 
 出品 / 十二个月后

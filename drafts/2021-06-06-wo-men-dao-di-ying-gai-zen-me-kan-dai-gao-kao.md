@@ -4,7 +4,7 @@ date: 2021-06-06
 excerpt: 朋友圈里不少人在说高考。说来说去，都是老调重弹，粥爷我也来瞎吹两句高考吧！
 cover: images/2021-06-06-wo-men-dao-di-ying-gai-zen-me-kan-dai-gao-kao/cover.jpg
 coverAlt: 我们到底应该怎么看待高考？
-id: 2021-06-06-wo-men-dao-di-ying-gai-zen-me-kan-dai-gao-kao
+id: 2021-06-06-ils
 ---
 朋友圈里不少人在说高考。说来说去，都是老调重弹，粥爷我也来瞎吹两句高考吧！
 

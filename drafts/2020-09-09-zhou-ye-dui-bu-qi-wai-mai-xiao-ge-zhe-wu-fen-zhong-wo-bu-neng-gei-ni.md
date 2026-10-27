@@ -4,7 +4,7 @@ date: 2020-09-09
 excerpt: 过去，在中国的互联网圈里，有这样一种说法：
 cover: images/2020-09-09-zhou-ye-dui-bu-qi-wai-mai-xiao-ge-zhe-wu-fen-zhong-wo-bu-neng-gei-ni/cover.jpg
 coverAlt: 粥爷|对不起，外卖小哥，这五分钟我不能给你
-id: 2020-09-09-zhou-ye-dui-bu-qi-wai-mai-xiao-ge-zhe-wu-fen-zhong-wo-bu-neng-gei-ni
+id: 2020-09-09-1t3
 ---
 过去，在中国的互联网圈里，有这样一种说法：
 

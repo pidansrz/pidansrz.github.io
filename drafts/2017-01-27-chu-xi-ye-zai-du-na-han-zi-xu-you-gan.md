@@ -4,9 +4,8 @@ date: 2017-01-27
 excerpt: 我曾经做过许多梦，可是许多都已经忘却了。有时候想起来，不免感觉有些可惜，
 cover: images/2017-01-27-chu-xi-ye-zai-du-na-han-zi-xu-you-gan/cover.jpg
 coverAlt: 除夕夜再读《呐喊》自序有感
-id: 2017-01-27-chu-xi-ye-zai-du-na-han-zi-xu-you-gan
+id: 2017-01-27-kyf
 ---
-
 ![](images/2017-01-27-chu-xi-ye-zai-du-na-han-zi-xu-you-gan/img_01.jpg)
 
 我曾经做过许多梦，可是许多都已经忘却了。有时候想起来，不免感觉有些可惜，毕竟梦是一种记忆的映射，内中饱含着很多已经失去的碎片。尽管我知道，这些碎片拼凑起来的，必然是一个充满遗憾的整体。可是，生活就是如此，因为对未来有着更大的期待，才会对现实抱有偶发的不满，才会有一种想呐喊却不得的苦闷萦绕在心。

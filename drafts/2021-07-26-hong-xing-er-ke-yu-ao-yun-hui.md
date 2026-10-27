@@ -4,9 +4,8 @@ date: 2021-07-26
 excerpt: 刚刚过去的周末，有两件事为国人所关注和讨论：
 cover: images/2021-07-26-hong-xing-er-ke-yu-ao-yun-hui/cover.jpg
 coverAlt: 鸿星尔克与奥运会
-id: 2021-07-26-hong-xing-er-ke-yu-ao-yun-hui
+id: 2021-07-26-4wb
 ---
-
 刚刚过去的周末，有两件事为国人所关注和讨论：
 
 因为突如其来的COVID-19疫情而推迟一年举办的东京奥运会，终于在7月23日拉开帷幕，为处于疫情阴影笼罩下的世界带来了些许亮色。

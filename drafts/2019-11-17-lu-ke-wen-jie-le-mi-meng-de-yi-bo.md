@@ -4,7 +4,7 @@ date: 2019-11-17
 excerpt: 你看，卢克文刷屏的热文《香港问题与世界真相》再一次证明了：
 cover: images/2019-11-17-lu-ke-wen-jie-le-mi-meng-de-yi-bo/cover.jpg
 coverAlt: 卢克文接了“咪蒙”的衣钵
-id: 2019-11-17-lu-ke-wen-jie-le-mi-meng-de-yi-bo
+id: 2019-11-17-0vv
 ---
 你看，卢克文刷屏的热文《香港问题与世界真相》再一次证明了：
 

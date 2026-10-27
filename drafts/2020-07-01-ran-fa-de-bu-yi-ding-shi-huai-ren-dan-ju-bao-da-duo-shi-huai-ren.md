@@ -4,7 +4,7 @@ date: 2020-07-01
 excerpt: 记得很小的时候，长辈说过，童年是一个人最美好的时光，自然快乐，绚丽多彩。
 cover: images/2020-07-01-ran-fa-de-bu-yi-ding-shi-huai-ren-dan-ju-bao-da-duo-shi-huai-ren/cover.jpg
 coverAlt: 染发的不一定是坏人，但举报大多是坏人！
-id: 2020-07-01-ran-fa-de-bu-yi-ding-shi-huai-ren-dan-ju-bao-da-duo-shi-huai-ren
+id: 2020-07-01-68s
 ---
 记得很小的时候，长辈说过，童年是一个人最美好的时光，自然快乐，绚丽多彩。
 

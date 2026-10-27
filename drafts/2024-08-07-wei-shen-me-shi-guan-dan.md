@@ -4,6 +4,6 @@ date: 2024-08-07
 excerpt: 
 cover: 
 coverAlt: 为什么是掼蛋？
-id: 2024-08-07-wei-shen-me-shi-guan-dan
+id: 2024-08-07-kl9
 ---
 > （已404，无永久链接）

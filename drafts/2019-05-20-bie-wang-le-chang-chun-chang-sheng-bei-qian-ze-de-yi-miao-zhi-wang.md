@@ -4,7 +4,7 @@ date: 2019-05-20
 excerpt: 没有什么事情可以被忘记，有也只是想不起来了。
 cover: images/2019-05-20-bie-wang-le-chang-chun-chang-sheng-bei-qian-ze-de-yi-miao-zhi-wang/cover.jpg
 coverAlt: 别忘了长春长生，被谴责的疫苗之王
-id: 2019-05-20-bie-wang-le-chang-chun-chang-sheng-bei-qian-ze-de-yi-miao-zhi-wang
+id: 2019-05-20-jig
 ---
 没有什么事情可以被忘记，有也只是想不起来了。
 

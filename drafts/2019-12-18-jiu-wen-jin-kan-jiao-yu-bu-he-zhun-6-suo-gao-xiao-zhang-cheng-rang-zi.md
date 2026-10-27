@@ -4,7 +4,7 @@ date: 2019-12-18
 excerpt: 复旦复旦旦复旦，巍巍学府文章焕，学术独立思想自由，政罗教网无羁绊
 cover: images/2019-12-18-jiu-wen-jin-kan-jiao-yu-bu-he-zhun-6-suo-gao-xiao-zhang-cheng-rang-zi/cover.jpg
 coverAlt: 旧闻今看 ▏教育部核准6所高校章程：让自主管理有章可依
-id: 2019-12-18-jiu-wen-jin-kan-jiao-yu-bu-he-zhun-6-suo-gao-xiao-zhang-cheng-rang-zi
+id: 2019-12-18-77c
 ---
 复旦复旦旦复旦，巍巍学府文章焕，学术独立思想自由，政罗教网无羁绊
 

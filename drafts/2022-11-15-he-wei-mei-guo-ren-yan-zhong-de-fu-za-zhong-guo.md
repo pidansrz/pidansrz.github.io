@@ -4,7 +4,7 @@ date: 2022-11-15
 excerpt: 他被誉为“最会讲中国故事的外国作家”。他在过去受到如潮赞誉，
 cover: images/2022-11-15-he-wei-mei-guo-ren-yan-zhong-de-fu-za-zhong-guo/cover.jpg
 coverAlt: 何伟：美国人眼中的复杂中国
-id: 2022-11-15-he-wei-mei-guo-ren-yan-zhong-de-fu-za-zhong-guo
+id: 2022-11-15-151
 ---
 ![](images/2022-11-15-he-wei-mei-guo-ren-yan-zhong-de-fu-za-zhong-guo/img_01.jpg)
 

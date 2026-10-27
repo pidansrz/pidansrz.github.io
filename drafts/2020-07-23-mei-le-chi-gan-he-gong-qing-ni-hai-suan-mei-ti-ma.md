@@ -4,7 +4,7 @@ date: 2020-07-23
 excerpt: 记得刚入行的时候，在一次业界大佬齐聚的峰会上，那家小粉红们恨之入骨的报社代表，
 cover: images/2020-07-23-mei-le-chi-gan-he-gong-qing-ni-hai-suan-mei-ti-ma/cover.jpg
 coverAlt: 没了耻感和共情，你还算媒体吗？
-id: 2020-07-23-mei-le-chi-gan-he-gong-qing-ni-hai-suan-mei-ti-ma
+id: 2020-07-23-94e
 ---
 记得刚入行的时候，在一次业界大佬齐聚的峰会上，那家小粉红们恨之入骨的报社代表，即兴做了一个简单的发言。时过境迁，发言的主题粥爷我已经记不清楚了，但有一句话，却始终萦绕我的心头，无法忘却。这位代表说：
 

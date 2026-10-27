@@ -4,7 +4,7 @@ date: 2015-01-27
 excerpt: 腾讯还是没有能绷住，在微信最重要的朋友圈功能中加入了广告推送。
 cover: images/2015-01-27-fu-zhong-qian-xing-de-wei-xin-peng-you-quan-yu-ta-de-di-zao-zhe-zhang/cover.jpg
 coverAlt: 负重前行的微信朋友圈与他的缔造者张小龙
-id: 2015-01-27-fu-zhong-qian-xing-de-wei-xin-peng-you-quan-yu-ta-de-di-zao-zhe-zhang
+id: 2015-01-27-rl1
 ---
 ![](images/2015-01-27-fu-zhong-qian-xing-de-wei-xin-peng-you-quan-yu-ta-de-di-zao-zhe-zhang/img_01.jpg)
 

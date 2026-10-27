@@ -4,7 +4,7 @@ date: 2023-07-09
 excerpt: 在古代，修桥铺路者，往往都要立碑书传予以感谢纪念，所以，我想不出有什么理由，
 cover: images/2023-07-09-ru-guo-du-ren-you-zui-na-shi-jie-jiu-bu-gai-you-hao-ren/cover.jpg
 coverAlt: 如果渡人有罪，那世界就不该有好人。
-id: 2023-07-09-ru-guo-du-ren-you-zui-na-shi-jie-jiu-bu-gai-you-hao-ren
+id: 2023-07-09-94c
 ---
 在古代，修桥铺路者，往往都要立碑书传予以感谢纪念，所以，我想不出有什么理由，对修桥铺路的善人施以刑罚。
 

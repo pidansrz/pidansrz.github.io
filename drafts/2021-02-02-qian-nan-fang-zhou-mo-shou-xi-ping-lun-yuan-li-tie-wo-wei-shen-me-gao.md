@@ -4,7 +4,7 @@ date: 2021-02-02
 excerpt: 我为什么告别了公知生涯？
 cover: images/2021-02-02-qian-nan-fang-zhou-mo-shou-xi-ping-lun-yuan-li-tie-wo-wei-shen-me-gao/cover.jpg
 coverAlt: 前《南方周末》首席评论员 李铁：我为什么告别了公知生涯？
-id: 2021-02-02-qian-nan-fang-zhou-mo-shou-xi-ping-lun-yuan-li-tie-wo-wei-shen-me-gao
+id: 2021-02-02-olt
 ---
 我为什么告别了公知生涯？
 

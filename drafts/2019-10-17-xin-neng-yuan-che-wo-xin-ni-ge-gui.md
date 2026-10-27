@@ -4,7 +4,7 @@ date: 2019-10-17
 excerpt: 车市寒冬中，续命神药来了。
 cover: images/2019-10-17-xin-neng-yuan-che-wo-xin-ni-ge-gui/cover.jpg
 coverAlt: 新能源车，我信你个鬼
-id: 2019-10-17-xin-neng-yuan-che-wo-xin-ni-ge-gui
+id: 2019-10-17-h2g
 ---
 车市寒冬中，续命神药来了。
 

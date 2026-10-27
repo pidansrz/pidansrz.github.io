@@ -4,7 +4,7 @@ date: 2022-11-22
 excerpt: 河流究竟是如何形成的？这个问题的答案对于现代人来说，是显而易见的。
 cover: images/2022-11-22-zhou-du-mei-yi-tiao-he-liu-dou-you-gu-shi-zai-liu-tang/cover.jpg
 coverAlt: 粥读 | 每一条河流，都有故事在流淌
-id: 2022-11-22-zhou-du-mei-yi-tiao-he-liu-dou-you-gu-shi-zai-liu-tang
+id: 2022-11-22-sjn
 ---
 ![](images/2022-11-22-zhou-du-mei-yi-tiao-he-liu-dou-you-gu-shi-zai-liu-tang/img_01.jpg)
 

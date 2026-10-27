@@ -4,7 +4,7 @@ date: 2020-02-14
 excerpt: 今天是2020年2月14日，情人节。
 cover: images/2020-02-14-mian-dui-yi-qing-wo-bu-tai-xiang-guo-zao-tan-lun-ai/cover.jpg
 coverAlt: 面对疫情，我不太想过早谈论爱
-id: 2020-02-14-mian-dui-yi-qing-wo-bu-tai-xiang-guo-zao-tan-lun-ai
+id: 2020-02-14-g9s
 ---
 今天是2020年2月14日，情人节。
 

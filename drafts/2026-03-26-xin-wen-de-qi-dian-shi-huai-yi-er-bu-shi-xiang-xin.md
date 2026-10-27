@@ -4,7 +4,7 @@ date: 2026-03-26
 excerpt: 从昨晚至今，最热的新闻当属升学咨询名师张雪峰的骤然离世。
 cover: images/2026-03-26-xin-wen-de-qi-dian-shi-huai-yi-er-bu-shi-xiang-xin/cover.jpg
 coverAlt: 新闻的起点是怀疑，而不是相信
-id: 2026-03-26-xin-wen-de-qi-dian-shi-huai-yi-er-bu-shi-xiang-xin
+id: 2026-03-26-is8
 ---
 ![](images/2026-03-26-xin-wen-de-qi-dian-shi-huai-yi-er-bu-shi-xiang-xin/img_01.jpg)
 

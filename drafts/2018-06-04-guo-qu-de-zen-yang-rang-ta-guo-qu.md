@@ -4,7 +4,7 @@ date: 2018-06-04
 excerpt: 本文首发于2010年7月15日出版的《南方周末》，作者刘瑜，
 cover: images/2018-06-04-guo-qu-de-zen-yang-rang-ta-guo-qu/cover.jpg
 coverAlt: 过去的怎样让它过去
-id: 2018-06-04-guo-qu-de-zen-yang-rang-ta-guo-qu
+id: 2018-06-04-aql
 ---
 本文首发于2010年7月15日出版的《南方周末》，作者刘瑜，美国哥伦比亚大学政治学系政治学博士，时任剑桥大学讲师，著有《民主的细节：当代美国政治观察》等书。
 

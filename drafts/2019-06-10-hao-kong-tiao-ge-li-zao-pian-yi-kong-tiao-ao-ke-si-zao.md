@@ -4,7 +4,7 @@ date: 2019-06-10
 excerpt: 这话真不假。你看，为了造更好的空调，格力把自己的竞争对手奥克斯给告了。
 cover: images/2019-06-10-hao-kong-tiao-ge-li-zao-pian-yi-kong-tiao-ao-ke-si-zao/cover.jpg
 coverAlt: 好空调格力造，便宜空调奥克斯造
-id: 2019-06-10-hao-kong-tiao-ge-li-zao-pian-yi-kong-tiao-ao-ke-si-zao
+id: 2019-06-10-bvs
 ---
 好空调，格力造。
 

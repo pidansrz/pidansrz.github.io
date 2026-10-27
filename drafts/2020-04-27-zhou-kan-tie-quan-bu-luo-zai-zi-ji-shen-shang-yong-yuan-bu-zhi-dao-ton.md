@@ -4,7 +4,7 @@ date: 2020-04-27
 excerpt: 记得粥爷刚刚进入新闻这个行当时，前辈指导如何才能写出一篇出色的稿子时说：
 cover: images/2020-04-27-zhou-kan-tie-quan-bu-luo-zai-zi-ji-shen-shang-yong-yuan-bu-zhi-dao-ton/cover.jpg
 coverAlt: 【舟侃】铁拳不落在自己身上，永远不知道痛。
-id: 2020-04-27-zhou-kan-tie-quan-bu-luo-zai-zi-ji-shen-shang-yong-yuan-bu-zhi-dao-ton
+id: 2020-04-27-591
 ---
 记得粥爷刚刚进入新闻这个行当时，前辈指导如何才能写出一篇出色的稿子时说：
 

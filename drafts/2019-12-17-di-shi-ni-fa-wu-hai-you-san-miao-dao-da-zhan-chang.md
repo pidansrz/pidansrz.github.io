@@ -4,7 +4,7 @@ date: 2019-12-17
 excerpt: 关于迪士尼法务部，曾经有这么一个段子：
 cover: images/2019-12-17-di-shi-ni-fa-wu-hai-you-san-miao-dao-da-zhan-chang/cover.jpg
 coverAlt: 迪士尼法务还有三秒到达战场
-id: 2019-12-17-di-shi-ni-fa-wu-hai-you-san-miao-dao-da-zhan-chang
+id: 2019-12-17-wie
 ---
 关于迪士尼法务部，曾经有这么一个段子：
 

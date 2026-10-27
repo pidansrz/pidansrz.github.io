@@ -3,7 +3,7 @@ title: 南阳迷笛就是「同一首歌」
 date: 2023-10-06
 cover: images/2023-10-06-nan-yang-mi-di-jiu-shi-tong-yi-shou-ge/cover.jpg
 coverAlt: 南阳迷笛就是「同一首歌」
-id: 2023-10-06-nan-yang-mi-di-jiu-shi-tong-yi-shou-ge
+id: 2023-10-06-2y4
 ---
 ![](images/2023-10-06-nan-yang-mi-di-jiu-shi-tong-yi-shou-ge/img_01.jpg)
 

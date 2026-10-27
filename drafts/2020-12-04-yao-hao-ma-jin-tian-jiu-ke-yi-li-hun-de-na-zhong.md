@@ -4,7 +4,7 @@ date: 2020-12-04
 excerpt: 民政部近日发布的文件显示，明年1月1日起，办理离婚将设冷静期，
 cover: images/2020-12-04-yao-hao-ma-jin-tian-jiu-ke-yi-li-hun-de-na-zhong/cover.jpg
 coverAlt: 要号吗？今天就可以离婚的那种
-id: 2020-12-04-yao-hao-ma-jin-tian-jiu-ke-yi-li-hun-de-na-zhong
+id: 2020-12-04-ewc
 ---
 民政部近日发布的文件显示，明年1月1日起，办理离婚将设冷静期，离婚登记程序相应调整为“申请—受理—冷静期—审查—登记，离婚证须双方同时领取，一方逾期视为撤回申请。
 

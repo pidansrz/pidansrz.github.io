@@ -4,7 +4,7 @@ date: 2023-03-01
 excerpt: 香港名媛蔡天凤遭残忍杀害的案件，突然又让内地的是受众讨论起了媒介伦理的问题。
 cover: images/2023-03-01-dang-xin-wen-lun-li-zuo-wei-yi-zhong-chi-du/cover.jpg
 coverAlt: 当新闻伦理作为一种尺度
-id: 2023-03-01-dang-xin-wen-lun-li-zuo-wei-yi-zhong-chi-du
+id: 2023-03-01-jmj
 ---
 香港名媛蔡天凤遭残忍杀害的案件，突然又让内地的是受众讨论起了媒介伦理的问题。有学者认为，大众媒体要有所节制，不应该对作案过程及现场惨状进行过度渲染，而内地受众之所以对此案件的细节感到不适，其原因是内地媒体在类似案件报道中较为克制。
 

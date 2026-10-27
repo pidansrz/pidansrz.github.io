@@ -4,7 +4,7 @@ date: 2019-05-24
 excerpt: 终于，困扰人类已久的能源问题被解决了。
 cover: images/2019-05-24-zhe-liang-jia-shui-jiu-neng-pao-de-che-li-ying-huo-de-nuo-bei-er-jiang/cover.jpg
 coverAlt: 这辆加水就能跑的车，理应获得诺贝尔奖
-id: 2019-05-24-zhe-liang-jia-shui-jiu-neng-pao-de-che-li-ying-huo-de-nuo-bei-er-jiang
+id: 2019-05-24-w17
 ---
 终于，困扰人类已久的能源问题被解决了。
 

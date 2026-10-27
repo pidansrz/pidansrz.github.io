@@ -3,7 +3,7 @@ title: 挣钱，还是站着挣才香
 date: 2020-08-22
 cover: images/2020-08-22-zheng-qian-hai-shi-zhan-zhe-zheng-cai-xiang/cover.jpg
 coverAlt: 挣钱，还是站着挣才香
-id: 2020-08-22-zheng-qian-hai-shi-zhan-zhe-zheng-cai-xiang
+id: 2020-08-22-q8e
 ---
 周末的朋友圈，因为保利地产文灵总的一句「没转发的移出本群」显得颇为热闹。
 

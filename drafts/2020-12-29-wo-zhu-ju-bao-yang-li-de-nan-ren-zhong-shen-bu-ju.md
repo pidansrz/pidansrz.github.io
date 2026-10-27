@@ -4,9 +4,8 @@ date: 2020-12-29
 excerpt: 讲脱口秀的杨笠，这几天因为在节目上调侃了一下男女差异而被举报的事，上了热搜。
 cover: images/2020-12-29-wo-zhu-ju-bao-yang-li-de-nan-ren-zhong-shen-bu-ju/cover.jpg
 coverAlt: 我祝举报杨笠的男人，终身不举
-id: 2020-12-29-wo-zhu-ju-bao-yang-li-de-nan-ren-zhong-shen-bu-ju
+id: 2020-12-29-z9r
 ---
-
 讲脱口秀的杨笠，这几天因为在节目上调侃了一下男女差异而被举报的事，上了热搜。
 
 根据已知的信息透露，举报者举报的理由是：

@@ -4,7 +4,7 @@ date: 2020-11-12
 excerpt: 世上本没有「学」，但关注的人多了，也便成了「学」。
 cover: images/2020-11-12-wo-wei-shen-me-zan-cheng-fan-xue/cover.jpg
 coverAlt: 我为什么赞成「凡学」
-id: 2020-11-12-wo-wei-shen-me-zan-cheng-fan-xue
+id: 2020-11-12-kdj
 ---
 ![](images/2020-11-12-wo-wei-shen-me-zan-cheng-fan-xue/img_01.jpg)
 

@@ -4,7 +4,7 @@ date: 2021-04-16
 excerpt: 人口增长会让全球陷入贫困，这一近代观念完全是错误的。
 cover: images/2021-04-16-guan-yin-chao-de-yang-ma-guan-xin-zao-ren-he-shi-ma/cover.jpg
 coverAlt: 管印钞的央妈关心造人，合适吗？
-id: 2021-04-16-guan-yin-chao-de-yang-ma-guan-xin-zao-ren-he-shi-ma
+id: 2021-04-16-u5c
 ---
 ![](images/2021-04-16-guan-yin-chao-de-yang-ma-guan-xin-zao-ren-he-shi-ma/img_01.jpg)
 

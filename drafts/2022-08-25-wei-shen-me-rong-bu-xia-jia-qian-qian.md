@@ -4,7 +4,7 @@ date: 2022-08-25
 excerpt: 这是贾平凹的女儿贾浅浅第二次遭遇舆论的冲击了。
 cover: images/2022-08-25-wei-shen-me-rong-bu-xia-jia-qian-qian/cover.jpg
 coverAlt: 为什么容不下贾浅浅？
-id: 2022-08-25-wei-shen-me-rong-bu-xia-jia-qian-qian
+id: 2022-08-25-1cb
 ---
 ![](images/2022-08-25-wei-shen-me-rong-bu-xia-jia-qian-qian/img_01.jpg)
 

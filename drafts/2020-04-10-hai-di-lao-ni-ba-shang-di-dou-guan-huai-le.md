@@ -4,7 +4,7 @@ date: 2020-04-10
 excerpt: 地产大佬冯仑曾经有这样一个经典的论述：
 cover: images/2020-04-10-hai-di-lao-ni-ba-shang-di-dou-guan-huai-le/cover.jpg
 coverAlt: 海底捞，你把上帝都惯坏了
-id: 2020-04-10-hai-di-lao-ni-ba-shang-di-dou-guan-huai-le
+id: 2020-04-10-hc1
 ---
 地产大佬冯仑曾经有这样一个经典的论述：
 

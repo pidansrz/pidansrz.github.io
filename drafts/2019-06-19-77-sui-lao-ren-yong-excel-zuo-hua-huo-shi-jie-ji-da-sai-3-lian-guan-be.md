@@ -4,7 +4,7 @@ date: 2019-06-19
 excerpt: 这幅画是用Excel画的，你信吗？
 cover: images/2019-06-19-77-sui-lao-ren-yong-excel-zuo-hua-huo-shi-jie-ji-da-sai-3-lian-guan-be/cover.jpg
 coverAlt: 77岁老人用Excel作画，获世界级大赛3连冠，被博物馆收藏，你要试试吗？
-id: 2019-06-19-77-sui-lao-ren-yong-excel-zuo-hua-huo-shi-jie-ji-da-sai-3-lian-guan-be
+id: 2019-06-19-5bn
 ---
 ![](images/2019-06-19-77-sui-lao-ren-yong-excel-zuo-hua-huo-shi-jie-ji-da-sai-3-lian-guan-be/img_01.gif)
 

@@ -4,7 +4,7 @@ date: 2020-03-21
 excerpt: 3 月 17 日，杜塞尔多夫中国总领馆的组织、邀请到上海市复旦大学附属华山医院感染科主任、
 cover: images/2020-03-21-zhou-mo-jian-wen-hua-shan-yi-yuan-zhang-wen-hong-ping-jia-de-guo-fang/cover.jpg
 coverAlt: 【周末荐文】华山医院张文宏评价德国防疫和对留学生的建议
-id: 2020-03-21-zhou-mo-jian-wen-hua-shan-yi-yuan-zhang-wen-hong-ping-jia-de-guo-fang
+id: 2020-03-21-8lg
 ---
 3 月 17 日，杜塞尔多夫中国总领馆的组织、邀请到上海市复旦大学附属华山医院感染科主任、上海医疗救治专家组组长张文宏教授，为近 200 位驻德国北威州华人同胞，包括留学生、家长、中资企业人员等，通过视频方式对目前正在德国进一步恶化的新冠疫情进行了讲座与答疑。
 

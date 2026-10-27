@@ -4,7 +4,7 @@ date: 2015-12-11
 excerpt: 2013年到2015年，持续了两年多的复旦投毒案终于在今天落下帷幕。
 cover: images/2015-12-11-jian-du-fu-dan-tou-du-an-yi-tong-hun-dun-de-chun-jing-shui/cover.jpg
 coverAlt: 【荐读】复旦投毒案，一桶混沌的纯净水
-id: 2015-12-11-jian-du-fu-dan-tou-du-an-yi-tong-hun-dun-de-chun-jing-shui
+id: 2015-12-11-wzc
 ---
 ![](images/2015-12-11-jian-du-fu-dan-tou-du-an-yi-tong-hun-dun-de-chun-jing-shui/img_01.jpg)
 

@@ -4,7 +4,7 @@ date: 2019-07-12
 excerpt: 山大学伴这事，难听的话已经太多了。国人如此刻薄，难听的话不堪入耳，却是意料之外。
 cover: images/2019-07-12-shan-da-xue-ban-zhe-shi-cuo-bu-zai-gui-tian-er-zai-yu-shi-le-gong-ping/cover.jpg
 coverAlt: 山大学伴这事，错不在跪舔，而在于失了公平
-id: 2019-07-12-shan-da-xue-ban-zhe-shi-cuo-bu-zai-gui-tian-er-zai-yu-shi-le-gong-ping
+id: 2019-07-12-u9g
 ---
 山大学伴这事，难听的话已经太多了。国人如此刻薄，难听的话不堪入耳，却是意料之外。
 

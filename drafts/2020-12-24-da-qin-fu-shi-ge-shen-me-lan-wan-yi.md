@@ -4,7 +4,7 @@ date: 2020-12-24
 excerpt: 作为一个喜欢历史的人，粥爷我虽然没有钻研过很多史学著作。
 cover: images/2020-12-24-da-qin-fu-shi-ge-shen-me-lan-wan-yi/cover.jpg
 coverAlt: 大秦赋是个什么烂玩意？
-id: 2020-12-24-da-qin-fu-shi-ge-shen-me-lan-wan-yi
+id: 2020-12-24-awo
 ---
 作为一个喜欢历史的人，粥爷我虽然没有钻研过很多史学著作。但是，有一个基本判断，粥爷我自信是不会出错的，那就是：
 

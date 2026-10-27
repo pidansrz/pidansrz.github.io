@@ -3,7 +3,7 @@ title: 刘学州，用生命去识别恶
 date: 2022-01-26
 cover: images/2022-01-26-liu-xue-zhou-yong-sheng-ming-qu-shi-bie-e/cover.jpg
 coverAlt: 刘学州，用生命去识别恶
-id: 2022-01-26-liu-xue-zhou-yong-sheng-ming-qu-shi-bie-e
+id: 2022-01-26-hup
 ---
 一场本以为是圆满的寻亲，却最终以当事人的离世而告终。无论从怎样的视角来评价，刘学州15岁年轻生命的消逝，都是一场彻头彻尾的悲剧。
 

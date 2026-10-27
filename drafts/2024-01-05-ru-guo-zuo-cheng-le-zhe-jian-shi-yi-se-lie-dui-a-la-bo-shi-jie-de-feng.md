@@ -4,7 +4,7 @@ date: 2024-01-05
 excerpt: 比如奥巴马那句“如果中国人过上美国人的生活，对地球是灾难”，就以色列存在的意义而言，
 cover: images/2024-01-05-ru-guo-zuo-cheng-le-zhe-jian-shi-yi-se-lie-dui-a-la-bo-shi-jie-de-feng/cover.jpg
 coverAlt: 如果做成了这件事，以色列对阿拉伯世界的封锁就破了
-id: 2024-01-05-ru-guo-zuo-cheng-le-zhe-jian-shi-yi-se-lie-dui-a-la-bo-shi-jie-de-feng
+id: 2024-01-05-wc8
 ---
 "
 

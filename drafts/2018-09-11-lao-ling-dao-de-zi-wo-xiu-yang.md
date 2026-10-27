@@ -4,7 +4,7 @@ date: 2018-09-11
 excerpt: “我过去多次讲，可能我最后的作用是带头建立退休制度。”
 cover: images/2018-09-11-lao-ling-dao-de-zi-wo-xiu-yang/cover.jpg
 coverAlt: 老领导的自我修养
-id: 2018-09-11-lao-ling-dao-de-zi-wo-xiu-yang
+id: 2018-09-11-ly7
 ---
 “我过去多次讲，可能我最后的作用是带头建立退休制度。”
 

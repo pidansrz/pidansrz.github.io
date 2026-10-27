@@ -4,7 +4,7 @@ date: 2015-01-28
 excerpt: “奥斯维辛之后,写诗是野蛮的”——泰奥多·阿多诺，1955年。
 cover: images/2015-01-28-ao-si-wei-xin-zhi-hou-xie-shi-shi-ye-man-de/cover.jpg
 coverAlt: 奥斯维辛之后，写诗是野蛮的
-id: 2015-01-28-ao-si-wei-xin-zhi-hou-xie-shi-shi-ye-man-de
+id: 2015-01-28-rk4
 ---
 “奥斯维辛之后,写诗是野蛮的”——泰奥多·阿多诺，1955年。
 

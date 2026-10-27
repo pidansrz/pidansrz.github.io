@@ -4,7 +4,7 @@ date: 2020-11-27
 excerpt: 这两天，旅美学者李毅的视频，又一次刷新了人们的三观。
 cover: images/2020-11-27-rang-li-yi-she-hui-xing-si-wang-wo-bu-jue-de-can-ren/cover.jpg
 coverAlt: 让李毅社会性死亡，我不觉得残忍
-id: 2020-11-27-rang-li-yi-she-hui-xing-si-wang-wo-bu-jue-de-can-ren
+id: 2020-11-27-arw
 ---
 这两天，旅美学者李毅的视频，又一次刷新了人们的三观。
 

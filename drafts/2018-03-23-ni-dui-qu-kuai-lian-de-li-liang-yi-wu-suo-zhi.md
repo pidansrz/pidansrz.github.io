@@ -4,7 +4,7 @@ date: 2018-03-23
 excerpt: 不知道从什么时候开始，区块链成为了热词，有人对这个技术给予了如下的赞誉！
 cover: images/2018-03-23-ni-dui-qu-kuai-lian-de-li-liang-yi-wu-suo-zhi/cover.jpg
 coverAlt: 你对区块链的力量一无所知
-id: 2018-03-23-ni-dui-qu-kuai-lian-de-li-liang-yi-wu-suo-zhi
+id: 2018-03-23-c30
 ---
 ![](images/2018-03-23-ni-dui-qu-kuai-lian-de-li-liang-yi-wu-suo-zhi/img_01.png)
 

@@ -4,7 +4,7 @@ date: 2018-03-27
 excerpt: 半岛贵客旋风到访，引来关注和议论。粥同学想起了多年前读的一部未完结的武侠小说《隆庆天下》，
 cover: images/2018-03-27-cong-wu-xia-kan-chinajapanandkorea/cover.jpg
 coverAlt: 从武侠看China、Japan and Korea
-id: 2018-03-27-cong-wu-xia-kan-chinajapanandkorea
+id: 2018-03-27-qi4
 ---
 ![](images/2018-03-27-cong-wu-xia-kan-chinajapanandkorea/img_01.gif)
 

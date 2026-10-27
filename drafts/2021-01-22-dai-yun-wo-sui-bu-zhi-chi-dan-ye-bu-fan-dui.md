@@ -4,7 +4,7 @@ date: 2021-01-22
 excerpt: 在写下这个题目的时候，粥爷我其实是有点忐忑的，因为现如今，讨论一个社会话题，
 cover: images/2021-01-22-dai-yun-wo-sui-bu-zhi-chi-dan-ye-bu-fan-dui/cover.jpg
 coverAlt: 代孕，我虽不支持，但也不反对
-id: 2021-01-22-dai-yun-wo-sui-bu-zhi-chi-dan-ye-bu-fan-dui
+id: 2021-01-22-xi7
 ---
 在写下这个题目的时候，粥爷我其实是有点忐忑的，因为现如今，讨论一个社会话题，往往要求你必须有鲜明的立场，要么同意，要么反对，骑墙就是在避重就轻，耍滑头。
 

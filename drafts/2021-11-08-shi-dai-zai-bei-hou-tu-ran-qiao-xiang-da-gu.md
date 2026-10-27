@@ -4,9 +4,8 @@ date: 2021-11-08
 excerpt: 于社会而言，设立这样一个节日，意在表达对新闻工作者的职业尊重，但其实，细想一下，
 cover: images/2021-11-08-shi-dai-zai-bei-hou-tu-ran-qiao-xiang-da-gu/cover.jpg
 coverAlt: 时代在背后，突然敲响大鼓
-id: 2021-11-08-shi-dai-zai-bei-hou-tu-ran-qiao-xiang-da-gu
+id: 2021-11-08-4yp
 ---
-
 今天，是记者节。
 
 于社会而言，设立这样一个节日，意在表达对新闻工作者的职业尊重，但其实，细想一下，每一个有节日的职业，过的都不怎么开心、幸福，反倒是有些苦逼。

@@ -4,7 +4,7 @@ date: 2019-06-23
 excerpt: 我一向都觉得，历史是一个很有魅力的领域。它并非单纯对于过去的记述，而是文明存续至今的佐证。
 cover: images/2019-06-23-zeng-shu-wu-guan-jin-yao-de-yi-qie-cai-shi-bei-ju-de-xu-mu/cover.jpg
 coverAlt: 赠书 | 无关紧要的一切才是悲剧的序幕
-id: 2019-06-23-zeng-shu-wu-guan-jin-yao-de-yi-qie-cai-shi-bei-ju-de-xu-mu
+id: 2019-06-23-jnw
 ---
 文末有福利！
 

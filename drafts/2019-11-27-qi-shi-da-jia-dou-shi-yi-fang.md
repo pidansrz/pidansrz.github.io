@@ -4,7 +4,7 @@ date: 2019-11-27
 excerpt: 台湾艺人高以翔在浙江卫视综艺录制时，突发心源性猝死，生命定格在35岁。
 cover: images/2019-11-27-qi-shi-da-jia-dou-shi-yi-fang/cover.jpg
 coverAlt: 其实大家都是乙方
-id: 2019-11-27-qi-shi-da-jia-dou-shi-yi-fang
+id: 2019-11-27-o5f
 ---
 台湾艺人高以翔在浙江卫视综艺录制时，突发心源性猝死，生命定格在35岁。
 

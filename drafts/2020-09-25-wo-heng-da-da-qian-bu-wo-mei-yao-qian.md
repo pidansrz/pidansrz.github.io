@@ -4,7 +4,7 @@ date: 2020-09-25
 excerpt: 我刚刚研读完你恒大的「情况报告」，你就发个辟谣声明，刚刚还在一拍大腿“我就知道”，
 cover: images/2020-09-25-wo-heng-da-da-qian-bu-wo-mei-yao-qian/cover.jpg
 coverAlt: 「我，恒大，打钱」，「不，我没要钱」
-id: 2020-09-25-wo-heng-da-da-qian-bu-wo-mei-yao-qian
+id: 2020-09-25-jvf
 ---
 我刚刚研读完你恒大的「情况报告」，你就发个辟谣声明，刚刚还在一拍大腿“我就知道”，你就让我否定自己？
 

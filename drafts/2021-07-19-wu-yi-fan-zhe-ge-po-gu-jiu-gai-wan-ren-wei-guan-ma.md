@@ -4,9 +4,8 @@ date: 2021-07-19
 excerpt: 从昨晚到现在，占据着人们注意力的，应该就是那位当红艺人吴亦凡了。
 cover: images/2021-07-19-wu-yi-fan-zhe-ge-po-gu-jiu-gai-wan-ren-wei-guan-ma/cover.jpg
 coverAlt: 吴亦凡这个破鼓，就该万人围观吗？
-id: 2021-07-19-wu-yi-fan-zhe-ge-po-gu-jiu-gai-wan-ren-wei-guan-ma
+id: 2021-07-19-z7a
 ---
-
 从昨晚到现在，占据着人们注意力的，应该就是那位当红艺人吴亦凡了。连我这样一个永远也赶不上潮流的人的微博和微信群中，也充斥着无数对吴亦凡的讨伐之声。
 
 网络间此起彼伏的声讨，让我也不禁有点好奇，这位仁兄究竟是怎么了，竟惹得如此众怒，甚至还引得合作伙伴的纷纷解约。

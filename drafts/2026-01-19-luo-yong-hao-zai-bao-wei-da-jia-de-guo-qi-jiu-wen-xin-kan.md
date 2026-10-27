@@ -3,7 +3,7 @@ title: 罗永浩在保卫大家的「锅气」？| 旧文新看
 date: 2026-01-19
 cover: images/2026-01-19-luo-yong-hao-zai-bao-wei-da-jia-de-guo-qi-jiu-wen-xin-kan/cover.jpg
 coverAlt: 罗永浩在保卫大家的「锅气」？| 旧文新看
-id: 2026-01-19-luo-yong-hao-zai-bao-wei-da-jia-de-guo-qi-jiu-wen-xin-kan
+id: 2026-01-19-i6k
 ---
 西贝向何处去，是生还是死，和贾国龙无关，也和罗永浩无关。世道下行，不管是西贝还是东贝，只会越来越难。大家兜里的钱越来越少，品质再高，口味再好，也抵不过便宜廉价的碳水给人的安全感和满足感。此等矫情，说好听点叫性价比，说难听点叫穷讲究。
 

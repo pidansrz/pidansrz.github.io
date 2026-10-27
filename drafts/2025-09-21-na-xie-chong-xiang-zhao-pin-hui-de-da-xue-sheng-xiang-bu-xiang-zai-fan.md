@@ -3,7 +3,7 @@ title: 那些冲向招聘会的大学生，像不像在凡尔登冲锋的士兵�
 date: 2025-09-21
 cover: images/2025-09-21-na-xie-chong-xiang-zhao-pin-hui-de-da-xue-sheng-xiang-bu-xiang-zai-fan/cover.jpg
 coverAlt: 那些冲向招聘会的大学生，像不像在凡尔登冲锋的士兵？
-id: 2025-09-21-na-xie-chong-xiang-zhao-pin-hui-de-da-xue-sheng-xiang-bu-xiang-zai-fan
+id: 2025-09-21-8bm
 ---
 ![](images/2025-09-21-na-xie-chong-xiang-zhao-pin-hui-de-da-xue-sheng-xiang-bu-xiang-zai-fan/img_01.jpg)
 

@@ -4,7 +4,7 @@ date: 2021-07-23
 excerpt: 2011年9月，我读到了这篇文章，我记住了其中的关键词：真相、世界。
 cover: images/2021-07-23-bao-wei-ni-de-zhen-xiang-zhi-dao-shi-jie-beng-ta/cover.jpg
 coverAlt: 保卫你的真相，直到世界崩塌
-id: 2021-07-23-bao-wei-ni-de-zhen-xiang-zhi-dao-shi-jie-beng-ta
+id: 2021-07-23-oca
 ---
 2011年9月，我读到了这篇文章，我记住了其中的关键词：真相、世界。
 

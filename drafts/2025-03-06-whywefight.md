@@ -4,7 +4,7 @@ date: 2025-03-06
 excerpt: 我很喜欢一部电视剧，2001年上映的「兄弟连」。
 cover: images/2025-03-06-whywefight/cover.jpg
 coverAlt: WhyWeFight
-id: 2025-03-06-whywefight
+id: 2025-03-06-z9s
 ---
 ![](images/2025-03-06-whywefight/img_01.jpg)
 

@@ -4,7 +4,7 @@ date: 2020-10-03
 excerpt: 前几天，在网上看到了一份中国90后收入的调查报告：
 cover: images/2020-10-03-bi-ye-4-nian-wo-yong-shui-hou-shou-ru-mai-le-liang-tao-fang/cover.jpg
 coverAlt: 毕业4年，我用睡后收入买了两套房
-id: 2020-10-03-bi-ye-4-nian-wo-yong-shui-hou-shou-ru-mai-le-liang-tao-fang
+id: 2020-10-03-100
 ---
 前几天，在网上看到了一份中国90后收入的调查报告：
 

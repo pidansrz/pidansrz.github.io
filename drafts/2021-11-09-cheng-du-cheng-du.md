@@ -4,7 +4,7 @@ date: 2021-11-09
 excerpt: 这几日的成都，正在经历着一场远胜于过去的压力测试，但从昨晚的表现来看，
 cover: images/2021-11-09-cheng-du-cheng-du/cover.jpg
 coverAlt: 成都！成都！
-id: 2021-11-09-cheng-du-cheng-du
+id: 2021-11-09-zxz
 ---
 ![](images/2021-11-09-cheng-du-cheng-du/img_01.jpg)
 

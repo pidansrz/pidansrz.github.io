@@ -4,7 +4,7 @@ date: 2018-11-09
 excerpt: 这篇文章推送时，对我来说，一年中最具理想情怀的日子，就这么悄没声儿的过去了。
 cover: images/2018-11-09-wu-shi-ren-fei-shan-chang-shui-kuo/cover.jpg
 coverAlt: 物是人非，山长水阔
-id: 2018-11-09-wu-shi-ren-fei-shan-chang-shui-kuo
+id: 2018-11-09-pml
 ---
 这篇文章推送时，对我来说，一年中最具理想情怀的日子，就这么悄没声儿的过去了。
 

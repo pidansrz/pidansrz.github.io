@@ -4,9 +4,8 @@ date: 2021-01-04
 excerpt: 热衷于请人「砍一刀」的拼多多，终于被知乎砍了一刀。
 cover: images/2021-01-04-pin-duo-duo-bei-zhi-hu-kan-le-yi-dao/cover.jpg
 coverAlt: 拼多多被知乎砍了一刀
-id: 2021-01-04-pin-duo-duo-bei-zhi-hu-kan-le-yi-dao
+id: 2021-01-04-d6e
 ---
-
 热衷于请人「砍一刀」的拼多多，终于被知乎砍了一刀。
 
 今天一整天，舆论的所有热度几乎都贡献给了那个意外去世的拼多多员工，据说，多多买菜员工每月工作350个小时，工作13天休息一天，凌晨两三点下班是常事。

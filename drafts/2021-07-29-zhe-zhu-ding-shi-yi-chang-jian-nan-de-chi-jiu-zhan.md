@@ -4,9 +4,8 @@ date: 2021-07-29
 excerpt: 时至今日，恐怕有越来越多的人意识到，SARS-CoV-2——也就是我们俗称的新冠病毒——将成…
 cover: images/2021-07-29-zhe-zhu-ding-shi-yi-chang-jian-nan-de-chi-jiu-zhan/cover.jpg
 coverAlt: 这注定是一场艰难的持久战
-id: 2021-07-29-zhe-zhu-ding-shi-yi-chang-jian-nan-de-chi-jiu-zhan
+id: 2021-07-29-7it
 ---
-
 时至今日，恐怕有越来越多的人意识到，SARS-CoV-2——也就是我们俗称的新冠病毒——将成为与人类长期共存的病毒，而随之而来的新冠肺炎，也有极大的概率成为我们日常生活中不得不面对的疾病。
 
 显然，这样的认识与一年多以前大多数人的预测大相径庭。彼时的人们，认为凭借着战胜SARS的经历以及强大的社会动员能力，新冠肺炎将只是人类文明一个小小的插曲和不和谐音符。

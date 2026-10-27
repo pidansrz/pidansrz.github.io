@@ -4,7 +4,7 @@ date: 2020-05-04
 excerpt: 搞完一台成功的跨年晚会后，B站突然膨胀起来，在五四前的深夜，
 cover: images/2020-05-04-zhou-kan-b-zhan-de-ma-pi-shi-yi-wan-du-ji-tang/cover.jpg
 coverAlt: 【舟侃】B站的马屁是一碗毒鸡汤
-id: 2020-05-04-zhou-kan-b-zhan-de-ma-pi-shi-yi-wan-du-ji-tang
+id: 2020-05-04-yrp
 ---
 搞完一台成功的跨年晚会后，B站突然膨胀起来，在五四前的深夜，弄出了一个叫做「后浪」的青年宣言。
 

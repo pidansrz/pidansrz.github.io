@@ -3,7 +3,7 @@ title: 请你忘记她的模样
 date: 2025-07-14
 cover: images/2025-07-14-qing-ni-wang-ji-ta-de-mu-yang/cover.jpg
 coverAlt: 请你忘记她的模样
-id: 2025-07-14-qing-ni-wang-ji-ta-de-mu-yang
+id: 2025-07-14-x40
 ---
 刚刚过去的周日，人们喝着零元外卖的奶茶，深度卷入到大连工业大学处罚女学生一事的讨论中。
 

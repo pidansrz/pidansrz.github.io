@@ -4,9 +4,8 @@ date: 2021-06-09
 excerpt: 这几天，粥爷的朋友圈里讨论最多的事情，恐怕就是邯郸路大学杀人案。
 cover: images/2021-06-09-ling-dao-qing-nin-he-wo-men-yi-qi-fei-sheng-ji-zou/cover.jpg
 coverAlt: 领导，请您和我们一起「非升即走」
-id: 2021-06-09-ling-dao-qing-nin-he-wo-men-yi-qi-fei-sheng-ji-zou
+id: 2021-06-09-58p
 ---
-
 这几天，粥爷的朋友圈里讨论最多的事情，恐怕就是邯郸路大学杀人案。
 
 从官方的通报来看，事情其实并不复杂，青年教师姜某自述因工作关系对被害人王某怀恨在心，故对其实施侵害，王某当场死亡，享年49岁。

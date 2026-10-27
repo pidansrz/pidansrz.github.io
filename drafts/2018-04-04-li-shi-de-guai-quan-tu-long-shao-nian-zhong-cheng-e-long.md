@@ -4,7 +4,7 @@ date: 2018-04-04
 excerpt: 尼采说过，当你凝视深渊时，深渊也在凝视你。
 cover: images/2018-04-04-li-shi-de-guai-quan-tu-long-shao-nian-zhong-cheng-e-long/cover.jpg
 coverAlt: 历史的怪圈：屠龙少年终成恶龙
-id: 2018-04-04-li-shi-de-guai-quan-tu-long-shao-nian-zhong-cheng-e-long
+id: 2018-04-04-s22
 ---
 一
 

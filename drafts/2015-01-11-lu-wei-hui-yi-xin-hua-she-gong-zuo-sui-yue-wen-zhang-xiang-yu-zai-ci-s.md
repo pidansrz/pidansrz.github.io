@@ -4,7 +4,7 @@ date: 2015-01-11
 excerpt: 本文选自新华社信息部成立20周年时的征文活动集《我的家”》，该文集为新华社内部资料，
 cover: images/2015-01-11-lu-wei-hui-yi-xin-hua-she-gong-zuo-sui-yue-wen-zhang-xiang-yu-zai-ci-s/cover.jpg
 coverAlt: 鲁炜回忆新华社工作岁月文章——相遇在此时 共同做此事
-id: 2015-01-11-lu-wei-hui-yi-xin-hua-she-gong-zuo-sui-yue-wen-zhang-xiang-yu-zai-ci-s
+id: 2015-01-11-3ki
 ---
 原文转自传媒大观察
 

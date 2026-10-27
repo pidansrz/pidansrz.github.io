@@ -4,7 +4,7 @@ date: 2016-01-11
 excerpt: “仿佛这古园就是为了等我，而历尽沧桑在那儿等待了四百多年。”——史铁生
 cover: images/2016-01-11-ye-du-chong-du-wo-yu-di-tan-sui-gan/cover.jpg
 coverAlt: 【夜读】重读《我与地坛》随感
-id: 2016-01-11-ye-du-chong-du-wo-yu-di-tan-sui-gan
+id: 2016-01-11-g6j
 ---
 “仿佛这古园就是为了等我，而历尽沧桑在那儿等待了四百多年。”——史铁生
 

@@ -4,9 +4,8 @@ date: 2021-02-04
 excerpt: 对于喜欢海外影视剧的人们来说，今天必然是一个悲伤的日子。
 cover: images/2021-02-04-dao-huo-de-ren-ren-ying-shi/cover.jpg
 coverAlt: 「盗火」的人人影视
-id: 2021-02-04-dao-huo-de-ren-ren-ying-shi
+id: 2021-02-04-exr
 ---
-
 一
 
 对于喜欢海外影视剧的人们来说，今天必然是一个悲伤的日子。

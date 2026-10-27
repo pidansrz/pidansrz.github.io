@@ -4,7 +4,7 @@ date: 2018-05-15
 excerpt: 因为自己孩子调皮捣蛋欺负同学，受到了老师的特殊待遇，有些人会选择直接上手，和老师抡起王八拳，
 cover: images/2018-05-15-ni-hao-da-de-guan-wei-a-yan-tai-tai/cover.jpg
 coverAlt: 你好大的官威啊，严太太
-id: 2018-05-15-ni-hao-da-de-guan-wei-a-yan-tai-tai
+id: 2018-05-15-pbl
 ---
 因为自己孩子调皮捣蛋欺负同学，受到了老师的特殊待遇，有些人会选择直接上手，和老师抡起王八拳，撕扯到一起。但直接让学校老师辞职滚蛋的，恐怕也就严太太李向阳一人了。
 

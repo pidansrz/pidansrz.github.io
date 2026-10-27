@@ -4,7 +4,7 @@ date: 2017-11-29
 excerpt: “雪崩来时，每一片雪花都是有罪的”，反过来说，星星之火燎原之时，当初的每一颗不起眼的小火苗，
 cover: images/2017-11-29-somethingwrongwith/cover.jpg
 coverAlt: Something wrong with…………
-id: 2017-11-29-somethingwrongwith
+id: 2017-11-29-3md
 ---
 “雪崩来时，每一片雪花都是有罪的”，反过来说，星星之火燎原之时，当初的每一颗不起眼的小火苗，都有着极大的功劳。
 

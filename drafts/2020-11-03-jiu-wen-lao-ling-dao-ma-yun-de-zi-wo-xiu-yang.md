@@ -4,7 +4,7 @@ date: 2020-11-03
 excerpt: “我过去多次讲，可能我最后的作用是带头建立退休制度。”
 cover: images/2020-11-03-jiu-wen-lao-ling-dao-ma-yun-de-zi-wo-xiu-yang/cover.jpg
 coverAlt: 旧文|老领导马云的自我修养
-id: 2020-11-03-jiu-wen-lao-ling-dao-ma-yun-de-zi-wo-xiu-yang
+id: 2020-11-03-fsz
 ---
 “我过去多次讲，可能我最后的作用是带头建立退休制度。”
 

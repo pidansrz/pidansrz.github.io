@@ -4,7 +4,7 @@ date: 2024-06-07
 excerpt: 我高考那个时候，不知道是教育落后还是老师佛系，从来没有说过作文应该怎么写，
 cover: images/2024-06-07-gao-kao-zuo-wen-dui-wo-shi-yi-jian-zi-ran-er-ran-de-shi-qing/cover.jpg
 coverAlt: 高考作文，对我是一件自然而然的事情
-id: 2024-06-07-gao-kao-zuo-wen-dui-wo-shi-yi-jian-zi-ran-er-ran-de-shi-qing
+id: 2024-06-07-9p9
 ---
 ![](images/2024-06-07-gao-kao-zuo-wen-dui-wo-shi-yi-jian-zi-ran-er-ran-de-shi-qing/img_01.jpg)
 

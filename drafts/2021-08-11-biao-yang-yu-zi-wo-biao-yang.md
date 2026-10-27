@@ -4,7 +4,7 @@ date: 2021-08-11
 excerpt: 大约从昨天开始，成都就隐隐约约有一种按耐不住的冲动。
 cover: images/2021-08-11-biao-yang-yu-zi-wo-biao-yang/cover.jpg
 coverAlt: 表扬与自我表扬
-id: 2021-08-11-biao-yang-yu-zi-wo-biao-yang
+id: 2021-08-11-s17
 ---
 ![](images/2021-08-11-biao-yang-yu-zi-wo-biao-yang/img_01.jpg)
 

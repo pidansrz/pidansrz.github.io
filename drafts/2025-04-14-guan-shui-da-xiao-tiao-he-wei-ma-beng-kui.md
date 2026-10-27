@@ -3,7 +3,7 @@ title: 关税、大萧条和魏玛崩溃
 date: 2025-04-14
 cover: images/2025-04-14-guan-shui-da-xiao-tiao-he-wei-ma-beng-kui/cover.jpg
 coverAlt: 关税、大萧条和魏玛崩溃
-id: 2025-04-14-guan-shui-da-xiao-tiao-he-wei-ma-beng-kui
+id: 2025-04-14-p1y
 ---
 ![](images/2025-04-14-guan-shui-da-xiao-tiao-he-wei-ma-beng-kui/img_01.jpg)
 

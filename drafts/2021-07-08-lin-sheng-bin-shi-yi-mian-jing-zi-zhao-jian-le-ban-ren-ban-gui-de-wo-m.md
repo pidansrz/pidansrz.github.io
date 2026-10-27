@@ -4,9 +4,8 @@ date: 2021-07-08
 excerpt: 消失在了公众视野很久的林生斌，在过去的这一周掀起了不小的舆论风暴，被舆论的聚光灯照了个遍，
 cover: images/2021-07-08-lin-sheng-bin-shi-yi-mian-jing-zi-zhao-jian-le-ban-ren-ban-gui-de-wo-m/cover.jpg
 coverAlt: 林生斌是一面镜子，照见了半人半鬼的我们
-id: 2021-07-08-lin-sheng-bin-shi-yi-mian-jing-zi-zhao-jian-le-ban-ren-ban-gui-de-wo-m
+id: 2021-07-08-lb0
 ---
-
 消失在了公众视野很久的林生斌，在过去的这一周掀起了不小的舆论风暴，被舆论的聚光灯照了个遍，也被人们扒了个底朝天。
 
 在滔天的舆论之下，林生斌的人设和形象，如同过山车一般从高峰坠入深谷，最开始，他是一往深情的丈夫与父亲。而现在，他成为了负心汉、骗子甚至是怪物。

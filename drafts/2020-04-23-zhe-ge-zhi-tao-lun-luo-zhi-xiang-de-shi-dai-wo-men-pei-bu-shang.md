@@ -4,7 +4,7 @@ date: 2020-04-23
 excerpt: 大家伙吃罗志祥的瓜，已经吃了一整天，你们累不累我不知道，但粥爷我的微信群里，
 cover: images/2020-04-23-zhe-ge-zhi-tao-lun-luo-zhi-xiang-de-shi-dai-wo-men-pei-bu-shang/cover.jpg
 coverAlt: 这个只讨论罗志祥的时代，我们配不上
-id: 2020-04-23-zhe-ge-zhi-tao-lun-luo-zhi-xiang-de-shi-dai-wo-men-pei-bu-shang
+id: 2020-04-23-a6d
 ---
 大家伙吃罗志祥的瓜，已经吃了一整天，你们累不累我不知道，但粥爷我的微信群里，十个有九个都在聊这个，倒是挺让人心累的。
 

@@ -4,7 +4,7 @@ date: 2014-09-29
 excerpt: （调格式花了太长时间，预计昨天第一篇推送，只能拖到今日了）
 cover: images/2014-09-29-xie-ping-lun-ye-de-shi-you-zhui-qiu-de/cover.jpg
 coverAlt: 写评论，也得是有追求的
-id: 2014-09-29-xie-ping-lun-ye-de-shi-you-zhui-qiu-de
+id: 2014-09-29-f8r
 ---
 ![](images/2014-09-29-xie-ping-lun-ye-de-shi-you-zhui-qiu-de/img_01.jpg)
 

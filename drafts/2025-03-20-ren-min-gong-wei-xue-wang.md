@@ -4,7 +4,7 @@ date: 2025-03-20
 excerpt: 国民奶茶品牌蜜雪冰城宜昌的某加盟店因使用隔夜柠檬片、橙子切片被曝光。
 cover: images/2025-03-20-ren-min-gong-wei-xue-wang/cover.jpg
 coverAlt: 人民拱卫雪王
-id: 2025-03-20-ren-min-gong-wei-xue-wang
+id: 2025-03-20-l03
 ---
 ![](images/2025-03-20-ren-min-gong-wei-xue-wang/img_01.jpg)
 

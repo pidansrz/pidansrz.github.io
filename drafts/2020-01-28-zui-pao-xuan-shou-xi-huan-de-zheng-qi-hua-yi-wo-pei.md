@@ -4,7 +4,7 @@ date: 2020-01-28
 excerpt: 粥爷特别喜欢陶渊明，他的一首辞，我印象极其深刻，其中有两句这么写道：
 cover: images/2020-01-28-zui-pao-xuan-shou-xi-huan-de-zheng-qi-hua-yi-wo-pei/cover.jpg
 coverAlt: 嘴炮选手喜欢的整齐划一，我呸
-id: 2020-01-28-zui-pao-xuan-shou-xi-huan-de-zheng-qi-hua-yi-wo-pei
+id: 2020-01-28-2a3
 ---
 粥爷特别喜欢陶渊明，他的一首辞，我印象极其深刻，其中有两句这么写道：
 

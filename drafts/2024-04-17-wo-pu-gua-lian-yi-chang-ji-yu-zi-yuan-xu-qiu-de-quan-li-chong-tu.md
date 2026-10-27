@@ -4,7 +4,7 @@ date: 2024-04-17
 excerpt: 火车卧铺挂帘引发的争论，不出意料地引来一众媒体的热议。
 cover: images/2024-04-17-wo-pu-gua-lian-yi-chang-ji-yu-zi-yuan-xu-qiu-de-quan-li-chong-tu/cover.jpg
 coverAlt: 卧铺挂帘：一场基于「资源-需求」的权利冲突
-id: 2024-04-17-wo-pu-gua-lian-yi-chang-ji-yu-zi-yuan-xu-qiu-de-quan-li-chong-tu
+id: 2024-04-17-nw5
 ---
 ![](images/2024-04-17-wo-pu-gua-lian-yi-chang-ji-yu-zi-yuan-xu-qiu-de-quan-li-chong-tu/img_01.jpg)
 

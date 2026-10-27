@@ -4,7 +4,7 @@ date: 2020-03-02
 excerpt: 粥爷我不懂饭圈，也不混饭圈，这是一个属于年轻人的世界，像我这种正义无反顾奔向中老年的人，
 cover: images/2020-03-02-hui-le-fan-quan-de-bu-shi-fan-quan-zi-ji-er-shi-wo-men-cheng-nian-ren/cover.jpg
 coverAlt: 毁了饭圈的，不是饭圈自己，而是我们成年人
-id: 2020-03-02-hui-le-fan-quan-de-bu-shi-fan-quan-zi-ji-er-shi-wo-men-cheng-nian-ren
+id: 2020-03-02-8lg
 ---
 粥爷我不懂饭圈，也不混饭圈，这是一个属于年轻人的世界，像我这种正义无反顾奔向中老年的人，是不可能弄明白这个变化无常的新世界。
 

@@ -4,7 +4,7 @@ date: 2015-12-12
 excerpt: 西西弗书店，1993年08月08日诞生于贵州遵义，薛野、萧然、陈瑾、高冬梅等艰难创办。
 cover: images/2015-12-12-huai-nian-jiu-yuan-de-wei-guang-zhi-wo-yan-zhong-de-xi-xi-fu-shu-dian/cover.jpg
 coverAlt: 怀念久远的微光——致我眼中的西西弗书店
-id: 2015-12-12-huai-nian-jiu-yuan-de-wei-guang-zhi-wo-yan-zhong-de-xi-xi-fu-shu-dian
+id: 2015-12-12-rwv
 ---
 西西弗书店，1993年08月08日诞生于贵州遵义，薛野、萧然、陈瑾、高冬梅等艰难创办。
 

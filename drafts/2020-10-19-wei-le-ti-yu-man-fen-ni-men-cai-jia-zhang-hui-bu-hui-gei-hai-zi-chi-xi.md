@@ -3,7 +3,7 @@ title: 为了体育满分，你们猜家长会不会给孩子吃兴奋剂？
 date: 2020-10-19
 cover: images/2020-10-19-wei-le-ti-yu-man-fen-ni-men-cai-jia-zhang-hui-bu-hui-gei-hai-zi-chi-xi/cover.jpg
 coverAlt: 为了体育满分，你们猜家长会不会给孩子吃兴奋剂？
-id: 2020-10-19-wei-le-ti-yu-man-fen-ni-men-cai-jia-zhang-hui-bu-hui-gei-hai-zi-chi-xi
+id: 2020-10-19-s6p
 ---
 当教育部门的负责人明确表示：
 

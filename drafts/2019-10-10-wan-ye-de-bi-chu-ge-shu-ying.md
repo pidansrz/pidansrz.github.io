@@ -4,7 +4,7 @@ date: 2019-10-10
 excerpt: 快乐的时光总是一霎而过。
 cover: images/2019-10-10-wan-ye-de-bi-chu-ge-shu-ying/cover.jpg
 coverAlt: 玩，也得比出个输赢
-id: 2019-10-10-wan-ye-de-bi-chu-ge-shu-ying
+id: 2019-10-10-fcf
 ---
 快乐的时光总是一霎而过。
 

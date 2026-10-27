@@ -4,7 +4,7 @@ date: 2020-05-24
 excerpt: 听说，臭名昭著的公号「至道学宫」挂了。听说而已，粥爷我不是它的粉丝，没有亲见，
 cover: images/2020-05-24-zhou-kan-lun-zhi-dao-xue-gong-de-dao-diao/cover.jpg
 coverAlt: 【舟侃】论至道学宫的倒掉
-id: 2020-05-24-zhou-kan-lun-zhi-dao-xue-gong-de-dao-diao
+id: 2020-05-24-kat
 ---
 听说，臭名昭著的公号「至道学宫」挂了。听说而已，粥爷我不是它的粉丝，没有亲见，但我见过它最为辉煌的时候。
 

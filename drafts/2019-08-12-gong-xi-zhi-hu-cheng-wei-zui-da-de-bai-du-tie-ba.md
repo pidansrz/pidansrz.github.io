@@ -4,9 +4,8 @@ date: 2019-08-12
 excerpt: 没想到你知乎浓眉大眼的，也背叛了革命
 cover: images/2019-08-12-gong-xi-zhi-hu-cheng-wei-zui-da-de-bai-du-tie-ba/img_01.jpg
 coverAlt: 恭喜知乎成为最大的百度贴吧
-id: 2019-08-12-gong-xi-zhi-hu-cheng-wei-zui-da-de-bai-du-tie-ba
+id: 2019-08-12-61t
 ---
-
 信息爆炸的今天，很多值得关注的事儿，总是悄没声儿地滑了过去。
 人们总是关注于身边新近之事，而对于过往，人有时候就像金鱼一样，记忆只有三秒。
 当人们将目光投向中国的南方时，我看到“山河路人”公号推送的文章，[《百度入股了知乎，魏则西知道吗？](<http://mp.weixin.qq.com/s?__biz=MzA4NDAxNjIyMw==&mid=2650323427&idx=1&sn=79d99f3b6ba48b78249c5b7c5f76868a&chksm=87e1b4d3b0963dc5b1f408f7bb251c64825d420913a874c9e3b6506994fc545de9527fcad393&scene=21#wechat_redirect>)[》](<http://mp.weixin.qq.com/s?__biz=MzA4NDAxNjIyMw==&mid=2650323427&idx=1&sn=79d99f3b6ba48b78249c5b7c5f76868a&chksm=87e1b4d3b0963dc5b1f408f7bb251c64825d420913a874c9e3b6506994fc545de9527fcad393&scene=21#wechat_redirect>)

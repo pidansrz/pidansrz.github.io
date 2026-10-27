@@ -4,7 +4,7 @@ date: 2020-06-23
 excerpt: 记得去年高考前夕，我写了一篇文，文中写道：
 cover: images/2020-06-23-ru-guo-mei-you-nian-da-xue-ni-men-du-hui-qu-gan-ma/cover.jpg
 coverAlt: 如果没有念大学，你们都会去干嘛？
-id: 2020-06-23-ru-guo-mei-you-nian-da-xue-ni-men-du-hui-qu-gan-ma
+id: 2020-06-23-ira
 ---
 记得去年高考前夕，我写了一篇文，文中写道：
 

@@ -3,7 +3,7 @@ title: 罗永浩在保卫大家的「锅气」？
 date: 2025-09-15
 cover: images/2025-09-15-luo-yong-hao-zai-bao-wei-da-jia-de-guo-qi/cover.jpg
 coverAlt: 罗永浩在保卫大家的「锅气」？
-id: 2025-09-15-luo-yong-hao-zai-bao-wei-da-jia-de-guo-qi
+id: 2025-09-15-n8m
 ---
 ![](images/2025-09-15-luo-yong-hao-zai-bao-wei-da-jia-de-guo-qi/img_01.jpg)
 

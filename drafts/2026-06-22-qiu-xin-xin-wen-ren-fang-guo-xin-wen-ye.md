@@ -4,7 +4,7 @@ date: 2026-06-22
 excerpt: 按理说，六月是传统的新闻淡季，但依旧有不少值得观察和点评的热点新闻。
 cover: images/2026-06-22-qiu-xin-xin-wen-ren-fang-guo-xin-wen-ye/cover.jpg
 coverAlt: 求「新」新闻人，放过新闻业
-id: 2026-06-22-qiu-xin-xin-wen-ren-fang-guo-xin-wen-ye
+id: 2026-06-22-12d
 ---
 ![](images/2026-06-22-qiu-xin-xin-wen-ren-fang-guo-xin-wen-ye/img_01.jpg)
 

@@ -4,9 +4,8 @@ date: 2022-11-08
 excerpt: 原文写于2020年11月6日，今略有修改
 cover: images/2022-11-08-xin-wen-ren-zhi-neng-zi-du/cover.jpg
 coverAlt: 新闻人只能自渡
-id: 2022-11-08-xin-wen-ren-zhi-neng-zi-du
+id: 2022-11-08-s5m
 ---
-
 原文写于2020年11月6日，今略有修改
 
 偶然下楼拿快递，突然发现，办公室楼下立起了一块巨大的展板，以庆祝即将到来的节日，几个大字颇是引人瞩目：

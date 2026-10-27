@@ -4,7 +4,7 @@ date: 2020-09-08
 excerpt: 说到“穷”这个话题，每个人都有一部血泪史：
 cover: images/2020-09-08-yi-ge-ren-dao-di-yao-zhuan-duo-shao-qian-cai-neng-yuan-li-jiao-lv/cover.jpg
 coverAlt: 一个人到底要赚多少钱才能远离焦虑？
-id: 2020-09-08-yi-ge-ren-dao-di-yao-zhuan-duo-shao-qian-cai-neng-yuan-li-jiao-lv
+id: 2020-09-08-ryw
 ---
 ![](images/2020-09-08-yi-ge-ren-dao-di-yao-zhuan-duo-shao-qian-cai-neng-yuan-li-jiao-lv/img_01.jpg)
 

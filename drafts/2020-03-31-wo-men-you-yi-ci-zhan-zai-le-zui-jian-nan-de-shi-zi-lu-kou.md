@@ -4,7 +4,7 @@ date: 2020-03-31
 excerpt: 在我的一个球迷群里，有位当HR的群友提醒大家，若是在小公司的工作，最好开始找个备胎了。
 cover: images/2020-03-31-wo-men-you-yi-ci-zhan-zai-le-zui-jian-nan-de-shi-zi-lu-kou/cover.jpg
 coverAlt: 我们又一次站在了最艰难的十字路口
-id: 2020-03-31-wo-men-you-yi-ci-zhan-zai-le-zui-jian-nan-de-shi-zi-lu-kou
+id: 2020-03-31-5ep
 ---
 在我的一个球迷群里，有位当HR的群友提醒大家，若是在小公司的工作，最好开始找个备胎了。引申义就是，很多小公司目前风雨飘摇，裁员甚至倒闭不会是太长远的事情。
 

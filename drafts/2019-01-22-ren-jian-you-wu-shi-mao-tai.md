@@ -4,7 +4,7 @@ date: 2019-01-22
 excerpt: 十多年前，L小姐在G大读金融系的时候，证券投资课的老师告诉她：A股中，什么股票都不值得买，
 cover: images/2019-01-22-ren-jian-you-wu-shi-mao-tai/cover.jpg
 coverAlt: 人间尤物是茅台
-id: 2019-01-22-ren-jian-you-wu-shi-mao-tai
+id: 2019-01-22-sbs
 ---
 十多年前，L小姐在G大读金融系的时候，证券投资课的老师告诉她：A股中，什么股票都不值得买，只有一只股票值得长期持有，那就是茅台。
 

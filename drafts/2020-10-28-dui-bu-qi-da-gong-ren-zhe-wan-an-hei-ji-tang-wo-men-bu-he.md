@@ -3,7 +3,7 @@ title: 对不起，「打工人」这碗暗黑鸡汤，我们不喝
 date: 2020-10-28
 cover: images/2020-10-28-dui-bu-qi-da-gong-ren-zhe-wan-an-hei-ji-tang-wo-men-bu-he/cover.jpg
 coverAlt: 对不起，「打工人」这碗暗黑鸡汤，我们不喝
-id: 2020-10-28-dui-bu-qi-da-gong-ren-zhe-wan-an-hei-ji-tang-wo-men-bu-he
+id: 2020-10-28-6fa
 ---
 仿佛就在一瞬间，「打工人」成为了全网最热门的词汇。
 

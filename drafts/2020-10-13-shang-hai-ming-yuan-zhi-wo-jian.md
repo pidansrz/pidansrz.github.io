@@ -4,7 +4,7 @@ date: 2020-10-13
 excerpt: 人们还是无法抗拒八卦的诱惑，把所有的注意力都贡献给了「上海名媛」。
 cover: images/2020-10-13-shang-hai-ming-yuan-zhi-wo-jian/cover.jpg
 coverAlt: 「上海名媛」之我见
-id: 2020-10-13-shang-hai-ming-yuan-zhi-wo-jian
+id: 2020-10-13-8y6
 ---
 人们还是无法抗拒八卦的诱惑，把所有的注意力都贡献给了「上海名媛」。
 

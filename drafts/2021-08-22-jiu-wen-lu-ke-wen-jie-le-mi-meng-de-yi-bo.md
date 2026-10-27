@@ -4,7 +4,7 @@ date: 2021-08-22
 excerpt: 你看，卢克文刷屏的热文《香港问题与世界真相》再一次证明了：
 cover: images/2021-08-22-jiu-wen-lu-ke-wen-jie-le-mi-meng-de-yi-bo/cover.jpg
 coverAlt: 旧文|卢克文接了“咪蒙”的衣钵
-id: 2021-08-22-jiu-wen-lu-ke-wen-jie-le-mi-meng-de-yi-bo
+id: 2021-08-22-dwg
 ---
 你看，卢克文刷屏的热文《香港问题与世界真相》再一次证明了：
 

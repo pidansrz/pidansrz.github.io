@@ -3,7 +3,7 @@ title: 粥爷|保卫你的记忆，直到世界崩塌
 date: 2020-09-06
 cover: images/2020-09-06-zhou-ye-bao-wei-ni-de-ji-yi-zhi-dao-shi-jie-beng-ta/cover.jpg
 coverAlt: 粥爷|保卫你的记忆，直到世界崩塌
-id: 2020-09-06-zhou-ye-bao-wei-ni-de-ji-yi-zhi-dao-shi-jie-beng-ta
+id: 2020-09-06-8v0
 ---
 时至今日，谈及年初那段风雨如晦的日子，不少人的记忆恐怕早已变得淡薄了许多。疫情注定将改变人类的历史与交往方式，而这场自然与人类的斗争，困难程度远甚于17年前的SARS，胜利的终点依旧遥遥无期。
 

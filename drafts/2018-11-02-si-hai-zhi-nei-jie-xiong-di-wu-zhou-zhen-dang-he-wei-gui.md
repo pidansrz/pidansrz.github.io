@@ -4,7 +4,7 @@ date: 2018-11-02
 excerpt: 昨晚走在回家路上，手机嗡嗡的振动，推送了两个重要的消息，会开了，电话也打了。
 cover: images/2018-11-02-si-hai-zhi-nei-jie-xiong-di-wu-zhou-zhen-dang-he-wei-gui/cover.jpg
 coverAlt: 四海之内皆兄弟，五洲震荡和为贵
-id: 2018-11-02-si-hai-zhi-nei-jie-xiong-di-wu-zhou-zhen-dang-he-wei-gui
+id: 2018-11-02-ue1
 ---
 昨晚走在回家路上，手机嗡嗡的振动，推送了两个重要的消息，会开了，电话也打了。这大概是近期听上去最棒的消息了，如果一切能够按照新闻里说的那样。
 

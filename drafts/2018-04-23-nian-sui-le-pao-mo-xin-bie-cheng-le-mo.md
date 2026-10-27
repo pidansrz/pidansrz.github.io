@@ -4,7 +4,7 @@ date: 2018-04-23
 excerpt: 那恐怕是我们离所谓的“中国芯”最近的一次了吧？
 cover: images/2018-04-23-nian-sui-le-pao-mo-xin-bie-cheng-le-mo/cover.jpg
 coverAlt: 碾碎了泡沫，心别成了魔
-id: 2018-04-23-nian-sui-le-pao-mo-xin-bie-cheng-le-mo
+id: 2018-04-23-z9s
 ---
 一
 

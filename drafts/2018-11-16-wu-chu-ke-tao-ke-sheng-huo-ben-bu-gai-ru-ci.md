@@ -4,7 +4,7 @@ date: 2018-11-16
 excerpt: 你看，在这片神奇的热土，即便是大把大把的花钱，也未必能得到该有的待遇。
 cover: images/2018-11-16-wu-chu-ke-tao-ke-sheng-huo-ben-bu-gai-ru-ci/cover.jpg
 coverAlt: 无处可逃，可生活本不该如此
-id: 2018-11-16-wu-chu-ke-tao-ke-sheng-huo-ben-bu-gai-ru-ci
+id: 2018-11-16-rh3
 ---
 关注了皮蛋瘦肉粥
 

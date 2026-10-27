@@ -4,7 +4,7 @@ date: 2020-02-28
 excerpt: 记得我刚刚入行，成为一个文字工作者的时候。一个和我同岁的前辈说过一句话，一直让我记忆犹新。
 cover: images/2020-02-28-jian-zha-de-qing-nian-da-yuan-mi-meng-dou-yao-ba-ni-zhu-chu-shi-men-le/cover.jpg
 coverAlt: 奸诈的青年大院，咪蒙都要把你逐出师门了
-id: 2020-02-28-jian-zha-de-qing-nian-da-yuan-mi-meng-dou-yao-ba-ni-zhu-chu-shi-men-le
+id: 2020-02-28-6x6
 ---
 记得我刚刚入行，成为一个文字工作者的时候。一个和我同岁的前辈说过一句话，一直让我记忆犹新。她说：
 

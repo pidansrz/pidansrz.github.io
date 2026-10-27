@@ -4,7 +4,7 @@ date: 2020-05-31
 excerpt: 作为人生四大喜事之一，结婚往往被看做一个人真正成熟的标志。
 cover: images/2020-05-31-zhou-kan-yao-hao-ma-jin-tian-jiu-ke-yi-li-hun-de-na-zhong/cover.jpg
 coverAlt: 【舟侃】要号吗？今天就可以离婚的那种
-id: 2020-05-31-zhou-kan-yao-hao-ma-jin-tian-jiu-ke-yi-li-hun-de-na-zhong
+id: 2020-05-31-mdt
 ---
 作为人生四大喜事之一，结婚往往被看做一个人真正成熟的标志。
 

@@ -4,7 +4,7 @@ date: 2019-11-25
 excerpt: 几年前『一条』给丁磊拍的视频中，丁磊讲述了自己对于金钱的态度：
 cover: images/2019-11-25-bu-yi-de-bu-jin-jin-shi-wang-yi/cover.jpg
 coverAlt: 不义的，不仅仅是网易
-id: 2019-11-25-bu-yi-de-bu-jin-jin-shi-wang-yi
+id: 2019-11-25-d42
 ---
 几年前『一条』给丁磊拍的视频中，丁磊讲述了自己对于金钱的态度：
 

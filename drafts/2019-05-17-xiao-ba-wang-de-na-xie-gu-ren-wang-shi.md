@@ -4,7 +4,7 @@ date: 2019-05-17
 excerpt: 不知道还有多少人记得，按下电源的那一瞬间，17寸电视传来的声音：
 cover: images/2019-05-17-xiao-ba-wang-de-na-xie-gu-ren-wang-shi/cover.jpg
 coverAlt: 小霸王的那些故人往事
-id: 2019-05-17-xiao-ba-wang-de-na-xie-gu-ren-wang-shi
+id: 2019-05-17-86j
 ---
 不知道还有多少人记得，按下电源的那一瞬间，17寸电视传来的声音：
 

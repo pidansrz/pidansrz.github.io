@@ -4,7 +4,7 @@ date: 2022-09-07
 excerpt: 近日，贵阳市多区因疫情封控，发生市民买菜难、物资配送困难等问题，
 cover: images/2022-09-07-gui-yang-shi-min-wu-zi-bu-yong-chou-hua-guo-yuan-ju-min-mai-bu-dao-chi/cover.jpg
 coverAlt: 贵阳市民物资不用愁？花果园居民：买不到吃的，政府发了\"两颗白菜、一个茄子\
-id: 2022-09-07-gui-yang-shi-min-wu-zi-bu-yong-chou-hua-guo-yuan-ju-min-mai-bu-dao-chi
+id: 2022-09-07-kcv
 ---
 ![](images/2022-09-07-gui-yang-shi-min-wu-zi-bu-yong-chou-hua-guo-yuan-ju-min-mai-bu-dao-chi/img_01.jpg)
 

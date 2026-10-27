@@ -4,7 +4,7 @@ date: 2018-03-14
 excerpt: 昏昏欲睡的春日午后，消息传来，Stephen Hawking走了，
 cover: images/2018-03-14-huo-jin-zou-le-wang-jun-kai-men-ying-le/cover.jpg
 coverAlt: 霍金走了，王俊凯们赢了
-id: 2018-03-14-huo-jin-zou-le-wang-jun-kai-men-ying-le
+id: 2018-03-14-sxu
 ---
 一
 

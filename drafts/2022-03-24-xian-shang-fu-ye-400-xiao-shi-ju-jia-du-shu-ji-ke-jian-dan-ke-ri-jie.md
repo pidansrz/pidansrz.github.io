@@ -4,7 +4,7 @@ date: 2022-03-24
 excerpt: 2022年，音频市场规模预计达到6.9亿，也就是每3个人里就有1个人在听有声书，
 cover: images/2022-03-24-xian-shang-fu-ye-400-xiao-shi-ju-jia-du-shu-ji-ke-jian-dan-ke-ri-jie/cover.jpg
 coverAlt: 线上副业 | 400/小时，居家读书即可，简单可日结
-id: 2022-03-24-xian-shang-fu-ye-400-xiao-shi-ju-jia-du-shu-ji-ke-jian-dan-ke-ri-jie
+id: 2022-03-24-4qv
 ---
 2022年，音频市场规模预计达到6.9亿，也就是每3个人里就有1个人在听有声书，面对如此多的听众，有声书录制人员的数量远远不够！
 

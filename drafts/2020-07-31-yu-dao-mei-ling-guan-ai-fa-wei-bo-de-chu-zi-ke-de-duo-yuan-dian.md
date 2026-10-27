@@ -4,7 +4,7 @@ date: 2020-07-31
 excerpt: 粥爷我一向对任何职业都没有歧视和偏见。毕竟同为劳动人民，都是靠劳动讨生活，谁也不比谁高贵，
 cover: images/2020-07-31-yu-dao-mei-ling-guan-ai-fa-wei-bo-de-chu-zi-ke-de-duo-yuan-dian/cover.jpg
 coverAlt: 遇到美领馆爱发微博的厨子，可得躲远点
-id: 2020-07-31-yu-dao-mei-ling-guan-ai-fa-wei-bo-de-chu-zi-ke-de-duo-yuan-dian
+id: 2020-07-31-fpo
 ---
 粥爷我一向对任何职业都没有歧视和偏见。毕竟同为劳动人民，都是靠劳动讨生活，谁也不比谁高贵，谁也不比谁低贱。
 

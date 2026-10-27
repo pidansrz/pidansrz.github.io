@@ -4,7 +4,7 @@ date: 2019-04-23
 excerpt: 被封两个月的公号，今天总算是回归了。60天，1440小时，86400分钟，
 cover: images/2019-04-23-rang-wo-zai-kan-yi-yan-huai-nian-de-guo-qu/cover.jpg
 coverAlt: 让我再看一眼，怀念的过去
-id: 2019-04-23-rang-wo-zai-kan-yi-yan-huai-nian-de-guo-qu
+id: 2019-04-23-l9v
 ---
 被封两个月的公号，今天总算是回归了。60天，1440小时，86400分钟，腾讯严谨到一分钟都没少。万万没想到，写点东西，表达观点，也会遭遇到如此重的惩罚，激愤之余，还有点点悲哀。当然，这事，我知道不能怪腾讯。
 

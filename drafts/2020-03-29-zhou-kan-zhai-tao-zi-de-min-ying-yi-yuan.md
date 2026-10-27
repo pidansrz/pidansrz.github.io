@@ -4,7 +4,7 @@ date: 2020-03-29
 excerpt: 数据从来不会说谎，新闻连起来看才有意思。
 cover: images/2020-03-29-zhou-kan-zhai-tao-zi-de-min-ying-yi-yuan/cover.jpg
 coverAlt: 【舟侃】摘桃子的民营医院
-id: 2020-03-29-zhou-kan-zhai-tao-zi-de-min-ying-yi-yuan
+id: 2020-03-29-53z
 ---
 数据从来不会说谎，新闻连起来看才有意思。
 

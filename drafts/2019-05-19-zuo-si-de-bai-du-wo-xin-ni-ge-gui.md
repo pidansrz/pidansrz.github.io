@@ -4,7 +4,7 @@ date: 2019-05-19
 excerpt: 作为一个不怎么高明的杠精，在BAT三巨头中，我最不喜欢的就是百度。
 cover: images/2019-05-19-zuo-si-de-bai-du-wo-xin-ni-ge-gui/cover.jpg
 coverAlt: 作死的百度，我信你个鬼
-id: 2019-05-19-zuo-si-de-bai-du-wo-xin-ni-ge-gui
+id: 2019-05-19-kvp
 ---
 作为一个不怎么高明的杠精，在BAT三巨头中，我最不喜欢的就是百度。
 

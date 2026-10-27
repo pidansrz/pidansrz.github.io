@@ -4,7 +4,7 @@ date: 2020-08-12
 excerpt: Life on Lockdown in China
 cover: images/2020-08-12-he-wei-lifeonlockdowninchina/cover.jpg
 coverAlt: 何伟：《Life on Lockdown in China》
-id: 2020-08-12-he-wei-lifeonlockdowninchina
+id: 2020-08-12-ryy
 ---
 Life on Lockdown in China
 

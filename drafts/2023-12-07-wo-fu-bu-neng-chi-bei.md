@@ -4,7 +4,7 @@ date: 2023-12-07
 excerpt: 喜茶与景德镇中国陶瓷博物馆的联名，这几日经历了过山车般的起落。
 cover: images/2023-12-07-wo-fu-bu-neng-chi-bei/cover.jpg
 coverAlt: 我佛不能持杯
-id: 2023-12-07-wo-fu-bu-neng-chi-bei
+id: 2023-12-07-s2a
 ---
 ![](images/2023-12-07-wo-fu-bu-neng-chi-bei/img_01.jpg)
 

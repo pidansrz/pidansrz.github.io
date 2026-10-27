@@ -4,9 +4,8 @@ date: 2024-05-14
 excerpt: 物极必反。这句古老的哲言，用来总结近代知识分子的际遇，再合适不过了。
 cover: images/2024-05-14-shi-jie-shi-ming-shi-wei-he-zong-hui-xiang-qi-ta-men-hao-zhi-shi-fen-z/cover.jpg
 coverAlt: 世界失明时，为何总会想起他们——好知识分子的四种特质
-id: 2024-05-14-shi-jie-shi-ming-shi-wei-he-zong-hui-xiang-qi-ta-men-hao-zhi-shi-fen-z
+id: 2024-05-14-a98
 ---
-
 物极必反。这句古老的哲言，用来总结近代知识分子的际遇，再合适不过了。
 
 从新文化运动开始，知识分子成为中国历史剧变的引领者。随后，天玄地黄，知识分子的命运也随之倒悬。

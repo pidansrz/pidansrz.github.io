@@ -4,7 +4,7 @@ date: 2020-02-12
 excerpt: 疫情仍然未见缓解的趋势，久处困室，即便是工作，也不得不思考，到底是什么原因，
 cover: images/2020-02-12-cheng-du-qi-zhong-kai-ke-zhi-ci-bu-neng-ba-dong-tian-chang-cheng-chun/cover.jpg
 coverAlt: 成都QI中开课致辞：不能把冬天唱成春的开始
-id: 2020-02-12-cheng-du-qi-zhong-kai-ke-zhi-ci-bu-neng-ba-dong-tian-chang-cheng-chun
+id: 2020-02-12-7uy
 ---
 疫情仍然未见缓解的趋势，久处困室，即便是工作，也不得不思考，到底是什么原因，让我们陷入这样的困境之中。过去常说一句话，多难兴邦。这句话，源自2008年的汶川地震。我是认可的，灾难的确能够凝聚人心，促进社会进步。但是，多难兴邦需要一个前提条件，那就是学会反思和自省。
 

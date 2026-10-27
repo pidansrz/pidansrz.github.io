@@ -4,7 +4,7 @@ date: 2022-12-02
 excerpt: 2022年的最后一个月，以一种意想不到的方式拉开了帷幕。
 cover: images/2022-12-02-jin-zhou-yu-guang-zhou/cover.jpg
 coverAlt: 锦州与广州
-id: 2022-12-02-jin-zhou-yu-guang-zhou
+id: 2022-12-02-hwr
 ---
 ![](images/2022-12-02-jin-zhou-yu-guang-zhou/img_01.jpg)
 

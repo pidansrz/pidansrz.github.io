@@ -4,7 +4,7 @@ date: 2018-03-31
 excerpt: 为了祖国的未来，快来关注吧
 cover: images/2018-03-31-xian-dai-xi-shi-xin-shi-de-zhi-chi/cover.jpg
 coverAlt: 现代戏是新事，得支持！
-id: 2018-03-31-xian-dai-xi-shi-xin-shi-de-zhi-chi
+id: 2018-03-31-9ve
 ---
 ![](images/2018-03-31-xian-dai-xi-shi-xin-shi-de-zhi-chi/img_01.png)
 

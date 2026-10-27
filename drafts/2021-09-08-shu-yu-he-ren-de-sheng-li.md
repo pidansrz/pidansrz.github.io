@@ -4,7 +4,7 @@ date: 2021-09-08
 excerpt: 彷佛，这就像是一场梦境，我们居然获得了一场极为罕见的胜利。
 cover: images/2021-09-08-shu-yu-he-ren-de-sheng-li/cover.jpg
 coverAlt: 属于何人的胜利
-id: 2021-09-08-shu-yu-he-ren-de-sheng-li
+id: 2021-09-08-ke9
 ---
 ![](images/2021-09-08-shu-yu-he-ren-de-sheng-li/img_01.jpg)
 

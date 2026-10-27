@@ -4,9 +4,8 @@ date: 2021-03-31
 excerpt: 加缪曾经说：「真正严肃的哲学问题只有一个，那便是自杀」。
 cover: images/2021-03-31-gang-shui-qian-du-ye-di-bu-guo-ren-xin-de-leng-mo/cover.jpg
 coverAlt: 钢水千度也抵不过人心的冷漠
-id: 2021-03-31-gang-shui-qian-du-ye-di-bu-guo-ren-xin-de-leng-mo
+id: 2021-03-31-1s2
 ---
-
 加缪曾经说：「真正严肃的哲学问题只有一个，那便是自杀」。
 
 哲学家的话，听起来总是令人费解。但是，如果将这个问题转换成另一个表述，恐怕也就容易理解得多了：

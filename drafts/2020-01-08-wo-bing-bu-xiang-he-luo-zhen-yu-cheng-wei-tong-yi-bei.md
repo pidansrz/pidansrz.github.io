@@ -4,7 +4,7 @@ date: 2020-01-08
 excerpt: 我是一个从来不听有声书或者音频节目的人，因为声音传递信息的效率实在是太慢了。
 cover: images/2020-01-08-wo-bing-bu-xiang-he-luo-zhen-yu-cheng-wei-tong-yi-bei/cover.jpg
 coverAlt: 我并不想和罗振宇成为同一辈
-id: 2020-01-08-wo-bing-bu-xiang-he-luo-zhen-yu-cheng-wei-tong-yi-bei
+id: 2020-01-08-n6l
 ---
 我是一个从来不听有声书或者音频节目的人，因为声音传递信息的效率实在是太慢了。有空听人瞎白话的功夫，一目十行的我基本能够看完一本书了。
 

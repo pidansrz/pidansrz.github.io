@@ -4,7 +4,7 @@ date: 2020-03-15
 excerpt: 老实说，昨晚的睡眠质量很差。
 cover: images/2020-03-15-zhe-shi-yi-shou-ling-ren-zuo-ou-de-cao-xian-shi-er-ge/cover.jpg
 coverAlt: 这是一首令人作呕的「曹县」式儿歌
-id: 2020-03-15-zhe-shi-yi-shou-ling-ren-zuo-ou-de-cao-xian-shi-er-ge
+id: 2020-03-15-a02
 ---
 老实说，昨晚的睡眠质量很差。
 

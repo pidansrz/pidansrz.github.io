@@ -4,7 +4,7 @@ date: 2021-11-02
 excerpt: 一则平常得不能再平常的工作信息，搅动了今天的舆论场。
 cover: images/2021-11-02-bei-gong-she-ying-de-jie-du/cover.jpg
 coverAlt: 杯弓蛇影的解读
-id: 2021-11-02-bei-gong-she-ying-de-jie-du
+id: 2021-11-02-n3p
 ---
 ![](images/2021-11-02-bei-gong-she-ying-de-jie-du/img_01.jpg)
 

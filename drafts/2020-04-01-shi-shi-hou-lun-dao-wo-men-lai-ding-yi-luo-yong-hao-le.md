@@ -4,7 +4,7 @@ date: 2020-04-01
 excerpt: 多年以后，当罗永浩坐在抖音直播间带货的时候，肯定会想起他忐忑敲开了俞敏洪的办公室，
 cover: images/2020-04-01-shi-shi-hou-lun-dao-wo-men-lai-ding-yi-luo-yong-hao-le/cover.jpg
 coverAlt: 是时候轮到我们来定义罗永浩了
-id: 2020-04-01-shi-shi-hou-lun-dao-wo-men-lai-ding-yi-luo-yong-hao-le
+id: 2020-04-01-o88
 ---
 多年以后，当罗永浩坐在抖音直播间带货的时候，肯定会想起他忐忑敲开了俞敏洪的办公室，紧张地开始了面试新东方GRE老师第一次试讲的那天。
 

@@ -3,7 +3,7 @@ title: 「奥本海默」：道德困境只是问题的开始
 date: 2023-09-22
 cover: images/2023-09-22-ao-ben-hai-mo-dao-de-kun-jing-zhi-shi-wen-ti-de-kai-shi/cover.jpg
 coverAlt: 「奥本海默」：道德困境只是问题的开始
-id: 2023-09-22-ao-ben-hai-mo-dao-de-kun-jing-zhi-shi-wen-ti-de-kai-shi
+id: 2023-09-22-r15
 ---
 无论从哪个角度来说，克里斯托弗·诺兰的「奥本海默」都不失为一部成功的作品。单单是讲故事，诺兰将奥本海默一生中最重要的经历，以不同的比例浓缩在了三个小时。即便是对这段宏大的历史主题一无所知的观众，都能够以最快的速度，得到最基础的科普。这是电影最为基本的功能，如果要盛赞一部电影，这是不可或缺的基础。
 

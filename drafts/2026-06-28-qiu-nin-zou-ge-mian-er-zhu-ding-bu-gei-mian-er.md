@@ -4,9 +4,8 @@ date: 2026-06-28
 excerpt: 韩红给冯小刚的电影「抓特务」做路演推广，用不太熟练的京片子和北京观众套近乎，
 cover: images/2026-06-28-qiu-nin-zou-ge-mian-er-zhu-ding-bu-gei-mian-er/cover.jpg
 coverAlt: 求您走个面儿，注定不给面儿
-id: 2026-06-28-qiu-nin-zou-ge-mian-er-zhu-ding-bu-gei-mian-er
+id: 2026-06-28-ed4
 ---
-
 韩红给冯小刚的电影「抓特务」做路演推广，用不太熟练的京片子和北京观众套近乎，这是现如今电影营销的套路，本来是稀松平常的事儿。但却没想到在网上引来群嘲。「抓特务」这个片子，到底和北京人有多大关系，和北京的胡同又有多大关系？套近乎有时候并不会达到预期的效果，反而有一种令人作呕的装腔作势和自作聪明。
 
 ![](images/2026-06-28-qiu-nin-zou-ge-mian-er-zhu-ding-bu-gei-mian-er/img_02.jpg)

@@ -4,7 +4,7 @@ date: 2019-08-02
 excerpt: 就在刚才，广安的严书记一审判决，以受贿罪判处有期徒刑十年，并处罚金人民币60万元。
 cover: images/2019-08-02-ni-hao-da-de-guan-wei-a-yan-tai-tai/cover.jpg
 coverAlt: 你好大的官威啊，严太太
-id: 2019-08-02-ni-hao-da-de-guan-wei-a-yan-tai-tai
+id: 2019-08-02-d6g
 ---
 就在刚才，广安的严书记一审判决，以受贿罪判处有期徒刑十年，并处罚金人民币60万元。管不好家里人，成为了他落马的导火索。
 

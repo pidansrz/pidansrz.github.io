@@ -4,7 +4,7 @@ date: 2023-02-16
 excerpt: 越是熟悉的历史，往往越是当局者迷。1944—1950的中国，
 cover: images/2023-02-16-yi-bu-shu-dao-jin-19441950-de-zhong-guo-ming-yun/cover.jpg
 coverAlt: 一部书道尽1944-1950的中国命运
-id: 2023-02-16-yi-bu-shu-dao-jin-19441950-de-zhong-guo-ming-yun
+id: 2023-02-16-158
 ---
 ![](images/2023-02-16-yi-bu-shu-dao-jin-19441950-de-zhong-guo-ming-yun/img_01.jpg)
 

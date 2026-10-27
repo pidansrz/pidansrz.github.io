@@ -4,7 +4,7 @@ date: 2024-07-09
 excerpt: 新京报于7月2日刊发的一则关于食用油与「煤制油」混合运输的报道，经历了6天的发酵，
 cover: images/2024-07-09-you-guan-hun-zhuang-yu-tong-you-zha-wan-zi/cover.jpg
 coverAlt: 油罐混装与桐油炸丸子
-id: 2024-07-09-you-guan-hun-zhuang-yu-tong-you-zha-wan-zi
+id: 2024-07-09-ifc
 ---
 ![](images/2024-07-09-you-guan-hun-zhuang-yu-tong-you-zha-wan-zi/img_01.jpg)
 

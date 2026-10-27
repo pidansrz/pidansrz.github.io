@@ -4,7 +4,7 @@ date: 2019-09-26
 excerpt: 我不是一个喜欢看直播的人。对我来说，直播这样的娱乐方式，显得有点前卫了，
 cover: images/2019-09-26-kan-bu-dao-chen-yi-fa-de-zhe-yi-nian/cover.jpg
 coverAlt: 看不到陈一发的这一年
-id: 2019-09-26-kan-bu-dao-chen-yi-fa-de-zhe-yi-nian
+id: 2019-09-26-gtn
 ---
 我不是一个喜欢看直播的人。对我来说，直播这样的娱乐方式，显得有点前卫了，而我却没有足够的时间和精力，去看网红们跳舞唱歌，说段子。
 

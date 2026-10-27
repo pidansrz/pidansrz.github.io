@@ -4,7 +4,7 @@ date: 2020-01-01
 excerpt: “ 你左顾右盼做着各种打算，却不知道生活已经过了大半。
 cover: images/2020-01-01-2020-lai-le-wo-que-tu-ran-hen-huai-nian-2010/cover.jpg
 coverAlt: 2020来了,我却突然很怀念2010
-id: 2020-01-01-2020-lai-le-wo-que-tu-ran-hen-huai-nian-2010
+id: 2020-01-01-pns
 ---
 “ 你左顾右盼做着各种打算，却不知道生活已经过了大半。人们都说，2019是过去10年里最差的一年，却是未来10年里最好的一年。我也这么觉得。
 

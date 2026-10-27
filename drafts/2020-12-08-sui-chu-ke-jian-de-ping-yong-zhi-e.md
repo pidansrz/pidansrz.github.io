@@ -4,9 +4,8 @@ date: 2020-12-08
 excerpt: 不知道诸位，对于恶的定义到底是什么？
 cover: images/2020-12-08-sui-chu-ke-jian-de-ping-yong-zhi-e/cover.jpg
 coverAlt: 随处可见的平庸之恶
-id: 2020-12-08-sui-chu-ke-jian-de-ping-yong-zhi-e
+id: 2020-12-08-1cu
 ---
-
 不知道诸位，对于恶的定义到底是什么？
 
 在我们的传统观念中，善与恶的区别总是如此鲜明，以致于我们往往用类似的词来形容恶：

@@ -220,7 +220,7 @@ ok(/year-group/.test(ids.postList.innerHTML), '清空搜索后回到年份列表
 
 /* ================= 3. 文章页（正文按需加载） ================= */
 section('文章页');
-const target = ctx.__POSTS.find((p) => p.id === '2024-10-22-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie');
+const target = ctx.__POSTS.find((p) => p.content && p.content.length > 100) || ctx.__POSTS[0];
 ok(!!target, '找到测试文章，序号 n=' + (target && target.n));
 const postsBefore = loadedScripts.filter((s) => /js\/posts\//.test(s)).length;
 bootPage('post', '?id=' + target.id);
@@ -332,7 +332,7 @@ const ogDesc = metas['meta[property="og:description"]'];
 const ogImg = metas['meta[property="og:image"]'];
 const ogUrl = metas['meta[property="og:url"]'];
 const twCard = metas['meta[name="twitter:card"]'];
-ok(ogTitle && /旧文/.test(ogTitle.attrs.content), 'og:title = ' + (ogTitle && ogTitle.attrs.content));
+ok(ogTitle && ogTitle.attrs.content.indexOf(target.title) !== -1, 'og:title = ' + (ogTitle && ogTitle.attrs.content));
 ok(ogDesc && ogDesc.attrs.content.length > 4, 'og:description 取自文章摘要');
 ok(ogImg && /^https?:\/\//.test(ogImg.attrs.content), 'og:image 是绝对地址：' + (ogImg && ogImg.attrs.content));
 ok(ogUrl && /post\.html\?id=/.test(ogUrl.attrs.content), 'og:url 指向当前文章');

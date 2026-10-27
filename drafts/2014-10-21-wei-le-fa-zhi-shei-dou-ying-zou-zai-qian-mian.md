@@ -4,7 +4,7 @@ date: 2014-10-21
 excerpt: 为了法治，谁都应走在前面
 cover: images/2014-10-21-wei-le-fa-zhi-shei-dou-ying-zou-zai-qian-mian/cover.jpg
 coverAlt: 为了法治，谁都应走在前面
-id: 2014-10-21-wei-le-fa-zhi-shei-dou-ying-zou-zai-qian-mian
+id: 2014-10-21-gel
 ---
 为了法治，谁都应走在前面
 

@@ -3,7 +3,7 @@ title: 你到底要杜蕾斯怎样？
 date: 2020-10-15
 cover: images/2020-10-15-ni-dao-di-yao-du-lei-si-zen-yang/cover.jpg
 coverAlt: 你到底要杜蕾斯怎样？
-id: 2020-10-15-ni-dao-di-yao-du-lei-si-zen-yang
+id: 2020-10-15-rk7
 ---
 今天的文，粥爷我要聊的是杜蕾斯。
 

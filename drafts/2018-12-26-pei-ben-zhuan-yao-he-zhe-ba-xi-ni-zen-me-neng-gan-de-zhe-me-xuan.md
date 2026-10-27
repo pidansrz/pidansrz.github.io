@@ -4,7 +4,7 @@ date: 2018-12-26
 excerpt: 互联网思维真是一个伟大的发明！
 cover: images/2018-12-26-pei-ben-zhuan-yao-he-zhe-ba-xi-ni-zen-me-neng-gan-de-zhe-me-xuan/cover.jpg
 coverAlt: 赔本赚吆喝这把戏，你怎么能干的这么炫？
-id: 2018-12-26-pei-ben-zhuan-yao-he-zhe-ba-xi-ni-zen-me-neng-gan-de-zhe-me-xuan
+id: 2018-12-26-ik4
 ---
 互联网思维真是一个伟大的发明！
 

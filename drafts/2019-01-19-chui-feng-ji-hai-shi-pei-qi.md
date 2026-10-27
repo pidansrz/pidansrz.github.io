@@ -4,7 +4,7 @@ date: 2019-01-19
 excerpt: 你看，蒸汽朋克风的硬核佩奇，占领了我们一天的注意力。
 cover: images/2019-01-19-chui-feng-ji-hai-shi-pei-qi/cover.jpg
 coverAlt: 吹风机还是佩奇？
-id: 2019-01-19-chui-feng-ji-hai-shi-pei-qi
+id: 2019-01-19-mdc
 ---
 你看，蒸汽朋克风的硬核佩奇，占领了我们一天的注意力。
 

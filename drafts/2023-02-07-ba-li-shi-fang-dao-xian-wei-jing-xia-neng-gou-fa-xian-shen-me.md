@@ -4,7 +4,7 @@ date: 2023-02-07
 excerpt: ▲李积利油画《老茶馆-成都彭镇》
 cover: images/2023-02-07-ba-li-shi-fang-dao-xian-wei-jing-xia-neng-gou-fa-xian-shen-me/cover.jpg
 coverAlt: 把历史放到显微镜下，能够发现什么？
-id: 2023-02-07-ba-li-shi-fang-dao-xian-wei-jing-xia-neng-gou-fa-xian-shen-me
+id: 2023-02-07-0eo
 ---
 ![](images/2023-02-07-ba-li-shi-fang-dao-xian-wei-jing-xia-neng-gou-fa-xian-shen-me/img_01.jpg)
 

@@ -3,7 +3,7 @@ title: 来人呐，她想把鲁迅的烟也掐了
 date: 2025-08-25
 cover: images/2025-08-25-lai-ren-na-ta-xiang-ba-lu-xun-de-yan-ye-qia-le/cover.jpg
 coverAlt: 来人呐，她想把鲁迅的烟也掐了
-id: 2025-08-25-lai-ren-na-ta-xiang-ba-lu-xun-de-yan-ye-qia-le
+id: 2025-08-25-d8m
 ---
 这几天，有一位孙姓女士，展开了常人所不能及的想象，将鲁迅手里的烟看作是鼓励众人吸烟，误导青年走入歧途的图腾。为此她专门向有关部门投诉，认为应该让鲁迅故里门前的那副先生肖像把烟扔掉，改成握拳奋斗的样子。
 

@@ -4,7 +4,7 @@ date: 2019-10-24
 excerpt: 人艰不拆是厚道的最好表现。
 cover: images/2019-10-24-fen-shou-ying-gai-ti-mian-shei-dou-bu-yao-shuo-zang-hua/cover.jpg
 coverAlt: 分手应该体面，谁都不要说脏话
-id: 2019-10-24-fen-shou-ying-gai-ti-mian-shei-dou-bu-yao-shuo-zang-hua
+id: 2019-10-24-eqo
 ---
 人艰不拆是厚道的最好表现。
 

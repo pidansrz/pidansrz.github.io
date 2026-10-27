@@ -4,7 +4,7 @@ date: 2019-12-05
 excerpt: 网上流传甚广的一张专星送照片
 cover: images/2019-12-05-xing-ba-ke-wei-shen-me-yue-lai-yue-nan-he-le/cover.jpg
 coverAlt: 星巴克为什么越来越难喝了？
-id: 2019-12-05-xing-ba-ke-wei-shen-me-yue-lai-yue-nan-he-le
+id: 2019-12-05-2an
 ---
 ![](images/2019-12-05-xing-ba-ke-wei-shen-me-yue-lai-yue-nan-he-le/img_01.jpg)
 

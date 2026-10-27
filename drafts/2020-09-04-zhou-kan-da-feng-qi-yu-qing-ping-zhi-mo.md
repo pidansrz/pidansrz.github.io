@@ -4,7 +4,7 @@ date: 2020-09-04
 excerpt: 不知诸位是否和粥爷我一样，对近来的新闻有这样一种感受：
 cover: images/2020-09-04-zhou-kan-da-feng-qi-yu-qing-ping-zhi-mo/cover.jpg
 coverAlt: 舟侃|大风起于青萍之末
-id: 2020-09-04-zhou-kan-da-feng-qi-yu-qing-ping-zhi-mo
+id: 2020-09-04-ol8
 ---
 一
 

@@ -4,7 +4,7 @@ date: 2019-10-09
 excerpt: 可是忙完一天的俗务之后，坐在电脑前听歌，耳机里却突然响起了阿修罗乐队的一首曲子：
 cover: images/2019-10-09-yin-mou-lun-rang-di-ren-yue-lai-yue-duo/cover.jpg
 coverAlt: 阴谋论让敌人越来越多
-id: 2019-10-09-yin-mou-lun-rang-di-ren-yue-lai-yue-duo
+id: 2019-10-09-l3j
 ---
 今天本没有写作的计划。
 

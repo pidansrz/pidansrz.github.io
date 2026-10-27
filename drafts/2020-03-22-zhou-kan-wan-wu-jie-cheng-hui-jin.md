@@ -4,7 +4,7 @@ date: 2020-03-22
 excerpt: 2020年，注定是以一种让人印象深刻的方式开启。
 cover: images/2020-03-22-zhou-kan-wan-wu-jie-cheng-hui-jin/cover.jpg
 coverAlt: 【舟侃】万物皆成灰烬
-id: 2020-03-22-zhou-kan-wan-wu-jie-cheng-hui-jin
+id: 2020-03-22-tft
 ---
 【一】
 

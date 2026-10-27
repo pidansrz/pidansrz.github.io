@@ -4,7 +4,7 @@ date: 2020-04-03
 excerpt: 这么便宜的咖啡，以后可能喝一杯少一杯了。
 cover: images/2020-04-03-rui-xing-ka-fei-he-yi-bei-shao-yi-bei/cover.jpg
 coverAlt: 瑞幸咖啡，喝一杯少一杯
-id: 2020-04-03-rui-xing-ka-fei-he-yi-bei-shao-yi-bei
+id: 2020-04-03-eal
 ---
 这么便宜的咖啡，以后可能喝一杯少一杯了。
 

@@ -4,7 +4,7 @@ date: 2020-10-07
 excerpt: 103年以前，年仅二十四岁的伟人曾以「二十八画生」为笔名在当时的网红杂志「新青年」上发表过这…
 cover: images/2020-10-07-zhou-ye-zhe-shi-guo-zu-ju-li-duo-guan-zui-jin-de-yi-ci/cover.jpg
 coverAlt: 粥爷|这是国足距离夺冠最近的一次
-id: 2020-10-07-zhou-ye-zhe-shi-guo-zu-ju-li-duo-guan-zui-jin-de-yi-ci
+id: 2020-10-07-nwl
 ---
 103年以前，年仅二十四岁的伟人曾以「二十八画生」为笔名在当时的网红杂志「新青年」上发表过这样一篇文章，题为：
 

@@ -4,7 +4,7 @@ date: 2020-04-13
 excerpt: 如果要用一首歌来总结胡锡进这一周在舆论场的遭遇。
 cover: images/2020-04-13-zhou-kan-fen-hong-men-de-aoe-ming-zhong-le-hu-xi-jin/cover.jpg
 coverAlt: 【舟侃】粉红们的AOE命中了胡锡进
-id: 2020-04-13-zhou-kan-fen-hong-men-de-aoe-ming-zhong-le-hu-xi-jin
+id: 2020-04-13-v9z
 ---
 如果要用一首歌来总结胡锡进这一周在舆论场的遭遇。我想，没有比崔健的第一首摇滚歌曲「不是我不明白」更贴切的了。
 

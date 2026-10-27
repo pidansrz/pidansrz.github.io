@@ -4,7 +4,7 @@ date: 2019-11-01
 excerpt: 很多事情，对于我们局外人来说，可能真的只是过眼云烟，看罢就忘。
 cover: images/2019-11-01-huang-yan-bei-hou-ke-neng-shi-wu-fa-cheng-shou-de-zhen-xiang/cover.jpg
 coverAlt: 谎言背后，可能是无法承受的真相
-id: 2019-11-01-huang-yan-bei-hou-ke-neng-shi-wu-fa-cheng-shou-de-zhen-xiang
+id: 2019-11-01-os9
 ---
 很多事情，对于我们局外人来说，可能真的只是过眼云烟，看罢就忘。
 

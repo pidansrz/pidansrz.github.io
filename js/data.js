@@ -62,7 +62,7 @@ const SITE = {
 
 const POSTS = [
   {
-    id: "2026-09-29-yue-liang-yu-ye-he-na-la",
+    id: "2026-09-29-mi5",
     title: "月亮与叶赫那拉",
     date: "2026-09-29",
     excerpt: "今天有一个热搜新闻，很热很爆，不少自媒体和媒体都从中弄了不少的流量。",
@@ -80,7 +80,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-09-08-di-bao-wei-he-yu-lao-lai-yi-ge-dai-yu",
+    id: "2026-09-08-9vm",
     title: "低保为何与老赖一个待遇？",
     date: "2026-09-08",
     excerpt: "看了宋师傅「为低保女孩说句话」一文，所以也想说几句，或许说的不对，不喜欢的话，不看便是。",
@@ -100,7 +100,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-09-06-zhou-du-jiang-sheng-huo-jian-ji-zai-bi-qu-shi-geng-chang-jiu-de-li-lia",
+    id: "2026-09-06-jlt",
     title: "粥读 | 将生活建基在比趋势更长久的力量上",
     date: "2026-09-06",
     excerpt: "主啊，是时候了。夏日曾盛极一时。",
@@ -128,7 +128,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-08-28-liu-xiang-cong-lai-dou-bu-shi-zi-you-ren",
+    id: "2026-08-28-80m",
     title: "刘翔从来都不是自由人",
     date: "2026-08-28",
     excerpt: "两条微博，让很少出现在公众面前的刘翔重新回归了人们的视野。",
@@ -151,7 +151,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-08-11-xin-wen-ye-you-zhan-sha-xian",
+    id: "2026-08-11-681",
     title: "新闻也有斩杀线",
     date: "2026-08-11",
     excerpt: "今晚，重庆日报报业集团突然发布了一则致歉声明，",
@@ -175,7 +175,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-07-29-wang-de-cai-xiang-jiu-bu-liao-ji-gou-mei-ti",
+    id: "2026-07-29-6wb",
     title: "「王的猜想」救不了机构媒体",
     date: "2026-07-29",
     excerpt: "王虹获得菲尔兹奖接近一周，围绕在其身边的讨论仍未结束。",
@@ -195,7 +195,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-06-28-qiu-nin-zou-ge-mian-er-zhu-ding-bu-gei-mian-er",
+    id: "2026-06-28-ed4",
     title: "求您走个面儿，注定不给面儿",
     date: "2026-06-28",
     excerpt: "韩红给冯小刚的电影「抓特务」做路演推广，用不太熟练的京片子和北京观众套近乎，",
@@ -216,7 +216,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-06-22-qiu-xin-xin-wen-ren-fang-guo-xin-wen-ye",
+    id: "2026-06-22-12d",
     title: "求「新」新闻人，放过新闻业",
     date: "2026-06-22",
     excerpt: "按理说，六月是传统的新闻淡季，但依旧有不少值得观察和点评的热点新闻。",
@@ -236,7 +236,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-05-25-dang-mei-ti-kai-shi-wang-bao-xu-kong",
+    id: "2026-05-25-p47",
     title: "当媒体开始网暴虚空",
     date: "2026-05-25",
     excerpt: "今日目睹了一个颇为壮观的媒体事件。一件在过去不会被媒体报道的事，居然引得不少媒体一拥而上，",
@@ -254,7 +254,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-05-21-chi-gua-qun-zhong-tong-da-wen-yi-luo-shui-gou",
+    id: "2026-05-21-x4i",
     title: "吃瓜群众痛打文艺落水狗",
     date: "2026-05-21",
     excerpt: "（已404，无永久链接）",
@@ -265,7 +265,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-05-15-wu-da-kai-men-bing-bu-yi-wei-zhe-shen-me-xin-hao",
+    id: "2026-05-15-vda",
     title: "武大开门并不意味着什么信号",
     date: "2026-05-15",
     excerpt: "短短不到一周的时间，武汉大学上了两次热搜。",
@@ -285,7 +285,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-05-05-wu-si-du-fu-si-nian-ou-gan",
+    id: "2026-05-05-1q4",
     title: "五四读傅斯年偶感",
     date: "2026-05-05",
     excerpt: "",
@@ -296,7 +296,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-05-01-guan-panda-bu-yu-zhen-jun-zi",
+    id: "2026-05-01-8ne",
     title: "观Panda不语真君子",
     date: "2026-05-01",
     excerpt: "前两天，一个导游在带团时，因使用「残疾」一词介绍网红熊猫花花，引来现场粉丝的质疑，",
@@ -317,7 +317,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-04-27-jin-zhi-xi-yan-kuan-yan-jie-wu",
+    id: "2026-04-27-1fx",
     title: "禁止吸烟，宽严皆误",
     date: "2026-04-27",
     excerpt: "一则发生在深圳的新闻，在刚刚过去的周末引起了一场不大不小，但却值得讨论的舆情。",
@@ -340,7 +340,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-04-08-qing-fen-rong-yi-song-fen-nan-jiu-wen",
+    id: "2026-04-08-b85",
     title: "请粉容易，送粉难 | 旧文",
     date: "2026-04-08",
     excerpt: "全红婵被网暴，粉圈功不可没，推送一篇旧文，原文发表于2024年8月4日",
@@ -367,7 +367,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-04-01-mei-ti-wei-shen-me-yao-zhang-xue-shuo-chang-mian-hua",
+    id: "2026-04-01-7tn",
     title: "媒体为什么要张雪说场面话？",
     date: "2026-04-01",
     excerpt: "张雪机车在世界超级摩托车锦标赛葡萄牙站一战成名，其创始人张雪立刻成为了媒体的座上宾。",
@@ -390,7 +390,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-03-26-xin-wen-de-qi-dian-shi-huai-yi-er-bu-shi-xiang-xin",
+    id: "2026-03-26-is8",
     title: "新闻的起点是怀疑，而不是相信",
     date: "2026-03-26",
     excerpt: "从昨晚至今，最热的新闻当属升学咨询名师张雪峰的骤然离世。",
@@ -412,7 +412,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-03-24-zhang-xue-feng-zhe-ji-chen-sha-le-ma-jiu-wen",
+    id: "2026-03-24-k2t",
     title: "张雪峰折戟沉沙了吗？| 旧文",
     date: "2026-03-24",
     excerpt: "原文发表于2025年9月，略有修改",
@@ -433,7 +433,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-03-10-quan-min-yang-long-xia-zui-dan-qie-ye-zui-ke-xiao",
+    id: "2026-03-10-fdk",
     title: "全民养龙虾：最胆怯也最可笑",
     date: "2026-03-10",
     excerpt: "现如今世道艰难，已经很少有什么事物能够激发人们的求知欲了，但AI除外。要想向世人证明自己前沿、领先、聪明甚至智慧，AI就是一个最好的谈资。毕竟，AI居然是以app的形式存在于每个人的手机里，唾手可得……",
@@ -457,7 +457,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-02-27-newzealand-lve-ying-zhou-you",
+    id: "2026-02-27-df7",
     title: "New Zealand掠影 | 粥游",
     date: "2026-02-27",
     excerpt: "这个春节假期，终于把计划已久的新西兰之行付诸实践了。之前就听人说过，这是一个社会结构超级稳定的国家，事业大发展的机会可能不多，但工作和生活却不会感到疲倦。短短七八天的时间，肯定不可能完全了解新西兰……",
@@ -514,7 +514,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-02-14-hai-wei-ying-ye-mei-shu",
+    id: "2026-02-14-20j",
     title: "还未赢，也没输",
     date: "2026-02-14",
     excerpt: "今天是农历年的最后一个工作日，路过每天上班都要经过的一条街道，突然发现，没开多久的馆子拉下了卷闸门，贴上了招租的告示。",
@@ -535,7 +535,7 @@ const POSTS = [
     `
   },
   {
-    id: "2026-01-19-luo-yong-hao-zai-bao-wei-da-jia-de-guo-qi-jiu-wen-xin-kan",
+    id: "2026-01-19-i6k",
     title: "罗永浩在保卫大家的「锅气」？| 旧文新看",
     date: "2026-01-19",
     excerpt: "西贝向何处去，是生还是死，和贾国龙无关，也和罗永浩无关。世道下行，不管是西贝还是东贝，只会越来越难。大家兜里的钱越来越少，品质再高，口味再好，也抵不过便宜廉价的碳水给人的安全感和满足感。此等矫情，说好听点叫性价比……",
@@ -561,7 +561,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-12-30-yi-nian-kan-chong-jian-sheng-huo-ji-shi-jie-de-guan-jian",
+    id: "2025-12-30-tg6",
     title: "壹年侃 | 重建生活及世界的关键",
     date: "2025-12-30",
     excerpt: "我发现，这个世界的一部分开始变得越来越奇怪了。",
@@ -589,7 +589,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-12-03-quan-min-ji-bian-qing-zui-feng-cun",
+    id: "2025-12-03-koo",
     title: "全民激辩「轻罪封存」",
     date: "2025-12-03",
     excerpt: "11月底，一份题为「建立轻微犯罪记录封存制度的调研报告」，",
@@ -609,7 +609,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-11-15-pi-pan-zong-bian-ji-teng-xun-xin-wen-ye-yu-qi-nei-hao-zi-ji-bu-ru-zhi",
+    id: "2025-11-15-9d7",
     title: "批判「总编辑」腾讯：新闻业与其内耗自己不如指责他人？",
     date: "2025-11-15",
     excerpt: "一则由澎湃新闻出品，题为「旁白｜随意屏蔽新闻报道，腾讯何以成了媒体的“总编辑”」的调查报道，",
@@ -634,7 +634,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-11-08-he-wei-xin-wen-xin-wen-he-wei-ji-zhe-jie-jiu-wen",
+    id: "2025-11-08-c01",
     title: "何为新闻，新闻何为？| 记者节旧文",
     date: "2025-11-08",
     excerpt: "新闻实在是一个很有意思的东西。满怀理想主义者干不了这个事，因为很难忍受如此惨烈的现实，",
@@ -655,7 +655,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-10-27-shei-dou-ke-neng-hui-zai-mou-ge-shi-ke-cheng-wei-shao-shu",
+    id: "2025-10-27-zbz",
     title: "谁都可能会在某个时刻成为少数",
     date: "2025-10-27",
     excerpt: "一个不知道算不算是结论的观察：当下的戾气已经到了一个叹为观止的地步。如果说过去的社会主要是仇富仇官，但至少这里面有一丝慕强的意味，预示着人们还想通过自身的努力向仇恨的对象努力靠拢。但现在，人们嘲笑和仇视的对象……",
@@ -674,7 +674,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-09-25-zhang-xue-feng-zhe-ji-chen-sha-le-ma",
+    id: "2025-09-25-rcu",
     title: "张雪峰折戟沉沙了吗？",
     date: "2025-09-25",
     excerpt: "张雪峰在一个毫无意义的时间节点，在全平台被施以禁止关注的处罚。作为一个因互联网和社交媒体而走红的商人而言，是注定是一个不小的打击。张雪峰作为自己商业版图里的唯一IP，如果没有持续的新鲜流量注入……",
@@ -694,7 +694,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-09-21-na-xie-chong-xiang-zhao-pin-hui-de-da-xue-sheng-xiang-bu-xiang-zai-fan",
+    id: "2025-09-21-8bm",
     title: "那些冲向招聘会的大学生，像不像在凡尔登冲锋的士兵？",
     date: "2025-09-21",
     excerpt: "这个周末，喜马拉雅山上那场由蔡国强和始祖鸟策划点燃的烟花吸引了绝大多数人的目光。这当然是一个值得关注的事件。当先锋艺术和环保发生对立的时候，人们可以很容易找到立场，据此展开讨论，唇枪舌剑之间……",
@@ -719,7 +719,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-09-15-luo-yong-hao-zai-bao-wei-da-jia-de-guo-qi",
+    id: "2025-09-15-n8m",
     title: "罗永浩在保卫大家的「锅气」？",
     date: "2025-09-15",
     excerpt: "正常情况，食品最重要的关键是安不安全。价格贵不贵，便宜不便宜，主要取决于针对的客群和企业的成本控制水平。但在内卷的态势下，当人们的收入预期变得模糊不清时，价格就会变得极其敏感，甚至有了「原罪」。所以，只要有人觉得西贝贵……",
@@ -740,7 +740,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-08-25-lai-ren-na-ta-xiang-ba-lu-xun-de-yan-ye-qia-le",
+    id: "2025-08-25-d8m",
     title: "来人呐，她想把鲁迅的烟也掐了",
     date: "2025-08-25",
     excerpt: "这几天，有一位孙姓女士，展开了常人所不能及的想象，将鲁迅手里的烟看作是鼓励众人吸烟，误导青年走入歧途的图腾。为此她专门向有关部门投诉，认为应该让鲁迅故里门前的那副先生肖像把烟扔掉，改成握拳奋斗的样子。",
@@ -763,7 +763,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-07-31-wu-da-tu-shu-guan-shi-jian-te-se-nv-quan-jiang-rang-nv-xing-chu-jing-g",
+    id: "2025-07-31-o59",
     title: "武大图书馆事件：「特色女权」将让女性处境更艰难",
     date: "2025-07-31",
     excerpt: "针对武汉大学研究生杨景媛的争议，从25日至今，已经延宕数日。随着个别市场媒体以评论的形式介入，这件事得以从自媒体延伸至媒体，进入更广大公众的视野，也让男女间的纷争，以一种诡异的面貌呈现在世人面前。",
@@ -785,7 +785,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-07-17-shen-me-jiao-ren-wen-guan-huai",
+    id: "2025-07-17-dew",
     title: "什么叫人文关怀？",
     date: "2025-07-17",
     excerpt: "",
@@ -796,7 +796,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-07-14-qing-ni-wang-ji-ta-de-mu-yang",
+    id: "2025-07-14-x40",
     title: "请你忘记她的模样",
     date: "2025-07-14",
     excerpt: "刚刚过去的周日，人们喝着零元外卖的奶茶，深度卷入到大连工业大学处罚女学生一事的讨论中。",
@@ -814,7 +814,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-06-22-li-zhi-yu-huan-xiang",
+    id: "2025-06-22-jmp",
     title: "荔枝与幻象",
     date: "2025-06-22",
     excerpt: "停了一段时间没有更新推文，想来很是不安。写作这件事情，一旦停下来，想要再续上就会变得很困难。所以，逼自己写一点东西，还是很有必要的。",
@@ -834,7 +834,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-05-04-po-tian-fu-gui-wen-lv-yi-meng",
+    id: "2025-05-04-uvd",
     title: "泼天富贵 文旅一梦",
     date: "2025-05-04",
     excerpt: "",
@@ -845,7 +845,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-04-14-guan-shui-da-xiao-tiao-he-wei-ma-beng-kui",
+    id: "2025-04-14-p1y",
     title: "关税、大萧条和魏玛崩溃",
     date: "2025-04-14",
     excerpt: "美国银行外的人群 纽约世界电讯报 摄于1931年",
@@ -892,7 +892,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-04-01-guan-yu-xiao-mi-su7-shi-gu-de-yi-ge-huo-ji-ge-yi-wen",
+    id: "2025-04-01-0mj",
     title: "关于小米SU7事故的一个或几个疑问",
     date: "2025-04-01",
     excerpt: "",
@@ -903,7 +903,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-03-20-ren-min-gong-wei-xue-wang",
+    id: "2025-03-20-l03",
     title: "人民拱卫雪王",
     date: "2025-03-20",
     excerpt: "国民奶茶品牌蜜雪冰城宜昌的某加盟店因使用隔夜柠檬片、橙子切片被曝光。",
@@ -925,7 +925,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-03-06-whywefight",
+    id: "2025-03-06-z9s",
     title: "WhyWeFight",
     date: "2025-03-06",
     excerpt: "我很喜欢一部电视剧，2001年上映的「兄弟连」。",
@@ -955,7 +955,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-02-24-deepseek-wei-he-bei-feng-ying",
+    id: "2025-02-24-692",
     title: "DeepSeek为何被逢迎？",
     date: "2025-02-24",
     excerpt: "2025年一开年，最出乎人意料的大概就是不少地方宣布要引入DeepSeek这样的人工智能，",
@@ -978,7 +978,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-02-14-ne-zha-bai-yi-piao-fang-you-gan",
+    id: "2025-02-14-my9",
     title: "哪吒百亿票房有感",
     date: "2025-02-14",
     excerpt: "",
@@ -989,7 +989,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-02-07-guo-yun-zhi-chun-ne-zha-yu-deepseek",
+    id: "2025-02-07-aqo",
     title: "国运之春：哪吒与DeepSeek",
     date: "2025-02-07",
     excerpt: "刚刚过去的春节，在一部分人眼中，绝对算得上是一个国运爆发的关键节点。",
@@ -1013,7 +1013,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-01-27-yan-tu-you-you-chun-se-zui-mei",
+    id: "2025-01-27-acj",
     title: "沿途悠悠春色最美",
     date: "2025-01-27",
     excerpt: "屈指一算，从读书离家，辗转大江南北已经二十余年了，在外生活的时间，",
@@ -1062,7 +1062,7 @@ const POSTS = [
     `
   },
   {
-    id: "2025-01-07-he-wei-xin-wen-xin-wen-he-wei",
+    id: "2025-01-07-rwz",
     title: "何为新闻，新闻何为？",
     date: "2025-01-07",
     excerpt: "新闻实在是一个很有意思的东西。满怀理想主义者干不了这个事，因为很难忍受如此惨烈的现实，",
@@ -1083,7 +1083,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-12-30-bu-fang-shen-chuan-hou-zhong-chen-mo",
+    id: "2024-12-30-wmu",
     title: "不妨身穿厚重沉默",
     date: "2024-12-30",
     excerpt: "还有30多个小时，2024年就要结束了，循着旧例似乎又该写点什么了。",
@@ -1108,7 +1108,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-11-08-kan-man-huang-tang-xie-zhi-shang",
+    id: "2024-11-08-3fo",
     title: "看满荒唐写纸上",
     date: "2024-11-08",
     excerpt: "每年这个时候，重提新闻真实、公正、客观的文字就会集中印入新闻人自己的眼帘。",
@@ -1129,7 +1129,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-10-22-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie",
+    id: "2024-10-22-cip",
     title: "从男女对立看言论的边界| 旧文",
     date: "2024-10-22",
     excerpt: "原文写于2023年8月17日，略做修订",
@@ -1152,7 +1152,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-08-19-chu-zu-wu-nv-zi-zhi-si-fei-xu-gou-xie-zuo-zheng-zai-ti-dai-xin-wen",
+    id: "2024-08-19-zll",
     title: "出租屋女子之死：非虚构写作正在替代新闻",
     date: "2024-08-19",
     excerpt: "上周日，一则由西安当地自媒体「贞观」推送的题为「一个外地女孩，死在了我出租的公寓」的文章，",
@@ -1174,7 +1174,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-08-18-guan-yu-yi-ge-wai-di-nv-hai-si-zai-le-wo-chu-zu-de-gong-yu-yi-wen-de-y",
+    id: "2024-08-18-2fq",
     title: "关于「一个外地女孩，死在了我出租的公寓」一文的一点看法",
     date: "2024-08-18",
     excerpt: "",
@@ -1185,7 +1185,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-08-07-wei-shen-me-shi-guan-dan",
+    id: "2024-08-07-kl9",
     title: "为什么是掼蛋？",
     date: "2024-08-07",
     excerpt: "（已404，无永久链接）",
@@ -1196,7 +1196,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-08-04-qing-fen-rong-yi-song-fen-nan",
+    id: "2024-08-04-umh",
     title: "请粉容易，送粉难",
     date: "2024-08-04",
     excerpt: "或许是因为这个世界变化得太快了，我们用了几十年的时间，走完了世界其他地方几百年走的路。",
@@ -1222,7 +1222,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-07-31-zhe-cai-shi-wo-xiang-kan-dao-de-ao-yun",
+    id: "2024-07-31-j80",
     title: "这才是我想看到的奥运| 旧文",
     date: "2024-07-31",
     excerpt: "三年前的东京奥运会，是一届极为特殊的奥运会，因为疫情的原因推迟了一年，",
@@ -1254,7 +1254,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-07-09-you-guan-hun-zhuang-yu-tong-you-zha-wan-zi",
+    id: "2024-07-09-ifc",
     title: "油罐混装与桐油炸丸子",
     date: "2024-07-09",
     excerpt: "新京报于7月2日刊发的一则关于食用油与「煤制油」混合运输的报道，经历了6天的发酵，",
@@ -1275,7 +1275,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-06-27-yi-xie-guan-yu-jiang-ping-shi-fou-zao-jia-de-bu-cheng-shu-xiang-fa",
+    id: "2024-06-27-4qx",
     title: "一些关于姜萍是否造假的不成熟想法",
     date: "2024-06-27",
     excerpt: "",
@@ -1286,7 +1286,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-06-09-ku-wen-shu-dian-dao-le-guan-si-chuan-da-xue-shen-me-shi-er",
+    id: "2024-06-09-272",
     title: "库闻书店倒了，关四川大学什么事儿？",
     date: "2024-06-09",
     excerpt: "前几天就在小红书上四川大学望江校区旁的库闻书店要关张的消息。说真的，现如今这个环境，商店关门是一件过于频繁的事情，原因究竟是什么，明白人其实都很清楚。但有意思的是，著名蓉吹、不太行评论员加书店老板张丰认为……",
@@ -1302,7 +1302,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-06-07-gao-kao-zuo-wen-dui-wo-shi-yi-jian-zi-ran-er-ran-de-shi-qing",
+    id: "2024-06-07-9p9",
     title: "高考作文，对我是一件自然而然的事情",
     date: "2024-06-07",
     excerpt: "我高考那个时候，不知道是教育落后还是老师佛系，从来没有说过作文应该怎么写，",
@@ -1320,7 +1320,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-05-24-xiao-yuan-qing-sheng-pin-fa-wo-men-gai-ru-he-yu-hai-zi-tan-sheng-ming",
+    id: "2024-05-24-cmz",
     title: "校园轻生频发，我们该如何与孩子谈生命？",
     date: "2024-05-24",
     excerpt: "我们对生命不能不心存敬畏，它是那么美丽而神秘。",
@@ -1349,7 +1349,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-05-22-he-ze-wu-cai-bian-shi-de",
+    id: "2024-05-22-pod",
     title: "菏泽「无才」便是德？",
     date: "2024-05-22",
     excerpt: "这个五月，菏泽成为了始乱终弃的流量最新选中的目标。",
@@ -1368,7 +1368,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-05-14-nan-jing-lin-da-song-kai-zhu-ding-bei-yi-wang-de-xun-nan-zhe",
+    id: "2024-05-14-qcl",
     title: "南京林大宋凯：注定被遗忘的殉难者",
     date: "2024-05-14",
     excerpt: "作为高层次人才被引进到南京林业大学生态与环境学院，副教授宋凯在学校第一个聘期的考核未通过后，",
@@ -1387,7 +1387,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-05-14-shi-jie-shi-ming-shi-wei-he-zong-hui-xiang-qi-ta-men-hao-zhi-shi-fen-z",
+    id: "2024-05-14-a98",
     title: "世界失明时，为何总会想起他们——好知识分子的四种特质",
     date: "2024-05-14",
     excerpt: "物极必反。这句古老的哲言，用来总结近代知识分子的际遇，再合适不过了。",
@@ -1473,7 +1473,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-04-24-fa-xian-li-zhuang-xun-zhao-na-ge-zui-you-gu-qi-de-wen-mai-zhong-guo",
+    id: "2024-04-24-gy0",
     title: "发现李庄：寻找那个最有骨气的文脉中国",
     date: "2024-04-24",
     excerpt: "▲千年古镇李庄 | 图/阿洲JIZ",
@@ -1524,7 +1524,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-04-17-wo-pu-gua-lian-yi-chang-ji-yu-zi-yuan-xu-qiu-de-quan-li-chong-tu",
+    id: "2024-04-17-nw5",
     title: "卧铺挂帘：一场基于「资源-需求」的权利冲突",
     date: "2024-04-17",
     excerpt: "火车卧铺挂帘引发的争论，不出意料地引来一众媒体的热议。",
@@ -1547,7 +1547,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-04-15-ba-li-jian-zuo-ye-shi-mei-ti-shi-bai-de-xin-ji-lu",
+    id: "2024-04-15-idq",
     title: "巴黎捡作业，是媒体失败的新记录",
     date: "2024-04-15",
     excerpt: "",
@@ -1558,7 +1558,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-04-09-huang-wu-shi-cheng-du-di-shi-ni-de-di-se",
+    id: "2024-04-09-3dp",
     title: "荒芜是成都迪士尼的底色",
     date: "2024-04-09",
     excerpt: "",
@@ -1569,7 +1569,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-03-25-wo-wei-shen-me-bu-xi-huan-dai-jin-hua",
+    id: "2024-03-25-2qt",
     title: "我为什么不喜欢戴锦华？",
     date: "2024-03-25",
     excerpt: "",
@@ -1580,7 +1580,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-03-20-dang-xin-wen-lun-li-zuo-wei-yi-zhong-chi-du",
+    id: "2024-03-20-2xf",
     title: "当新闻伦理作为一种尺度| 旧文",
     date: "2024-03-20",
     excerpt: "今天，民航局通报“3·21”东航MU5735航空器飞行事故调查进展情况。",
@@ -1605,7 +1605,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-03-14-shui-ren-bu-shi-xin-wen-kui-jun",
+    id: "2024-03-14-m4k",
     title: "谁人不是新闻溃军？",
     date: "2024-03-14",
     excerpt: "现如今，如果有人还想要讨论新闻学和新闻业的存在价值，往往会得到一个否定的答案。",
@@ -1627,7 +1627,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-02-23-mei-ti-yi-jiu-zuo-you-ren-xin-dan-xin-wen-yi-bei-pao-ru-xu-wu",
+    id: "2024-02-23-in0",
     title: "媒体依旧左右人心，但新闻已被抛入虚无",
     date: "2024-02-23",
     excerpt: "2024龙年一开场，舆论场的沉闷与无聊，就因一则「网红博主在巴黎捡到小学生寒假作业」的段子被…",
@@ -1650,7 +1650,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-02-05-pu-dong-wang-yue-che-de-luo-ji-bei-lun",
+    id: "2024-02-05-klk",
     title: "浦东网约车的逻辑悖论",
     date: "2024-02-05",
     excerpt: "",
@@ -1661,7 +1661,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-01-27-ru-zhi-zi-you-bi-zhi-jia-suo",
+    id: "2024-01-27-5c3",
     title: "汝之自由，彼之枷锁",
     date: "2024-01-27",
     excerpt: "",
@@ -1672,7 +1672,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-01-05-ru-guo-zuo-cheng-le-zhe-jian-shi-yi-se-lie-dui-a-la-bo-shi-jie-de-feng",
+    id: "2024-01-05-wc8",
     title: "如果做成了这件事，以色列对阿拉伯世界的封锁就破了",
     date: "2024-01-05",
     excerpt: "比如奥巴马那句“如果中国人过上美国人的生活，对地球是灾难”，就以色列存在的意义而言，",
@@ -1782,7 +1782,7 @@ const POSTS = [
     `
   },
   {
-    id: "2024-01-05-zi-zi-bu-juan-ha-er-bin",
+    id: "2024-01-05-0x5",
     title: "淄淄不倦哈尔滨",
     date: "2024-01-05",
     excerpt: "2024年甫一开年，哈尔滨就以一种突袭的姿态，走红网络。",
@@ -1802,7 +1802,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-12-31-lu-man-chang-zhi-jian-nan-yao-zou",
+    id: "2023-12-31-c5u",
     title: "路漫长知艰难要走",
     date: "2023-12-31",
     excerpt: "马上，2023年就将成为历史。纵然还没有结束，如无意外，无论从什么角度来回溯，",
@@ -1829,7 +1829,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-12-24-dang-xing-xing-cheng-wei-sheng-dan-shu",
+    id: "2023-12-24-max",
     title: "当星星成为圣诞树",
     date: "2023-12-24",
     excerpt: "",
@@ -1840,7 +1840,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-12-15-zhou-du-yi-sheng-shi-ren-bu-shi-shen",
+    id: "2023-12-15-1m1",
     title: "粥读 | 医生是人，不是神",
     date: "2023-12-15",
     excerpt: "去年的这个时候，大多数人应该都在经历高烧、全身疼痛、刀片喉和「水泥封鼻」。",
@@ -1866,7 +1866,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-12-08-yi-nian-qia-si-yi-shi-ji",
+    id: "2023-12-08-qdg",
     title: "一年恰似一世纪",
     date: "2023-12-08",
     excerpt: "近来，好几个读者都和我说，今年的更新频率实在是有点太低太低了。",
@@ -1889,7 +1889,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-12-07-wo-fu-bu-neng-chi-bei",
+    id: "2023-12-07-s2a",
     title: "我佛不能持杯",
     date: "2023-12-07",
     excerpt: "喜茶与景德镇中国陶瓷博物馆的联名，这几日经历了过山车般的起落。",
@@ -1909,7 +1909,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-11-22-ji-yi-jian-ren-jian-zhen-shi-de-xiao-shi",
+    id: "2023-11-22-1se",
     title: "记一件人间真实的小事| 旧文",
     date: "2023-11-22",
     excerpt: "买到烂尾楼的郑州小夫妻，终于决定离开郑州回老家，说要过一些平静的生活。",
@@ -1955,7 +1955,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-11-21-gao-shan-bu-xu-yao-yang-wang",
+    id: "2023-11-21-n06",
     title: "高山不需要仰望",
     date: "2023-11-21",
     excerpt: "即将上映的电影「我本是高山」遭遇了一场短促而猛烈的舆论抨击。给一个没有争议的人拍传记片都能搞出争议，大概是所有人都料想不到的情景。",
@@ -1977,7 +1977,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-10-06-nan-yang-mi-di-jiu-shi-tong-yi-shou-ge",
+    id: "2023-10-06-2y4",
     title: "南阳迷笛就是「同一首歌」",
     date: "2023-10-06",
     excerpt: "17年前，那时候五一假期还是七天。我和好朋友去过一次迷笛，地址是北京的海淀公园，是我的第一次，也是唯一的一次。",
@@ -1999,7 +1999,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-09-28-da-meng-bu-guo-shi-yi-chang-kong",
+    id: "2023-09-28-c8q",
     title: "大梦不过是一场空",
     date: "2023-09-28",
     excerpt: "",
@@ -2010,7 +2010,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-09-22-ao-ben-hai-mo-dao-de-kun-jing-zhi-shi-wen-ti-de-kai-shi",
+    id: "2023-09-22-r15",
     title: "「奥本海默」：道德困境只是问题的开始",
     date: "2023-09-22",
     excerpt: "无论从哪个角度来说，克里斯托弗·诺兰的「奥本海默」都不失为一部成功的作品。单单是讲故事，诺兰将奥本海默一生中最重要的经历，以不同的比例浓缩在了三个小时。即便是对这段宏大的历史主题一无所知的观众，都能够以最快的速度……",
@@ -2036,7 +2036,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-09-12-li-jia-qi-de-zhen-hua-yu-wo-men-xu-jia-de-sheng-huo",
+    id: "2023-09-12-63t",
     title: "李佳琦的真话与我们虚假的生活",
     date: "2023-09-12",
     excerpt: "",
@@ -2047,7 +2047,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-08-19-you-xie-xin-wen-zhi-de-wo-men-kan-jian",
+    id: "2023-08-19-9zb",
     title: "有些新闻，值得我们看见",
     date: "2023-08-19",
     excerpt: "",
@@ -2058,7 +2058,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-08-17-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie",
+    id: "2023-08-17-r33",
     title: "从男女对立看言论的边界",
     date: "2023-08-17",
     excerpt: "前几天，在我的读者群里，突然聊起了男女对立这个话题。大家你来我往，讨论得很激烈。有一方的观点认为，考虑到男女天然的不平等，女性其实并不需要男性的指导和建议，男性的沉默反而是最好的。",
@@ -2081,7 +2081,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-07-27-zhe-shi-yi-kuai-xin-wen-ye-de-mu-bei-geng-shi-feng-bei",
+    id: "2023-07-27-o9f",
     title: "这是一块新闻业的墓碑，更是丰碑",
     date: "2023-07-27",
     excerpt: "",
@@ -2092,7 +2092,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-07-24-ye-mu-fu-gai-song-nen-ping-yuan-you-shang-jin-tou-ta-de-lian",
+    id: "2023-07-24-62z",
     title: "夜幕覆盖松嫩平原忧伤浸透她的脸",
     date: "2023-07-24",
     excerpt: "",
@@ -2103,7 +2103,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-07-09-ru-guo-du-ren-you-zui-na-shi-jie-jiu-bu-gai-you-hao-ren",
+    id: "2023-07-09-94c",
     title: "如果渡人有罪，那世界就不该有好人。",
     date: "2023-07-09",
     excerpt: "在古代，修桥铺路者，往往都要立碑书传予以感谢纪念，所以，我想不出有什么理由，",
@@ -2124,7 +2124,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-06-23-chuan-da-bu-shi-fa-ting",
+    id: "2023-06-23-tgg",
     title: "川大不是法庭",
     date: "2023-06-23",
     excerpt: "「 继续聊聊张薇事件 」",
@@ -2147,7 +2147,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-06-23-ping-mou-pian-pi-chuan-da-de-wen",
+    id: "2023-06-23-avs",
     title: "评某篇批川大的文",
     date: "2023-06-23",
     excerpt: "关于张薇这件事，川大的处分决定一出，自媒体人张丰立马就写了个文，批判川大。",
@@ -2165,7 +2165,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-06-20-xin-wen-hui-si-dan-xin-wen-xue-bu-hui",
+    id: "2023-06-20-pbi",
     title: "新闻会死，但新闻学不会",
     date: "2023-06-20",
     excerpt: "知名考研咨询名师张雪峰与重庆大学新闻学教授张小强的争执，到今天应该已经告一段落。",
@@ -2187,7 +2187,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-06-18-zhi-shu-wei-ya-zhi-shi-shi-an-wen-ti",
+    id: "2023-06-18-fid",
     title: "指鼠为鸭，只是食安问题？",
     date: "2023-06-18",
     excerpt: "6月17日，江西联合调查组公布了江西工业职业技术学院「指鼠为鸭」事件的最新调查结果，",
@@ -2209,7 +2209,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-05-17-mei-shi-hai-shi-tou-zhe-le",
+    id: "2023-05-17-bdl",
     title: "没事还是偷着乐",
     date: "2023-05-17",
     excerpt: "",
@@ -2220,7 +2220,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-05-06-chong-xin-jiang-yao-yuan-sheng-huo-de-sui-pian-pin-jie-qi-lai-ping-man",
+    id: "2023-05-06-8ht",
     title: "重新将遥远生活的碎片拼接起来 | 评「漫长的季节」",
     date: "2023-05-06",
     excerpt: "本文有少量剧透，请谨慎阅读",
@@ -2250,7 +2250,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-04-11-huang-ren-yu-yu-shi-bai-tong-hang-de-li-shi-xue-jia",
+    id: "2023-04-11-y1o",
     title: "黄仁宇：与「失败」同行的历史学家",
     date: "2023-04-11",
     excerpt: "「因此我们的故事只好在这里作悲剧性的结束。万历丁亥年的年鉴，是为历史上一部失败的总记录。」",
@@ -2292,7 +2292,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-04-05-dang-mei-ti-bu-zai-tan-lun-jing-nv-shi",
+    id: "2023-04-05-4tl",
     title: "当媒体不再谈论景女士……",
     date: "2023-04-05",
     excerpt: "张继科所引起的讨论，仍在舆论场上发酵。但遗憾的是，人们关注的焦点，在很短的时间内，",
@@ -2306,7 +2306,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-04-04-wei-yi-yao-tui-dao-de-shi-ren-xin-de-ge-he",
+    id: "2023-04-04-s03",
     title: "唯一要推倒的，是人心的隔阂",
     date: "2023-04-04",
     excerpt: "刚刚过去的周末，成都发生了一件不大不小，但却颇为值得讨论的事情。",
@@ -2328,7 +2328,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-03-31-zhou-du-xiu-shou-pang-guan-de-dai-jia",
+    id: "2023-03-31-htq",
     title: "粥读 | 袖手旁观的代价",
     date: "2023-03-31",
     excerpt: "一般来说，人们认为第三帝国肇始于1933年。",
@@ -2357,7 +2357,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-03-26-kong-yi-ji-he-fa-zou-gou",
+    id: "2023-03-26-q0l",
     title: "孔乙己和乏走狗",
     date: "2023-03-26",
     excerpt: "这个三月，有一个极度值得警惕的现象，认为当下大学生就业的困境来源于他们「脱不下的孔乙己长衫」…",
@@ -2379,7 +2379,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-03-20-zhou-du-li-shi-cong-lai-bu-shi-xian-xing-fa-zhan-de",
+    id: "2023-03-20-xgt",
     title: "粥读 | 历史从来不是线性发展的",
     date: "2023-03-20",
     excerpt: "历史的进程一定是发展的吗？对于大多数人来说，这个问题的答案往往是肯定的。",
@@ -2398,7 +2398,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-03-09-lao-dong-fu-nv-jie-bei-hou-de-hua-yu-xian-jing",
+    id: "2023-03-09-r64",
     title: "“劳动妇女节”背后的话语陷阱",
     date: "2023-03-09",
     excerpt: "今年的三八“妇女节”，有一点和往年不同：很多人开始反感所谓“女神节”、“女生节”、",
@@ -2442,7 +2442,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-03-01-dang-xin-wen-lun-li-zuo-wei-yi-zhong-chi-du",
+    id: "2023-03-01-jmj",
     title: "当新闻伦理作为一种尺度| 旧文",
     date: "2023-03-01",
     excerpt: "香港名媛蔡天凤遭残忍杀害的案件，突然又让内地的是受众讨论起了媒介伦理的问题。",
@@ -2469,7 +2469,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-02-28-wang-hong-liu-hong-de-hen-hua",
+    id: "2023-02-28-xky",
     title: "网红刘洪的狠话",
     date: "2023-02-28",
     excerpt: "2021年，在出席了一场文旅宣传活动后，甘孜文旅局长刘洪俨然成为了当地继丁真之外的第二网红。",
@@ -2491,7 +2491,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-02-16-yi-bu-shu-dao-jin-19441950-de-zhong-guo-ming-yun",
+    id: "2023-02-16-158",
     title: "一部书道尽1944-1950的中国命运",
     date: "2023-02-16",
     excerpt: "越是熟悉的历史，往往越是当局者迷。1944—1950的中国，",
@@ -2517,7 +2517,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-02-14-jian-du-song-dong-ye",
+    id: "2023-02-14-q05",
     title: "监督宋东野",
     date: "2023-02-14",
     excerpt: "宋冬野这个名字，淡出人们的视线中已经有不短的时日。",
@@ -2540,7 +2540,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-02-07-ba-li-shi-fang-dao-xian-wei-jing-xia-neng-gou-fa-xian-shen-me",
+    id: "2023-02-07-0eo",
     title: "把历史放到显微镜下，能够发现什么？",
     date: "2023-02-07",
     excerpt: "▲李积利油画《老茶馆-成都彭镇》",
@@ -2579,7 +2579,7 @@ const POSTS = [
     `
   },
   {
-    id: "2023-02-02-jiang-xi-hu-mou-yu-shi-jian-de-gong-gong-yi-yi",
+    id: "2023-02-02-4ua",
     title: "江西胡某宇事件的公共意义",
     date: "2023-02-02",
     excerpt: "今天，江西有关部门召开发布会，介绍15岁少年胡某宇事件的调查结果，如无意外，",
@@ -2598,7 +2598,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-12-09-da-xue-zhi-hou-bu-yao-wang-ji-guo-qu-de-dong-tian",
+    id: "2022-12-09-wl0",
     title: "大雪之后，不要忘记过去的冬天。",
     date: "2022-12-09",
     excerpt: "时至今日，无论人们愿不愿意承认，这场持续了三年的新冠疫情终于走到了一个最为关键的节点，",
@@ -2625,7 +2625,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-12-02-jin-zhou-yu-guang-zhou",
+    id: "2022-12-02-hwr",
     title: "锦州与广州",
     date: "2022-12-02",
     excerpt: "2022年的最后一个月，以一种意想不到的方式拉开了帷幕。",
@@ -2648,7 +2648,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-11-25-zai-tan-wang-xiao-bo-wo-men-shi-fou-yi-ran-shi-chen-mo-de-da-duo-shu",
+    id: "2022-11-25-hmx",
     title: "再谈王小波：我们是否依然是沉默的大多数？",
     date: "2022-11-25",
     excerpt: "我们是否依然是沉默的大多数？",
@@ -2705,7 +2705,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-11-22-zhou-du-mei-yi-tiao-he-liu-dou-you-gu-shi-zai-liu-tang",
+    id: "2022-11-22-sjn",
     title: "粥读 | 每一条河流，都有故事在流淌",
     date: "2022-11-22",
     excerpt: "河流究竟是如何形成的？这个问题的答案对于现代人来说，是显而易见的。",
@@ -2732,7 +2732,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-11-15-he-wei-mei-guo-ren-yan-zhong-de-fu-za-zhong-guo",
+    id: "2022-11-15-151",
     title: "何伟：美国人眼中的复杂中国",
     date: "2022-11-15",
     excerpt: "他被誉为“最会讲中国故事的外国作家”。他在过去受到如潮赞誉，",
@@ -2764,7 +2764,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-11-15-shi-jia-zhuang-mei-you-xin-hao",
+    id: "2022-11-15-hq2",
     title: "石家庄没有信号",
     date: "2022-11-15",
     excerpt: "河北石家庄以一种意想不到的方式，霸占了今日的舆论场。",
@@ -2786,7 +2786,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-11-08-xin-wen-ren-zhi-neng-zi-du",
+    id: "2022-11-08-s5m",
     title: "新闻人只能自渡| 旧文",
     date: "2022-11-08",
     excerpt: "原文写于2020年11月6日，今略有修改",
@@ -2847,7 +2847,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-11-03-lan-zhou-qi-li-he-reng-ran-guo-yu-miao-xiao",
+    id: "2022-11-03-ori",
     title: "兰州七里河仍然过于渺小",
     date: "2022-11-03",
     excerpt: "（已404，无永久链接）",
@@ -2858,7 +2858,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-11-03-miao-xiao-de-lan-zhou-qi-li-he",
+    id: "2022-11-03-v1y",
     title: "渺小的兰州七里河",
     date: "2022-11-03",
     excerpt: "（已404，无永久链接）",
@@ -2869,7 +2869,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-11-01-zheng-zhou-fu-shi-kang-dai-lai-de-jue-wang",
+    id: "2022-11-01-ll1",
     title: "郑州富士康带来的绝望",
     date: "2022-11-01",
     excerpt: "经过两天的追问之后，郑州富士康事件似乎有望水落石出。",
@@ -2890,7 +2890,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-09-18-na-li-de-shan-lu-shi-ba-wan-rip",
+    id: "2022-09-18-pu6",
     title: "那里的山路十八弯R.I.P",
     date: "2022-09-18",
     excerpt: "",
@@ -2901,7 +2901,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-09-07-gui-yang-shi-min-wu-zi-bu-yong-chou-hua-guo-yuan-ju-min-mai-bu-dao-chi",
+    id: "2022-09-07-kcv",
     title: "贵阳市民物资不用愁？花果园居民：买不到吃的，政府发了\\\"两颗白菜、一个茄子\\",
     date: "2022-09-07",
     excerpt: "近日，贵阳市多区因疫情封控，发生市民买菜难、物资配送困难等问题，",
@@ -2943,7 +2943,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-09-03-dong-ruan-yin-dao-he-suan",
+    id: "2022-09-03-8v6",
     title: "东软引导核酸？",
     date: "2022-09-03",
     excerpt: "经历了高温考验的成都，在本周又迎来了一次疫情的大考。",
@@ -2965,7 +2965,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-08-26-nv-pai-gu-niang-de-kou-zhao",
+    id: "2022-08-26-n44",
     title: "女排姑娘的口罩",
     date: "2022-08-26",
     excerpt: "昨天的2022年女排亚洲杯小组赛，戴口罩的中国女排队员成为了舆论热议的焦点。",
@@ -2986,7 +2986,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-08-25-wei-shen-me-rong-bu-xia-jia-qian-qian",
+    id: "2022-08-25-1cb",
     title: "为什么容不下贾浅浅？",
     date: "2022-08-25",
     excerpt: "这是贾平凹的女儿贾浅浅第二次遭遇舆论的冲击了。",
@@ -3009,7 +3009,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-08-09-peng-pai-de-tian-ya-hai-jiao",
+    id: "2022-08-09-jin",
     title: "「澎湃」的天涯海角",
     date: "2022-08-09",
     excerpt: "对于数万被滞留在海南的游客来说，他们无论如何也预料不到的是，在经历了两天的发酵之后，",
@@ -3030,7 +3030,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-07-27-you-xie-sheng-huo-li-ying-bei-shu-xie-dan-bu-gai-bei-zan-mei",
+    id: "2022-07-27-7i7",
     title: "有些生活理应被书写，但不该被赞美",
     date: "2022-07-27",
     excerpt: "农村的二舅因为自己的外甥彻彻底底火了一把。",
@@ -3053,7 +3053,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-07-26-nan-jing-cheng-xia-de-pai-wei",
+    id: "2022-07-26-prv",
     title: "南京城下的牌位",
     date: "2022-07-26",
     excerpt: "在历史上，南京这座城市有着极为独特的角色。",
@@ -3071,7 +3071,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-07-10-ji-yi-jian-ren-jian-zhen-shi-de-xiao-shi",
+    id: "2022-07-10-xrn",
     title: "记一件人间真实的小事",
     date: "2022-07-10",
     excerpt: "今天，气温依旧居高不下，酷暑难当。中午时分，实在不想做饭炒菜出一身汗，",
@@ -3116,7 +3116,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-07-09-wei-shen-me-an-bei-yu-ci-you-ren-xiang-chi-xi",
+    id: "2022-07-09-0ds",
     title: "为什么安倍遇刺，有人想「吃席」？",
     date: "2022-07-09",
     excerpt: "「 安倍晋三遭枪击身亡 」",
@@ -3137,7 +3137,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-07-05-gai-ge-chun-feng-chui-man-di",
+    id: "2022-07-05-z15",
     title: "改歌春风吹满地",
     date: "2022-07-05",
     excerpt: "自从学过了一点点传播学的知识以后，我就成为了一个抗拒综艺节目的人。",
@@ -3170,7 +3170,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-06-28-ren-de-yi-sheng-neng-you-ji-ge-wu-nian",
+    id: "2022-06-28-gyd",
     title: "人的一生能有几个五年？",
     date: "2022-06-28",
     excerpt: "这是一个官媒从未曾遇见的好时刻。由于不可预测的未来带来的迷茫或者期待，",
@@ -3200,7 +3200,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-06-14-shi-jie-shang-zui-kong-bu-de-shi-qing-jiu-shi-zai-yi-ge-que-fa-chang-s",
+    id: "2022-06-14-t4y",
     title: "世界上最恐怖的事情，就是在一个缺乏常识的环境下一些缺乏常识的人既对自己的能力自信满满，又对自己的价值体系坚信不疑，还对自己的道德激情深感自豪——李海鹏",
     date: "2022-06-14",
     excerpt: "",
@@ -3211,7 +3211,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-06-11-tang-shan-bao-xi-an-bei-hou-de-yu-lun-jiao-feng",
+    id: "2022-06-11-k8j",
     title: "唐山暴袭案背后的舆论交锋",
     date: "2022-06-11",
     excerpt: "唐山一伙流氓深夜因骚扰不成而暴打几名女性的案件，从微博开始发酵，在短短十余个小时中，",
@@ -3232,7 +3232,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-06-02-li-xing-gong-shi-de-gan-xie-he-chi-chi-wei-xian-de-dao-qian",
+    id: "2022-06-02-gj0",
     title: "例行公事的感谢和迟迟未现的道歉",
     date: "2022-06-02",
     excerpt: "谁也不曾预料，一场声势浩大的社会实验，肇始于愚人节，又在儿童节这天戛然而止。",
@@ -3251,7 +3251,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-05-21-zhe-ge-shi-jie-hui-hao-ma",
+    id: "2022-05-21-von",
     title: "这个世界会好吗？",
     date: "2022-05-21",
     excerpt: "如你所见，懒惰如我，这么长的时间，居然什么也没有写，什么也没有说。",
@@ -3272,7 +3272,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-03-24-xian-shang-fu-ye-400-xiao-shi-ju-jia-du-shu-ji-ke-jian-dan-ke-ri-jie",
+    id: "2022-03-24-4qv",
     title: "线上副业 | 400/小时，居家读书即可，简单可日结",
     date: "2022-03-24",
     excerpt: "2022年，音频市场规模预计达到6.9亿，也就是每3个人里就有1个人在听有声书，",
@@ -3328,7 +3328,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-03-23-dang-xin-wen-lun-li-zuo-wei-yi-zhong-chi-du",
+    id: "2022-03-23-zdk",
     title: "当新闻伦理作为一种尺度",
     date: "2022-03-23",
     excerpt: "自从新闻出现之后，历史的编年中，有很大一部分就由新闻来构成了。",
@@ -3351,7 +3351,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-03-18-ta-de-bei-wei-yu-zheng-yi",
+    id: "2022-03-18-n24",
     title: "她的卑微与「正义」",
     date: "2022-03-18",
     excerpt: "3月16日晚上，一个住在燕郊，工作在北京的少女，微博名为能量少女YMC，因为骤然变化的防疫政策，手足无措站在两地交界的桥上，进退不得。被逼无奈之下，她选择了发微博这个唯一的自救措施。",
@@ -3375,7 +3375,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-02-13-shi-shen-me-rang-xiao-hua-mei-cheng-wei-liao-wu-fa-xiao-chu-de-yi-huo",
+    id: "2022-02-13-zo2",
     title: "是什么让「小花梅」成为了无法消除的疑惑",
     date: "2022-02-13",
     excerpt: "昨夜今晨，一篇名为「寻找小花梅」的文章在朋友圈刷屏，显示出这场始于2022年初的舆论风波，并没有因为第四份通报的出炉而得以平息。而通报提供了更多的细节供人们验证和质疑。这样的结果，恐怕也远远超出了有司的预计……",
@@ -3401,7 +3401,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-01-26-liu-xue-zhou-yong-sheng-ming-qu-shi-bie-e",
+    id: "2022-01-26-hup",
     title: "刘学州，用生命去识别恶",
     date: "2022-01-26",
     excerpt: "一场本以为是圆满的寻亲，却最终以当事人的离世而告终。无论从怎样的视角来评价，刘学州15岁年轻生命的消逝，都是一场彻头彻尾的悲剧。",
@@ -3419,7 +3419,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-01-03-cong-lei-liu-man-mian-dao-jue-bu-tang-ping-nan-fang-zhou-mo-de-xin-nia",
+    id: "2022-01-03-w86",
     title: "从\\\"泪流满面\\\"到\\\"绝不躺平\\\"，南方周末的新年献词怎么了？",
     date: "2022-01-03",
     excerpt: "一年一度，又到了各大媒体发布元旦新年献词的时候了。",
@@ -3486,7 +3486,7 @@ const POSTS = [
     `
   },
   {
-    id: "2022-01-03-xi-an-qing-xu-wen-ding",
+    id: "2022-01-03-cf9",
     title: "西安情绪稳定",
     date: "2022-01-03",
     excerpt: "12月31日，即将在封城中度过元旦的西安，",
@@ -3548,7 +3548,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-12-30-bu-yao-kang-ju-shi-jie-de-zhen-shi",
+    id: "2021-12-30-zsf",
     title: "不要抗拒世界的真实",
     date: "2021-12-30",
     excerpt: "旧年将逝，一年一度的「壹年侃」的时间又到了。",
@@ -3575,7 +3575,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-12-09-feng-sheng-gun-xing-bie-cheng-fa-wei-shen-me-yan-chang-sheng-yu-jia-hu",
+    id: "2021-12-09-e8z",
     title: "风声丨“性别惩罚”： 为什么延长生育假，会让女性的处境更恶化？",
     date: "2021-12-09",
     excerpt: "凤凰网原创丨近期各地都出台不同的生育假政策，引发了社会热议。",
@@ -3629,7 +3629,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-12-03-zi-chan-bu-hui-dou-ban",
+    id: "2021-12-03-dk2",
     title: "子产不毁豆瓣",
     date: "2021-12-03",
     excerpt: "昨晚的豆瓣网，过的颇不宁静。从新华社的通稿中，",
@@ -3653,7 +3653,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-11-19-you-xi-hai-shi-zhu-zai-wan-xiang",
+    id: "2021-11-19-l3n",
     title: "游戏还是主宰？ | 万象",
     date: "2021-11-19",
     excerpt: "谁若游戏人生，他就一事无成；",
@@ -3666,7 +3666,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-11-18-tou-bu-zhu-bo-xie-yong-hu-yi-ling-pin-pai-guan-jian",
+    id: "2021-11-18-1lj",
     title: "头部主播挟用户以令品牌 | 观见",
     date: "2021-11-18",
     excerpt: "从昨夜至今日，李佳琦和薇娅两位头部主播，仿佛成为了最新的消费者权益保护代言人。",
@@ -3687,7 +3687,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-11-16-xin-wen-bu-ke-zheng-yi-guan-jian",
+    id: "2021-11-16-lw9",
     title: "新闻不可争议 | 观见",
     date: "2021-11-16",
     excerpt: "记得多年前，我在学习新闻学理论的时候，偶然看到了一本经济日报出版社1993年出版的宣传舆论学…",
@@ -3708,7 +3708,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-11-11-ni-wo-xin-zhong-dou-you-yi-ge-yuwei",
+    id: "2021-11-11-85i",
     title: "你我心中都有一个Yuwei",
     date: "2021-11-11",
     excerpt: "南昌市那位机智的交警，理应成为本周最耀眼的新闻主角。",
@@ -3732,7 +3732,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-11-10-bu-rao-min-de-fang-yi-cai-shi-hao-de-fang-yi",
+    id: "2021-11-10-jcl",
     title: "不扰民的防疫才是好的防疫",
     date: "2021-11-10",
     excerpt: "10月31日晚间的上海迪士尼",
@@ -3778,7 +3778,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-11-09-biao-yang-yu-zi-wo-biao-yang",
+    id: "2021-11-09-f78",
     title: "表扬与自我表扬| 旧文",
     date: "2021-11-09",
     excerpt: "大约从昨天开始，成都就隐隐约约有一种按耐不住的冲动。",
@@ -3801,7 +3801,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-11-09-cheng-du-cheng-du",
+    id: "2021-11-09-zxz",
     title: "成都！成都！",
     date: "2021-11-09",
     excerpt: "这几日的成都，正在经历着一场远胜于过去的压力测试，但从昨晚的表现来看，",
@@ -3830,7 +3830,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-11-08-shi-dai-zai-bei-hou-tu-ran-qiao-xiang-da-gu",
+    id: "2021-11-08-4yp",
     title: "时代在背后，突然敲响大鼓",
     date: "2021-11-08",
     excerpt: "于社会而言，设立这样一个节日，意在表达对新闻工作者的职业尊重，但其实，细想一下，",
@@ -3860,7 +3860,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-11-02-bei-gong-she-ying-de-jie-du",
+    id: "2021-11-02-n3p",
     title: "杯弓蛇影的解读",
     date: "2021-11-02",
     excerpt: "一则平常得不能再平常的工作信息，搅动了今天的舆论场。",
@@ -3885,7 +3885,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-10-16-song-dong-ye-you-quan-fu-chu-ma",
+    id: "2021-10-16-8xf",
     title: "宋冬野有权复出吗？",
     date: "2021-10-16",
     excerpt: "（已404，无永久链接）",
@@ -3896,7 +3896,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-10-12-jian-du-song-dong-ye",
+    id: "2021-10-12-jav",
     title: "监督宋冬野",
     date: "2021-10-12",
     excerpt: "（已404，无永久链接）",
@@ -3907,7 +3907,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-09-26-zhi-li-po-sui-de-qu-shi-bu-ke-zu-dang",
+    id: "2021-09-26-r1d",
     title: "支离破碎的趋势不可阻挡",
     date: "2021-09-26",
     excerpt: "多年以前，我在自己那篇水平很一般的毕业论文的最后一章最后一小节里，讨论了一下舆论场的分裂，",
@@ -3932,7 +3932,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-09-25-cong-lai-ru-ci-bian-dui-me",
+    id: "2021-09-25-2q0",
     title: "从来如此，便对么？",
     date: "2021-09-25",
     excerpt: "谭尚忍 鲁迅吊唁杨杏佛 1974年",
@@ -3968,7 +3968,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-09-16-ru-he-tong-guo-li-cai-bai-tuo-si-gong-zi-zhe-shi-wo-ting-guo-zui-hao-d",
+    id: "2021-09-16-e02",
     title: "如何通过理财摆脱死工资？这是我听过最好的答案",
     date: "2021-09-16",
     excerpt: "过去的一年里，很多人明白了：谁都没办法预测，明天还会有什么“黑天鹅”事件？",
@@ -4116,7 +4116,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-09-15-ge-xi-duan-jiao-yi-xun-chang",
+    id: "2021-09-15-81f",
     title: "割席断交亦寻常",
     date: "2021-09-15",
     excerpt: "舆论从来不是铁板一块，阵营往往也是。只不过，相左意见所引发的争执往往局限在内部，",
@@ -4141,7 +4141,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-09-14-mei-you-shen-me-hui-yong-chui-bu-xiu",
+    id: "2021-09-14-dce",
     title: "没有什么会永垂不朽",
     date: "2021-09-14",
     excerpt: "过去，我一直以为王菲有一首歌叫做「有时候」，直到很多年以后，我才知道，这首歌的真名，",
@@ -4176,7 +4176,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-09-08-shu-yu-he-ren-de-sheng-li",
+    id: "2021-09-08-ke9",
     title: "属于何人的胜利",
     date: "2021-09-08",
     excerpt: "彷佛，这就像是一场梦境，我们居然获得了一场极为罕见的胜利。",
@@ -4204,7 +4204,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-08-24-dui-zhang-wen-hong-ke-ke-jiu-shi-dui-huai-ren-kuan-rong",
+    id: "2021-08-24-vrs",
     title: "对张文宏苛刻，就是对坏人宽容",
     date: "2021-08-24",
     excerpt: "昨天，复旦大学公布了关于张文宏博士学位论文的调查结果，",
@@ -4233,7 +4233,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-08-22-jiu-wen-lu-ke-wen-jie-le-mi-meng-de-yi-bo",
+    id: "2021-08-22-dwg",
     title: "旧文|卢克文接了“咪蒙”的衣钵",
     date: "2021-08-22",
     excerpt: "你看，卢克文刷屏的热文《香港问题与世界真相》再一次证明了：",
@@ -4281,7 +4281,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-08-19-xiao-shi-de-jia-jiao",
+    id: "2021-08-19-i8p",
     title: "消失的家教",
     date: "2021-08-19",
     excerpt: "今天，我想说一件看似不太起眼的小事。",
@@ -4306,7 +4306,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-08-13-zhou-du-bei-tong-zhi-de-yi-shu-bu-de-yi-de-dui-ce",
+    id: "2021-08-13-a9f",
     title: "粥读︱被统治的艺术，不得已的对策",
     date: "2021-08-13",
     excerpt: "在古代中国，国家政策到底对于一个人、一个家庭或者一个家族有着怎样的影响？",
@@ -4328,7 +4328,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-08-11-biao-yang-yu-zi-wo-biao-yang",
+    id: "2021-08-11-s17",
     title: "表扬与自我表扬",
     date: "2021-08-11",
     excerpt: "大约从昨天开始，成都就隐隐约约有一种按耐不住的冲动。",
@@ -4351,7 +4351,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-08-06-zhe-cai-shi-wo-xiang-kan-dao-de-ao-yun",
+    id: "2021-08-06-2iw",
     title: "这才是我想看到的奥运",
     date: "2021-08-06",
     excerpt: "还有两天，东京奥运会就要结束了。",
@@ -4382,7 +4382,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-08-05-yu-ying-shi-min-zhu-yu-min-zu-zhu-yi-zhi-jian",
+    id: "2021-08-05-4ik",
     title: "余英时：民主与民族主义之间",
     date: "2021-08-05",
     excerpt: "著名历史学家余英时，于美国东部时间2021年8月1日凌晨在于睡梦中安详离世。",
@@ -4415,7 +4415,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-08-03-teng-xun-men-fang-bu-zhu-bu-fu-ze-ren-de-jia-zhang",
+    id: "2021-08-03-f4o",
     title: "「腾讯」们防不住不负责任的家长",
     date: "2021-08-03",
     excerpt: "在中国，鸦片这个称呼，有着极其特殊的意义。",
@@ -4464,7 +4464,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-08-02-gong-ping-yi-shi-hen-qiang-gui-ze-yi-shi-hen-ruo",
+    id: "2021-08-02-tpd",
     title: "公平意识很强，规则意识很弱",
     date: "2021-08-02",
     excerpt: "7月28日，中国体操选手肖若腾在东京奥运会的男子体操个人全能比赛中，",
@@ -4515,7 +4515,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-30-bu-jiang-wu-de-de-ji-zhe-he-chao-gang-de-wen-ti",
+    id: "2021-07-30-p8p",
     title: "不讲武德的记者和超纲的问题",
     date: "2021-07-30",
     excerpt: "（已404，无永久链接）",
@@ -4526,7 +4526,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-29-zhe-zhu-ding-shi-yi-chang-jian-nan-de-chi-jiu-zhan",
+    id: "2021-07-29-7it",
     title: "这注定是一场艰难的持久战",
     date: "2021-07-29",
     excerpt: "时至今日，恐怕有越来越多的人意识到，SARS-CoV-2——也就是我们俗称的新冠病毒——将成…",
@@ -4553,7 +4553,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-28-yi-miao-jie-zhong-zi-yuan-de-kun-jing",
+    id: "2021-07-28-ydy",
     title: "疫苗接种：“自愿”的困境",
     date: "2021-07-28",
     excerpt: "近日来，国内多地发布文件，宣告未接种新冠疫苗者将被限制进入各类重点公共场所，",
@@ -4588,7 +4588,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-26-hong-xing-er-ke-yu-ao-yun-hui",
+    id: "2021-07-26-4wb",
     title: "鸿星尔克与奥运会",
     date: "2021-07-26",
     excerpt: "刚刚过去的周末，有两件事为国人所关注和讨论：",
@@ -4619,7 +4619,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-25-hong-xing-er-ke-rang-wo-xiang-qi-le-chen-guang-biao",
+    id: "2021-07-25-p3q",
     title: "鸿星尔克让我想起了陈光标",
     date: "2021-07-25",
     excerpt: "",
@@ -4630,7 +4630,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-23-bao-wei-ni-de-zhen-xiang-zhi-dao-shi-jie-beng-ta",
+    id: "2021-07-23-oca",
     title: "保卫你的真相，直到世界崩塌",
     date: "2021-07-23",
     excerpt: "2011年9月，我读到了这篇文章，我记住了其中的关键词：真相、世界。",
@@ -4657,7 +4657,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-23-yong-bu-di-da-de-lie-che",
+    id: "2021-07-23-zda",
     title: "永不抵达的列车",
     date: "2021-07-23",
     excerpt: "鲁迅说，悲剧将人生的有价值的东西毁灭给人看。",
@@ -4770,7 +4770,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-22-mei-you-ren-shi-yi-zuo-gu-dao",
+    id: "2021-07-22-yqq",
     title: "没有人是一座孤岛",
     date: "2021-07-22",
     excerpt: "开始写这段文字的时候，是7月21日23点04分。",
@@ -4810,7 +4810,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-19-wu-yi-fan-zhe-ge-po-gu-jiu-gai-wan-ren-wei-guan-ma",
+    id: "2021-07-19-z7a",
     title: "吴亦凡这个破鼓，就该万人围观吗？",
     date: "2021-07-19",
     excerpt: "从昨晚到现在，占据着人们注意力的，应该就是那位当红艺人吴亦凡了。",
@@ -4845,7 +4845,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-13-guo-fen-ren-zhen-jiu-shi-tong-wang-zai-nan-zhi-lu",
+    id: "2021-07-13-mfb",
     title: "过分认真就是通往灾难之路",
     date: "2021-07-13",
     excerpt: "不知道从什么时候开始，上图这句「认真你就输了」成为了我身边很多人的口头禅。",
@@ -4880,7 +4880,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-07-08-lin-sheng-bin-shi-yi-mian-jing-zi-zhao-jian-le-ban-ren-ban-gui-de-wo-m",
+    id: "2021-07-08-lb0",
     title: "林生斌是一面镜子，照见了半人半鬼的我们",
     date: "2021-07-08",
     excerpt: "消失在了公众视野很久的林生斌，在过去的这一周掀起了不小的舆论风暴，被舆论的聚光灯照了个遍，",
@@ -4910,7 +4910,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-06-22-fan-dui-ai-yin-si-tan-de-qi-zhi-yi-ge-li-zi-feng",
+    id: "2021-06-22-q3f",
     title: "反对爱因斯坦的，岂止一个李子丰",
     date: "2021-06-22",
     excerpt: "燕山大学石油工程系的研究员、博导李子丰，这几天搞了一个大新闻。",
@@ -4963,7 +4963,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-06-15-mao-tai-mian-qian-ren-ren-ping-deng",
+    id: "2021-06-15-n8h",
     title: "茅台面前，人人平等",
     date: "2021-06-15",
     excerpt: "刚刚结束的2021年高考中，最有哲学味儿的作文题目，当属上海市。题目很简单，但也很深刻：",
@@ -5003,7 +5003,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-06-09-ling-dao-qing-nin-he-wo-men-yi-qi-fei-sheng-ji-zou",
+    id: "2021-06-09-58p",
     title: "领导，请您和我们一起「非升即走」",
     date: "2021-06-09",
     excerpt: "这几天，粥爷的朋友圈里讨论最多的事情，恐怕就是邯郸路大学杀人案。",
@@ -5048,7 +5048,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-06-06-wo-men-dao-di-ying-gai-zen-me-kan-dai-gao-kao",
+    id: "2021-06-06-ils",
     title: "我们到底应该怎么看待高考？",
     date: "2021-06-06",
     excerpt: "朋友圈里不少人在说高考。说来说去，都是老调重弹，粥爷我也来瞎吹两句高考吧！",
@@ -5066,7 +5066,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-06-04-yin-wei-ta-hai-shi-ge-hai-zi-suo-yi-bu-neng-tong-qing-he-zong-rong",
+    id: "2021-06-04-zqx",
     title: "因为他还是个孩子，所以不能同情和纵容",
     date: "2021-06-04",
     excerpt: "这里是一个很宽容的国度，拥有一群很宽容的人民。",
@@ -5112,7 +5112,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-05-06-mian-dui-qing-nian-de-zheng-que-zi-shi-dao-di-shi-shen-me",
+    id: "2021-05-06-sbs",
     title: "面对青年的正确姿势到底是什么？",
     date: "2021-05-06",
     excerpt: "今天的内卷是一个陀螺式的死循环……它是一个高度动态的陷阱，所以非常耗能。",
@@ -5156,7 +5156,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-04-16-guan-yin-chao-de-yang-ma-guan-xin-zao-ren-he-shi-ma",
+    id: "2021-04-16-u5c",
     title: "管印钞的央妈关心造人，合适吗？",
     date: "2021-04-16",
     excerpt: "人口增长会让全球陷入贫困，这一近代观念完全是错误的。",
@@ -5215,7 +5215,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-03-31-gang-shui-qian-du-ye-di-bu-guo-ren-xin-de-leng-mo",
+    id: "2021-03-31-1s2",
     title: "钢水千度也抵不过人心的冷漠",
     date: "2021-03-31",
     excerpt: "加缪曾经说：「真正严肃的哲学问题只有一个，那便是自杀」。",
@@ -5250,7 +5250,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-03-10-feng-li-yu-hai-tang",
+    id: "2021-03-10-75u",
     title: "凤梨与海棠",
     date: "2021-03-10",
     excerpt: "在小轩和谭健常夫妇所作的歌曲《梦驼铃》里，有一句歌词是“风沙挥不去印在，历史的血痕；",
@@ -5282,7 +5282,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-02-18-you-clubhouse-xiang-dao-de",
+    id: "2021-02-18-s7p",
     title: "由Clubhouse想到的",
     date: "2021-02-18",
     excerpt: "（已404，无永久链接）",
@@ -5293,7 +5293,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-02-18-zhe-shi-wo-de-ha-bei-ma-si-shi-ke",
+    id: "2021-02-18-sg6",
     title: "这是我的哈贝马斯时刻",
     date: "2021-02-18",
     excerpt: "年前，朋友给了我一个邀请码，邀请我使用CH。拿到邀请码的第一时间，我是有些不屑的。因为内地的互联网在技术和资本上都冠绝于世界，还有什么软件我们没有见过呢？",
@@ -5328,7 +5328,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-02-11-niu-nian-da-ji",
+    id: "2021-02-11-kzj",
     title: "牛年大吉",
     date: "2021-02-11",
     excerpt: "",
@@ -5339,7 +5339,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-02-04-dao-huo-de-ren-ren-ying-shi",
+    id: "2021-02-04-exr",
     title: "「盗火」的人人影视",
     date: "2021-02-04",
     excerpt: "对于喜欢海外影视剧的人们来说，今天必然是一个悲伤的日子。",
@@ -5395,7 +5395,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-02-02-mei-tiao-jian-shui-tou-xiang-a",
+    id: "2021-02-02-mbc",
     title: "没条件，谁投降啊？",
     date: "2021-02-02",
     excerpt: "在奴性驱使下，人们自相残杀，却把这行为称作爱国，人们在奴性的面前俯首，",
@@ -5440,7 +5440,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-02-02-qian-nan-fang-zhou-mo-shou-xi-ping-lun-yuan-li-tie-wo-wei-shen-me-gao",
+    id: "2021-02-02-olt",
     title: "前《南方周末》首席评论员 李铁：我为什么告别了公知生涯？",
     date: "2021-02-02",
     excerpt: "我为什么告别了公知生涯？",
@@ -5492,7 +5492,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-01-22-dai-yun-wo-sui-bu-zhi-chi-dan-ye-bu-fan-dui",
+    id: "2021-01-22-xi7",
     title: "代孕，我虽不支持，但也不反对",
     date: "2021-01-22",
     excerpt: "在写下这个题目的时候，粥爷我其实是有点忐忑的，因为现如今，讨论一个社会话题，",
@@ -5554,7 +5554,7 @@ const POSTS = [
     `
   },
   {
-    id: "2021-01-04-pin-duo-duo-bei-zhi-hu-kan-le-yi-dao",
+    id: "2021-01-04-d6e",
     title: "拼多多被知乎砍了一刀",
     date: "2021-01-04",
     excerpt: "热衷于请人「砍一刀」的拼多多，终于被知乎砍了一刀。",
@@ -5603,7 +5603,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-12-30-ji-yi-ye-shi-ni-de-di-ren",
+    id: "2020-12-30-s25",
     title: "记忆也是你的敌人",
     date: "2020-12-30",
     excerpt: "旧年将逝，粥爷我还是循着惯例，在这个完全属于自己的天地里，与你们聊聊天，说说这一年。",
@@ -5654,7 +5654,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-12-29-wo-zhu-ju-bao-yang-li-de-nan-ren-zhong-shen-bu-ju",
+    id: "2020-12-29-z9r",
     title: "我祝举报杨笠的男人，终身不举",
     date: "2020-12-29",
     excerpt: "讲脱口秀的杨笠，这几天因为在节目上调侃了一下男女差异而被举报的事，上了热搜。",
@@ -5697,7 +5697,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-12-28-ni-wo-dou-zai-yong-li-di-huo-zhe-zhi-wei-sui-yin-ji-liang",
+    id: "2020-12-28-bpp",
     title: "你我都在用力地活着，只为碎银几两",
     date: "2020-12-28",
     excerpt: "昨天晚上，粥爷我的朋友圈突然被一张截图刷屏了。",
@@ -5742,7 +5742,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-12-24-da-qin-fu-shi-ge-shen-me-lan-wan-yi",
+    id: "2020-12-24-awo",
     title: "大秦赋是个什么烂玩意？",
     date: "2020-12-24",
     excerpt: "作为一个喜欢历史的人，粥爷我虽然没有钻研过很多史学著作。",
@@ -5791,7 +5791,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-12-20-jiu-wen-qing-nian-da-yuan-liang-le-wo-yao-he-liang-bei",
+    id: "2020-12-20-nkf",
     title: "旧文|青年大院凉了，我要喝两杯",
     date: "2020-12-20",
     excerpt: "12月18日，「青年大院」终于凉了！",
@@ -5848,7 +5848,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-12-15-bie-le-mo-bai",
+    id: "2020-12-15-yyw",
     title: "别了，摩拜",
     date: "2020-12-15",
     excerpt: "摩拜APP、摩拜微信小程序于昨晚(12月14日)23时59分停止服务和运营。",
@@ -5929,7 +5929,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-12-08-sui-chu-ke-jian-de-ping-yong-zhi-e",
+    id: "2020-12-08-1cu",
     title: "随处可见的平庸之恶",
     date: "2020-12-08",
     excerpt: "不知道诸位，对于恶的定义到底是什么？",
@@ -5970,7 +5970,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-12-06-zhou-kan-ding-zhen-jiu-shi-chu-men",
+    id: "2020-12-06-lpg",
     title: "【舟侃】丁真就是楚门",
     date: "2020-12-06",
     excerpt: "满打满算到今天，理塘的丁真，已经火了快一个月了。",
@@ -6022,7 +6022,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-12-06-zhong-nian-fu-qi-chu-gui-bu-li-hun-ye-bu-yuan-liang",
+    id: "2020-12-06-3v6",
     title: "中年夫妻出轨，不离婚，也不原谅",
     date: "2020-12-06",
     excerpt: "上周同学会，大学室友小宣给我们说她老公现在变了心。",
@@ -6195,7 +6195,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-12-04-yao-hao-ma-jin-tian-jiu-ke-yi-li-hun-de-na-zhong",
+    id: "2020-12-04-ewc",
     title: "要号吗？今天就可以离婚的那种",
     date: "2020-12-04",
     excerpt: "民政部近日发布的文件显示，明年1月1日起，办理离婚将设冷静期，",
@@ -6244,7 +6244,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-11-27-rang-li-yi-she-hui-xing-si-wang-wo-bu-jue-de-can-ren",
+    id: "2020-11-27-arw",
     title: "让李毅社会性死亡，我不觉得残忍",
     date: "2020-11-27",
     excerpt: "这两天，旅美学者李毅的视频，又一次刷新了人们的三观。",
@@ -6293,7 +6293,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-11-23-wo-men-zheng-zai-cong-shen-shui-qu-zou-xiang-lei-qu",
+    id: "2020-11-23-8s8",
     title: "我们正在从「深水区」走向「雷区」",
     date: "2020-11-23",
     excerpt: "停了一周多没有更新，并非粥爷我懒惰，而是新闻越来越单调，种种荒唐之事，早已说过多次，",
@@ -6332,7 +6332,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-11-12-wo-wei-shen-me-zan-cheng-fan-xue",
+    id: "2020-11-12-kdj",
     title: "我为什么赞成「凡学」",
     date: "2020-11-12",
     excerpt: "世上本没有「学」，但关注的人多了，也便成了「学」。",
@@ -6381,7 +6381,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-11-10-zhu-yi-shi-wu-chi-zui-hou-de-bi-hu-suo",
+    id: "2020-11-10-sxg",
     title: "主义是无耻最后的庇护所",
     date: "2020-11-10",
     excerpt: "对于被新冠病毒带来的恐惧笼罩将近一年的人类来说，今天的这个消息，或许是里程碑式的：",
@@ -6451,7 +6451,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-11-06-xin-wen-ren-zhi-neng-zi-du",
+    id: "2020-11-06-9i4",
     title: "新闻人只能自渡",
     date: "2020-11-06",
     excerpt: "偶然下楼拿快递，突然发现，办公室楼下立起了一块巨大的展板，以庆祝即将到来的节日，",
@@ -6515,7 +6515,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-11-03-jiu-wen-lao-ling-dao-ma-yun-de-zi-wo-xiu-yang",
+    id: "2020-11-03-fsz",
     title: "旧文|老领导马云的自我修养",
     date: "2020-11-03",
     excerpt: "“我过去多次讲，可能我最后的作用是带头建立退休制度。”",
@@ -6569,7 +6569,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-28-dui-bu-qi-da-gong-ren-zhe-wan-an-hei-ji-tang-wo-men-bu-he",
+    id: "2020-10-28-6fa",
     title: "对不起，「打工人」这碗暗黑鸡汤，我们不喝",
     date: "2020-10-28",
     excerpt: "仿佛就在一瞬间，「打工人」成为了全网最热门的词汇。",
@@ -6622,7 +6622,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-23-jiu-wen-cong-ci-bu-rang-zhong-jian-shang-zhuan-cha-jia",
+    id: "2020-10-23-vyr",
     title: "旧文|从此不让中间商赚差价",
     date: "2020-10-23",
     excerpt: "你看，原来国家元首也和我一样，拥有成为一个好作家的潜质。",
@@ -6696,7 +6696,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-19-wei-le-ti-yu-man-fen-ni-men-cai-jia-zhang-hui-bu-hui-gei-hai-zi-chi-xi",
+    id: "2020-10-19-s6p",
     title: "为了体育满分，你们猜家长会不会给孩子吃兴奋剂？",
     date: "2020-10-19",
     excerpt: "当教育部门的负责人明确表示：",
@@ -6745,7 +6745,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-15-hui-python-de-ren-zai-zhi-chang-you-duo-chi-xiang",
+    id: "2020-10-15-2yp",
     title: "会Python的人，在职场有多吃香？",
     date: "2020-10-15",
     excerpt: "经常听到大家自嘲是当代“社畜”，被“996”虐的体无完肤。",
@@ -6886,7 +6886,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-15-ni-dao-di-yao-du-lei-si-zen-yang",
+    id: "2020-10-15-rk7",
     title: "你到底要杜蕾斯怎样？",
     date: "2020-10-15",
     excerpt: "今天的文，粥爷我要聊的是杜蕾斯。",
@@ -6940,7 +6940,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-13-shang-hai-ming-yuan-zhi-wo-jian",
+    id: "2020-10-13-8y6",
     title: "「上海名媛」之我见",
     date: "2020-10-13",
     excerpt: "人们还是无法抗拒八卦的诱惑，把所有的注意力都贡献给了「上海名媛」。",
@@ -6978,7 +6978,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-12-zhou-ye-qing-guo-jing-ming-shang-zong-yi-jiu-shi-rang-ni-ma-de",
+    id: "2020-10-12-yys",
     title: "粥爷|请郭敬明上综艺，就是让你骂的",
     date: "2020-10-12",
     excerpt: "粥爷我素来是不喜欢看综艺节目的，尤其是那种美女帅哥在电视前面嘻嘻哈哈，",
@@ -7024,7 +7024,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-10-zhou-ye-shi-jie-shang-da-duo-shu-de-bu-xing-shi-yin-wei-mei-qian",
+    id: "2020-10-10-z87",
     title: "粥爷|世界上大多数的不幸，是因为没钱",
     date: "2020-10-10",
     excerpt: "今晚回家的地铁上，粥爷看到了两个新闻。",
@@ -7073,7 +7073,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-07-zhou-ye-zhe-shi-guo-zu-ju-li-duo-guan-zui-jin-de-yi-ci",
+    id: "2020-10-07-nwl",
     title: "粥爷|这是国足距离夺冠最近的一次",
     date: "2020-10-07",
     excerpt: "103年以前，年仅二十四岁的伟人曾以「二十八画生」为笔名在当时的网红杂志「新青年」上发表过这…",
@@ -7127,7 +7127,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-06-wo-shi-mc-yu-shi-meng-nan-xiao-liu-gan-xie-he-zi-shi-yan-shi-dai-wo-zu",
+    id: "2020-10-06-i6w",
     title: "我是MC浴室猛男小刘，感谢“赫兹实验室”带我做变性手术",
     date: "2020-10-06",
     excerpt: "本人女，爱好男，这个国庆本来过得平静祥和，但是suddenly，我突然变成了“MC小刘”，",
@@ -7257,7 +7257,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-06-python-shi-ge-shen-me-gui-wei-shen-me-985-xue-sheng-dou-yao-xue-ta",
+    id: "2020-10-06-1a9",
     title: "Python是个什么鬼？为什么985学生都要学它？！",
     date: "2020-10-06",
     excerpt: "昨天看到一个学妹发了一条朋友圈，有些沮丧。大抵意思是：",
@@ -7444,7 +7444,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-03-jiang-zi-ya-hao-de-gu-shi-bu-kao-bian-shen-kao-cang-sheng",
+    id: "2020-10-03-moe",
     title: "「姜子牙」：好的故事不靠变身，靠苍生",
     date: "2020-10-03",
     excerpt: "神秘组织清虚宫的大弟子姜子牙，奉命斩杀大反派九尾狐，却因一时之善，功亏一篑，",
@@ -7492,7 +7492,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-03-bi-ye-4-nian-wo-yong-shui-hou-shou-ru-mai-le-liang-tao-fang",
+    id: "2020-10-03-100",
     title: "毕业4年，我用睡后收入买了两套房",
     date: "2020-10-03",
     excerpt: "前几天，在网上看到了一份中国90后收入的调查报告：",
@@ -7621,7 +7621,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-02-chang-jia-day2-chuan-pu-yang-xing-ni-gao-xing-ma",
+    id: "2020-10-02-b6t",
     title: "长假Day2：川普阳性，你高兴吗？",
     date: "2020-10-02",
     excerpt: "",
@@ -7632,7 +7632,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-10-01-chang-jia-day1-ni-zai-ao-ye-wan-shou-ji-ma",
+    id: "2020-10-01-f2x",
     title: "长假Day1：你在熬夜玩手机吗？",
     date: "2020-10-01",
     excerpt: "",
@@ -7643,7 +7643,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-28-yong-jin-hong-huang-zhi-li-you-yong-yun-dong-yuan-hai-shi-pao-shu-le-b",
+    id: "2020-09-28-jw9",
     title: "用尽洪荒之力，游泳运动员还是跑输了比赛",
     date: "2020-09-28",
     excerpt: "第一次听说洪荒之力这个词，是从傅园慧那里。",
@@ -7697,7 +7697,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-25-wo-heng-da-da-qian-bu-wo-mei-yao-qian",
+    id: "2020-09-25-jvf",
     title: "「我，恒大，打钱」，「不，我没要钱」",
     date: "2020-09-25",
     excerpt: "我刚刚研读完你恒大的「情况报告」，你就发个辟谣声明，刚刚还在一拍大腿“我就知道”，",
@@ -7731,7 +7731,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-24-28-sui-luo-ci-wo-zhuan-dao-ren-sheng-zhong-di-yi-ge-bai-wan",
+    id: "2020-09-24-2w2",
     title: "“28岁裸辞，我赚到人生中第一个百万”",
     date: "2020-09-24",
     excerpt: "整天嚷嚷不想上班，你为什么还不辞职？",
@@ -7848,7 +7848,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-24-lu-jie-yan-zhi-bu-shi-zheng-yi-shi-ni-bei-wu-hua-de-di-yi-bu",
+    id: "2020-09-24-qxk",
     title: "撸姐|颜值不是正义，是你被物化的第一步",
     date: "2020-09-24",
     excerpt: "从印刷时代走向影像时代，人们从钟情于文字到沉沦于画面，文字让人深邃思考，",
@@ -7873,7 +7873,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-24-zhou-ye-de-rang-li-jia-cheng-chi-xia-qu-de-zai-tu-chu-lai",
+    id: "2020-09-24-tqp",
     title: "粥爷|得让李嘉诚吃下去的，再吐出来",
     date: "2020-09-24",
     excerpt: "粥爷我很少看电视剧，但有一部，我喜欢了很多年。",
@@ -7932,7 +7932,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-09-zhou-ye-dui-bu-qi-wai-mai-xiao-ge-zhe-wu-fen-zhong-wo-bu-neng-gei-ni",
+    id: "2020-09-09-1t3",
     title: "粥爷|对不起，外卖小哥，这五分钟我不能给你",
     date: "2020-09-09",
     excerpt: "过去，在中国的互联网圈里，有这样一种说法：",
@@ -7983,7 +7983,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-08-yi-ge-ren-dao-di-yao-zhuan-duo-shao-qian-cai-neng-yuan-li-jiao-lv",
+    id: "2020-09-08-ryw",
     title: "一个人到底要赚多少钱才能远离焦虑？",
     date: "2020-09-08",
     excerpt: "说到“穷”这个话题，每个人都有一部血泪史：",
@@ -8084,7 +8084,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-06-zhou-ye-bao-wei-ni-de-ji-yi-zhi-dao-shi-jie-beng-ta",
+    id: "2020-09-06-8v0",
     title: "粥爷|保卫你的记忆，直到世界崩塌",
     date: "2020-09-06",
     excerpt: "时至今日，谈及年初那段风雨如晦的日子，不少人的记忆恐怕早已变得淡薄了许多。疫情注定将改变人类的历史与交往方式，而这场自然与人类的斗争，困难程度远甚于17年前的SARS，胜利的终点依旧遥遥无期。",
@@ -8152,7 +8152,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-04-zhou-kan-da-feng-qi-yu-qing-ping-zhi-mo",
+    id: "2020-09-04-ol8",
     title: "舟侃|大风起于青萍之末",
     date: "2020-09-04",
     excerpt: "不知诸位是否和粥爷我一样，对近来的新闻有这样一种感受：",
@@ -8216,7 +8216,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-03-ren-you-bing-tian-zhi-fou",
+    id: "2020-09-03-rzz",
     title: "人有病，天知否？",
     date: "2020-09-03",
     excerpt: "2020年，是一个和过去不太一样的年份。人们都在讨论，我们正在经历一个百年未有之大变局。",
@@ -8263,7 +8263,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-09-03-zhou-ye-ren-zheng-fei-wo-xin-ni-ge-gui-huai-de-hen",
+    id: "2020-09-03-uvs",
     title: "粥爷|任正非，我信你个鬼，坏得很",
     date: "2020-09-03",
     excerpt: "不管你承认还是不承认，对于世间的大部分人来说，想要迅速找寻到成功的途径和方法，",
@@ -8309,7 +8309,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-08-22-zheng-qian-hai-shi-zhan-zhe-zheng-cai-xiang",
+    id: "2020-08-22-q8e",
     title: "挣钱，还是站着挣才香",
     date: "2020-08-22",
     excerpt: "周末的朋友圈，因为保利地产文灵总的一句「没转发的移出本群」显得颇为热闹。",
@@ -8351,7 +8351,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-08-18-ren-min-you-quan-lang-fei",
+    id: "2020-08-18-943",
     title: "人民有权浪费",
     date: "2020-08-18",
     excerpt: "（已404，无永久链接）",
@@ -8362,7 +8362,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-08-12-he-wei-lifeonlockdowninchina",
+    id: "2020-08-12-ryy",
     title: "何伟：《Life on Lockdown in China》",
     date: "2020-08-12",
     excerpt: "Life on Lockdown in China",
@@ -8460,7 +8460,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-08-12-wei-he-wo-men-yao-ju-jue-shan-yi-de-ke-guan",
+    id: "2020-08-12-olt",
     title: "为何我们要拒绝善意的客观？",
     date: "2020-08-12",
     excerpt: "在过去的很长一段时间里，有无数人向粥爷我推荐过一本叫做《江城》的书，但限于各种各样的原因，",
@@ -8505,7 +8505,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-07-31-yu-dao-mei-ling-guan-ai-fa-wei-bo-de-chu-zi-ke-de-duo-yuan-dian",
+    id: "2020-07-31-fpo",
     title: "遇到美领馆爱发微博的厨子，可得躲远点",
     date: "2020-07-31",
     excerpt: "粥爷我一向对任何职业都没有歧视和偏见。毕竟同为劳动人民，都是靠劳动讨生活，谁也不比谁高贵，",
@@ -8550,7 +8550,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-07-29-xie-ping-an-jing-de-he-dian-tong-zhi-quan-shi-le-shen-me-jiao-da-gong",
+    id: "2020-07-29-d96",
     title: "写「平安经」的贺电同志，诠释了什么叫大公无私",
     date: "2020-07-29",
     excerpt: "自从把文字作为职业以后，粥爷我还是读了不少书，写了不少文，自认为还是有那么一点判断力，",
@@ -8588,7 +8588,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-07-28-ren-min-ying-gai-yong-you-di-su-de-quan-li",
+    id: "2020-07-28-wao",
     title: "人民应该拥有低俗的权利",
     date: "2020-07-28",
     excerpt: "在你阅读这篇文章以前，我必须提醒一下：",
@@ -8629,7 +8629,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-07-23-mei-le-chi-gan-he-gong-qing-ni-hai-suan-mei-ti-ma",
+    id: "2020-07-23-94e",
     title: "没了耻感和共情，你还算媒体吗？",
     date: "2020-07-23",
     excerpt: "记得刚入行的时候，在一次业界大佬齐聚的峰会上，那家小粉红们恨之入骨的报社代表，",
@@ -8671,7 +8671,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-07-01-ran-fa-de-bu-yi-ding-shi-huai-ren-dan-ju-bao-da-duo-shi-huai-ren",
+    id: "2020-07-01-68s",
     title: "染发的不一定是坏人，但举报大多是坏人！",
     date: "2020-07-01",
     excerpt: "记得很小的时候，长辈说过，童年是一个人最美好的时光，自然快乐，绚丽多彩。",
@@ -8712,7 +8712,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-06-30-wei-shen-me-guan-zhuang-liang-cha-wang-lao-ji-shi-ge-la-ji",
+    id: "2020-06-30-8w6",
     title: "为什么罐装凉茶王老吉是个垃圾？",
     date: "2020-06-30",
     excerpt: "众所周知，在两广地区，凉茶是一种人们喜闻乐见的饮品。",
@@ -8758,7 +8758,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-06-23-ru-guo-mei-you-nian-da-xue-ni-men-du-hui-qu-gan-ma",
+    id: "2020-06-23-ira",
     title: "如果没有念大学，你们都会去干嘛？",
     date: "2020-06-23",
     excerpt: "记得去年高考前夕，我写了一篇文，文中写道：",
@@ -8802,7 +8802,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-06-12-yi-chang-da-yi-mie-qin-de-zhi-bo",
+    id: "2020-06-12-ctq",
     title: "一场大义灭亲的直播",
     date: "2020-06-12",
     excerpt: "这么多年间，粥爷见过了无数「坑爹」的案例，除了李天一是下半身出的事之外，其他的人之所以出事，",
@@ -8843,7 +8843,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-06-07-zhou-kan-di-de-tan",
+    id: "2020-06-07-t3i",
     title: "【舟侃】地的摊",
     date: "2020-06-07",
     excerpt: "这一周，大家津津乐道的，恐怕就是出街摆地摊这件事。",
@@ -8889,7 +8889,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-06-02-lu-xun-ni-hai-gan-shuo-zhong-yi-bu-hao-ma",
+    id: "2020-06-02-773",
     title: "鲁迅，你还敢说中医不好吗？",
     date: "2020-06-02",
     excerpt: "有些话，在过去只是观点之争，可以百花齐放，公开讨论。但也许很快，一方的观点就可能成为一种犯罪，接受必要的制裁。",
@@ -8933,7 +8933,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-05-31-zhou-kan-yao-hao-ma-jin-tian-jiu-ke-yi-li-hun-de-na-zhong",
+    id: "2020-05-31-mdt",
     title: "【舟侃】要号吗？今天就可以离婚的那种",
     date: "2020-05-31",
     excerpt: "作为人生四大喜事之一，结婚往往被看做一个人真正成熟的标志。",
@@ -8973,7 +8973,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-05-24-zhou-kan-lun-zhi-dao-xue-gong-de-dao-diao",
+    id: "2020-05-24-kat",
     title: "【舟侃】论至道学宫的倒掉",
     date: "2020-05-24",
     excerpt: "听说，臭名昭著的公号「至道学宫」挂了。听说而已，粥爷我不是它的粉丝，没有亲见，",
@@ -9020,7 +9020,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-05-04-zhou-kan-b-zhan-de-ma-pi-shi-yi-wan-du-ji-tang",
+    id: "2020-05-04-yrp",
     title: "【舟侃】B站的马屁是一碗毒鸡汤",
     date: "2020-05-04",
     excerpt: "搞完一台成功的跨年晚会后，B站突然膨胀起来，在五四前的深夜，",
@@ -9065,7 +9065,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-04-27-zhou-kan-tie-quan-bu-luo-zai-zi-ji-shen-shang-yong-yuan-bu-zhi-dao-ton",
+    id: "2020-04-27-591",
     title: "【舟侃】铁拳不落在自己身上，永远不知道痛。",
     date: "2020-04-27",
     excerpt: "记得粥爷刚刚进入新闻这个行当时，前辈指导如何才能写出一篇出色的稿子时说：",
@@ -9105,7 +9105,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-04-23-zhe-ge-zhi-tao-lun-luo-zhi-xiang-de-shi-dai-wo-men-pei-bu-shang",
+    id: "2020-04-23-a6d",
     title: "这个只讨论罗志祥的时代，我们配不上",
     date: "2020-04-23",
     excerpt: "大家伙吃罗志祥的瓜，已经吃了一整天，你们累不累我不知道，但粥爷我的微信群里，",
@@ -9145,7 +9145,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-04-19-zhou-kan-cong-lai-ru-ci-bian-dui-me",
+    id: "2020-04-19-eqr",
     title: "【舟侃】从来如此，便对么？",
     date: "2020-04-19",
     excerpt: "20年前的粥爷，和你们大家一样，最害怕的一件事情，就是学习背诵语文课本上的鲁迅作品。",
@@ -9183,7 +9183,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-04-13-zhou-kan-fen-hong-men-de-aoe-ming-zhong-le-hu-xi-jin",
+    id: "2020-04-13-v9z",
     title: "【舟侃】粉红们的AOE命中了胡锡进",
     date: "2020-04-13",
     excerpt: "如果要用一首歌来总结胡锡进这一周在舆论场的遭遇。",
@@ -9230,7 +9230,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-04-10-hai-di-lao-ni-ba-shang-di-dou-guan-huai-le",
+    id: "2020-04-10-hc1",
     title: "海底捞，你把上帝都惯坏了",
     date: "2020-04-10",
     excerpt: "地产大佬冯仑曾经有这样一个经典的论述：",
@@ -9274,7 +9274,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-04-09-zi-jia-de-shi-ji-bei-di-ren-liu-le-ge-quan-ben",
+    id: "2020-04-09-qrr",
     title: "自家的史记被敌人留了个全本",
     date: "2020-04-09",
     excerpt: "果不出意料，方方将自己的封城日记结集出版，又引来无数人的谩骂与攻讦。",
@@ -9309,7 +9309,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-04-04-guo-yan-tao-tao-yun-gong-wu-suan-ren-jian-zhi-ji-wu-he-ru-ren-you-bing",
+    id: "2020-04-04-wkb",
     title: "过眼滔滔云共雾，算人间知己吾和汝。人有病，天知否？",
     date: "2020-04-04",
     excerpt: "",
@@ -9320,7 +9320,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-04-03-rui-xing-ka-fei-he-yi-bei-shao-yi-bei",
+    id: "2020-04-03-eal",
     title: "瑞幸咖啡，喝一杯少一杯",
     date: "2020-04-03",
     excerpt: "这么便宜的咖啡，以后可能喝一杯少一杯了。",
@@ -9361,7 +9361,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-04-01-shi-shi-hou-lun-dao-wo-men-lai-ding-yi-luo-yong-hao-le",
+    id: "2020-04-01-o88",
     title: "是时候轮到我们来定义罗永浩了",
     date: "2020-04-01",
     excerpt: "多年以后，当罗永浩坐在抖音直播间带货的时候，肯定会想起他忐忑敲开了俞敏洪的办公室，",
@@ -9413,7 +9413,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-31-wo-men-you-yi-ci-zhan-zai-le-zui-jian-nan-de-shi-zi-lu-kou",
+    id: "2020-03-31-5ep",
     title: "我们又一次站在了最艰难的十字路口",
     date: "2020-03-31",
     excerpt: "在我的一个球迷群里，有位当HR的群友提醒大家，若是在小公司的工作，最好开始找个备胎了。",
@@ -9445,7 +9445,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-29-zhou-kan-zhai-tao-zi-de-min-ying-yi-yuan",
+    id: "2020-03-29-53z",
     title: "【舟侃】摘桃子的民营医院",
     date: "2020-03-29",
     excerpt: "数据从来不会说谎，新闻连起来看才有意思。",
@@ -9505,7 +9505,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-22-zhou-kan-wan-wu-jie-cheng-hui-jin",
+    id: "2020-03-22-tft",
     title: "【舟侃】万物皆成灰烬",
     date: "2020-03-22",
     excerpt: "2020年，注定是以一种让人印象深刻的方式开启。",
@@ -9545,7 +9545,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-21-zhou-mo-jian-wen-hua-shan-yi-yuan-zhang-wen-hong-ping-jia-de-guo-fang",
+    id: "2020-03-21-8lg",
     title: "【周末荐文】华山医院张文宏评价德国防疫和对留学生的建议",
     date: "2020-03-21",
     excerpt: "3 月 17 日，杜塞尔多夫中国总领馆的组织、邀请到上海市复旦大学附属华山医院感染科主任、",
@@ -9594,7 +9594,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-20-san-guo-yan-yi-li-bei-guo-xia-de-gu-shi",
+    id: "2020-03-20-ev3",
     title: "「三国演义」里背锅侠的故事",
     date: "2020-03-20",
     excerpt: "「三国演义」里面，我最喜欢的角色，不是仁慈忠厚的刘备，而是被称为乱世奸雄的曹操。",
@@ -9635,7 +9635,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-17-cong-yi-ge-yu-yan-lei-zong-yi-de-wei-ji-xiang-dao-de",
+    id: "2020-03-17-9ej",
     title: "从一个语言类综艺的危机想到的",
     date: "2020-03-17",
     excerpt: "粥爷我自认是一个嘴拙的人，吵不来架，说不来话，满肚子挖苦的想法，却从来没有用语言成功表达过。",
@@ -9680,7 +9680,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-15-zhe-shi-yi-shou-ling-ren-zuo-ou-de-cao-xian-shi-er-ge",
+    id: "2020-03-15-a02",
     title: "这是一首令人作呕的「曹县」式儿歌",
     date: "2020-03-15",
     excerpt: "老实说，昨晚的睡眠质量很差。",
@@ -9715,7 +9715,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-14-fa-tong-gao-kong-pa-bu-neng-ba-di-qiu-guan-qi-lai",
+    id: "2020-03-14-4c0",
     title: "发通稿恐怕不能「把地球管起来」",
     date: "2020-03-14",
     excerpt: "媒体和其他行业一样，都是有鄙视链的。",
@@ -9771,7 +9771,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-12-34-ge-ban-ben-de-chui-shao-ren",
+    id: "2020-03-12-mlg",
     title: "34个版本的吹哨人",
     date: "2020-03-12",
     excerpt: "7、Base64 Encode编码版",
@@ -9858,7 +9858,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-12-ni-zhi-dao-shen-me-shi-zhen-zheng-de-la-ji-shi-pin-ma",
+    id: "2020-03-12-zjs",
     title: "你知道什么是真正的垃圾食品吗？",
     date: "2020-03-12",
     excerpt: "粥爷其实是一个很喜欢吃垃圾食品的人。",
@@ -9910,7 +9910,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-11-ren-men-zai-wen-zi-zhong-liu-lang-zhui-xun-de-dong-xi-que-zui-zhong-hu",
+    id: "2020-03-11-q77",
     title: "人们在文字中流浪，追寻的东西却最终化为虚无，仿佛从未在世间存在过",
     date: "2020-03-11",
     excerpt: "",
@@ -9921,7 +9921,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-10-en-zhong-ru-shan",
+    id: "2020-03-10-19p",
     title: "恩重如“删”？",
     date: "2020-03-10",
     excerpt: "（已404，无永久链接）",
@@ -9932,7 +9932,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-04-ni-neng-pin-chu-dui-hua-wen-da-zhong-de-bei-shang-ma",
+    id: "2020-03-04-s95",
     title: "你能品出对话问答中的悲伤吗？",
     date: "2020-03-04",
     excerpt: "",
@@ -9943,7 +9943,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-03-02-hui-le-fan-quan-de-bu-shi-fan-quan-zi-ji-er-shi-wo-men-cheng-nian-ren",
+    id: "2020-03-02-8lg",
     title: "毁了饭圈的，不是饭圈自己，而是我们成年人",
     date: "2020-03-02",
     excerpt: "粥爷我不懂饭圈，也不混饭圈，这是一个属于年轻人的世界，像我这种正义无反顾奔向中老年的人，",
@@ -9994,7 +9994,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-02-28-jian-zha-de-qing-nian-da-yuan-mi-meng-dou-yao-ba-ni-zhu-chu-shi-men-le",
+    id: "2020-02-28-6x6",
     title: "奸诈的青年大院，咪蒙都要把你逐出师门了",
     date: "2020-02-28",
     excerpt: "记得我刚刚入行，成为一个文字工作者的时候。一个和我同岁的前辈说过一句话，一直让我记忆犹新。",
@@ -10048,7 +10048,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-02-24-shui-lai-ji-zhu-na-xie-mei-you-mu-bei-de-sheng-ming",
+    id: "2020-02-24-xs4",
     title: "谁来记住那些没有墓碑的生命？",
     date: "2020-02-24",
     excerpt: "从武汉封城到现在，满打满算已经二十多天了。",
@@ -10090,7 +10090,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-02-14-mian-dui-yi-qing-wo-bu-tai-xiang-guo-zao-tan-lun-ai",
+    id: "2020-02-14-g9s",
     title: "面对疫情，我不太想过早谈论爱",
     date: "2020-02-14",
     excerpt: "今天是2020年2月14日，情人节。",
@@ -10122,7 +10122,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-02-12-cheng-du-qi-zhong-kai-ke-zhi-ci-bu-neng-ba-dong-tian-chang-cheng-chun-2",
+    id: "2020-02-12-9hm",
     title: "成都七中开课致辞：不能把冬天唱成春的开始",
     date: "2020-02-12",
     excerpt: "（已404，无永久链接）",
@@ -10133,7 +10133,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-02-12-cheng-du-qi-zhong-kai-ke-zhi-ci-bu-neng-ba-dong-tian-chang-cheng-chun",
+    id: "2020-02-12-7uy",
     title: "成都QI中开课致辞：不能把冬天唱成春的开始",
     date: "2020-02-12",
     excerpt: "疫情仍然未见缓解的趋势，久处困室，即便是工作，也不得不思考，到底是什么原因，",
@@ -10160,7 +10160,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-02-01-mo-huan-er-huang-miu-de-yi-yue-zhong-jie-yu-shuang-huang-lian",
+    id: "2020-02-01-7rw",
     title: "魔幻而荒谬的一月，终结于双黄连",
     date: "2020-02-01",
     excerpt: "现实永远是魔幻而荒谬的，无论你愿不愿意相信。这个魔幻而荒谬的一月，终结于双黄连的笑话新闻。",
@@ -10202,7 +10202,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-01-28-zui-pao-xuan-shou-xi-huan-de-zheng-qi-hua-yi-wo-pei",
+    id: "2020-01-28-2a3",
     title: "嘴炮选手喜欢的整齐划一，我呸",
     date: "2020-01-28",
     excerpt: "粥爷特别喜欢陶渊明，他的一首辞，我印象极其深刻，其中有两句这么写道：",
@@ -10243,7 +10243,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-01-23-wu-han-qing-ni-nu-li-bu-yao-dai-zhe-wo-men-liang-ci-ta-ru-tong-yi-tiao",
+    id: "2020-01-23-7ha",
     title: "武汉，请你努力不要带着我们两次踏入同一条河流",
     date: "2020-01-23",
     excerpt: "我有一个用了不长不短时间的网名，叫做赫拉克里特。",
@@ -10287,7 +10287,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-01-08-wo-bing-bu-xiang-he-luo-zhen-yu-cheng-wei-tong-yi-bei",
+    id: "2020-01-08-n6l",
     title: "我并不想和罗振宇成为同一辈",
     date: "2020-01-08",
     excerpt: "我是一个从来不听有声书或者音频节目的人，因为声音传递信息的效率实在是太慢了。",
@@ -10354,7 +10354,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-01-03-nian-qing-ren-de-shi-bu-shi-xing-shi-jiu-shi-huo-shi",
+    id: "2020-01-03-1ck",
     title: "年轻人的事，不是幸事就是祸事",
     date: "2020-01-03",
     excerpt: "其实，今天的我，是一直处于深深的危机感之中的。",
@@ -10409,7 +10409,7 @@ const POSTS = [
     `
   },
   {
-    id: "2020-01-01-2020-lai-le-wo-que-tu-ran-hen-huai-nian-2010",
+    id: "2020-01-01-pns",
     title: "2020来了,我却突然很怀念2010",
     date: "2020-01-01",
     excerpt: "“ 你左顾右盼做着各种打算，却不知道生活已经过了大半。",
@@ -10448,7 +10448,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-12-31-yuan-ping-dan-yan-yu-yue-xiang-yi-ba-dao",
+    id: "2019-12-31-7pl",
     title: "愿平淡言语越像一把刀",
     date: "2019-12-31",
     excerpt: "这是2019年的最后一天，所有人照例都会停下匆忙的脚步，回望一年来的得失，",
@@ -10496,7 +10496,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-12-29-yi-sheng-he-wo-men-yi-yang-shi-ren-bu-shi-shen",
+    id: "2019-12-29-38b",
     title: "医生和我们一样，是人不是神",
     date: "2019-12-29",
     excerpt: "说起来，这应该是2019年最后一篇更新，但很遗憾的是，",
@@ -10557,7 +10557,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-12-24-hong-mao-yao-jiu-bei-bu-xun-chang-de-mei-nan-she-mian-de-zui",
+    id: "2019-12-24-2rd",
     title: "鸿茅药酒杯，不寻常的美，难赦免的zui| 旧文",
     date: "2019-12-24",
     excerpt: "一",
@@ -10656,7 +10656,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-12-20-2019-nian-jiu-kuai-guo-qu-le-ni-shi-na-tiao-zhan-zai-guo-li-de-xian-yu",
+    id: "2019-12-20-s13",
     title: "2019年就快过去了，你是那条粘在锅里的咸鱼吗？进群和我们说说吧！",
     date: "2019-12-20",
     excerpt: "",
@@ -10667,7 +10667,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-12-18-jiu-wen-jin-kan-jiao-yu-bu-he-zhun-6-suo-gao-xiao-zhang-cheng-rang-zi",
+    id: "2019-12-18-77c",
     title: "旧闻今看 ▏教育部核准6所高校章程：让自主管理有章可依",
     date: "2019-12-18",
     excerpt: "复旦复旦旦复旦，巍巍学府文章焕，学术独立思想自由，政罗教网无羁绊",
@@ -10705,7 +10705,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-12-17-di-shi-ni-fa-wu-hai-you-san-miao-dao-da-zhan-chang",
+    id: "2019-12-17-wie",
     title: "迪士尼法务还有三秒到达战场",
     date: "2019-12-17",
     excerpt: "关于迪士尼法务部，曾经有这么一个段子：",
@@ -10757,7 +10757,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-12-12-ni-kan-wo-zhang-de-xiang-jiu-cai-ma",
+    id: "2019-12-12-f5c",
     title: "你看我长得像韭菜吗？",
     date: "2019-12-12",
     excerpt: "在线追剧最惨的遭遇，莫过于二次付费。",
@@ -10806,7 +10806,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-12-05-xing-ba-ke-wei-shen-me-yue-lai-yue-nan-he-le",
+    id: "2019-12-05-2an",
     title: "星巴克为什么越来越难喝了？",
     date: "2019-12-05",
     excerpt: "网上流传甚广的一张专星送照片",
@@ -10926,7 +10926,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-12-03-da-xiang-cong-bu-xiang-ma-yi-dao-qian",
+    id: "2019-12-03-fcy",
     title: "大象从不向蚂蚁道歉",
     date: "2019-12-03",
     excerpt: "网易暴力裁员尚未尘埃落定，国货之光就用赤裸裸的行动告诉人们：",
@@ -10992,7 +10992,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-11-29-qi-shi-ba-wo-ye-bu-ji-zhe-kai-dian-dong-qi-che",
+    id: "2019-11-29-907",
     title: "其实吧，我也不急着开电动汽车",
     date: "2019-11-29",
     excerpt: "多年以后，当李斌站在马路上看着车来车往，准会想起第一万辆蔚来ES8在合肥工厂正式下线的那个遥…",
@@ -11098,7 +11098,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-11-28-zhen-ren-xiu-zheng-zai-hui-diao-zhong-guo-de-ming-xing",
+    id: "2019-11-28-mrl",
     title: "真人秀正在毁掉中国的明星",
     date: "2019-11-28",
     excerpt: "台湾艺人高以翔在浙江卫视综艺录制时，突发心源性猝死，生命定格在35岁。",
@@ -11148,7 +11148,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-11-27-qi-shi-da-jia-dou-shi-yi-fang",
+    id: "2019-11-27-o5f",
     title: "其实大家都是乙方",
     date: "2019-11-27",
     excerpt: "台湾艺人高以翔在浙江卫视综艺录制时，突发心源性猝死，生命定格在35岁。",
@@ -11194,7 +11194,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-11-25-bu-yi-de-bu-jin-jin-shi-wang-yi",
+    id: "2019-11-25-d42",
     title: "不义的，不仅仅是网易",
     date: "2019-11-25",
     excerpt: "几年前『一条』给丁磊拍的视频中，丁磊讲述了自己对于金钱的态度：",
@@ -11241,7 +11241,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-11-20-kan-wan-tou-tiao-zai-lai-kan-zhou-xiao-dong-fei-zhou-liu-guo-han-ji-ka",
+    id: "2019-11-20-7z1",
     title: "（看完头条再来看）周晓东：非洲六国汉籍考察报告",
     date: "2019-11-20",
     excerpt: "",
@@ -11257,7 +11257,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-11-20-zhe-cai-shi-shi-xian-xue-shu-zi-you-de-kang-zhuang-da-dao",
+    id: "2019-11-20-33t",
     title: "这才是实现学术自由的康庄大道",
     date: "2019-11-20",
     excerpt: "今天，粥爷看到了一篇别具一格的论文，之所以别具一格，是因为与其说它是一篇论文，",
@@ -11311,7 +11311,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-11-17-lu-ke-wen-jie-le-mi-meng-de-yi-bo",
+    id: "2019-11-17-0vv",
     title: "卢克文接了“咪蒙”的衣钵",
     date: "2019-11-17",
     excerpt: "你看，卢克文刷屏的热文《香港问题与世界真相》再一次证明了：",
@@ -11360,7 +11360,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-11-15-qiu-ti-de-chou-lian-zuo-wen-dou-xie-de-lan-mei-jiu-le",
+    id: "2019-11-15-0zp",
     title: "球踢得臭，连作文都写得烂，没救了",
     date: "2019-11-15",
     excerpt: "昨晚，中国足球实力发挥一如既往的稳定，又一次毫无悬念的输了，以前是输给日韩，后来是输给越南，",
@@ -11405,7 +11405,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-11-08-ji-zhe-jie-jian-du-bao-wei-ni-de-zhen-xiang-zhi-dao-shi-jie-beng-ta",
+    id: "2019-11-08-wfm",
     title: "【记者节荐读】保卫你的真相，直到世界崩塌",
     date: "2019-11-08",
     excerpt: "又是一年记者节，千言万语却不知从何说起。告别新闻以后，我也仿佛开始失去了讲述故事的能力，",
@@ -11435,7 +11435,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-11-01-huang-yan-bei-hou-ke-neng-shi-wu-fa-cheng-shou-de-zhen-xiang",
+    id: "2019-11-01-os9",
     title: "谎言背后，可能是无法承受的真相",
     date: "2019-11-01",
     excerpt: "很多事情，对于我们局外人来说，可能真的只是过眼云烟，看罢就忘。",
@@ -11484,7 +11484,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-10-30-jia-ru-ni-nian-shao-you-wei-bu-zi-bei",
+    id: "2019-10-30-oi9",
     title: "假如你年少有为不自卑",
     date: "2019-10-30",
     excerpt: "生活中的那些糟心事，往往都是比出来的。有人比你帅，有人比你有钱，有人比你聪明……",
@@ -11544,7 +11544,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-10-28-ni-dui-qu-kuai-lian-de-li-liang-yi-wu-suo-zhi",
+    id: "2019-10-28-vxl",
     title: "你对区块链的力量一无所知| 旧文",
     date: "2019-10-28",
     excerpt: "这一周，区块链注定是最火热的词汇。特推旧文一篇，让大家看看区块链到底是个啥！",
@@ -11630,7 +11630,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-10-24-fen-shou-ying-gai-ti-mian-shei-dou-bu-yao-shuo-zang-hua",
+    id: "2019-10-24-eqo",
     title: "分手应该体面，谁都不要说脏话",
     date: "2019-10-24",
     excerpt: "人艰不拆是厚道的最好表现。",
@@ -11694,7 +11694,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-10-22-jiang-hu-zai-yuan-dou-you-yi-zuo-miao-tang",
+    id: "2019-10-22-z3e",
     title: "江湖再远都有一座庙堂",
     date: "2019-10-22",
     excerpt: "（已404，无永久链接）",
@@ -11705,7 +11705,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-10-17-xin-neng-yuan-che-wo-xin-ni-ge-gui",
+    id: "2019-10-17-h2g",
     title: "新能源车，我信你个鬼",
     date: "2019-10-17",
     excerpt: "车市寒冬中，续命神药来了。",
@@ -11756,7 +11756,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-10-11-wu-shi-nian-qian-xi-fang-shi-jie-ru-he-dui-dai-ti-yu-jie-de-zheng-zhi",
+    id: "2019-10-11-b9v",
     title: "五十年前，西方世界如何对待体育界的政治表达",
     date: "2019-10-11",
     excerpt: "原题目：他提供了奥运会上著名的黑手套，却倍受歧视郁郁而终不为人知",
@@ -11786,7 +11786,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-10-10-wan-ye-de-bi-chu-ge-shu-ying",
+    id: "2019-10-10-fcf",
     title: "玩，也得比出个输赢",
     date: "2019-10-10",
     excerpt: "快乐的时光总是一霎而过。",
@@ -11829,7 +11829,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-10-09-yin-mou-lun-rang-di-ren-yue-lai-yue-duo",
+    id: "2019-10-09-l3j",
     title: "阴谋论让敌人越来越多",
     date: "2019-10-09",
     excerpt: "可是忙完一天的俗务之后，坐在电脑前听歌，耳机里却突然响起了阿修罗乐队的一首曲子：",
@@ -11878,7 +11878,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-09-28-wo-xi-zha-zha-hui-zhe-li-you-yi-kuan-chuan-xin-de-wu-ke-jin-shou-you-z",
+    id: "2019-09-28-87c",
     title: "我系渣渣辉，这里有一款船新的无氪金手游在等你",
     date: "2019-09-28",
     excerpt: "时间回到2017年，那大概是腾讯过的最舒坦的一段日子。",
@@ -11924,7 +11924,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-09-26-kan-bu-dao-chen-yi-fa-de-zhe-yi-nian",
+    id: "2019-09-26-gtn",
     title: "看不到陈一发的这一年",
     date: "2019-09-26",
     excerpt: "我不是一个喜欢看直播的人。对我来说，直播这样的娱乐方式，显得有点前卫了，",
@@ -12017,7 +12017,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-09-25-gao-dian-dong-qi-che-hai-de-chu-dong-fang-di-chan-shang",
+    id: "2019-09-25-u15",
     title: "搞电动汽车，还得出动房地产商",
     date: "2019-09-25",
     excerpt: "呐，等你关注都等出蜘蛛网了~",
@@ -12080,7 +12080,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-09-24-yu-zhou-chang-wan-yi-zheng-shi-fei",
+    id: "2019-09-24-iqw",
     title: "渔舟唱晚，以正是非",
     date: "2019-09-24",
     excerpt: "呐，等你关注都等出蜘蛛网了~",
@@ -12121,7 +12121,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-09-23-wo-te-me-dou-bu-zhi-dao-ni-shi-shui",
+    id: "2019-09-23-h1l",
     title: "我特么都不知道你是谁",
     date: "2019-09-23",
     excerpt: "呐，等你关注都等出蜘蛛网了~",
@@ -12169,7 +12169,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-09-21-yu-gao-jian-flag-zhou-ri-yi-ding-yao-geng-xin-gong-hao",
+    id: "2019-09-21-cmp",
     title: "预告兼flag:周日一定要更新公号",
     date: "2019-09-21",
     excerpt: "",
@@ -12180,7 +12180,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-09-10-zhu-shi-bu-yi",
+    id: "2019-09-10-tt6",
     title: "猪事不宜",
     date: "2019-09-10",
     excerpt: "呐，等你关注都等出蜘蛛网了~",
@@ -12219,7 +12219,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-09-03-zhu-rou-zi-you-cai-shi-zhen-zi-you",
+    id: "2019-09-03-c5k",
     title: "猪肉自由，才是真自由",
     date: "2019-09-03",
     excerpt: "",
@@ -12230,7 +12230,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-08-30-ma-yun-zen-me-yue-lai-yue-you-ni",
+    id: "2019-08-30-heh",
     title: "马云怎么越来越油腻？",
     date: "2019-08-30",
     excerpt: "呐，等你关注都等出蜘蛛网了~",
@@ -12290,7 +12290,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-08-22-bi-zui-wo-men-zai-tan-lun-yan-lun-zi-you",
+    id: "2019-08-22-214",
     title: "闭嘴，我们在谈论言论自由",
     date: "2019-08-22",
     excerpt: "（已404，无永久链接）",
@@ -12301,7 +12301,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-08-12-gong-xi-zhi-hu-cheng-wei-zui-da-de-bai-du-tie-ba",
+    id: "2019-08-12-61t",
     title: "恭喜知乎成为最大的百度贴吧",
     date: "2019-08-12",
     excerpt: "没想到你知乎浓眉大眼的，也背叛了革命",
@@ -12345,7 +12345,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-08-02-ni-hao-da-de-guan-wei-a-yan-tai-tai",
+    id: "2019-08-02-d6g",
     title: "你好大的官威啊，严太太| 旧文",
     date: "2019-08-02",
     excerpt: "就在刚才，广安的严书记一审判决，以受贿罪判处有期徒刑十年，并处罚金人民币60万元。",
@@ -12401,7 +12401,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-08-01-er-guang-xiang-liang-cao-mao-xuan-zhuan-luo-zai-bao-shi-jie-shang",
+    id: "2019-08-01-tmu",
     title: "耳光响亮，草帽旋转落在保时捷上",
     date: "2019-08-01",
     excerpt: "关于人的脾气，有首民谣唱的非常好：",
@@ -12432,7 +12432,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-07-12-shan-da-xue-ban-zhe-shi-cuo-bu-zai-gui-tian-er-zai-yu-shi-le-gong-ping",
+    id: "2019-07-12-u9g",
     title: "山大学伴这事，错不在跪舔，而在于失了公平",
     date: "2019-07-12",
     excerpt: "山大学伴这事，难听的话已经太多了。国人如此刻薄，难听的话不堪入耳，却是意料之外。",
@@ -12462,7 +12462,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-06-23-zeng-shu-wu-guan-jin-yao-de-yi-qie-cai-shi-bei-ju-de-xu-mu",
+    id: "2019-06-23-jnw",
     title: "赠书 | 无关紧要的一切才是悲剧的序幕",
     date: "2019-06-23",
     excerpt: "我一向都觉得，历史是一个很有魅力的领域。它并非单纯对于过去的记述，而是文明存续至今的佐证。",
@@ -12515,7 +12515,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-06-19-77-sui-lao-ren-yong-excel-zuo-hua-huo-shi-jie-ji-da-sai-3-lian-guan-be",
+    id: "2019-06-19-5bn",
     title: "77岁老人用Excel作画，获世界级大赛3连冠，被博物馆收藏，你要试试吗？",
     date: "2019-06-19",
     excerpt: "这幅画是用Excel画的，你信吗？",
@@ -12604,7 +12604,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-06-10-hao-kong-tiao-ge-li-zao-pian-yi-kong-tiao-ao-ke-si-zao",
+    id: "2019-06-10-bvs",
     title: "好空调格力造，便宜空调奥克斯造",
     date: "2019-06-10",
     excerpt: "这话真不假。你看，为了造更好的空调，格力把自己的竞争对手奥克斯给告了。",
@@ -12672,7 +12672,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-06-06-gao-hao-da-xue-zhao-sheng-shi-quan-guo-ren-min-de-xi-wang",
+    id: "2019-06-06-txq",
     title: "搞好大学招生是全国人民的希望",
     date: "2019-06-06",
     excerpt: "都说人被裹挟进历史的洪流才会自觉渺小，如此说来，近千万人同一时间竞赛的高考，",
@@ -12732,7 +12732,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-05-28-sun-xiao-guo-de-fu-qin-kan-lai-shi-ge-noboby",
+    id: "2019-05-28-x8l",
     title: "孙小果的父亲，看来是个noboby",
     date: "2019-05-28",
     excerpt: "（已404，无永久链接）",
@@ -12743,7 +12743,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-05-24-zhe-liang-jia-shui-jiu-neng-pao-de-che-li-ying-huo-de-nuo-bei-er-jiang",
+    id: "2019-05-24-w17",
     title: "这辆加水就能跑的车，理应获得诺贝尔奖",
     date: "2019-05-24",
     excerpt: "终于，困扰人类已久的能源问题被解决了。",
@@ -12804,7 +12804,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-05-22-ren-jian-you-wu-shi-mao-tai",
+    id: "2019-05-22-40h",
     title: "人间尤物是茅台| 旧文",
     date: "2019-05-22",
     excerpt: "就在刚才，经中共贵州省委批准，贵州省纪委省监委对中国贵州茅台酒厂(集团)有限责任公司党委原副…",
@@ -12861,7 +12861,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-05-21-ren-zheng-fei-da-lian-hu-xi-jin-zhe-er-guang-gei-li",
+    id: "2019-05-21-6to",
     title: "任正非打脸胡锡进，这耳光给力",
     date: "2019-05-21",
     excerpt: "（已404，无永久链接）",
@@ -12872,7 +12872,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-05-20-bie-wang-le-chang-chun-chang-sheng-bei-qian-ze-de-yi-miao-zhi-wang",
+    id: "2019-05-20-jig",
     title: "别忘了长春长生，被谴责的疫苗之王",
     date: "2019-05-20",
     excerpt: "没有什么事情可以被忘记，有也只是想不起来了。",
@@ -12920,7 +12920,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-05-19-zuo-si-de-bai-du-wo-xin-ni-ge-gui",
+    id: "2019-05-19-kvp",
     title: "作死的百度，我信你个鬼",
     date: "2019-05-19",
     excerpt: "作为一个不怎么高明的杠精，在BAT三巨头中，我最不喜欢的就是百度。",
@@ -12985,7 +12985,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-05-17-xiao-ba-wang-de-na-xie-gu-ren-wang-shi",
+    id: "2019-05-17-86j",
     title: "小霸王的那些故人往事",
     date: "2019-05-17",
     excerpt: "不知道还有多少人记得，按下电源的那一瞬间，17寸电视传来的声音：",
@@ -13072,7 +13072,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-05-10-ma-yun-de-69-lun-rang-wo-e-xin",
+    id: "2019-05-10-lyw",
     title: "马云的“69”论让我恶心",
     date: "2019-05-10",
     excerpt: "一个多月以前，Jack马和强东刘都分别对996发表了看法。归结成一句话就是：",
@@ -13116,7 +13116,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-05-05-wu-si-yi-bai-nian-wo-xiang-qi-le-ta-men",
+    id: "2019-05-05-wnh",
     title: "五四一百年，我想起了他们",
     date: "2019-05-05",
     excerpt: "你看，这么多年过去了，才惊觉过去要求全文背诵的鲁迅文章，才是真的好。",
@@ -13157,7 +13157,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-04-27-chui-zi-he-ku-nan-wei-chui-zi",
+    id: "2019-04-27-5df",
     title: "锤子何苦难为锤子",
     date: "2019-04-27",
     excerpt: "1997年的春节联欢晚会上，赵丽蓉的黄金搭档巩汉林和黄宏合作演出了小品《鞋钉》，",
@@ -13215,7 +13215,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-04-24-jiu-zhe-yang-kan-zhe-ni-kan-zhe-ni-mu-bu-zhuan-jing",
+    id: "2019-04-24-7z1",
     title: "就这样看着你，看着你，目不转睛",
     date: "2019-04-24",
     excerpt: "你看，互联网技术的进步让很多事情变得越来越简单了。",
@@ -13253,7 +13253,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-04-23-rang-wo-zai-kan-yi-yan-huai-nian-de-guo-qu",
+    id: "2019-04-23-l9v",
     title: "让我再看一眼，怀念的过去",
     date: "2019-04-23",
     excerpt: "被封两个月的公号，今天总算是回归了。60天，1440小时，86400分钟，",
@@ -13288,7 +13288,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-02-21-mi-meng-liang-le-wo-you-dian-nan-guo",
+    id: "2019-02-21-x5h",
     title: "咪蒙凉了，我有点难过",
     date: "2019-02-21",
     excerpt: "（已404，无永久链接）",
@@ -13299,7 +13299,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-01-22-ren-jian-you-wu-shi-mao-tai",
+    id: "2019-01-22-sbs",
     title: "人间尤物是茅台",
     date: "2019-01-22",
     excerpt: "十多年前，L小姐在G大读金融系的时候，证券投资课的老师告诉她：A股中，什么股票都不值得买，",
@@ -13338,7 +13338,7 @@ const POSTS = [
     `
   },
   {
-    id: "2019-01-19-chui-feng-ji-hai-shi-pei-qi",
+    id: "2019-01-19-mdc",
     title: "吹风机还是佩奇？",
     date: "2019-01-19",
     excerpt: "你看，蒸汽朋克风的硬核佩奇，占领了我们一天的注意力。",
@@ -13379,7 +13379,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-12-31-hao-de-huai-de-dou-shi-feng-jing",
+    id: "2018-12-31-ztd",
     title: "好的坏的，都是风景",
     date: "2018-12-31",
     excerpt: "岁月是一场有去无回的旅行，好的坏的全是风景。",
@@ -13408,7 +13408,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-12-26-pei-ben-zhuan-yao-he-zhe-ba-xi-ni-zen-me-neng-gan-de-zhe-me-xuan",
+    id: "2018-12-26-ik4",
     title: "赔本赚吆喝这把戏，你怎么能干的这么炫？",
     date: "2018-12-26",
     excerpt: "互联网思维真是一个伟大的发明！",
@@ -13465,7 +13465,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-11-22-yang-zhuang-chuan-zai-shen-wo-xin-que-shi-bo-li-xin",
+    id: "2018-11-22-9mv",
     title: "洋装穿在身，我心却是玻璃心",
     date: "2018-11-22",
     excerpt: "你看，公共事件的舆论转变，就是这么快。前一天忙不迭到妇联道歉的俞敏洪，突然可以轻松一下了。",
@@ -13507,7 +13507,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-11-16-wu-chu-ke-tao-ke-sheng-huo-ben-bu-gai-ru-ci",
+    id: "2018-11-16-rh3",
     title: "无处可逃，可生活本不该如此",
     date: "2018-11-16",
     excerpt: "你看，在这片神奇的热土，即便是大把大把的花钱，也未必能得到该有的待遇。",
@@ -13543,7 +13543,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-11-09-wu-shi-ren-fei-shan-chang-shui-kuo",
+    id: "2018-11-09-pml",
     title: "物是人非，山长水阔",
     date: "2018-11-09",
     excerpt: "这篇文章推送时，对我来说，一年中最具理想情怀的日子，就这么悄没声儿的过去了。",
@@ -13584,7 +13584,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-11-02-si-hai-zhi-nei-jie-xiong-di-wu-zhou-zhen-dang-he-wei-gui",
+    id: "2018-11-02-ue1",
     title: "四海之内皆兄弟，五洲震荡和为贵",
     date: "2018-11-02",
     excerpt: "昨晚走在回家路上，手机嗡嗡的振动，推送了两个重要的消息，会开了，电话也打了。",
@@ -13623,7 +13623,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-09-11-lao-ling-dao-de-zi-wo-xiu-yang",
+    id: "2018-09-11-ly7",
     title: "老领导的自我修养",
     date: "2018-09-11",
     excerpt: "“我过去多次讲，可能我最后的作用是带头建立退休制度。”",
@@ -13671,7 +13671,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-06-28-xia-zhi-da-zhe-bu-xu-guo-yang-lao",
+    id: "2018-06-28-uoe",
     title: "侠之大者，不需国养老",
     date: "2018-06-28",
     excerpt: "“大丈夫一生当为国为民，方为真正的侠之大者。”",
@@ -13712,7 +13712,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-06-04-guo-qu-de-zen-yang-rang-ta-guo-qu",
+    id: "2018-06-04-aql",
     title: "过去的怎样让它过去",
     date: "2018-06-04",
     excerpt: "本文首发于2010年7月15日出版的《南方周末》，作者刘瑜，",
@@ -13748,7 +13748,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-05-15-ni-hao-da-de-guan-wei-a-yan-tai-tai",
+    id: "2018-05-15-pbl",
     title: "你好大的官威啊，严太太",
     date: "2018-05-15",
     excerpt: "因为自己孩子调皮捣蛋欺负同学，受到了老师的特殊待遇，有些人会选择直接上手，和老师抡起王八拳，",
@@ -13804,7 +13804,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-05-12-ci-yan-de-gan-en",
+    id: "2018-05-12-bgp",
     title: "刺眼的感恩",
     date: "2018-05-12",
     excerpt: "（已404，无永久链接）",
@@ -13815,7 +13815,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-05-11-20082018-wo-li-zhen-shi-yue-lai-yue-yuan",
+    id: "2018-05-11-xtl",
     title: "2008-2018，我离真实越来越远",
     date: "2018-05-11",
     excerpt: "2008年5月12日，14：28分，8.0级。这一连串的数字，代表着巨大的灾难。",
@@ -13879,7 +13879,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-04-28-cong-ci-bu-rang-zhong-jian-shang-zhuan-cha-jia",
+    id: "2018-04-28-vvg",
     title: "从此不让中间商赚差价",
     date: "2018-04-28",
     excerpt: "（已404，无永久链接）",
@@ -13890,7 +13890,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-04-25-cang-xie-zao-zi-ye-you-gui-ku",
+    id: "2018-04-25-zng",
     title: "仓頡造字,夜有鬼哭",
     date: "2018-04-25",
     excerpt: "（已404，无永久链接）",
@@ -13901,7 +13901,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-04-23-nian-sui-le-pao-mo-xin-bie-cheng-le-mo",
+    id: "2018-04-23-z9s",
     title: "碾碎了泡沫，心别成了魔",
     date: "2018-04-23",
     excerpt: "那恐怕是我们离所谓的“中国芯”最近的一次了吧？",
@@ -13983,7 +13983,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-04-17-hong-mao-yao-jiu-bei-bu-xun-chang-de-mei-nan-she-mian-de-zui",
+    id: "2018-04-17-03a",
     title: "鸿茅药酒杯，不寻常的美，难赦免的zui",
     date: "2018-04-17",
     excerpt: "一个人可以做出多少个成功产品？",
@@ -14076,7 +14076,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-04-11-hu-wei-wei-de-cheng-gong-gao-su-ni-wei-shen-me-yao-dang-hang-ye-ji-zhe",
+    id: "2018-04-11-v2t",
     title: "胡玮炜的成功,告诉你,为什么要当行业记者",
     date: "2018-04-11",
     excerpt: "（搜狗补录；该文署名行显示主编温静；后台已发表/已删除列表中均未找到对应文章（后台仅有一篇胡玮炜相关文章《Farewell，mobikeand胡玮炜》2018-04-09）；标题与日期沿用用户原清单记录）",
@@ -14087,7 +14087,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-04-09-farewellmobikeand-hu-wei-wei",
+    id: "2018-04-09-li2",
     title: "Farewell，mobikeand胡玮炜",
     date: "2018-04-09",
     excerpt: "你看，又有一个记者成功了，胡玮炜，身家达到了亿这个级别。",
@@ -14165,7 +14165,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-04-04-li-shi-de-guai-quan-tu-long-shao-nian-zhong-cheng-e-long",
+    id: "2018-04-04-s22",
     title: "历史的怪圈：屠龙少年终成恶龙",
     date: "2018-04-04",
     excerpt: "尼采说过，当你凝视深渊时，深渊也在凝视你。",
@@ -14229,7 +14229,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-03-31-xian-dai-xi-shi-xin-shi-de-zhi-chi",
+    id: "2018-03-31-9ve",
     title: "现代戏是新事，得支持！",
     date: "2018-03-31",
     excerpt: "为了祖国的未来，快来关注吧",
@@ -14277,7 +14277,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-03-27-cong-wu-xia-kan-chinajapanandkorea",
+    id: "2018-03-27-qi4",
     title: "从武侠看China、Japan and Korea",
     date: "2018-03-27",
     excerpt: "半岛贵客旋风到访，引来关注和议论。粥同学想起了多年前读的一部未完结的武侠小说《隆庆天下》，",
@@ -14312,7 +14312,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-03-25-shui-shi-zhong-mei-mao-yi-zhan-duan-zi-zui-qiang-di-yi-ren-fei-ju-zuo",
+    id: "2018-03-25-kyh",
     title: "谁是中美贸易战段子最强第一人？非局座莫属",
     date: "2018-03-25",
     excerpt: "中国竭三十年之力，避免在发展上升的关键阶段成为美国的直接对手，2018年恐再难避免。",
@@ -14355,7 +14355,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-03-23-ni-dui-qu-kuai-lian-de-li-liang-yi-wu-suo-zhi",
+    id: "2018-03-23-c30",
     title: "你对区块链的力量一无所知",
     date: "2018-03-23",
     excerpt: "不知道从什么时候开始，区块链成为了热词，有人对这个技术给予了如下的赞誉！",
@@ -14436,7 +14436,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-03-20-ni-xue-de-zhi-shi-zai-wo-yan-li-yi-wen-bu-zhi",
+    id: "2018-03-20-xgp",
     title: "你学的知识，在我眼里一文不值",
     date: "2018-03-20",
     excerpt: "你看，这个世界实在是变得太快，上一秒中，你还沉浸在知识可能带给你的欢愉之中，而下一秒，",
@@ -14499,7 +14499,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-03-15-he-ma-xian-sheng-cheng-du-dong-men-xun-zhi-yi-kai-jiu-xiang-kai-shi-ni",
+    id: "2018-03-15-53p",
     title: "盒马鲜生成都东门寻址，一开就想开十年，但真相是……",
     date: "2018-03-15",
     excerpt: "春天，万物萌动，是一个适合生长与繁殖的季节。",
@@ -14551,7 +14551,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-03-14-huo-jin-zou-le-wang-jun-kai-men-ying-le",
+    id: "2018-03-14-sxu",
     title: "霍金走了，王俊凯们赢了",
     date: "2018-03-14",
     excerpt: "昏昏欲睡的春日午后，消息传来，Stephen Hawking走了，",
@@ -14602,7 +14602,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-03-13-si-qian-zhu-yan-di-bu-guo-er-wei-chang-ji",
+    id: "2018-03-13-f01",
     title: "四千主演敌不过二位场记",
     date: "2018-03-13",
     excerpt: "（已404，无永久链接）",
@@ -14613,7 +14613,7 @@ const POSTS = [
     `
   },
   {
-    id: "2018-02-01-tang-lan-lan-an-wo-xi-wang-mei-ti-shi-cuo-de",
+    id: "2018-02-01-d93",
     title: "汤兰兰案，我希望媒体是错的",
     date: "2018-02-01",
     excerpt: "实在没有想到，邱兵当年“我心澎湃如昨”的澎湃新闻，",
@@ -14649,7 +14649,7 @@ const POSTS = [
     `
   },
   {
-    id: "2017-11-29-somethingwrongwith",
+    id: "2017-11-29-3md",
     title: "Something wrong with…………",
     date: "2017-11-29",
     excerpt: "“雪崩来时，每一片雪花都是有罪的”，反过来说，星星之火燎原之时，当初的每一颗不起眼的小火苗，",
@@ -14666,7 +14666,7 @@ const POSTS = [
     `
   },
   {
-    id: "2017-06-08-jian-du-ma-ke-si-xin-wen-chu-ban-zi-you-jing-dian-li-lun-zhi-chong-wen",
+    id: "2017-06-08-101",
     title: "荐读 ▏ 马克思新闻出版自由经典理论之重温（节选）",
     date: "2017-06-08",
     excerpt: "摘要: 马克思1842年所写的《评普鲁士最近的书报检查令》和《关于第六届莱茵省议会的辩论》两…",
@@ -14692,7 +14692,7 @@ const POSTS = [
     `
   },
   {
-    id: "2017-05-12-jiu-wen-wei-ju-shang-de-cheng",
+    id: "2017-05-12-2sw",
     title: "旧文 ▏危局上的城",
     date: "2017-05-12",
     excerpt: "“对于大多数人来说，2008年是一个值得回忆的年份，",
@@ -14713,7 +14713,7 @@ const POSTS = [
     `
   },
   {
-    id: "2017-01-27-chu-xi-ye-zai-du-na-han-zi-xu-you-gan",
+    id: "2017-01-27-kyf",
     title: "除夕夜再读《呐喊》自序有感",
     date: "2017-01-27",
     excerpt: "我曾经做过许多梦，可是许多都已经忘却了。有时候想起来，不免感觉有些可惜，",
@@ -14734,7 +14734,7 @@ const POSTS = [
     `
   },
   {
-    id: "2017-01-26-nong-yan-dong-ye-de-chu-yi",
+    id: "2017-01-26-lft",
     title: "浓烟冬夜的刍议",
     date: "2017-01-26",
     excerpt: "新年快乐！这大概是这几日听到的最多话语了。",
@@ -14777,7 +14777,7 @@ const POSTS = [
     `
   },
   {
-    id: "2017-01-01-fan-shi-guo-qu-jie-shi-xu-zhang",
+    id: "2017-01-01-uxs",
     title: "凡是过去，皆是序章",
     date: "2017-01-01",
     excerpt: "又到了一个告别过去，期待未来的日子。无数人用又多了一年的生活经验，",
@@ -14799,7 +14799,7 @@ const POSTS = [
     `
   },
   {
-    id: "2016-11-08-jian-du-bao-wei-ni-de-zhen-xiang-zhi-dao-shi-jie-beng-ta",
+    id: "2016-11-08-z03",
     title: "【荐读】保卫你的真相，直到世界崩塌",
     date: "2016-11-08",
     excerpt: "【按】又是一年记者节，千言万语却不知从何说起。",
@@ -14826,7 +14826,7 @@ const POSTS = [
     `
   },
   {
-    id: "2016-08-02-yu-xiang-rou-si-ni-xi-huan-tian-kou-suan-kou-hai-shi-qi-ta",
+    id: "2016-08-02-fdp",
     title: "鱼香肉丝，你喜欢甜口、酸口还是其他？",
     date: "2016-08-02",
     excerpt: "“最近比较烦。”整个六月，同事老L每天午饭前，都会在下楼吃午饭的时候和我抱怨。",
@@ -14863,7 +14863,7 @@ const POSTS = [
     `
   },
   {
-    id: "2016-07-18-ri-ri-liao-xiao-fen-hong-ni-men-hen-wg",
+    id: "2016-07-18-spb",
     title: "【日日liao】小粉红，你们很WG",
     date: "2016-07-18",
     excerpt: "（已404，无永久链接）",
@@ -14874,7 +14874,7 @@ const POSTS = [
     `
   },
   {
-    id: "2016-07-15-ban-nian-kan-wo-xiang-he-zhe-ge-shi-jie-lao-lao",
+    id: "2016-07-15-u9e",
     title: "【半年侃】我想和这个世界唠唠",
     date: "2016-07-15",
     excerpt: "我曾经以为，这辈子我会有两个谋生的方式，一个是每天坐在办公室中，",
@@ -14909,7 +14909,7 @@ const POSTS = [
     `
   },
   {
-    id: "2016-05-19-qiu-bing-zai-yun-duan",
+    id: "2016-05-19-04k",
     title: "邱兵|在云端",
     date: "2016-05-19",
     excerpt: "回老家的飞机上旁边坐了个女的。30岁左右，长得还行，就是打扮偏俗气，跟翠花似的。",
@@ -14957,7 +14957,7 @@ const POSTS = [
     `
   },
   {
-    id: "2016-05-19-zhe-shi-zui-huai-de-shi-dai-que-bu-shi-zui-hao-de",
+    id: "2016-05-19-kim",
     title: "这是最坏的时代，却不是最好的",
     date: "2016-05-19",
     excerpt: "时至今日，目之所及，媒体的处境都是江河日下的模样那些和我过去一样的新闻学生们，",
@@ -14982,7 +14982,7 @@ const POSTS = [
     `
   },
   {
-    id: "2016-02-03-ci-xin-bu-bian-wei-xing-nai-zhi",
+    id: "2016-02-03-t95",
     title: "此心不变，惟行乃知",
     date: "2016-02-03",
     excerpt: "闲来翻开日历，才惊觉立春将至，冬天似乎仍然眷眷不舍，但却无奈时间的流逝，总要让开位置，",
@@ -15003,7 +15003,7 @@ const POSTS = [
     `
   },
   {
-    id: "2016-01-11-ye-du-chong-du-wo-yu-di-tan-sui-gan",
+    id: "2016-01-11-g6j",
     title: "【夜读】重读《我与地坛》随感",
     date: "2016-01-11",
     excerpt: "“仿佛这古园就是为了等我，而历尽沧桑在那儿等待了四百多年。”——史铁生",
@@ -15027,7 +15027,7 @@ const POSTS = [
     `
   },
   {
-    id: "2015-12-31-zong-you-yi-han-ling-ren-huai-nian",
+    id: "2015-12-31-li8",
     title: "总有遗憾令人怀念",
     date: "2015-12-31",
     excerpt: "根据若干年前的回忆，整理而成。献给我过去的朋友和记忆，Happy New Year。",
@@ -15074,7 +15074,7 @@ const POSTS = [
     `
   },
   {
-    id: "2015-12-12-huai-nian-jiu-yuan-de-wei-guang-zhi-wo-yan-zhong-de-xi-xi-fu-shu-dian",
+    id: "2015-12-12-rwv",
     title: "怀念久远的微光——致我眼中的西西弗书店",
     date: "2015-12-12",
     excerpt: "西西弗书店，1993年08月08日诞生于贵州遵义，薛野、萧然、陈瑾、高冬梅等艰难创办。",
@@ -15112,7 +15112,7 @@ const POSTS = [
     `
   },
   {
-    id: "2015-12-11-jian-du-fu-dan-tou-du-an-yi-tong-hun-dun-de-chun-jing-shui",
+    id: "2015-12-11-wzc",
     title: "【荐读】复旦投毒案，一桶混沌的纯净水",
     date: "2015-12-11",
     excerpt: "2013年到2015年，持续了两年多的复旦投毒案终于在今天落下帷幕。",
@@ -15245,7 +15245,7 @@ const POSTS = [
     `
   },
   {
-    id: "2015-12-06-fan-ren-yu-shu-jie-ke-du-zhi-yi-yu-shi-bai-tong-hang-de-li-shi-xue-jia",
+    id: "2015-12-06-5xw",
     title: "凡仁宇书，皆可读之一：与\\\"失败\\\"同行的历史学家——黄仁宇",
     date: "2015-12-06",
     excerpt: "“因此我们的故事只好在这里作悲剧性的结束。万历丁亥年的年鉴，是为历史上一部失败的总记录。”",
@@ -15277,7 +15277,7 @@ const POSTS = [
     `
   },
   {
-    id: "2015-08-20-fan-suo-you-xiang-jie-shi-xu-wang",
+    id: "2015-08-20-s89",
     title: "凡所有相，皆是虚妄",
     date: "2015-08-20",
     excerpt: "刚刚过去的一周，无论如何不能够用平淡无奇来形容了。",
@@ -15299,7 +15299,7 @@ const POSTS = [
     `
   },
   {
-    id: "2015-01-28-ye-du-ao-si-wei-xin-mei-you-shen-me-xin-wen",
+    id: "2015-01-28-lyx",
     title: "【夜读】奥斯维辛没有什么新闻",
     date: "2015-01-28",
     excerpt: "按：尽管对于一个记者而言，传递信息，消除因为信息不对称而产生的不确定性是其天职。",
@@ -15331,7 +15331,7 @@ const POSTS = [
     `
   },
   {
-    id: "2015-01-28-ao-si-wei-xin-zhi-hou-xie-shi-shi-ye-man-de",
+    id: "2015-01-28-rk4",
     title: "奥斯维辛之后，写诗是野蛮的",
     date: "2015-01-28",
     excerpt: "“奥斯维辛之后,写诗是野蛮的”——泰奥多·阿多诺，1955年。",
@@ -15381,7 +15381,7 @@ const POSTS = [
     `
   },
   {
-    id: "2015-01-27-fu-zhong-qian-xing-de-wei-xin-peng-you-quan-yu-ta-de-di-zao-zhe-zhang",
+    id: "2015-01-27-rl1",
     title: "负重前行的微信朋友圈与他的缔造者张小龙",
     date: "2015-01-27",
     excerpt: "腾讯还是没有能绷住，在微信最重要的朋友圈功能中加入了广告推送。",
@@ -15404,7 +15404,7 @@ const POSTS = [
     `
   },
   {
-    id: "2015-01-11-lu-wei-hui-yi-xin-hua-she-gong-zuo-sui-yue-wen-zhang-xiang-yu-zai-ci-s",
+    id: "2015-01-11-3ki",
     title: "鲁炜回忆新华社工作岁月文章——相遇在此时 共同做此事",
     date: "2015-01-11",
     excerpt: "本文选自新华社信息部成立20周年时的征文活动集《我的家”》，该文集为新华社内部资料，",
@@ -15456,7 +15456,7 @@ const POSTS = [
     `
   },
   {
-    id: "2015-01-06-shi-jian-sui-shi-xin-yang-bu-mie",
+    id: "2015-01-06-2oh",
     title: "时间虽逝 信仰不灭",
     date: "2015-01-06",
     excerpt: "2015年还是按照最初约定的那样来了。这个世界上每个人的生活，",
@@ -15533,7 +15533,7 @@ const POSTS = [
     `
   },
   {
-    id: "2014-10-27-bei-ping-wu-zhan-shi-zhui-ju-ye-de-dong-dian-li-shi",
+    id: "2014-10-27-1hz",
     title: "《北平无战事》：追剧也得懂点历史",
     date: "2014-10-27",
     excerpt: "《北平无战事》这部被诸多网友称为神剧的电视剧已经完结。",
@@ -15574,7 +15574,7 @@ const POSTS = [
     `
   },
   {
-    id: "2014-10-21-wei-le-fa-zhi-shei-dou-ying-zou-zai-qian-mian",
+    id: "2014-10-21-gel",
     title: "为了法治，谁都应走在前面",
     date: "2014-10-21",
     excerpt: "为了法治，谁都应走在前面",
@@ -15599,7 +15599,7 @@ const POSTS = [
     `
   },
   {
-    id: "2014-09-29-lan-pang-zi-yao-zou-le-wo-men-zong-dei-si-kao-dian-shen-me-ba",
+    id: "2014-09-29-izy",
     title: "蓝胖子要走了，我们总得思考点什么吧？",
     date: "2014-09-29",
     excerpt: "按照展会的安排，昨天是蓝胖子哆啦A梦停留成都的最后一天了。",
@@ -15623,7 +15623,7 @@ const POSTS = [
     `
   },
   {
-    id: "2014-09-29-xie-ping-lun-ye-de-shi-you-zhui-qiu-de",
+    id: "2014-09-29-f8r",
     title: "写评论，也得是有追求的",
     date: "2014-09-29",
     excerpt: "（调格式花了太长时间，预计昨天第一篇推送，只能拖到今日了）",

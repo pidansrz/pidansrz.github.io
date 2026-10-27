@@ -4,7 +4,7 @@ date: 2015-12-31
 excerpt: 根据若干年前的回忆，整理而成。献给我过去的朋友和记忆，Happy New Year。
 cover: images/2015-12-31-zong-you-yi-han-ling-ren-huai-nian/cover.jpg
 coverAlt: 总有遗憾令人怀念
-id: 2015-12-31-zong-you-yi-han-ling-ren-huai-nian
+id: 2015-12-31-li8
 ---
 根据若干年前的回忆，整理而成。献给我过去的朋友和记忆，Happy New Year。
 

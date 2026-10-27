@@ -3,9 +3,8 @@ title: 从男女对立看言论的边界
 date: 2024-10-22
 cover: images/2024-10-22-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie/cover.jpg
 coverAlt: 从男女对立看言论的边界
-id: 2024-10-22-cong-nan-nv-dui-li-kan-yan-lun-de-bian-jie
+id: 2024-10-22-cip
 ---
-
 原文写于2023年8月17日，略做修订
 
 前几天，在我的读者群里，突然聊起了男女对立这个话题。大家你来我往，讨论得很激烈。有一方的观点认为，考虑到男女天然的不平等，女性其实并不需要男性的指导和建议，男性的沉默反而是最好的。

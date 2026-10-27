@@ -4,7 +4,7 @@ date: 2023-06-23
 excerpt: 「 继续聊聊张薇事件 」
 cover: images/2023-06-23-chuan-da-bu-shi-fa-ting/cover.jpg
 coverAlt: 川大不是法庭
-id: 2023-06-23-chuan-da-bu-shi-fa-ting
+id: 2023-06-23-tgg
 ---
 ![](images/2023-06-23-chuan-da-bu-shi-fa-ting/img_01.jpg)
 

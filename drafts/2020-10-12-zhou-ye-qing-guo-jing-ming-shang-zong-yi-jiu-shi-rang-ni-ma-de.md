@@ -4,7 +4,7 @@ date: 2020-10-12
 excerpt: 粥爷我素来是不喜欢看综艺节目的，尤其是那种美女帅哥在电视前面嘻嘻哈哈，
 cover: images/2020-10-12-zhou-ye-qing-guo-jing-ming-shang-zong-yi-jiu-shi-rang-ni-ma-de/cover.jpg
 coverAlt: 粥爷|请郭敬明上综艺，就是让你骂的
-id: 2020-10-12-zhou-ye-qing-guo-jing-ming-shang-zong-yi-jiu-shi-rang-ni-ma-de
+id: 2020-10-12-yys
 ---
 粥爷我素来是不喜欢看综艺节目的，尤其是那种美女帅哥在电视前面嘻嘻哈哈，要么玩着低龄弱智的RPG，要么装萌卖傻的节目。
 

@@ -4,7 +4,7 @@ date: 2014-10-27
 excerpt: 《北平无战事》这部被诸多网友称为神剧的电视剧已经完结。
 cover: images/2014-10-27-bei-ping-wu-zhan-shi-zhui-ju-ye-de-dong-dian-li-shi/cover.jpg
 coverAlt: 《北平无战事》：追剧也得懂点历史
-id: 2014-10-27-bei-ping-wu-zhan-shi-zhui-ju-ye-de-dong-dian-li-shi
+id: 2014-10-27-1hz
 ---
 《北平无战事》这部被诸多网友称为神剧的电视剧已经完结。虽然无数的报道都说编剧刘和平最喜欢的是剧名是逼格甚高的《最后的王朝》或者是走文艺范儿的《明月照人1948》，但是戏里没有多少枪林弹雨和沙场浴血，取名《北平无战事》也算是戏如其名了，就我本人来说，觉得这名字是相当好。
 

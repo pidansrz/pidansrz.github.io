@@ -3,7 +3,7 @@ title: 全民养龙虾：最胆怯也最可笑
 date: 2026-03-10
 cover: images/2026-03-10-quan-min-yang-long-xia-zui-dan-qie-ye-zui-ke-xiao/cover.jpg
 coverAlt: 全民养龙虾：最胆怯也最可笑
-id: 2026-03-10-quan-min-yang-long-xia-zui-dan-qie-ye-zui-ke-xiao
+id: 2026-03-10-fdk
 ---
 现如今世道艰难，已经很少有什么事物能够激发人们的求知欲了，但AI除外。要想向世人证明自己前沿、领先、聪明甚至智慧，AI就是一个最好的谈资。毕竟，AI居然是以app的形式存在于每个人的手机里，唾手可得，如果不用来朝自己脸上贴金，纯属暴殄天物，天打五雷轰。
 

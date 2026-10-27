@@ -4,7 +4,7 @@ date: 2014-09-29
 excerpt: 按照展会的安排，昨天是蓝胖子哆啦A梦停留成都的最后一天了。
 cover: images/2014-09-29-lan-pang-zi-yao-zou-le-wo-men-zong-dei-si-kao-dian-shen-me-ba/cover.jpg
 coverAlt: 蓝胖子要走了，我们总得思考点什么吧？
-id: 2014-09-29-lan-pang-zi-yao-zou-le-wo-men-zong-dei-si-kao-dian-shen-me-ba
+id: 2014-09-29-izy
 ---
 ![](images/2014-09-29-lan-pang-zi-yao-zou-le-wo-men-zong-dei-si-kao-dian-shen-me-ba/img_01.jpg)
 

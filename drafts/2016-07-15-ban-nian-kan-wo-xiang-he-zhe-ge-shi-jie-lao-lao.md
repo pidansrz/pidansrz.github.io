@@ -4,9 +4,8 @@ date: 2016-07-15
 excerpt: 我曾经以为，这辈子我会有两个谋生的方式，一个是每天坐在办公室中，
 cover: images/2016-07-15-ban-nian-kan-wo-xiang-he-zhe-ge-shi-jie-lao-lao/cover.jpg
 coverAlt: 【半年侃】我想和这个世界唠唠
-id: 2016-07-15-ban-nian-kan-wo-xiang-he-zhe-ge-shi-jie-lao-lao
+id: 2016-07-15-u9e
 ---
-
 一
 
 我曾经以为，这辈子我会有两个谋生的方式，一个是每天坐在办公室中，用电脑画出无数规规矩矩而又充满创意的图纸，另一个，工具同样是电脑，只不过是用规规矩矩的方块字，写出无数充满思想的文章。

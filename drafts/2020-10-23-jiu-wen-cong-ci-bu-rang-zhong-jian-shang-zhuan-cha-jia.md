@@ -4,7 +4,7 @@ date: 2020-10-23
 excerpt: 你看，原来国家元首也和我一样，拥有成为一个好作家的潜质。
 cover: images/2020-10-23-jiu-wen-cong-ci-bu-rang-zhong-jian-shang-zhuan-cha-jia/cover.jpg
 coverAlt: 旧文|从此不让中间商赚差价
-id: 2020-10-23-jiu-wen-cong-ci-bu-rang-zhong-jian-shang-zhuan-cha-jia
+id: 2020-10-23-vyr
 ---
 一
 

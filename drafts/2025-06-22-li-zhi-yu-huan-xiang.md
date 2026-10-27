@@ -3,7 +3,7 @@ title: 荔枝与幻象
 date: 2025-06-22
 cover: images/2025-06-22-li-zhi-yu-huan-xiang/cover.jpg
 coverAlt: 荔枝与幻象
-id: 2025-06-22-li-zhi-yu-huan-xiang
+id: 2025-06-22-jmp
 ---
 停了一段时间没有更新推文，想来很是不安。写作这件事情，一旦停下来，想要再续上就会变得很困难。所以，逼自己写一点东西，还是很有必要的。
 

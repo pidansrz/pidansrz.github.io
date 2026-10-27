@@ -4,7 +4,7 @@ date: 2024-04-24
 excerpt: ▲千年古镇李庄 | 图/阿洲JIZ
 cover: images/2024-04-24-fa-xian-li-zhuang-xun-zhao-na-ge-zui-you-gu-qi-de-wen-mai-zhong-guo/cover.jpg
 coverAlt: 发现李庄：寻找那个最有骨气的文脉中国
-id: 2024-04-24-fa-xian-li-zhuang-xun-zhao-na-ge-zui-you-gu-qi-de-wen-mai-zhong-guo
+id: 2024-04-24-gy0
 ---
 ![](images/2024-04-24-fa-xian-li-zhuang-xun-zhao-na-ge-zui-you-gu-qi-de-wen-mai-zhong-guo/img_01.gif)
 

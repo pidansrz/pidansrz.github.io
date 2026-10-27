@@ -4,7 +4,7 @@ date: 2021-12-09
 excerpt: 凤凰网原创丨近期各地都出台不同的生育假政策，引发了社会热议。
 cover: images/2021-12-09-feng-sheng-gun-xing-bie-cheng-fa-wei-shen-me-yan-chang-sheng-yu-jia-hu/cover.jpg
 coverAlt: 风声丨“性别惩罚”： 为什么延长生育假，会让女性的处境更恶化？
-id: 2021-12-09-feng-sheng-gun-xing-bie-cheng-fa-wei-shen-me-yan-chang-sheng-yu-jia-hu
+id: 2021-12-09-e8z
 ---
 ![](images/2021-12-09-feng-sheng-gun-xing-bie-cheng-fa-wei-shen-me-yan-chang-sheng-yu-jia-hu/img_01.jpg)
 

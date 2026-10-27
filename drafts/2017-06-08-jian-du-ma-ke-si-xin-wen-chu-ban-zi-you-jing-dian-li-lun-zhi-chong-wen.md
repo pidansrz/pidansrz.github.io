@@ -4,7 +4,7 @@ date: 2017-06-08
 excerpt: 摘要: 马克思1842年所写的《评普鲁士最近的书报检查令》和《关于第六届莱茵省议会的辩论》两…
 cover: images/2017-06-08-jian-du-ma-ke-si-xin-wen-chu-ban-zi-you-jing-dian-li-lun-zhi-chong-wen/cover.jpg
 coverAlt: 荐读 ▏ 马克思新闻出版自由经典理论之重温（节选）
-id: 2017-06-08-jian-du-ma-ke-si-xin-wen-chu-ban-zi-you-jing-dian-li-lun-zhi-chong-wen
+id: 2017-06-08-101
 ---
 摘要: 马克思1842年所写的《评普鲁士最近的书报检查令》和《关于第六届莱茵省议会的辩论》两篇论文，对普鲁士的书报检查制度进行了透彻的批判。马克思认为书报检查制度是出版发行前的秘密评判或“官方的批评”，其标准就是“凡是政府的命令都是真理”。马克思还区分了行为和思想，并把新闻出版看作是不应受法律控制的思想领域。
 

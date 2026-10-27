@@ -4,7 +4,7 @@ date: 2021-08-02
 excerpt: 7月28日，中国体操选手肖若腾在东京奥运会的男子体操个人全能比赛中，
 cover: images/2021-08-02-gong-ping-yi-shi-hen-qiang-gui-ze-yi-shi-hen-ruo/cover.jpg
 coverAlt: 公平意识很强，规则意识很弱
-id: 2021-08-02-gong-ping-yi-shi-hen-qiang-gui-ze-yi-shi-hen-ruo
+id: 2021-08-02-tpd
 ---
 ![](images/2021-08-02-gong-ping-yi-shi-hen-qiang-gui-ze-yi-shi-hen-ruo/img_01.jpg)
 

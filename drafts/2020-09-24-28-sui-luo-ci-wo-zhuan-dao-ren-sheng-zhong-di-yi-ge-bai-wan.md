@@ -4,7 +4,7 @@ date: 2020-09-24
 excerpt: 整天嚷嚷不想上班，你为什么还不辞职？
 cover: images/2020-09-24-28-sui-luo-ci-wo-zhuan-dao-ren-sheng-zhong-di-yi-ge-bai-wan/cover.jpg
 coverAlt: “28岁裸辞，我赚到人生中第一个百万”
-id: 2020-09-24-28-sui-luo-ci-wo-zhuan-dao-ren-sheng-zhong-di-yi-ge-bai-wan
+id: 2020-09-24-2w2
 ---
 ![](images/2020-09-24-28-sui-luo-ci-wo-zhuan-dao-ren-sheng-zhong-di-yi-ge-bai-wan/img_01.jpg)
 

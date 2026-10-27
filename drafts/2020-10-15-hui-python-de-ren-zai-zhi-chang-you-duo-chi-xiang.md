@@ -4,7 +4,7 @@ date: 2020-10-15
 excerpt: 经常听到大家自嘲是当代“社畜”，被“996”虐的体无完肤。
 cover: images/2020-10-15-hui-python-de-ren-zai-zhi-chang-you-duo-chi-xiang/cover.jpg
 coverAlt: 会Python的人，在职场有多吃香？
-id: 2020-10-15-hui-python-de-ren-zai-zhi-chang-you-duo-chi-xiang
+id: 2020-10-15-2yp
 ---
 经常听到大家自嘲是当代“社畜”，被“996”虐的体无完肤。
 

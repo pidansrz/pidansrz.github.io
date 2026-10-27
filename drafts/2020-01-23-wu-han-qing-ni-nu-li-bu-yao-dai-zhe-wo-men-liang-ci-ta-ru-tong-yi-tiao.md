@@ -4,7 +4,7 @@ date: 2020-01-23
 excerpt: 我有一个用了不长不短时间的网名，叫做赫拉克里特。
 cover: images/2020-01-23-wu-han-qing-ni-nu-li-bu-yao-dai-zhe-wo-men-liang-ci-ta-ru-tong-yi-tiao/cover.jpg
 coverAlt: 武汉，请你努力不要带着我们两次踏入同一条河流
-id: 2020-01-23-wu-han-qing-ni-nu-li-bu-yao-dai-zhe-wo-men-liang-ci-ta-ru-tong-yi-tiao
+id: 2020-01-23-7ha
 ---
 我有一个用了不长不短时间的网名，叫做赫拉克里特。
 

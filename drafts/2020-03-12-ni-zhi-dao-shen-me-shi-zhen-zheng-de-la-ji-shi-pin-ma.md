@@ -4,7 +4,7 @@ date: 2020-03-12
 excerpt: 粥爷其实是一个很喜欢吃垃圾食品的人。
 cover: images/2020-03-12-ni-zhi-dao-shen-me-shi-zhen-zheng-de-la-ji-shi-pin-ma/cover.jpg
 coverAlt: 你知道什么是真正的垃圾食品吗？
-id: 2020-03-12-ni-zhi-dao-shen-me-shi-zhen-zheng-de-la-ji-shi-pin-ma
+id: 2020-03-12-zjs
 ---
 粥爷其实是一个很喜欢吃垃圾食品的人。
 

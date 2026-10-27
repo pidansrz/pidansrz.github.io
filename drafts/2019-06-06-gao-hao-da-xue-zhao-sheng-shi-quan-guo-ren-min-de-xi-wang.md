@@ -4,7 +4,7 @@ date: 2019-06-06
 excerpt: 都说人被裹挟进历史的洪流才会自觉渺小，如此说来，近千万人同一时间竞赛的高考，
 cover: images/2019-06-06-gao-hao-da-xue-zhao-sheng-shi-quan-guo-ren-min-de-xi-wang/cover.jpg
 coverAlt: 搞好大学招生是全国人民的希望
-id: 2019-06-06-gao-hao-da-xue-zhao-sheng-shi-quan-guo-ren-min-de-xi-wang
+id: 2019-06-06-txq
 ---
 都说人被裹挟进历史的洪流才会自觉渺小，如此说来，近千万人同一时间竞赛的高考，恐怕就是每个中国人体验历史的起点。
 

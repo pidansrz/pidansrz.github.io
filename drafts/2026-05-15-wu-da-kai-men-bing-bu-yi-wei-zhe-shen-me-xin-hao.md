@@ -4,7 +4,7 @@ date: 2026-05-15
 excerpt: 短短不到一周的时间，武汉大学上了两次热搜。
 cover: images/2026-05-15-wu-da-kai-men-bing-bu-yi-wei-zhe-shen-me-xin-hao/cover.jpg
 coverAlt: 武大开门并不意味着什么信号
-id: 2026-05-15-wu-da-kai-men-bing-bu-yi-wei-zhe-shen-me-xin-hao
+id: 2026-05-15-vda
 ---
 ![](images/2026-05-15-wu-da-kai-men-bing-bu-yi-wei-zhe-shen-me-xin-hao/img_01.jpg)
 

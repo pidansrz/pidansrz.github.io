@@ -3,7 +3,7 @@ title: 还未赢，也没输
 date: 2026-02-14
 cover: images/2026-02-14-hai-wei-ying-ye-mei-shu/cover.jpg
 coverAlt: 还未赢，也没输
-id: 2026-02-14-hai-wei-ying-ye-mei-shu
+id: 2026-02-14-20j
 ---
 今天是农历年的最后一个工作日，路过每天上班都要经过的一条街道，突然发现，没开多久的馆子拉下了卷闸门，贴上了招租的告示。
 

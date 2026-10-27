@@ -4,7 +4,7 @@ date: 2020-06-30
 excerpt: 众所周知，在两广地区，凉茶是一种人们喜闻乐见的饮品。
 cover: images/2020-06-30-wei-shen-me-guan-zhuang-liang-cha-wang-lao-ji-shi-ge-la-ji/cover.jpg
 coverAlt: 为什么罐装凉茶王老吉是个垃圾？
-id: 2020-06-30-wei-shen-me-guan-zhuang-liang-cha-wang-lao-ji-shi-ge-la-ji
+id: 2020-06-30-8w6
 ---
 众所周知，在两广地区，凉茶是一种人们喜闻乐见的饮品。记得在港剧里，每逢主角着急上火牙疼之时，爱煲汤的老妈总会说：
 

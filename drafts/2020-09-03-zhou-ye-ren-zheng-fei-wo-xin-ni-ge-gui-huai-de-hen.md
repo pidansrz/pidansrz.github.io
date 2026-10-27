@@ -4,7 +4,7 @@ date: 2020-09-03
 excerpt: 不管你承认还是不承认，对于世间的大部分人来说，想要迅速找寻到成功的途径和方法，
 cover: images/2020-09-03-zhou-ye-ren-zheng-fei-wo-xin-ni-ge-gui-huai-de-hen/cover.jpg
 coverAlt: 粥爷|任正非，我信你个鬼，坏得很
-id: 2020-09-03-zhou-ye-ren-zheng-fei-wo-xin-ni-ge-gui-huai-de-hen
+id: 2020-09-03-uvs
 ---
 不管你承认还是不承认，对于世间的大部分人来说，想要迅速找寻到成功的途径和方法，最简单和直接的办法，恐怕就是聆听那些已经站在金字塔尖的大佬们的教诲与叮咛。
 

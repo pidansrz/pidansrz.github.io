@@ -4,7 +4,7 @@ date: 2019-10-30
 excerpt: 生活中的那些糟心事，往往都是比出来的。有人比你帅，有人比你有钱，有人比你聪明……
 cover: images/2019-10-30-jia-ru-ni-nian-shao-you-wei-bu-zi-bei/cover.jpg
 coverAlt: 假如你年少有为不自卑
-id: 2019-10-30-jia-ru-ni-nian-shao-you-wei-bu-zi-bei
+id: 2019-10-30-oi9
 ---
 生活中的那些糟心事，往往都是比出来的。有人比你帅，有人比你有钱，有人比你聪明……
 

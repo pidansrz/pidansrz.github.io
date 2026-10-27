@@ -4,7 +4,7 @@ date: 2019-10-11
 excerpt: 原题目：他提供了奥运会上著名的黑手套，却倍受歧视郁郁而终不为人知
 cover: images/2019-10-11-wu-shi-nian-qian-xi-fang-shi-jie-ru-he-dui-dai-ti-yu-jie-de-zheng-zhi/cover.jpg
 coverAlt: 五十年前，西方世界如何对待体育界的政治表达
-id: 2019-10-11-wu-shi-nian-qian-xi-fang-shi-jie-ru-he-dui-dai-ti-yu-jie-de-zheng-zhi
+id: 2019-10-11-b9v
 ---
 原题目：他提供了奥运会上著名的黑手套，却倍受歧视郁郁而终不为人知
 

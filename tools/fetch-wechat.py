@@ -11,17 +11,29 @@ tools/fetch-wechat.py —— 把一篇微信公众号文章拉进「荐读」（
   1. 抓页面，读出标题 / 作者 / 公众号名 / 发布日期；
   2. 按原文顺序抽出正文（段落、小标题、引用）与图片位置；
   3. 把图片下载到 images/<slug>/img_0N.jpg（不盗链微信图床，图床会失效）；
-  4. 写出 links/<slug>.md：front-matter 填好，正文就位，note/tags 留空等你改。
+  4. 写出 links/<slug>.md：front-matter 填好（含自动生成的 id 字段——公开 URL 即日期-短码，
+     不再含拼音；slug 仅用于文件名与图片目录，不进 URL），正文就位，note/tags 留空等你改。
 
 ⚠ 微信只对完整浏览器 UA 返回正文，UA 太短会被拦（只回 2KB 验证页）。
 ⚠ 版权：默认会把全文写进 public 仓库，只用于已授权或明确可转载的文章。
 
 依赖：仅标准库（urllib / html.parser / re）。
 """
-import sys, os, re, html, time, urllib.request
+import sys, os, re, html, time, urllib.request, hashlib
 from html.parser import HTMLParser
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# 与主博客 migrate_ids.py 同源的短码算法：文件名 slug → 3 位 base36（右补 0）
+ALPHA = "0123456789abcdefghijklmnopqrstuvwxyz"
+def code_of(base):
+    h = hashlib.sha1(base.encode("utf-8")).hexdigest()
+    n = int(h[:8], 16)
+    c = ""
+    while n and len(c) < 3:
+        c = ALPHA[n % 36] + c
+        n //= 36
+    return c.rjust(3, "0")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 
@@ -187,8 +199,14 @@ def main():
         out.append("")
 
     body = "\n".join(out).strip() + "\n"
+    _d = date if re.match(r"^\d{4}-\d{2}-\d{2}$", date) else ""
+    if not _d:
+        _m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", slug)
+        _d = _m.group(0) if _m else ""
+    link_id = ("%s-%s" % (_d, code_of(slug))) if _d else code_of(slug)
     md = (
         "---\n"
+        "id: %s\n"
         "title: %s\n"
         "source: %s\n"
         "author: %s\n"
@@ -196,7 +214,7 @@ def main():
         "date: %s\n"
         "tags: \n"
         "note: \n"
-        "---\n\n%s" % (title, source, author, url, date, body)
+        "---\n\n%s" % (link_id, title, source, author, url, date, body)
     )
     out_path = os.path.join(ROOT, "links", slug + ".md")
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:

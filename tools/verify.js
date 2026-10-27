@@ -476,7 +476,11 @@ ok(/<h1 class="masthead-title">\s*<img class="masthead-logo logo-ink" src="image
 ok(/\.masthead-logo \{ width: auto; height: 84px; \}/.test(cssSrc), 'Masthead logo 桌面端 84px');
 
 // 静态详情页：全文 + 原文链接 + 绝对 og（微信分享要能读到）
-const firstLink = linkFiles[0].replace(/\.md$/i, '');
+// id 现取自 front-matter 的 id 字段（日期-短码），与文件名解耦，不能用文件名推断；
+// 必须从 links-data.js 读取真实 id（links 按 date 降序，LINKS[0] 即最新一篇）。
+const linksDataSrc = fs.readFileSync(linksDataFile, 'utf8');
+const linksArr = (new Function(linksDataSrc + '\n;return LINKS;'))();
+const firstLink = (linksArr[0] && linksArr[0].id) || linkFiles[0].replace(/\.md$/i, '');
 const detailFile = path.join(linksDir, firstLink + '.html');
 ok(fs.existsSync(detailFile), '生成静态详情页 links/<id>.html');
 const detailSrc = fs.existsSync(detailFile) ? fs.readFileSync(detailFile, 'utf8') : '';

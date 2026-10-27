@@ -73,7 +73,7 @@ const links = [];
 for (const f of files.sort()) {
   const raw = fs.readFileSync(path.join(LINKS_DIR, f), "utf8").replace(/\r\n/g, "\n");
   const { meta, body } = splitFrontMatter(raw);
-  const id = f.replace(/\.md$/i, "");
+  const id = (meta.id && String(meta.id).trim()) || f.replace(/\.md$/i, "");
   const contentHtml = mdToHtml(body);
   const text = plainText(contentHtml);
   const tags = String(meta.tags || "")

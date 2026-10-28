@@ -954,6 +954,35 @@ body[data-page="home"] .wrap { max-width: var(--maxw-wide); }
 }
 .home-aside .qr-box { width: 168px; }
 
+/* 右栏顶部：关键词云
+   字号由 app.js 按名次算（收敛式，越往后越小），这里只管间距与三档颜色。
+   尾档用 --text-2 而不是最浅的 --text-3：10~13px 下暗色对比度太低。 */
+.wc-block { margin: 0 0 32px; }
+.wc-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  color: var(--text-3);
+  margin-bottom: 10px;
+}
+.wc-hint { letter-spacing: 0.04em; opacity: 0.7; }
+.wc-cloud {
+  font-family: var(--font-serif);
+  line-height: 1.88;
+}
+.wc-cloud [data-w] {
+  margin-right: 0.5em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.wc-cloud [data-w]:hover { color: var(--accent); }
+.wc-t1 { color: var(--accent); font-weight: 500; }
+.wc-t2 { color: var(--text); }
+.wc-t3 { color: var(--text-2); }
+
 /* 文章末尾的小支持条 */
 .support-strip {
   display: flex;

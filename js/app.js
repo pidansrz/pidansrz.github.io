@@ -1164,27 +1164,70 @@ function initHome() {
     });
   }
 
+  // 右栏词云：点词即搜（词云在侧栏，结果在左侧列表，点完顺手滚回顶部看搜索框）
+  var wcHost = document.getElementById("wcHost");
+  if (wcHost && wcHost.addEventListener) {
+    wcHost.addEventListener("click", function (e) {
+      var el = e.target && e.target.closest ? e.target.closest("[data-w]") : null;
+      if (!el || !input) return;
+      input.value = el.getAttribute("data-w");
+      paint(input.value);
+      input.focus();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
   paint(query("q"));
   renderSupportAside();
 }
 
-/* 首页右侧栏：赞赏码 / 公众号二维码
-   未配置 donate 与 wechat 时整栏不显示，正文自动占满整行 */
+/* 首页右栏顶部：关键词云
+   词表与覆盖篇数在 js/wordcloud-data.js（tools/gen-wordcloud.py 生成）。
+   字号按名次走幂次曲线：前几名陡降、尾部收窄；颜色三档，
+   尾档只落到 --text-2 而不是最浅的 --text-3，暗色下也读得清。 */
+function renderWordCloud() {
+  var host = document.getElementById("wcHost");
+  var words = window.WC_WORDS || [];
+  if (!host || !words.length) return;
+
+  var n = words.length;
+  var body = words.map(function (item, i) {
+    var t = Math.pow(i / Math.max(1, n - 1), 0.7);
+    var size = (28 - t * 14) * 0.85; // 侧栏只有 260px 宽，整体比正文小一档
+    var tier = i < 3 ? "wc-t1" : (i < 10 ? "wc-t2" : "wc-t3");
+    return '<span class="' + tier + '" data-w="' + esc(item[0]) +
+      '" style="font-size:' + size.toFixed(1) + 'px">' + esc(item[0]) + "</span>";
+  }).join("");
+
+  host.innerHTML =
+    '<div class="wc-head"><span>这里常写</span>' +
+    '<span class="wc-hint">点击可搜索</span></div>' +
+    '<div class="wc-cloud">' + body + "</div>";
+}
+
+/* 首页右侧栏：关键词云 + 赞赏码 / 公众号二维码
+   词云与赞赏都没有时整栏不显示，正文自动占满整行 */
 function renderSupportAside() {
   var aside = document.getElementById("support"); // 外层 aside，同时是 #support 锚点
   var host = document.getElementById("supportHost");
   var grid = document.getElementById("homeGrid");
   if (!aside || !host) return;
 
-  if (!hasSupport()) {
+  var support = hasSupport();
+  var hasWords = !!(window.WC_WORDS && window.WC_WORDS.length);
+
+  if (!support && !hasWords) {
     aside.hidden = true;
     if (grid) grid.className = "home-grid no-aside";
     return;
   }
-  host.innerHTML = supportSectionHTML("");
+
+  host.hidden = !support;
+  host.innerHTML = support ? supportSectionHTML("") : "";
+  if (support) bindImgFallback(host);
+  renderWordCloud();
   aside.hidden = false;
   if (grid) grid.className = "home-grid";
-  bindImgFallback(host);
 }
 
 /* ---------- 文章详情 ---------- */

@@ -163,6 +163,11 @@ const linksDataFile = path.join(ROOT, 'js', 'links-data.js');
 if (fs.existsSync(linksDataFile)) {
   vm.runInContext(fs.readFileSync(linksDataFile, 'utf8'), ctx);
 }
+// 首页右栏词云数据（tools/gen-wordcloud.py 生成）；没生成过时 app.js 会自行跳过
+const wcDataFile = path.join(ROOT, 'js', 'wordcloud-data.js');
+if (fs.existsSync(wcDataFile)) {
+  vm.runInContext(fs.readFileSync(wcDataFile, 'utf8'), ctx);
+}
 vm.runInContext(fs.readFileSync(path.join(ROOT, 'js', 'app.js'), 'utf8'), ctx);
 ctx.__POSTS = vm.runInContext('POSTS', ctx);
 
@@ -194,6 +199,35 @@ ok(!/js\/posts\//.test(listHTML), '首页不会加载任何正文文件');
 // 每张卡片要有 id="post-<id>"，返回首页时才能按 id 定位回来
 const anchorId = 'id="post-' + ctx.__POSTS[0].id + '"';
 ok(listHTML.indexOf(anchorId) !== -1, '列表卡片带 ' + anchorId + '，供返回时定位');
+
+/* ================= 1.5 右栏关键词云 ================= */
+section('右栏关键词云');
+const wcWords = ctx.window.WC_WORDS || [];
+const wcHTML = (ids.wcHost && ids.wcHost.innerHTML) || '';
+ok(wcWords.length === 20, '词云数据 20 词（实际 ' + wcWords.length + '）');
+ok(wcWords.every(function (it, i) { return i === 0 || wcWords[i - 1][1] >= it[1]; }),
+   '词云按覆盖篇数降序（顺序即字号顺序）');
+ok(['孩子', '学生', '老师', '学校', '大学'].every(function (w) {
+  return !wcWords.some(function (it) { return it[0] === w; });
+}), '词云不含已淘汰的通用教育词（孩子/学生/老师/学校/大学）');
+ok((wcHTML.match(/data-w="/g) || []).length === 20, '右栏渲染出 20 个可点词');
+ok(/这里常写/.test(wcHTML) && /点击可搜索/.test(wcHTML), '词云带标题与点击提示');
+
+const wcTiers = (wcHTML.match(/class="(wc-t\d)" data-w="/g) || [])
+  .map(function (s) { return /wc-t\d/.exec(s)[0]; });
+ok(wcTiers.length === 20 && wcTiers.slice(0, 3).every(function (t) { return t === 'wc-t1'; }),
+   '前三名走强调色（wc-t1）');
+ok(wcTiers.slice(10).every(function (t) { return t === 'wc-t3'; }),
+   '尾档统一升到 --text-2（wc-t3，不再用最浅一档）');
+
+const wcSizes = (wcHTML.match(/font-size:([\d.]+)px/g) || [])
+  .map(function (s) { return parseFloat(s.split(':')[1]); });
+ok(wcSizes.length === 20 && wcSizes.every(function (v, i) { return i === 0 || wcSizes[i - 1] >= v; }),
+   '字号随名次单调递减（收敛式）');
+ok(wcSizes[wcSizes.length - 1] >= 11.5 && wcSizes[0] <= 24,
+   '字号区间适合侧栏（' + wcSizes[0] + '→' + wcSizes[wcSizes.length - 1] + 'px）');
+ok(/js\/wordcloud-data\.js/.test(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8')),
+   'index.html 引入词云数据脚本');
 
 /* ================= 2. 搜索（懒加载全文索引） ================= */
 section('站内搜索');

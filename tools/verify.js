@@ -515,13 +515,21 @@ const themeBtn = ids.themeToggle || makeEl('button', 'themeToggle');
 ids.themeToggle = themeBtn;
 themeBtn.closest = (sel) => (sel === '#themeToggle' ? themeBtn : null);
 
-ok(documentElement.attrs['data-theme'] === 'light', '初始为浅色主题');
+// theme.js 现在按访客本地时间排程（19:00–次日 07:00 暗色）定初始主题，
+// 所以初始值不一定是 light。断言改成「符合排程规则」，再验证点击能双向切换，
+// 这样白天夜里跑都成立（早期写死 light，晚上跑必挂）。
+const themeHour = new Date().getHours();
+const expectInit = (themeHour >= 19 || themeHour < 7) ? 'dark' : 'light';
+const expectFlip = expectInit === 'dark' ? 'light' : 'dark';
+
+ok(documentElement.attrs['data-theme'] === expectInit,
+  '初始主题符合时间排程（' + themeHour + ' 时 → ' + expectInit + '）');
 document.fire('click', { target: themeBtn });
-ok(documentElement.attrs['data-theme'] === 'dark', '点击主题按钮切到深色');
+ok(documentElement.attrs['data-theme'] === expectFlip, '点击主题按钮切到 ' + expectFlip);
 document.fire('click', { target: themeBtn });
-ok(documentElement.attrs['data-theme'] === 'light', '再点一次切回浅色');
+ok(documentElement.attrs['data-theme'] === expectInit, '再点一次切回 ' + expectInit);
 document.fire('click', { target: { closest: () => null } });
-ok(documentElement.attrs['data-theme'] === 'light', '点击页面其它地方不会切换主题');
+ok(documentElement.attrs['data-theme'] === expectInit, '点击页面其它地方不会切换主题');
 
 /* ================= 9. 访问统计 + 相关阅读精排 ================= */
 section('访问统计');

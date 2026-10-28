@@ -983,6 +983,22 @@ body[data-page="home"] .wrap { max-width: var(--maxw-wide); }
 .wc-t2 { color: var(--text); }
 .wc-t3 { color: var(--text-2); }
 
+/* 手机（≤960px）侧栏整体隐藏，词云改到搜索框下方按单列铺开（12 词，见 app.js）
+   字号由子元素的 em 给出，这里给基数：窄屏 26px 起步，屏越宽涨到 32px 封顶。
+   不跟着涨的话，平板一行就能塞完 12 个词，末尾几个会缩成一条标签带。 */
+.wc-mobile { display: none; }
+@media (max-width: 960px) {
+  .wc-mobile {
+    display: block;
+    margin: 18px 0 26px;
+    max-width: 600px;      /* 不给上限的话，平板一行就能塞完 12 个词，末尾会落单 */
+  }
+  .wc-mobile .wc-cloud {
+    font-size: clamp(28px, 5.4vw, 34px);
+    line-height: 1.55;
+  }
+}
+
 /* 文章末尾的小支持条 */
 .support-strip {
   display: flex;

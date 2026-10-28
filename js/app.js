@@ -1164,10 +1164,11 @@ function initHome() {
     });
   }
 
-  // 右栏词云：点词即搜（词云在侧栏，结果在左侧列表，点完顺手滚回顶部看搜索框）
-  var wcHost = document.getElementById("wcHost");
-  if (wcHost && wcHost.addEventListener) {
-    wcHost.addEventListener("click", function (e) {
+  // 词云：点词即搜（侧栏与手机版共用一套交互）
+  ["wcHost", "wcMobile"].forEach(function (id) {
+    var box = document.getElementById(id);
+    if (!box || !box.addEventListener) return;
+    box.addEventListener("click", function (e) {
       var el = e.target && e.target.closest ? e.target.closest("[data-w]") : null;
       if (!el || !input) return;
       input.value = el.getAttribute("data-w");
@@ -1175,34 +1176,47 @@ function initHome() {
       input.focus();
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
-  }
+  });
 
   paint(query("q"));
   renderSupportAside();
 }
 
-/* 首页右栏顶部：关键词云
+/* 首页关键词云
    词表与覆盖篇数在 js/wordcloud-data.js（tools/gen-wordcloud.py 生成）。
    字号按名次走幂次曲线：前几名陡降、尾部收窄；颜色三档，
-   尾档只落到 --text-2 而不是最浅的 --text-3，暗色下也读得清。 */
-function renderWordCloud() {
-  var host = document.getElementById("wcHost");
-  var words = window.WC_WORDS || [];
-  if (!host || !words.length) return;
+   尾档只落到 --text-2 而不是最浅的 --text-3，暗色下也读得清。
 
+   两处渲染：
+   - #wcHost   桌面右栏顶部，20 词，260px 窄栏，整体缩到 0.85，字号用 px 固定；
+   - #wcMobile 手机/平板搜索框下方，取前 12 词，整行单列。字号写成 em，
+               基数交给 CSS 的 clamp() 跟着屏宽涨——否则平板一行就能塞下 12 个词，
+               末尾几个会缩成「标签带」。 */
+var WC_MOBILE_N = 12;
+
+function paintWordCloud(host, words, scale, useEm) {
+  if (!host || !words.length) return;
   var n = words.length;
   var body = words.map(function (item, i) {
     var t = Math.pow(i / Math.max(1, n - 1), 0.7);
-    var size = (28 - t * 14) * 0.85; // 侧栏只有 260px 宽，整体比正文小一档
+    var size = (28 - t * 14) * scale;
+    var fs = useEm ? (size / 28).toFixed(3) + "em" : size.toFixed(1) + "px";
     var tier = i < 3 ? "wc-t1" : (i < 10 ? "wc-t2" : "wc-t3");
     return '<span class="' + tier + '" data-w="' + esc(item[0]) +
-      '" style="font-size:' + size.toFixed(1) + 'px">' + esc(item[0]) + "</span>";
+      '" style="font-size:' + fs + '">' + esc(item[0]) + "</span>";
   }).join("");
 
   host.innerHTML =
     '<div class="wc-head"><span>这里常写</span>' +
     '<span class="wc-hint">点击可搜索</span></div>' +
     '<div class="wc-cloud">' + body + "</div>";
+}
+
+function renderWordCloud() {
+  var words = window.WC_WORDS || [];
+  if (!words.length) return;
+  paintWordCloud(document.getElementById("wcHost"), words, 0.85, false);
+  paintWordCloud(document.getElementById("wcMobile"), words.slice(0, WC_MOBILE_N), 1, true);
 }
 
 /* 首页右侧栏：关键词云 + 赞赏码 / 公众号二维码

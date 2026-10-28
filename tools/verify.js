@@ -229,6 +229,19 @@ ok(wcSizes[wcSizes.length - 1] >= 11.5 && wcSizes[0] <= 24,
 ok(/js\/wordcloud-data\.js/.test(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8')),
    'index.html 引入词云数据脚本');
 
+// 手机版：侧栏隐藏，搜索框下方单列 12 词
+const wcMobileHTML = (ids.wcMobile && ids.wcMobile.innerHTML) || '';
+const mWords = (wcMobileHTML.match(/data-w="/g) || []).length;
+ok(mWords === 12, '手机版词云 12 词（实际 ' + mWords + '）');
+ok(wcMobileHTML.indexOf('data-w="' + wcWords[0][0] + '"') !== -1,
+   '手机版首词与桌面版一致（' + wcWords[0][0] + '）');
+const mSizes = (wcMobileHTML.match(/font-size:([\d.]+)em/g) || [])
+  .map(function (s) { return parseFloat(s.split(':')[1]); });
+ok(mSizes.length === 12 && mSizes[0] === 1 && mSizes[11] === 0.5,
+   '手机版字号 1em→0.5em（基数由 CSS clamp 跟屏宽走）');
+ok(/\.wc-mobile\s*\{\s*display:\s*none/.test(fs.readFileSync(path.join(ROOT, 'css', 'style.css'), 'utf8')),
+   '桌面端隐藏手机版词云');
+
 /* ================= 2. 搜索（懒加载全文索引） ================= */
 section('站内搜索');
 ok(loadedScripts.length === 0, '打开首页时不加载全文搜索索引');

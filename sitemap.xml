@@ -16,6 +16,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://pidanz.org/feed.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://pidanz.org/post/2026-11-19-xr1.html</loc>
     <lastmod>2026-11-19</lastmod>
     <priority>0.8</priority>

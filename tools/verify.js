@@ -639,6 +639,37 @@ section('相关阅读（正文纳入相似度）');
   vm.runInContext('POSTS.splice(POSTS.length - 2, 2)', ctx);  // 清理，不污染后续
 }
 
+/* ================= 订阅源（feed.xml / feed.html） ================= */
+section('订阅源');
+{
+  const feedXml = fs.readFileSync(path.join(ROOT, 'feed.xml'), 'utf8');
+  const feedHTML = fs.readFileSync(path.join(ROOT, 'feed.html'), 'utf8');
+  const indexSrc = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+  const appSrc = fs.readFileSync(path.join(ROOT, 'js', 'app.js'), 'utf8');
+  const siteLink = (feedXml.match(/<link>([^<]+)<\/link>/) || [])[1] || '';
+  const listed = (feedHTML.match(/class="t"/g) || []).length;
+
+  ok(feedXml.indexOf('xml-stylesheet') === -1 && feedXml.indexOf('feed.xsl') === -1,
+     'feed.xml 不再挂 XSLT（浏览器弃用警告消失）');
+  ok(/^<\?xml version="1\.0" encoding="UTF-8"\?>\s*\n<rss version="2\.0"/.test(feedXml),
+     'feed.xml 是标准 RSS 2.0 纯 XML');
+  ok(!fs.existsSync(path.join(ROOT, 'feed.xsl')), 'feed.xsl 已从仓库移除');
+  ok(siteLink && feedHTML.indexOf(siteLink + 'feed.xml') !== -1,
+     'feed.html 给出 feed.xml 订阅地址');
+  ok(/Feedly/.test(feedHTML) && /Inoreader/.test(feedHTML),
+     'feed.html 含阅读器订阅说明');
+  ok(listed === ctx.__POSTS.length,
+     'feed.html 列出全部 ' + ctx.__POSTS.length + ' 篇（实际 ' + listed + '）');
+  ok(/<script src="js\/theme\.js"><\/script>/.test(feedHTML),
+     'feed.html 引入主题脚本，明暗跟随站点');
+  ok(/class="rss-link" href="feed\.html"/.test(indexSrc),
+     '首页可见订阅按钮指向 feed.html');
+  ok(/rel="alternate"[^>]*href="feed\.xml"/.test(indexSrc),
+     'rel=alternate 仍指向 feed.xml（阅读器自动发现）');
+  ok(/var FEED = "feed\.html"/.test(appSrc),
+     '页脚与关于页的 RSS 链接指向 feed.html');
+}
+
 /* ================= 汇总 ================= */
 console.log('\n────────────────────────');
 console.log((fail === 0 ? '✓ 全部通过' : '✗ 有失败项') + '：' + pass + ' 通过 / ' + fail + ' 失败');

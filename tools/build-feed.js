@@ -6,7 +6,8 @@
  *     node tools/build-feed.js
  *
  * 产物：
- *     feed.xml       RSS 2.0 订阅源（含全文）
+ *     feed.xml       RSS 2.0 订阅源（含全文；纯 XML，不挂 XSLT）
+ *     feed.html      给人看的订阅引导页（简介 + 订阅说明 + 全部文章列表）
  *     sitemap.xml    站点地图（给搜索引擎）
  *     robots.txt     收录规则（指向 sitemap）
  *
@@ -104,7 +105,6 @@ const items = feedPosts.map(function (p) {
 
 const feed = [
   '<?xml version="1.0" encoding="UTF-8"?>',
-  '<?xml-stylesheet type="text/xsl" href="feed.xsl"?>',
   '<rss version="2.0"',
   '     xmlns:atom="http://www.w3.org/2005/Atom"',
   '     xmlns:content="http://purl.org/rss/1.0/modules/content/">',
@@ -125,11 +125,98 @@ const feed = [
 
 fs.writeFileSync(path.join(ROOT, "feed.xml"), feed, "utf8");
 
+/* ---------- feed.html：给人看的订阅引导页 ----------
+   以前靠 feed.xml 里的 <?xml-stylesheet?> 挂 XSL 在浏览器里渲染出漂亮列表，
+   但 Chrome/Edge 正在弃用 XSLT（打开就弹红条，将来直接移除）。
+   改成真正的静态 HTML：样式照搬原 XSL，明暗跟随站点主题。
+   feed.xml 回归纯 RSS，只给阅读器用。 */
+const feedCss = [
+  ":root {",
+  "  --maxw: 720px; --bg: #fcfbf8; --surface: #ffffff;",
+  "  --text: #1e1d1b; --text-2: #5e5a54; --text-3: #767061;",
+  "  --rule: #e5e2db; --accent: #8c3a3a; --code-bg: #f1eee9;",
+  "}",
+  ':root[data-theme="dark"] {',
+  "  --bg: #151514; --surface: #1c1c1a;",
+  "  --text: #dedad3; --text-2: #a09b93; --text-3: #8d887f;",
+  "  --rule: #2e2e2b; --accent: #cb8f8f; --code-bg: #232320;",
+  "}",
+  "* { box-sizing: border-box; }",
+  "body { margin:0; background:var(--bg); color:var(--text);",
+  '  font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; }',
+  ".wrap { max-width:var(--maxw); margin:0 auto; padding:52px 20px 72px; }",
+  "h1 { font-size:1.6rem; margin:0 0 8px; letter-spacing:.02em; }",
+  ".bio { color:var(--text-2); margin:0 0 10px; }",
+  ".hint { color:var(--text-3); font-size:.9rem; margin:0 0 30px; line-height:1.6; }",
+  ".hint code { background:var(--code-bg); color:var(--text-2); padding:2px 6px;",
+  "  border-radius:4px; font-size:.85em; white-space:nowrap; }",
+  ".hint a { color:var(--accent); }",
+  "ol { list-style:none; margin:0; padding:0; border-top:1px solid var(--rule); }",
+  "li { border-bottom:1px solid var(--rule); padding:18px 0; }",
+  ".date { color:var(--text-3); font-size:.8rem; letter-spacing:.05em; }",
+  "a { color:var(--accent); text-decoration:none; }",
+  "a:hover { text-decoration:underline; }",
+  ".t { font-size:1.1rem; font-weight:600; display:block; margin:3px 0 5px; }",
+  ".ex { color:var(--text-2); font-size:.92rem; }",
+  ".ex p { margin:0; }",
+  ".nav { margin:0 0 26px; font-size:.85rem; color:var(--text-3); }",
+  ".nav a { color:var(--text-3); }",
+  ".nav a:hover { color:var(--accent); }",
+  "@media (max-width: 520px) {",
+  "  .wrap { padding:34px 16px 56px; }",
+  "  h1 { font-size:1.4rem; }",
+  "}"
+].join("\n");
+
+const feedRows = feedPosts.map(function (p) {
+  return [
+    "      <li>",
+    '        <span class="date">' + xml(p.date) + "</span>",
+    '        <a class="t" href="' + xml(postUrl(p)) + '">' + xml(p.title) + "</a>",
+    '        <span class="ex">' + xml(p.excerpt || "") + "</span>",
+    "      </li>"
+  ].join("\n");
+}).join("\n");
+
+const feedHtml = [
+  "<!DOCTYPE html>",
+  '<html lang="zh-CN" data-theme="light">',
+  "<head>",
+  '<meta charset="UTF-8">',
+  '<meta name="viewport" content="width=device-width, initial-scale=1">',
+  "<title>" + xml(SITE.title) + " · RSS 订阅</title>",
+  '<meta name="description" content="' + xml(SITE.bio || SITE.title) + '">',
+  '<link rel="canonical" href="' + xml(BASE + "/feed.html") + '">',
+  '<link rel="alternate" type="application/rss+xml" title="' + xml(SITE.title) + '" href="feed.xml">',
+  '<link rel="icon" href="data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><text y=\'.9em\' font-size=\'90\'>舟</text></svg>">',
+  '<script src="js/theme.js"></script>',
+  "<style>\n" + feedCss + "\n</style>",
+  "</head>",
+  "<body>",
+  '<div class="wrap">',
+  '<p class="nav"><a href="index.html">← 返回首页</a>　·　<a href="archive.html">归档</a></p>',
+  "<h1>" + xml(SITE.title) + "</h1>",
+  '<p class="bio">' + xml(SITE.bio || SITE.title) + "</p>",
+  '<p class="hint">这是一个 RSS 2.0 订阅源。复制地址 <code>' + xml(BASE + "/feed.xml") +
+    "</code> 到 RSS 阅读器（Feedly / Inoreader / NetNewsWire / Reeder 等）即可订阅，新文章会自动送达。下方是站内全部文章列表（最新在前，共 " +
+    feedPosts.length + " 篇）。</p>",
+  "    <ol>",
+  feedRows,
+  "    </ol>",
+  "</div>",
+  "</body>",
+  "</html>",
+  ""
+].join("\n");
+
+fs.writeFileSync(path.join(ROOT, "feed.html"), feedHtml, "utf8");
+
 /* ---------- sitemap.xml ---------- */
 const staticPages = [
   { loc: BASE + "/", lastmod: newest, priority: "1.0" },
   { loc: BASE + "/archive.html", lastmod: newest, priority: "0.6" },
-  { loc: BASE + "/about.html", lastmod: newest, priority: "0.4" }
+  { loc: BASE + "/about.html", lastmod: newest, priority: "0.4" },
+  { loc: BASE + "/feed.html", lastmod: newest, priority: "0.3" }
 ];
 const postPages = sorted.map(function (p) {
   return { loc: postUrl(p), lastmod: p.date, priority: "0.8" };
@@ -158,8 +245,9 @@ const robots = [
 fs.writeFileSync(path.join(ROOT, "robots.txt"), robots, "utf8");
 
 /* ---------- 汇报 ---------- */
-console.log("✓ feed.xml      " + feedPosts.length + " 篇全文"
+console.log("✓ feed.xml      " + feedPosts.length + " 篇全文（纯 RSS，无 XSLT）"
   + (sorted.length > feedPosts.length ? "（共 " + sorted.length + " 篇，按 FEED_LIMIT=" + FEED_LIMIT + " 截断）" : ""));
+console.log("✓ feed.html     " + feedPosts.length + " 篇的订阅引导页");
 console.log("✓ sitemap.xml   " + (staticPages.length + postPages.length) + " 条网址");
 console.log("✓ robots.txt");
 console.log("  站点根地址：" + BASE);

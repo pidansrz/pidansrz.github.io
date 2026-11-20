@@ -965,7 +965,7 @@ var NAV = [
   { href: "links.html", text: "荐读" },
   { href: "about.html", text: "关于" }
 ];
-var FEED = "feed.xml";
+var FEED = "feed.html";   // 给人看的订阅引导页；真正的订阅地址 feed.xml 写在那一页里，rel=alternate 仍指向它
 
 function renderShell(active) {
   var header = document.getElementById("site-header");

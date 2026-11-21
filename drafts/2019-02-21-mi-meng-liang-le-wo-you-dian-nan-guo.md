@@ -2,7 +2,7 @@
 title: 咪蒙凉了，我有点难过
 date: 2019-02-21
 excerpt: 咪蒙终于凉了。可弹冠相庆之余，细一想来，却突然有一种兔死狐悲的感觉。
-cover: 
+cover: images/2019-02-21-mi-meng-liang-le-wo-you-dian-nan-guo/cover.jpg
 coverAlt: 咪蒙凉了，我有点难过
 id: 2019-02-21-x5h
 ---

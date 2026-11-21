@@ -2,7 +2,7 @@
 title: 仓頡造字,夜有鬼哭
 date: 2018-04-25
 excerpt: 有了文字，很多事儿，才能被人们记住；文字消失了，记忆便随之消失。忘却，才是最好的消解。
-cover: 
+cover: images/2018-04-25-cang-xie-zao-zi-ye-you-gui-ku/cover.jpg
 coverAlt: 仓頡造字,夜有鬼哭
 id: 2018-04-25-zng
 ---

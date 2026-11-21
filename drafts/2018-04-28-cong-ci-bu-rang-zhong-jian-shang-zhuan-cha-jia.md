@@ -2,7 +2,7 @@
 title: 从此不让中间商赚差价
 date: 2018-04-28
 excerpt: 你看，原来国家元首也和我一样，拥有成为一个好作家的潜质。例如，今天板门店的金正恩和文在寅。
-cover: 
+cover: images/2018-04-28-cong-ci-bu-rang-zhong-jian-shang-zhuan-cha-jia/cover.jpg
 coverAlt: 从此不让中间商赚差价
 id: 2018-04-28-vvg
 ---

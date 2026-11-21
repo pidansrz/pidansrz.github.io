@@ -2,7 +2,7 @@
 title: 由Clubhouse想到的
 date: 2021-02-18
 excerpt: 进入clubhouse的一瞬间，20多年前第一次拨号上网时那种自由的感觉，一下子重新回来了。
-cover: 
+cover: images/2021-02-18-you-clubhouse-xiang-dao-de/cover.jpg
 coverAlt: 由Clubhouse想到的
 id: 2021-02-18-s7p
 ---

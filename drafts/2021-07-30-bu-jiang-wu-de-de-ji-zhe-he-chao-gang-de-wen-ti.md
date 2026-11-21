@@ -2,7 +2,7 @@
 title: 不讲武德的记者和超纲的问题
 date: 2021-07-30
 excerpt: 一个普通而简单的问题，让参加发布会的官员们面面相觑。长达七八秒的沉默，让这个问题变得非比寻常。
-cover: 
+cover: images/2021-07-30-bu-jiang-wu-de-de-ji-zhe-he-chao-gang-de-wen-ti/cover.jpg
 coverAlt: 不讲武德的记者和超纲的问题
 id: 2021-07-30-p8p
 ---

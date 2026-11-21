@@ -2,7 +2,7 @@
 title: 刺眼的感恩
 date: 2018-05-12
 excerpt: 十年间，想要平复汶川地震带给人们的伤痛，我们说的已经足够多了。沉默，反倒更是一种最好的纪念。
-cover: 
+cover: images/2018-05-12-ci-yan-de-gan-en/cover.jpg
 coverAlt: 刺眼的感恩
 id: 2018-05-12-bgp
 ---

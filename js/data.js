@@ -4648,7 +4648,7 @@ const POSTS = [
     title: "不讲武德的记者和超纲的问题",
     date: "2021-07-30",
     excerpt: "一个普通而简单的问题，让参加发布会的官员们面面相觑。长达七八秒的沉默，让这个问题变得非比寻常。",
-    cover: "",
+    cover: "images/2021-07-30-bu-jiang-wu-de-de-ji-zhe-he-chao-gang-de-wen-ti/cover.jpg",
     coverAlt: "不讲武德的记者和超纲的问题",
     content: `
       <p>不出意外，能够承包我今天一整天笑料的，恐怕就是南京的疫情防控新闻发布会了。</p>
@@ -5441,7 +5441,7 @@ const POSTS = [
     title: "由Clubhouse想到的",
     date: "2021-02-18",
     excerpt: "进入clubhouse的一瞬间，20多年前第一次拨号上网时那种自由的感觉，一下子重新回来了。",
-    cover: "",
+    cover: "images/2021-02-18-you-clubhouse-xiang-dao-de/cover.jpg",
     coverAlt: "由Clubhouse想到的",
     content: `
       <p>年前，朋友给了我一个邀请码，邀请我使用clubhouse。拿到邀请码的第一时间，我是有些不屑的。因为内地的互联网在技术和资本上都冠绝于世界，还有什么软件我们没有见过呢？</p>
@@ -12539,13 +12539,14 @@ const POSTS = [
     title: "闭嘴，我们在谈论言论自由",
     date: "2019-08-22",
     excerpt: "有些事想写，但是不能写。封号删稿在我这里，也已经是家常便饭。",
-    cover: "",
+    cover: "images/2019-08-22-bi-zui-wo-men-zai-tan-lun-yan-lun-zi-you/cover.jpg",
     coverAlt: "闭嘴，我们在谈论言论自由",
     content: `
       <p>昨天朋友问我，停更一周，不打算写点啥？</p>
       <p>我答曰，有些事想写，但是不能写。</p>
       <p>毕竟，封号删稿在我这里，也已经是家常便饭。尽管是个微不足道近似于渣的小号。</p>
       <p>不信？那就看看这个截图嘛。</p>
+      <img src="images/2019-08-22-bi-zui-wo-men-zai-tan-lun-yan-lun-zi-you/img_02.jpg" alt="" width="1080" height="400">
       <p>可是，该说的东西，还是要说说。我就借用好几年前的文章，把一个故事再讲一遍。</p>
       <p>时间线倒回到2008年的夏天，那个时候，我即将离开象牙塔，成为一个工程师，每天上班下班，买菜做饭，穷并快乐地过着日子。</p>
       <p>某天，我兴高采烈拎着一条鲫鱼，从一个叫做<strong>家乐福</strong>的超市走出来，却发现世界变化的速度之快，令我咋舌。超市的一个小时，恍如隔世，让本来平和的世界变得相当暴戾。</p>
@@ -12571,6 +12572,7 @@ const POSTS = [
       <p>又或者，他应该去翻一翻文献。</p>
       <p>第一代核心曾经说过：“让人讲话，天不会塌下来，自己也不会垮台。”</p>
       <p>又或者，应该在抖音上看看端庄央视主播海霞的短视频。身穿蓝绿套装的她说：</p>
+      <img src="images/2019-08-22-bi-zui-wo-men-zai-tan-lun-yan-lun-zi-you/img_01.jpg" alt="" width="539" height="996">
       <p><strong>很类似的一幕实际一直都在上演。</strong></p>
     `
   },
@@ -13566,7 +13568,7 @@ const POSTS = [
     title: "咪蒙凉了，我有点难过",
     date: "2019-02-21",
     excerpt: "咪蒙终于凉了。可弹冠相庆之余，细一想来，却突然有一种兔死狐悲的感觉。",
-    cover: "",
+    cover: "images/2019-02-21-mi-meng-liang-le-wo-you-dian-nan-guo/cover.jpg",
     coverAlt: "咪蒙凉了，我有点难过",
     content: `
       <p>你看，咪蒙终于凉了，公号的注销，平台的封禁，复出的可能性，微乎其微了。</p>
@@ -14111,7 +14113,7 @@ const POSTS = [
     title: "刺眼的感恩",
     date: "2018-05-12",
     excerpt: "十年间，想要平复汶川地震带给人们的伤痛，我们说的已经足够多了。沉默，反倒更是一种最好的纪念。",
-    cover: "",
+    cover: "images/2018-05-12-ci-yan-de-gan-en/cover.jpg",
     coverAlt: "刺眼的感恩",
     content: `
       <p>澎湃新闻首席记者陈庆港摄</p>
@@ -14219,7 +14221,7 @@ const POSTS = [
     title: "从此不让中间商赚差价",
     date: "2018-04-28",
     excerpt: "你看，原来国家元首也和我一样，拥有成为一个好作家的潜质。例如，今天板门店的金正恩和文在寅。",
-    cover: "",
+    cover: "images/2018-04-28-cong-ci-bu-rang-zhong-jian-shang-zhuan-cha-jia/cover.jpg",
     coverAlt: "从此不让中间商赚差价",
     content: `
       <p><strong>一</strong></p>
@@ -14276,7 +14278,7 @@ const POSTS = [
     title: "仓頡造字,夜有鬼哭",
     date: "2018-04-25",
     excerpt: "有了文字，很多事儿，才能被人们记住；文字消失了，记忆便随之消失。忘却，才是最好的消解。",
-    cover: "",
+    cover: "images/2018-04-25-cang-xie-zao-zi-ye-you-gui-ku/cover.jpg",
     coverAlt: "仓頡造字,夜有鬼哭",
     content: `
       <p>我从来没想过，文字的力量到底有多么的巨大。</p>
@@ -15318,7 +15320,7 @@ const POSTS = [
     title: "【日日liao】小粉红，你们很WG",
     date: "2016-07-18",
     excerpt: "8年过去了，我不知道当年那个眼镜男孩是不是和我一样背上了房贷、车贷，不复当年凭一己之力对抗西方资本巨头之勇。",
-    cover: "",
+    cover: "images/2016-07-18-ri-ri-liao-xiao-fen-hong-ni-men-hen-wg/cover.jpg",
     coverAlt: "【日日liao】小粉红，你们很WG",
     content: `
       <p><strong>文/船主</strong></p>

@@ -2,7 +2,7 @@
 title: 【日日liao】小粉红，你们很WG
 date: 2016-07-18
 excerpt: 8年过去了，我不知道当年那个眼镜男孩是不是和我一样背上了房贷、车贷，不复当年凭一己之力对抗西方资本巨头之勇。
-cover: 
+cover: images/2016-07-18-ri-ri-liao-xiao-fen-hong-ni-men-hen-wg/cover.jpg
 coverAlt: 【日日liao】小粉红，你们很WG
 id: 2016-07-18-spb
 ---

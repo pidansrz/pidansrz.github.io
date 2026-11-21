@@ -1,1 +1,1 @@
-window.__POST_HTML__=window.__POST_HTML__||{};window.__POST_HTML__[279]="\n\n    ";
+window.__POST_HTML__=window.__POST_HTML__||{};window.__POST_HTML__[279]="\n      <p>90年代网络还没有普及，你们八零后小时候看日剧美剧，都是怎么看的啊？</p>\n      <p>看电视啊。</p>\n      <p>乍看上去，这只是一个抖机灵的问答，但细一琢磨，其实是一个悲伤的故事。</p>\n    ";

@@ -1,1 +1,1 @@
-window.__POST_HTML__=window.__POST_HTML__||{};window.__POST_HTML__[84]="\n\n    ";
+window.__POST_HTML__=window.__POST_HTML__||{};window.__POST_HTML__[84]="\n      <p>他突然以一种意想不到的方式从谎言中脱身，并破坏了游戏的规章。这种不自觉的反叛提醒了人们真实生活的面貌究竟是怎样的，也一定程度动摇了假象世界这个社会的支柱。于是，他的代价很快就来了。</p>\n    ";

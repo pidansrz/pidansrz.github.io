@@ -6,6 +6,7 @@ cover: images/2021-11-19-you-xi-hai-shi-zhu-zai-wan-xiang/cover.jpg
 coverAlt: 游戏还是主宰？ | 万象
 id: 2021-11-19-l3n
 ---
+
 谁若游戏人生，他就一事无成；
 
 谁不主宰自己，永远是一个奴隶。

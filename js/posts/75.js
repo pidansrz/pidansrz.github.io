@@ -1,1 +1,1 @@
-window.__POST_HTML__=window.__POST_HTML__||{};window.__POST_HTML__[75]="\n\n    ";
+window.__POST_HTML__=window.__POST_HTML__||{};window.__POST_HTML__[75]="\n      <p>NGC2264，银河系中的一个年轻恒星群，年龄在100万到500万年之间，距离地球约2,500光年，也被称为「圣诞树星团」。</p>\n      <p>宇宙浩瀚，生命无限。</p>\n      <p>星夜寂静，喜乐长安。</p>\n      <p>无论如何，Happy Christmas Eve！</p>\n      <p>Happy Every day！</p>\n    ";
